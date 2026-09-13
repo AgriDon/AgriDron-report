@@ -33,12 +33,12 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">[Nicho Huillcañahui , Edwin Noe]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[Codigo]</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Alummno</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastian Leonardo</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">Code</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Alummno</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
