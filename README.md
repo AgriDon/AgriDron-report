@@ -69,91 +69,91 @@
 ## Tabla de Contenido
 
 - [Contenido](#contenido)
-    - [Tabla de Contenido](#tabla-de-contenido)
-    - [Student Outcome](#student-outcome)
-    - [Capítulo I: Introducción](#capítulo-i-introducción)
-        - [1.1. Startup Profile](#11-startup-profile)
-            - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-            - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-        - [1.2. Solution Profile](#12-solution-profile)
-            - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-            - [1.2.2. Lean UX Process](#122-lean-ux-process)
-                - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-                - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-                - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-                - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-        - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-        - [2.1. Competidores](#21-competidores)
-            - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-            - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-        - [2.2. Entrevistas](#22-entrevistas)
-            - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-            - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-            - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-        - [2.3. Needfinding](#23-needfinding)
-            - [2.3.1. User Personas](#231-user-personas)
-            - [2.3.2. User Task Matrix](#232-user-task-matrix)
-            - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-            - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-        - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-        - [3.1. User Stories](#31-user-stories)
-        - [3.2. Impact Mapping](#32-impact-mapping)
-        - [3.3. Product Backlog](#33-product-backlog)
-    - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-        - [4.1. Style Guidelines](#41-style-guidelines)
-            - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-            - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-        - [4.2. Information Architecture](#42-information-architecture)
-            - [4.2.1. Organization Systems](#421-organization-systems)
-            - [4.2.2. Labeling Systems](#422-labeling-systems)
-            - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-            - [4.2.4. Searching Systems](#424-searching-systems)
-            - [4.2.5. Navigation Systems](#425-navigation-systems)
-        - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-            - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-            - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-        - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-            - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-            - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-            - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-            - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-        - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-        - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-            - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-            - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-            - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-            - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-        - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-            - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.8. Database Design](#48-database-design)
-            - [4.8.1. Database Diagrams](#481-database-diagrams)
-    - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-        - [5.1. Software Configuration Management](#51-software-configuration-management)
-            - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-            - [5.1.2. Source Code Management](#512-source-code-management)
-            - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-            - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-        - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-            - [5.2.1. Sprint 1](#521-sprint-1)
-                - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-                - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-                - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-                - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-                - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-                - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-                - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-                - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.3. Validation Interviews](#53-validation-interviews)
-            - [5.3.1. Interview Design](#531-interview-design)
-            - [5.3.2. Interview Registry](#532-interview-registry)
-            - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
-        - [5.4. Video About-the-Product](#54-video-about-the-product)
-    - [Conclusiones](#conclusiones)
-    - [Bibliografía](#bibliografía)
-    - [Anexos](#anexos)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+      - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+      - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Interview Design](#531-interview-design)
+      - [5.3.2. Interview Registry](#532-interview-registry)
+      - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ---
 
@@ -1472,36 +1472,36 @@ El flujo comienza cuando un agricultor solicita un servicio de fumigación y ter
 
 ```mermaid
 flowchart LR
-    A["Agricultor / Cliente"] --> C1["Registrar parcela"]
-    C1 --> E1["Parcela registrada"]
-    E1 --> C2["Delimitar área de fumigación"]
-    C2 --> E2["Área de fumigación delimitada"]
-    E2 --> C3["Crear misión"]
-    C3 --> E3["Misión creada"]
-    E3 --> C4["Programar misión"]
-    C4 --> E4["Misión programada"]
-    E4 --> P1{"Política: verificar condiciones meteorológicas"}
-    P1 --> C5["Consultar condiciones meteorológicas"]
-    C5 --> E5["Condiciones meteorológicas obtenidas"]
-    E5 --> P2{"Política: evaluar condiciones"}
-    P2 -->|Condiciones favorables| E6["Misión autorizada"]
-    P2 -->|Condiciones desfavorables| E7["Alerta meteorológica generada"]
-    E6 --> C6["Iniciar operación"]
-    C6 --> E8["Operación iniciada"]
-    E8 --> C7["Monitorear operación"]
-    C7 --> E9["Estado de operación actualizado"]
-    E9 --> P3{"¿Ocurrió un incidente?"}
-    P3 -->|Sí| C8["Registrar incidente"]
-    C8 --> E10["Incidente registrado"]
-    E10 --> C7
-    P3 -->|No| C9["Finalizar operación"]
-    C9 --> E11["Operación finalizada"]
-    E11 --> C10["Registrar resultado"]
-    C10 --> E12["Resultado de misión registrado"]
-    E12 --> C11["Actualizar historial"]
-    C11 --> E13["Historial actualizado"]
-    E13 --> C12["Generar reporte"]
-    C12 --> E14["Reporte generado"]
+  A["Agricultor / Cliente"] --> C1["Registrar parcela"]
+  C1 --> E1["Parcela registrada"]
+  E1 --> C2["Delimitar área de fumigación"]
+  C2 --> E2["Área de fumigación delimitada"]
+  E2 --> C3["Crear misión"]
+  C3 --> E3["Misión creada"]
+  E3 --> C4["Programar misión"]
+  C4 --> E4["Misión programada"]
+  E4 --> P1{"Política: verificar condiciones meteorológicas"}
+  P1 --> C5["Consultar condiciones meteorológicas"]
+  C5 --> E5["Condiciones meteorológicas obtenidas"]
+  E5 --> P2{"Política: evaluar condiciones"}
+  P2 -->|Condiciones favorables| E6["Misión autorizada"]
+  P2 -->|Condiciones desfavorables| E7["Alerta meteorológica generada"]
+  E6 --> C6["Iniciar operación"]
+  C6 --> E8["Operación iniciada"]
+  E8 --> C7["Monitorear operación"]
+  C7 --> E9["Estado de operación actualizado"]
+  E9 --> P3{"¿Ocurrió un incidente?"}
+  P3 -->|Sí| C8["Registrar incidente"]
+  C8 --> E10["Incidente registrado"]
+  E10 --> C7
+  P3 -->|No| C9["Finalizar operación"]
+  C9 --> E11["Operación finalizada"]
+  E11 --> C10["Registrar resultado"]
+  C10 --> E12["Resultado de misión registrado"]
+  E12 --> C11["Actualizar historial"]
+  C11 --> E13["Historial actualizado"]
+  E13 --> C12["Generar reporte"]
+  C12 --> E14["Reporte generado"]
 ```
 
 ### Actores principales
@@ -1615,17 +1615,17 @@ La partición del dominio se realiza considerando las responsabilidades y concep
 
 ```mermaid
 flowchart LR
-    FM["Field Management"]
-    FO["Flight Operations"]
-    WI["Weather Integration"]
-    AR["Analytics & Reporting"]
-    API["API Meteorológica Externa"]
+  FM["Field Management"]
+  FO["Flight Operations"]
+  WI["Weather Integration"]
+  AR["Analytics & Reporting"]
+  API["API Meteorológica Externa"]
 
-    FM -->|"Información de parcela y área"| FO
-    FO -->|"Solicitud de condiciones"| WI
-    WI -->|"Condiciones y alertas"| FO
-    FO -->|"Resultados de operación"| AR
-    WI -->|"Consulta"| API
+  FM -->|"Información de parcela y área"| FO
+  FO -->|"Solicitud de condiciones"| WI
+  WI -->|"Condiciones y alertas"| FO
+  FO -->|"Resultados de operación"| AR
+  WI -->|"Consulta"| API
 ```
 
 ### Justificación
@@ -1640,18 +1640,18 @@ El **System Context Diagram de C4** representa el sistema como una única unidad
 
 ```mermaid
 C4Context
-    title System Context Diagram - AgriDron Solutions
+  title System Context Diagram - AgriDron Solutions
 
-    Person(farmer, "Agricultor / Cliente", "Solicita servicios de fumigación y consulta información de sus operaciones.")
-    Person(operator, "Operador Técnico", "Gestiona parcelas, planifica misiones, monitorea operaciones y registra resultados.")
+  Person(farmer, "Agricultor / Cliente", "Solicita servicios de fumigación y consulta información de sus operaciones.")
+  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica misiones, monitorea operaciones y registra resultados.")
 
-    System(agridron, "AgriDron Solutions", "Plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.")
+  System(agridron, "AgriDron Solutions", "Plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.")
 
-    System_Ext(weather, "API Meteorológica", "Servicio externo que proporciona información de condiciones meteorológicas.")
+  System_Ext(weather, "API Meteorológica", "Servicio externo que proporciona información de condiciones meteorológicas.")
 
-    Rel(farmer, agridron, "Solicita y consulta servicios")
-    Rel(operator, agridron, "Gestiona parcelas, misiones y operaciones")
-    Rel(agridron, weather, "Consulta condiciones meteorológicas")
+  Rel(farmer, agridron, "Solicita y consulta servicios")
+  Rel(operator, agridron, "Gestiona parcelas, misiones y operaciones")
+  Rel(agridron, weather, "Consulta condiciones meteorológicas")
 ```
 
 ### Descripción
@@ -1673,28 +1673,28 @@ Los contenedores definidos son:
 
 ```mermaid
 C4Container
-    title Container Diagram - AgriDron Solutions
+  title Container Diagram - AgriDron Solutions
 
-    Person(farmer, "Agricultor / Cliente", "Consulta información de sus servicios y operaciones.")
-    Person(operator, "Operador Técnico", "Gestiona parcelas, planifica y monitorea operaciones de fumigación.")
+  Person(farmer, "Agricultor / Cliente", "Consulta información de sus servicios y operaciones.")
+  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica y monitorea operaciones de fumigación.")
 
-    System_Ext(weather, "API Meteorológica", "API externa para obtener condiciones meteorológicas.")
+  System_Ext(weather, "API Meteorológica", "API externa para obtener condiciones meteorológicas.")
 
-    System_Boundary(agridron, "AgriDron Solutions") {
-        Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
-        Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
-        Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
-        ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
-    }
+  System_Boundary(agridron, "AgriDron Solutions") {
+    Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
+    Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
+    Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
+    ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
+  }
 
-    Rel(farmer, landing, "Consulta información")
-    Rel(operator, landing, "Consulta información")
-    Rel(farmer, frontend, "Consulta servicios")
-    Rel(operator, frontend, "Gestiona operaciones")
-    Rel(landing, frontend, "Redirige al acceso de la plataforma")
-    Rel(frontend, backend, "Consume API REST", "HTTPS / JSON")
-    Rel(backend, database, "Lee y almacena información", "SQL")
-    Rel(backend, weather, "Consulta condiciones meteorológicas", "HTTPS / JSON")
+  Rel(farmer, landing, "Consulta información")
+  Rel(operator, landing, "Consulta información")
+  Rel(farmer, frontend, "Consulta servicios")
+  Rel(operator, frontend, "Gestiona operaciones")
+  Rel(landing, frontend, "Redirige al acceso de la plataforma")
+  Rel(frontend, backend, "Consume API REST", "HTTPS / JSON")
+  Rel(backend, database, "Lee y almacena información", "SQL")
+  Rel(backend, weather, "Consulta condiciones meteorológicas", "HTTPS / JSON")
 ```
 
 ### Descripción de los contenedores
@@ -1737,50 +1737,50 @@ La API RESTful implementada con Spring Boot concentra la lógica de aplicación 
 
 ```mermaid
 flowchart LR
-    subgraph API["RESTful API - Spring Boot"]
-        subgraph Presentation["API / Presentation Layer"]
-            FC["Field Controller"]
-            MC["Mission Controller"]
-            WC["Weather Controller"]
-            RC["Report Controller"]
-        end
-        subgraph Application["Application Layer"]
-            FS["Field Service"]
-            MS["Mission Service"]
-            WS["Weather Service"]
-            RS["Report Service"]
-        end
-        subgraph Domain["Domain Layer"]
-            FD["Field Management Domain"]
-            MD["Flight Operations Domain"]
-            WD["Weather Integration Domain"]
-            RD["Analytics & Reporting Domain"]
-        end
-        subgraph Infrastructure["Infrastructure Layer"]
-            FR["Field Repository"]
-            MR["Mission Repository"]
-            RR["Report Repository"]
-            WA["Weather API Adapter"]
-        end
+  subgraph API["RESTful API - Spring Boot"]
+    subgraph Presentation["API / Presentation Layer"]
+      FC["Field Controller"]
+      MC["Mission Controller"]
+      WC["Weather Controller"]
+      RC["Report Controller"]
     end
-    DB[("Relational Database")]
-    Weather["Weather API"]
-    FC --> FS
-    MC --> MS
-    WC --> WS
-    RC --> RS
-    FS --> FD
-    MS --> MD
-    WS --> WD
-    RS --> RD
-    FS --> FR
-    MS --> MR
-    RS --> RR
-    WS --> WA
-    FR --> DB
-    MR --> DB
-    RR --> DB
-    WA --> Weather
+    subgraph Application["Application Layer"]
+      FS["Field Service"]
+      MS["Mission Service"]
+      WS["Weather Service"]
+      RS["Report Service"]
+    end
+    subgraph Domain["Domain Layer"]
+      FD["Field Management Domain"]
+      MD["Flight Operations Domain"]
+      WD["Weather Integration Domain"]
+      RD["Analytics & Reporting Domain"]
+    end
+    subgraph Infrastructure["Infrastructure Layer"]
+      FR["Field Repository"]
+      MR["Mission Repository"]
+      RR["Report Repository"]
+      WA["Weather API Adapter"]
+    end
+  end
+  DB[("Relational Database")]
+  Weather["Weather API"]
+  FC --> FS
+  MC --> MS
+  WC --> WS
+  RC --> RS
+  FS --> FD
+  MS --> MD
+  WS --> WD
+  RS --> RD
+  FS --> FR
+  MS --> MR
+  RS --> RR
+  WS --> WA
+  FR --> DB
+  MR --> DB
+  RR --> DB
+  WA --> Weather
 ```
 
 ### Responsabilidades
@@ -1798,43 +1798,43 @@ La aplicación web utiliza Angular para proporcionar las funcionalidades de oper
 
 ```mermaid
 flowchart LR
-    subgraph Web["Web Application - Angular"]
-        subgraph Field["Field Management"]
-            Farms["Farm Management"]
-            Parcels["Parcel Management"]
-            Map["Interactive Map"]
-        end
-        subgraph Flight["Flight Operations"]
-            Missions["Mission Management"]
-            Schedule["Mission Calendar"]
-            Monitor["Mission Monitoring"]
-        end
-        subgraph Weather["Weather Integration"]
-            WeatherView["Weather View"]
-            Alerts["Weather Alerts"]
-        end
-        subgraph Reports["Analytics & Reporting"]
-            History["Mission History"]
-            ReportsView["Reports"]
-            Metrics["Operational Metrics"]
-        end
-        Shared["Shared Components / Authentication"]
-        APIClient["REST API Client"]
+  subgraph Web["Web Application - Angular"]
+    subgraph Field["Field Management"]
+      Farms["Farm Management"]
+      Parcels["Parcel Management"]
+      Map["Interactive Map"]
     end
-    API["RESTful API"]
-    Farms --> APIClient
-    Parcels --> APIClient
-    Map --> APIClient
-    Missions --> APIClient
-    Schedule --> APIClient
-    Monitor --> APIClient
-    WeatherView --> APIClient
-    Alerts --> APIClient
-    History --> APIClient
-    ReportsView --> APIClient
-    Metrics --> APIClient
-    Shared --> APIClient
-    APIClient --> API
+    subgraph Flight["Flight Operations"]
+      Missions["Mission Management"]
+      Schedule["Mission Calendar"]
+      Monitor["Mission Monitoring"]
+    end
+    subgraph Weather["Weather Integration"]
+      WeatherView["Weather View"]
+      Alerts["Weather Alerts"]
+    end
+    subgraph Reports["Analytics & Reporting"]
+      History["Mission History"]
+      ReportsView["Reports"]
+      Metrics["Operational Metrics"]
+    end
+    Shared["Shared Components / Authentication"]
+    APIClient["REST API Client"]
+  end
+  API["RESTful API"]
+  Farms --> APIClient
+  Parcels --> APIClient
+  Map --> APIClient
+  Missions --> APIClient
+  Schedule --> APIClient
+  Monitor --> APIClient
+  WeatherView --> APIClient
+  Alerts --> APIClient
+  History --> APIClient
+  ReportsView --> APIClient
+  Metrics --> APIClient
+  Shared --> APIClient
+  APIClient --> API
 ```
 
 ### Responsabilidades
@@ -1852,23 +1852,23 @@ La integración meteorológica se mantiene aislada para evitar acoplar directame
 
 ```mermaid
 flowchart LR
-    Backend["Backend Spring Boot"]
-    subgraph WeatherIntegration["Weather Integration"]
-        WS["Weather Service"]
-        WClient["Weather API Client"]
-        Mapper["Weather Response Mapper"]
-        Evaluator["Weather Condition Evaluator"]
-        Alert["Weather Alert Generator"]
-    end
-    External["External Weather API"]
-    Backend --> WS
-    WS --> WClient
-    WClient --> External
-    External --> WClient
-    WClient --> Mapper
-    Mapper --> Evaluator
-    Evaluator --> Alert
-    Alert --> Backend
+  Backend["Backend Spring Boot"]
+  subgraph WeatherIntegration["Weather Integration"]
+    WS["Weather Service"]
+    WClient["Weather API Client"]
+    Mapper["Weather Response Mapper"]
+    Evaluator["Weather Condition Evaluator"]
+    Alert["Weather Alert Generator"]
+  end
+  External["External Weather API"]
+  Backend --> WS
+  WS --> WClient
+  WClient --> External
+  External --> WClient
+  WClient --> Mapper
+  Mapper --> Evaluator
+  Evaluator --> Alert
+  Alert --> Backend
 ```
 
 El componente permite cambiar o adaptar el proveedor meteorológico sin modificar directamente los componentes de **Flight Operations**.
@@ -1884,207 +1884,207 @@ El diseño orientado a objetos representa los principales elementos del dominio 
 
 ```mermaid
 classDiagram
-    class Farm {
-        -Long id
-        -String name
-        -String location
-        -String ownerName
-        +register()
-        +update()
-        +getParcels()
-    }
-    class Parcel {
-        -Long id
-        -String name
-        -String cropType
-        -Double area
-        -String geometry
-        +defineArea()
-        +updateCrop()
-        +getGeometry()
-    }
-    class FumigationArea {
-        -Long id
-        -String geometry
-        -Double area
-        +calculateArea()
-        +updateGeometry()
-    }
-    class Crop {
-        -Long id
-        -String name
-        -String variety
-        +getInformation()
-    }
-    Farm "1" *-- "1..*" Parcel : contains
-    Parcel "1" *-- "0..*" FumigationArea : defines
-    Parcel "1" --> "1" Crop : has
+  class Farm {
+    -Long id
+    -String name
+    -String location
+    -String ownerName
+    +register()
+    +update()
+    +getParcels()
+  }
+  class Parcel {
+    -Long id
+    -String name
+    -String cropType
+    -Double area
+    -String geometry
+    +defineArea()
+    +updateCrop()
+    +getGeometry()
+  }
+  class FumigationArea {
+    -Long id
+    -String geometry
+    -Double area
+    +calculateArea()
+    +updateGeometry()
+  }
+  class Crop {
+    -Long id
+    -String name
+    -String variety
+    +getInformation()
+  }
+  Farm "1" *-- "1..*" Parcel : contains
+  Parcel "1" *-- "0..*" FumigationArea : defines
+  Parcel "1" --> "1" Crop : has
 ```
 
 ### 4.7.1.2. Flight Operations
 
 ```mermaid
 classDiagram
-    class Mission {
-        -Long id
-        -String code
-        -LocalDate scheduledDate
-        -MissionStatus status
-        -Double plannedArea
-        -Double treatedArea
-        +create()
-        +schedule()
-        +start()
-        +pause()
-        +complete()
-        +cancel()
-    }
-    class Drone {
-        -Long id
-        -String serialNumber
-        -String model
-        -Double capacity
-        -DroneStatus status
-        +assignToMission()
-        +updateStatus()
-        +getLocation()
-    }
-    class Incident {
-        -Long id
-        -String type
-        -String description
-        -LocalDateTime occurredAt
-        +register()
-        +update()
-    }
-    class OperationStatus {
-        -Double latitude
-        -Double longitude
-        -String status
-        -LocalDateTime timestamp
-        +updateLocation()
-    }
-    class MissionStatus {
-        <<enumeration>>
-        PLANNED
-        AUTHORIZED
-        IN_PROGRESS
-        PAUSED
-        COMPLETED
-        CANCELLED
-    }
-    class DroneStatus {
-        <<enumeration>>
-        AVAILABLE
-        ASSIGNED
-        IN_FLIGHT
-        PAUSED
-        MAINTENANCE
-    }
-    Mission "1" --> "1" Drone : uses
-    Mission "1" *-- "0..*" Incident : records
-    Mission "1" *-- "0..*" OperationStatus : tracks
-    Mission --> MissionStatus : has
-    Drone --> DroneStatus : has
+  class Mission {
+    -Long id
+    -String code
+    -LocalDate scheduledDate
+    -MissionStatus status
+    -Double plannedArea
+    -Double treatedArea
+    +create()
+    +schedule()
+    +start()
+    +pause()
+    +complete()
+    +cancel()
+  }
+  class Drone {
+    -Long id
+    -String serialNumber
+    -String model
+    -Double capacity
+    -DroneStatus status
+    +assignToMission()
+    +updateStatus()
+    +getLocation()
+  }
+  class Incident {
+    -Long id
+    -String type
+    -String description
+    -LocalDateTime occurredAt
+    +register()
+    +update()
+  }
+  class OperationStatus {
+    -Double latitude
+    -Double longitude
+    -String status
+    -LocalDateTime timestamp
+    +updateLocation()
+  }
+  class MissionStatus {
+    <<enumeration>>
+    PLANNED
+    AUTHORIZED
+    IN_PROGRESS
+    PAUSED
+    COMPLETED
+    CANCELLED
+  }
+  class DroneStatus {
+    <<enumeration>>
+    AVAILABLE
+    ASSIGNED
+    IN_FLIGHT
+    PAUSED
+    MAINTENANCE
+  }
+  Mission "1" --> "1" Drone : uses
+  Mission "1" *-- "0..*" Incident : records
+  Mission "1" *-- "0..*" OperationStatus : tracks
+  Mission --> MissionStatus : has
+  Drone --> DroneStatus : has
 ```
 
 ### 4.7.1.3. Weather Integration
 
 ```mermaid
 classDiagram
-    class WeatherService {
-        -WeatherApiClient apiClient
-        +getCurrentConditions(latitude, longitude)
-        +getForecast(latitude, longitude)
-        +evaluateConditions(weather)
-    }
-    class WeatherApiClient {
-        <<interface>>
-        +getCurrentWeather(latitude, longitude)
-        +getForecast(latitude, longitude)
-    }
-    class WeatherCondition {
-        -Double temperature
-        -Double humidity
-        -Double windSpeed
-        -Double precipitation
-        -LocalDateTime observedAt
-        +isSuitable()
-    }
-    class WeatherAlert {
-        -Long id
-        -String severity
-        -String message
-        -LocalDateTime createdAt
-        +generate()
-    }
-    WeatherService --> WeatherApiClient : uses
-    WeatherService --> WeatherCondition : evaluates
-    WeatherService --> WeatherAlert : generates
+  class WeatherService {
+    -WeatherApiClient apiClient
+    +getCurrentConditions(latitude, longitude)
+    +getForecast(latitude, longitude)
+    +evaluateConditions(weather)
+  }
+  class WeatherApiClient {
+    <<interface>>
+    +getCurrentWeather(latitude, longitude)
+    +getForecast(latitude, longitude)
+  }
+  class WeatherCondition {
+    -Double temperature
+    -Double humidity
+    -Double windSpeed
+    -Double precipitation
+    -LocalDateTime observedAt
+    +isSuitable()
+  }
+  class WeatherAlert {
+    -Long id
+    -String severity
+    -String message
+    -LocalDateTime createdAt
+    +generate()
+  }
+  WeatherService --> WeatherApiClient : uses
+  WeatherService --> WeatherCondition : evaluates
+  WeatherService --> WeatherAlert : generates
 ```
 
 ### 4.7.1.4. Analytics & Reporting
 
 ```mermaid
 classDiagram
-    class MissionReport {
-        -Long id
-        -Double treatedArea
-        -Double appliedVolume
-        -String observations
-        -LocalDateTime generatedAt
-        +generate()
-        +export()
-    }
-    class MissionHistory {
-        -Long id
-        -Long missionId
-        -LocalDateTime completedAt
-        -String finalStatus
-        +register()
-        +findByDate()
-    }
-    class OperationalMetric {
-        -String name
-        -Double value
-        -String unit
-        +calculate()
-    }
-    MissionReport "1" --> "1" MissionHistory : summarizes
-    MissionReport "1" *-- "0..*" OperationalMetric : contains
+  class MissionReport {
+    -Long id
+    -Double treatedArea
+    -Double appliedVolume
+    -String observations
+    -LocalDateTime generatedAt
+    +generate()
+    +export()
+  }
+  class MissionHistory {
+    -Long id
+    -Long missionId
+    -LocalDateTime completedAt
+    -String finalStatus
+    +register()
+    +findByDate()
+  }
+  class OperationalMetric {
+    -String name
+    -Double value
+    -String unit
+    +calculate()
+  }
+  MissionReport "1" --> "1" MissionHistory : summarizes
+  MissionReport "1" *-- "0..*" OperationalMetric : contains
 ```
 
 ### 4.7.1.5. Shared / Identity
 
 ```mermaid
 classDiagram
-    class User {
-        -Long id
-        -String name
-        -String email
-        -String passwordHash
-        -UserRole role
-        +authenticate()
-        +updateProfile()
-    }
-    class UserRole {
-        <<enumeration>>
-        FARMER
-        OPERATOR
-        TECHNICIAN
-    }
-    class Farmer {
-        +requestService()
-        +viewReports()
-    }
-    class Operator {
-        +createMission()
-        +monitorMission()
-        +registerResult()
-    }
-    User <|-- Farmer
-    User <|-- Operator
-    User --> UserRole : has
+  class User {
+    -Long id
+    -String name
+    -String email
+    -String passwordHash
+    -UserRole role
+    +authenticate()
+    +updateProfile()
+  }
+  class UserRole {
+    <<enumeration>>
+    FARMER
+    OPERATOR
+    TECHNICIAN
+  }
+  class Farmer {
+    +requestService()
+    +viewReports()
+  }
+  class Operator {
+    +createMission()
+    +monitorMission()
+    +registerResult()
+  }
+  User <|-- Farmer
+  User <|-- Operator
+  User --> UserRole : has
 ```
 
 ## 4.8. Database Design
@@ -2225,30 +2225,30 @@ Se utilizará **GitFlow** como estrategia de organización de ramas.
 
 ```mermaid
 gitGraph
-    commit id: "Initial"
-    branch develop
-    checkout develop
-    commit id: "Setup project"
+  commit id: "Initial"
+  branch develop
+  checkout develop
+  commit id: "Setup project"
 
-    branch feature/field-management
-    checkout feature/field-management
-    commit id: "feat: add parcel management"
-    checkout develop
-    merge feature/field-management
+  branch feature/field-management
+  checkout feature/field-management
+  commit id: "feat: add parcel management"
+  checkout develop
+  merge feature/field-management
 
-    branch feature/flight-operations
-    checkout feature/flight-operations
-    commit id: "feat: add mission management"
-    checkout develop
-    merge feature/flight-operations
+  branch feature/flight-operations
+  checkout feature/flight-operations
+  commit id: "feat: add mission management"
+  checkout develop
+  merge feature/flight-operations
 
-    branch release/1.0.0
-    checkout release/1.0.0
-    commit id: "chore: prepare release"
-    checkout main
-    merge release/1.0.0
-    checkout develop
-    merge release/1.0.0
+  branch release/1.0.0
+  checkout release/1.0.0
+  commit id: "chore: prepare release"
+  checkout main
+  merge release/1.0.0
+  checkout develop
+  merge release/1.0.0
 ```
 
 ### Ramas principales
@@ -2461,7 +2461,7 @@ Ejemplo:
 
 ```html
 <section class="mission-summary" aria-labelledby="mission-title">
-    <h2 id="mission-title">Mission Summary</h2>
+  <h2 id="mission-title">Mission Summary</h2>
 </section>
 ```
 
@@ -2479,12 +2479,12 @@ Ejemplo:
 
 ```css
 .mission-card {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .mission-card__status {
-    font-weight: 600;
+  font-weight: 600;
 }
 ```
 
@@ -2504,7 +2504,7 @@ Ejemplo:
 const DEFAULT_MISSION_STATUS = "PENDING";
 
 function createMission(missionData) {
-    // implementation
+  // implementation
 }
 ```
 
@@ -2526,16 +2526,16 @@ Ejemplo:
 
 ```typescript
 export interface Mission {
-    id: number;
-    parcelId: number;
-    scheduledDate: string;
-    status: MissionStatus;
+  id: number;
+  parcelId: number;
+  scheduledDate: string;
+  status: MissionStatus;
 }
 
 export class MissionService {
-    createMission(mission: Mission): void {
-        // implementation
-    }
+  createMission(mission: Mission): void {
+    // implementation
+  }
 }
 ```
 
@@ -2572,10 +2572,10 @@ Ejemplo:
 @RequestMapping("/api/missions")
 public class MissionController {
 
-    @GetMapping("/{id}")
-    public MissionResponseDTO getMission(@PathVariable Long id) {
-        return missionService.getMission(id);
-    }
+  @GetMapping("/{id}")
+  public MissionResponseDTO getMission(@PathVariable Long id) {
+    return missionService.getMission(id);
+  }
 }
 ```
 
@@ -2635,27 +2635,27 @@ Se propone separar los componentes desplegables de acuerdo con la arquitectura d
 
 ```mermaid
 flowchart TB
-    User["User"]
-    GitHub["GitHub Repository"]
+  User["User"]
+  GitHub["GitHub Repository"]
 
-    subgraph Cloud["Cloud Environment"]
-        Landing["Landing Page"]
-        Frontend["Angular Frontend"]
-        Backend["Spring Boot REST API"]
-        Database[("Relational Database")]
-    end
+  subgraph Cloud["Cloud Environment"]
+    Landing["Landing Page"]
+    Frontend["Angular Frontend"]
+    Backend["Spring Boot REST API"]
+    Database[("Relational Database")]
+  end
 
-    Weather["External Weather API"]
+  Weather["External Weather API"]
 
-    User --> Landing
-    User --> Frontend
-    Frontend --> Backend
-    Backend --> Database
-    Backend --> Weather
+  User --> Landing
+  User --> Frontend
+  Frontend --> Backend
+  Backend --> Database
+  Backend --> Weather
 
-    GitHub -->|"CI/CD"| Landing
-    GitHub -->|"CI/CD"| Frontend
-    GitHub -->|"CI/CD"| Backend
+  GitHub -->|"CI/CD"| Landing
+  GitHub -->|"CI/CD"| Frontend
+  GitHub -->|"CI/CD"| Backend
 ```
 
 ## 5.1.4.3. Ambientes
@@ -2694,22 +2694,22 @@ Pipeline conceptual:
 
 ```mermaid
 flowchart LR
-    Commit["Push / Pull Request"]
-    Checkout["Checkout"]
-    Build["Build"]
-    Test["Automated Tests"]
-    Package["Package"]
-    DeployStaging["Deploy Staging"]
-    Validate["Validation"]
-    DeployProd["Deploy Production"]
+  Commit["Push / Pull Request"]
+  Checkout["Checkout"]
+  Build["Build"]
+  Test["Automated Tests"]
+  Package["Package"]
+  DeployStaging["Deploy Staging"]
+  Validate["Validation"]
+  DeployProd["Deploy Production"]
 
-    Commit --> Checkout
-    Checkout --> Build
-    Build --> Test
-    Test --> Package
-    Package --> DeployStaging
-    DeployStaging --> Validate
-    Validate --> DeployProd
+  Commit --> Checkout
+  Checkout --> Build
+  Build --> Test
+  Test --> Package
+  Package --> DeployStaging
+  DeployStaging --> Validate
+  Validate --> DeployProd
 ```
 
 ### Backend
@@ -2840,17 +2840,17 @@ La estrategia propuesta es:
 
 ```mermaid
 flowchart TD
-    A["feature/*"] --> B["Pull Request"]
-    B --> C{"Tests pass?"}
-    C -->|"No"| A
-    C -->|"Yes"| D["develop"]
-    D --> E["release/x.y.z"]
-    E --> F["Staging"]
-    F --> G{"Validation approved?"}
-    G -->|"No"| E
-    G -->|"Yes"| H["main"]
-    H --> I["Tag vX.Y.Z"]
-    I --> J["Production"]
+  A["feature/*"] --> B["Pull Request"]
+  B --> C{"Tests pass?"}
+  C -->|"No"| A
+  C -->|"Yes"| D["develop"]
+  D --> E["release/x.y.z"]
+  E --> F["Staging"]
+  F --> G{"Validation approved?"}
+  G -->|"No"| E
+  G -->|"Yes"| H["main"]
+  H --> I["Tag vX.Y.Z"]
+  I --> J["Production"]
 ```
 
 ## 5.1.4.9. Trazabilidad del deployment
