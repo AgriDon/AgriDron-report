@@ -3397,7 +3397,8 @@ Durante el Sprint 1 el equipo logró desplegar la primera versión del Landing P
 
 ## Anexo A: Evidencias adicionales
 
-[PEGAR AQUÍ EVIDENCIAS ADICIONALES.]
+> Enlace de miro
+https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
 ## Anexo B: Videos de Exposiciones
 
