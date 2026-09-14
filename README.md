@@ -5,18 +5,18 @@
 ### Carrera de Ingeniería de Software
 <br>
 
-**Curso: Desarrollo de Aplicaciones Open Source**
+**Curso: Desarrollo de Aplicaciones Web**
 
-**NRC: 7760**
+**NRC: 8137**
 
-**Docente: FLORES MOROCCO; Juan Antonio**
+**Docente: Mori Paiva, Hugo Allan**
 <br>
 
 ### **Informe del Trabajo Final**
 
-**Nombre de la Startup:** AgriDron
+**Nombre de la Startup:** AgriDron Solutions
 
-**Nombre del producto:** [AgriDron Solutions]
+**Nombre del producto:** AgriDron 
 <br>
 
 ### **Integrantes**
@@ -25,20 +25,20 @@
 
 <table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
     <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">U202421392</th>
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Damacen Galindo, Italo Gianfranco</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[U20241G306]</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241G306</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Nicho Huillcañahui, Edwin Noe</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">[Codigo]</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Alummno</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">Codigo</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Jara Espinoza, Miguel Angel</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">Code</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Alummno</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202420249</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Choquehuanca Vasquez, Alejandro Samir </td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202222473</td>
@@ -713,7 +713,7 @@ A continuación, se presenta el Competitive Analysis Landscape, cuyo objetivo es
 | **¿Qué valor ofrece a los clientes?** | Automatización accesible del flujo de fumigación, reducción del desperdicio de insumos químicos, prevención por clima adverso y visibilidad operativa en tiempo real. | Información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación. | Optimización del rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo. | Centralización administrativa de la finca, control estricto de inventarios y reducción de costos operativos generales. |
 | **Mercado objetivo** | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación. | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea. | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada. | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias. |
 | **Estrategias de marketing** | Marketing digital educativo, demostraciones en cooperativas locales, esquema freemium para visualización de parcelas y alianzas con técnicos de campo. | Venta directa enterprise, marketing de contenidos B2B global, eventos del sector aeroespacial y certificaciones técnicas. | Distribución a través de redes de concesionarios de insumos Bayer, patrocinios agrícolas y pruebas de campo a gran escala. | Marketing inbound, presencia en conferencias globales AgTech, certificaciones digitales y canal de consultoría especializada. |
-| **Productos & Servicios** | Aplicación web (Angular), servicio RESTful (Spring Boot), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo. | Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D. | Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra. | Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo. |
+| **Productos & Servicios** | Aplicación web (Vue), servicio RESTful (ASP.NET Core), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo. | Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D. | Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra. | Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo. |
 | **Precios & Costos** | Esquema de suscripción modular mensual/anual económico, adaptado por cantidad de hectáreas gestionadas. | Modelo de suscripción SaaS anual de costo elevado (desde cientos hasta miles de USD anuales por usuario). | Suscripción anual base más costos adicionales por dispositivos de conexión física y hectáreas monitoreadas. | Suscripción SaaS por niveles basada en el número de hectáreas y módulos empresariales contratados (alto costo). |
 | **Canales de distribución** | Aplicación web responsive (Desktop y Mobile) accesible desde cualquier navegador estándar y Landing Page oficial. | Plataforma web SaaS, aplicación móvil (iOS/Android) y portal en la nube. | Plataforma web, aplicaciones móviles (iOS/Android) y canal de distribución físico de hardware. | Plataforma web SaaS y aplicación móvil operativa para smartphones y tablets. |
 
@@ -725,7 +725,7 @@ A continuación, se detallan los cuadrantes estratégicos de AgriDron Solutions 
 
 | Cuadrante | Descripción Estratégica |
 | :--- | :--- |
-| **Fortalezas (Strengths)** | • Plataforma web moderna construida sobre arquitectura distribuida escalable (Spring Boot y Angular).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química. |
+| **Fortalezas (Strengths)** | • Plataforma web moderna construida sobre arquitectura distribuida escalable (ASP.NET Core y Vue).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química. |
 | **Debilidades (Weaknesses)** | • Startup en etapa inicial con menor músculo financiero y base de clientes reducida frente a gigantes consolidados.<br>• Dependencia inicial de simulación para los flujos de telemetría de drones antes de la integración con hardware físico masivo.<br>• Marca nueva sin reconocimiento previo en ferias o asociaciones agrarias regionales. |
 | **Oportunidades (Opportunities)** | • Creciente interés de pequeños y medianos agricultores por modernizar la fumigación para reducir pérdidas económicas por plagas.<br>• Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi), que no diseñan soluciones accesibles para predios de 5 a 50 hectáreas.<br>• Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes en un solo panel colaborativo. |
 | **Amenazas (Threats)** | • Resistencia cultural al cambio tecnológico por parte de productores agrícolas acostumbrados a métodos tradicionales manuales.<br>• Expansión o reducción de precios de plataformas consolidadas (como Bayer Climate FieldView) hacia segmentos de menores extensiones.<br>• Deficiencias de infraestructura de conectividad a internet en zonas rurales que dificulten el uso de plataformas web en campo. |
@@ -1062,23 +1062,23 @@ Durante el ejercicio se identificaron tres <strong>hotspots</strong> (en rosado)
 
 ## 2.5. Ubiquitous Language
 
-| Término                                   | Definición                                                                                                                                                                                                                            |
-|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Finca**                                 | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas.                                                                |
-| **Parcela / Área de fumigación**          | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla.         |
-| **Misión de fumigación**                  | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida.                         |
-| **Geocerca**                              | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo.                            |
-| **Jornada de trabajo**                    | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. |
-| **Operador**                              | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación.                                                               |
-| **Agricultor**                            | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones.                                 |
-| **Supervisor**                            | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa.                         |
-| **Incidencia**                            | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor.                |
-| **Acta de servicio**                      | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente.                                       |
-| **Reporte de productividad**              | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado.                                |
-| **Reporte de eficiencia operativa**       | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores.            |
-| **Inventario de insumos**                 | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico.                                                    |
-| **Condiciones climáticas**                | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos.                       |
-| **Dashboard de monitoreo en tiempo real** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión.                                                |
+| Término | Definición |
+| :--- | :--- |
+| **Finca** | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas. |
+| **Parcela / Área de fumigación** | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla. |
+| **Misión de fumigación** | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida. |
+| **Geocerca** | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo. |
+| **Jornada de trabajo** | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. |
+| **Operador** | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación. |
+| **Agricultor** | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones. |
+| **Supervisor** | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa. |
+| **Incidencia** | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor. |
+| **Acta de servicio** | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente. |
+| **Reporte de productividad** | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado. |
+| **Reporte de eficiencia operativa** | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores. |
+| **Inventario de insumos** | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico. |
+| **Condiciones climáticas** | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos. |
+| **Dashboard de monitoreo en tiempo real** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión. |
 
 ---
 
@@ -1552,6 +1552,39 @@ El mockup de la Landing Page en versión Desktop representa la propuesta visual 
 
 ![Web Applications User Flow Diagrams](assets/chapter4/Web_Applications_User_Flow_Diagrams.png)
 
+**Descripción:**
+
+<p align="justify">
+
+El User Flow Diagram representa la lógica de decisión que subyace al recorrido mostrado en el Wireflow (4.4.2), para la tarea central del sistema: <strong>planificar y ejecutar una misión de fumigación</strong>. A diferencia del wireflow, que conecta pantallas, este diagrama se enfoca en los puntos de decisión (rombos) y las rutas alternativas que puede tomar el proceso, distinguiendo mediante color qué actor es responsable de cada paso: Agricultor, Sistema, Supervisor u Operador.
+
+</p>
+
+<p align="justify">
+
+El flujo principal sigue el camino feliz: el Agricultor inicia sesión, registra su finca y delimita la parcela si aún no lo ha hecho, crea la misión, el Sistema valida las condiciones climáticas, el Supervisor asigna un operador disponible, y el Operador inicia su jornada, ejecuta el vuelo y cierra el servicio con la emisión del acta digital y los reportes correspondientes.
+
+</p>
+
+<p align="justify">
+
+Sobre este camino principal se modelaron cuatro rutas alternativas, directamente relacionadas con los <em>hotspots</em> identificados en el Big Picture EventStorming (2.4):
+
+</p>
+
+<ul>
+  <li>Si el clima no es favorable, el sistema sugiere una reprogramación de fecha antes de continuar.</li>
+  <li>Si no hay operadores disponibles, la misión se registra en una lista de espera en lugar de bloquear el flujo.</li>
+  <li>Si el operador no se encuentra dentro de la geocerca de la finca, el sistema bloquea el registro de jornada y notifica al Supervisor.</li>
+  <li>Si se detecta una incidencia climática o técnica durante el vuelo, la misión se pausa; si la incidencia se resuelve, el vuelo se reanuda, y si no, la misión se cancela.</li>
+</ul>
+
+<p align="justify">
+
+Modelar estas rutas alternativas de forma explícita permite validar, antes de construir el prototipo, que el sistema tiene una respuesta definida para cada escenario de falla identificado durante el needfinding y el EventStorming, en lugar de dejarlas como casos no contemplados en el diseño.
+
+</p>
+
 ---
 
 ## 4.5. Web Applications Prototyping
@@ -1770,8 +1803,8 @@ El **Container Diagram de C4** realiza un acercamiento al sistema y muestra sus 
 Los contenedores definidos son:
 
 1. **Landing Page**
-2. **Frontend Angular**
-3. **Backend Spring Boot**
+2. **Frontend Vue**
+3. **Backend ASP.NET Core**
 4. **Base de Datos Relacional**
 5. **API Meteorológica Externa**
 
@@ -1786,8 +1819,8 @@ C4Container
 
   System_Boundary(agridron, "AgriDron Solutions") {
     Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
-    Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
-    Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
+    Container(frontend, "Frontend Vue", "Vue / PrimeVue", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
+    Container(backend, "Backend ASP.NET Core", "ASP.NET Core / C#", "Implementa la lógica de negocio y expone la API REST.")
     ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
   }
 
@@ -1806,19 +1839,19 @@ C4Container
 | Contenedor | Tecnología | Responsabilidad |
 |---|---|---|
 | **Landing Page** | HTML / CSS / JavaScript | Presentar AgriDron Solutions y facilitar el acceso a la plataforma. |
-| **Frontend Angular** | Angular / TypeScript | Proporcionar la interfaz para gestionar parcelas, misiones, monitoreo, historial y reportes. |
-| **Backend Spring Boot** | Java / Spring Boot | Implementar la lógica de negocio, exponer servicios REST y coordinar datos y servicios externos. |
+| **Frontend Vue** | Vue / PrimeVue | Proporcionar la interfaz para gestionar parcelas, misiones, monitoreo, historial y reportes. |
+| **Backend ASP.NET Core** | ASP.NET Core / C# | Implementar la lógica de negocio, exponer servicios REST y coordinar datos y servicios externos. |
 | **Base de Datos Relacional** | SQL | Persistir usuarios, parcelas, misiones, operaciones, incidentes y reportes. |
 | **API Meteorológica** | Servicio externo | Proporcionar datos meteorológicos para apoyar la planificación. |
 
 ### Flujo de comunicación
 
 1. El usuario accede a la **Landing Page**.
-2. El usuario utiliza el **Frontend Angular** para gestionar o consultar información.
-3. El **Frontend Angular** consume el **Backend Spring Boot** mediante API REST.
-4. El **Backend Spring Boot** consulta y actualiza la **Base de Datos Relacional**.
-5. El **Backend Spring Boot** consulta la **API Meteorológica** cuando se requiere información climática.
-6. La información procesada se presenta mediante el **Frontend Angular**.
+2. El usuario utiliza el **Frontend Vue** para gestionar o consultar información.
+3. El **Frontend Vue** consume el **Backend ASP.NET Core** mediante API REST.
+4. El **Backend ASP.NET Core** consulta y actualiza la **Base de Datos Relacional**.
+5. El **Backend ASP.NET Core** consulta la **API Meteorológica** cuando se requiere información climática.
+6. La información procesada se presenta mediante el **Frontend Vue**.
 
 ## Trazabilidad entre dominio y arquitectura
 
@@ -1837,11 +1870,11 @@ Esta sección presenta el diseño interno de los principales componentes de soft
 
 ## 4.6.4.1. RESTful API
 
-La API RESTful implementada con Spring Boot concentra la lógica de aplicación y dominio. Se organiza en capas de presentación, aplicación, dominio e infraestructura.
+La API RESTful implementada con ASP.NET Core concentra la lógica de aplicación y dominio. Se organiza en capas de presentación, aplicación, dominio e infraestructura.
 
 ```mermaid
 flowchart LR
-  subgraph API["RESTful API - Spring Boot"]
+  subgraph API["RESTful API - ASP.NET Core"]
     subgraph Presentation["API / Presentation Layer"]
       FC["Field Controller"]
       MC["Mission Controller"]
@@ -1898,11 +1931,11 @@ flowchart LR
 
 ## 4.6.4.2. Web Application
 
-La aplicación web utiliza Angular para proporcionar las funcionalidades de operadores y clientes.
+La aplicación web utiliza Vue para proporcionar las funcionalidades de operadores y clientes.
 
 ```mermaid
 flowchart LR
-  subgraph Web["Web Application - Angular"]
+  subgraph Web["Web Application - Vue"]
     subgraph Field["Field Management"]
       Farms["Farm Management"]
       Parcels["Parcel Management"]
@@ -1956,7 +1989,7 @@ La integración meteorológica se mantiene aislada para evitar acoplar directame
 
 ```mermaid
 flowchart LR
-  Backend["Backend Spring Boot"]
+  Backend["Backend ASP.NET Core"]
   subgraph WeatherIntegration["Weather Integration"]
     WS["Weather Service"]
     WClient["Weather API Client"]
@@ -2195,11 +2228,150 @@ classDiagram
 
 ### 4.8.1. Database Diagrams
 
-![Database Diagram](assets/database/database_diagram.png)
+<p align="justify">
+
+El modelo de base de datos se derivó directamente de los Class Diagrams definidos en el apartado 4.7.1, traduciendo cada clase persistente a una tabla relacional. Las clases de servicio sin estado propio (<code>WeatherService</code>, <code>WeatherApiClient</code>) no se materializan como tablas, ya que no almacenan datos, solo orquestan la comunicación con la API meteorológica externa.
+
+</p>
+
+```mermaid
+erDiagram
+  USERS ||--o{ FARMS : owns
+  USERS ||--o{ MISSIONS : requests
+  USERS ||--o{ MISSIONS : operates
+  FARMS ||--|{ PARCELS : contains
+  CROPS ||--o{ PARCELS : classifies
+  PARCELS ||--o{ FUMIGATION_AREAS : defines
+  FUMIGATION_AREAS ||--o{ MISSIONS : "is target of"
+  DRONES ||--o{ MISSIONS : "is used in"
+  MISSIONS ||--o{ INCIDENTS : records
+  MISSIONS ||--o{ OPERATION_STATUSES : tracks
+  MISSIONS ||--o{ WEATHER_CONDITIONS : consults
+  WEATHER_CONDITIONS ||--o{ WEATHER_ALERTS : generates
+  MISSIONS ||--o| MISSION_REPORTS : "is summarized by"
+  MISSION_REPORTS ||--|| MISSION_HISTORY : summarizes
+  MISSION_REPORTS ||--o{ OPERATIONAL_METRICS : contains
+
+  USERS {
+    bigint id PK
+    varchar name
+    varchar email UK
+    varchar password_hash
+    varchar role "FARMER | OPERATOR | TECHNICIAN"
+  }
+  FARMS {
+    bigint id PK
+    bigint owner_id FK
+    varchar name
+    varchar location
+  }
+  PARCELS {
+    bigint id PK
+    bigint farm_id FK
+    bigint crop_id FK
+    varchar name
+    decimal area
+    text geometry
+  }
+  CROPS {
+    bigint id PK
+    varchar name
+    varchar variety
+  }
+  FUMIGATION_AREAS {
+    bigint id PK
+    bigint parcel_id FK
+    text geometry
+    decimal area
+  }
+  DRONES {
+    bigint id PK
+    varchar serial_number UK
+    varchar model
+    decimal capacity
+    varchar status "AVAILABLE | ASSIGNED | IN_FLIGHT | PAUSED | MAINTENANCE"
+  }
+  MISSIONS {
+    bigint id PK
+    varchar code UK
+    bigint fumigation_area_id FK
+    bigint requested_by_id FK
+    bigint assigned_operator_id FK
+    bigint drone_id FK
+    date scheduled_date
+    varchar status "PLANNED | AUTHORIZED | IN_PROGRESS | PAUSED | COMPLETED | CANCELLED"
+    decimal planned_area
+    decimal treated_area
+  }
+  INCIDENTS {
+    bigint id PK
+    bigint mission_id FK
+    varchar type
+    text description
+    datetime occurred_at
+  }
+  OPERATION_STATUSES {
+    bigint id PK
+    bigint mission_id FK
+    decimal latitude
+    decimal longitude
+    varchar status
+    datetime timestamp
+  }
+  WEATHER_CONDITIONS {
+    bigint id PK
+    bigint mission_id FK
+    decimal temperature
+    decimal humidity
+    decimal wind_speed
+    decimal precipitation
+    datetime observed_at
+  }
+  WEATHER_ALERTS {
+    bigint id PK
+    bigint weather_condition_id FK
+    varchar severity
+    varchar message
+    datetime created_at
+  }
+  MISSION_REPORTS {
+    bigint id PK
+    bigint mission_id FK
+    decimal treated_area
+    decimal applied_volume
+    text observations
+    datetime generated_at
+  }
+  MISSION_HISTORY {
+    bigint id PK
+    bigint mission_report_id FK
+    datetime completed_at
+    varchar final_status
+  }
+  OPERATIONAL_METRICS {
+    bigint id PK
+    bigint mission_report_id FK
+    varchar name
+    decimal value
+    varchar unit
+  }
+```
 
 **Descripción:**
 
-[DESCRIPCIÓN.]
+<p align="justify">
+
+El modelo se organiza alrededor de cinco agrupaciones, alineadas con los bounded contexts definidos en el Design-Level Event Storming (4.6.1) y los Class Diagrams (4.7.1):
+
+</p>
+
+<ul>
+  <li><strong>Identidad (USERS):</strong> se aplicó herencia de tabla única (single table inheritance) para <code>Farmer</code> y <code>Operator</code>, ya que en el modelo de clases ambas especializaciones de <code>User</code> solo agregan comportamiento (métodos) y no atributos adicionales. Por ello, el rol se resuelve con la columna discriminadora <code>role</code> en lugar de crear tablas separadas.</li>
+  <li><strong>Field Management (FARMS, PARCELS, CROPS, FUMIGATION_AREAS):</strong> conserva la jerarquía de contención finca → parcela → área de fumigación definida en 4.7.1.1, agregando la clave foránea <code>owner_id</code> hacia <code>USERS</code> para vincular cada finca con el agricultor que la administra.</li>
+  <li><strong>Flight Operations (MISSIONS, DRONES, INCIDENTS, OPERATION_STATUSES):</strong> <code>MISSIONS</code> concentra las claves foráneas hacia el área objetivo, el solicitante, el operador asignado y el dron utilizado. Los enumerados <code>MissionStatus</code> y <code>DroneStatus</code> del modelo de clases se representan como columnas <code>varchar</code> con los valores permitidos documentados, en lugar de tablas de catálogo independientes, dado que son listas cerradas y estables que no requieren atributos adicionales.</li>
+  <li><strong>Weather Integration (WEATHER_CONDITIONS, WEATHER_ALERTS):</strong> cada consulta climática queda asociada a la misión que la originó, permitiendo sustentar técnicamente una pausa o cancelación, tal como se identificó en los hotspots del EventStorming (2.4).</li>
+  <li><strong>Analytics & Reporting (MISSION_REPORTS, MISSION_HISTORY, OPERATIONAL_METRICS):</strong> replica la relación 1 a 1 entre <code>MissionReport</code> y <code>MissionHistory</code>, y la composición 1 a N con <code>OperationalMetric</code>, tal como fueron definidas en 4.7.1.4.</li>
+</ul>
 
 ---
 
@@ -2211,41 +2383,44 @@ El **Software Configuration Management (SCM)** de AgriDron Solutions establece l
 
 De acuerdo con el Project Statement, esta sección debe establecer decisiones y convenciones para mantener la consistencia durante el ciclo de vida del producto. Además, se debe considerar el entorno utilizado para actividades de gestión del proyecto, requisitos, UX/UI, desarrollo, despliegue y documentación.
 
-La propuesta de SCM para AgriDron Solutions se alinea con la arquitectura definida previamente: **Landing Page**, **Frontend Angular**, **Backend Spring Boot** y **base de datos relacional**, además de la integración con una API meteorológica externa.
+La propuesta de SCM para AgriDron Solutions se alinea con la arquitectura definida previamente y con las tecnologías establecidas en el Project Statement: **Landing Page** (HTML5, CSS3, JavaScript), **Frontend Web Application con Vue Framework y PrimeVue**, **Web Services RESTful con ASP.NET Core y C#** y **base de datos relacional**, además de la integración con una API meteorológica externa.
 
 ### 5.1.1. Software Development Environment Configuration
 
-## 5.1.1.1. Propósito
+#### 5.1.1.1. Propósito
 
 El entorno de desarrollo define las herramientas que utilizará el equipo para implementar, documentar, probar y desplegar AgriDron Solutions. Se busca que todos los integrantes trabajen con una configuración homogénea, reduciendo problemas de compatibilidad y facilitando la colaboración.
 
 El Project Statement indica que esta sección debe especificar el nombre de cada producto de software, su propósito y la ruta de referencia o descarga correspondiente, considerando las actividades de Project Management, Requirements Management, UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
-## 5.1.1.2. Herramientas del proyecto
+#### 5.1.1.2. Herramientas del proyecto
 
 | Categoría | Herramienta / Tecnología | Propósito | Referencia |
 |---|---|---|---|
 | Control de versiones | Git | Control local de versiones del código fuente. | https://git-scm.com/ |
-| Repositorios | GitHub | Hospedaje de repositorios y colaboración mediante branches y Pull Requests. | https://github.com/ |
-| Gestión del proyecto | Trello / Jira / YouTrack | Organización del backlog, tareas y seguimiento del trabajo. | Según herramienta seleccionada |
-| Editor / IDE Frontend | Visual Studio Code | Desarrollo de Landing Page y Frontend Angular/TypeScript. | https://code.visualstudio.com/ |
-| IDE Backend | IntelliJ IDEA / Eclipse | Desarrollo del Backend Java/Spring Boot. | https://www.jetbrains.com/idea/ |
-| Runtime Frontend | Node.js + npm | Instalación de dependencias y ejecución de herramientas Angular. | https://nodejs.org/ |
-| Framework Frontend | Angular | Implementación de la aplicación web. | https://angular.dev/ |
-| Lenguaje Frontend | TypeScript | Desarrollo de la lógica del Frontend Angular. | https://www.typescriptlang.org/ |
-| Lenguaje Backend | Java | Implementación del Backend y lógica de negocio. | https://www.java.com/ |
-| Framework Backend | Spring Boot | Implementación de servicios REST y lógica del Backend. | https://spring.io/projects/spring-boot |
-| Build Backend | Maven | Gestión de dependencias y construcción del proyecto Spring Boot. | https://maven.apache.org/ |
-| Base de datos | PostgreSQL / SQL | Persistencia de la información de la plataforma. | https://www.postgresql.org/ |
+| Repositorios | GitHub | Hospedaje de repositorios y colaboración mediante branches y Pull Requests, aplicando GitFlow. | https://github.com/ |
+| Gestión del proyecto | JetBrains YouTrack / Jira Software / Trello | Organización del Product Backlog, Sprint Backlog y seguimiento del trabajo. | Según herramienta seleccionada |
+| Editor / IDE Frontend | Visual Studio Code | Desarrollo de Landing Page y Frontend Web Application con Vue. | https://code.visualstudio.com/ |
+| IDE Backend | Visual Studio / JetBrains Rider | Desarrollo del Backend con ASP.NET Core y C#. | https://visualstudio.microsoft.com/ |
+| Runtime Frontend | Node.js + npm | Instalación de dependencias y ejecución de herramientas de Vue. | https://nodejs.org/ |
+| Framework Frontend | Vue Framework | Implementación de la Frontend Web Application (SPA). | https://vuejs.org/ |
+| Biblioteca de componentes UI | PrimeVue | Componentes de interfaz basados en Material Design para la Web Application. | https://primevue.org/ |
+| Lenguaje Frontend | HTML5, CSS3, JavaScript | Desarrollo de templates estáticos y lógica de la Web Application. | https://developer.mozilla.org/ |
+| Framework Backend | ASP.NET Core | Implementación de los Web Services bajo arquitectura RESTful. | https://dotnet.microsoft.com/apps/aspnet |
+| Lenguaje Backend | C# | Implementación de la lógica de negocio del lado servidor. | https://learn.microsoft.com/dotnet/csharp/ |
+| ORM Backend | Entity Framework Core | Mapeo objeto-relacional para el acceso a datos del Backend. | https://learn.microsoft.com/ef/core/ |
+| Base de datos relacional | MySQL Server / PostgreSQL | Persistencia de la información de la plataforma. | https://www.mysql.com/ / https://www.postgresql.org/ |
+| Base de datos NoSQL (complemento) | MongoDB / PostgreSQL | Persistencia complementaria cuando el modelo lo requiera. | https://www.mongodb.com/ |
 | API testing | Postman | Prueba de endpoints REST durante el desarrollo. | https://www.postman.com/ |
-| Documentación API | Swagger / OpenAPI | Documentación y consulta de los servicios REST. | https://swagger.io/ |
+| Documentación API | Swagger (OpenAPI Specification) | Documentación y consulta interactiva de los Web Services. | https://swagger.io/ |
 | Diseño UI/UX | Figma | Diseño de wireframes, mock-ups y prototipos. | https://www.figma.com/ |
-| Diagramación | Mermaid | Diagramas como código dentro del repositorio Markdown. | https://mermaid.js.org/ |
+| Diagramación de arquitectura | Structurizr (C4 Model) | Diagramas de contexto, contenedores y componentes como código. | https://structurizr.com/ |
+| Diagramación general | LucidChart / FigJam / Mermaid | Diagramas UML, EventStorming y Database Diagrams. | https://mermaid.js.org/ |
 | Documentación | Markdown | Elaboración de documentación técnica dentro del repositorio. | https://www.markdownguide.org/ |
 
-> **Nota:** Las herramientas de gestión de proyectos y los proveedores cloud deberán reemplazarse por los productos concretos que el equipo haya seleccionado en su implementación final. La tabla mantiene como propuesta las herramientas que no han sido fijadas previamente.
+> **Nota:** Las herramientas de gestión de proyectos y los proveedores cloud deberán reemplazarse por los productos concretos que el equipo haya seleccionado en su implementación final. La tabla mantiene como propuesta las herramientas que no han sido fijadas previamente, respetando siempre las tecnologías obligatorias indicadas en el enunciado (Vue, PrimeVue, ASP.NET Core, C#, Entity Framework Core).
 
-## 5.1.1.3. Configuración base
+#### 5.1.1.3. Configuración base
 
 Todos los integrantes deberán mantener una configuración equivalente para evitar diferencias entre ambientes locales.
 
@@ -2254,24 +2429,24 @@ Todos los integrantes deberán mantener una configuración equivalente para evit
 ```text
 Node.js
 npm
-Angular CLI
-Angular
-TypeScript
+Vue CLI / Vite
+Vue 3
+PrimeVue
 ```
 
 ### Backend
 
 ```text
-Java JDK
-Maven
-Spring Boot
-IDE compatible con Java
+.NET SDK
+ASP.NET Core
+Entity Framework Core
+Visual Studio / JetBrains Rider
 ```
 
 ### Base de datos
 
 ```text
-PostgreSQL
+MySQL Server / PostgreSQL
 Cliente gráfico de base de datos
 ```
 
@@ -2285,7 +2460,7 @@ Conventional Commits
 Semantic Versioning
 ```
 
-## 5.1.1.4. Estructura de repositorios
+#### 5.1.1.4. Estructura de repositorios
 
 Para mantener separadas las responsabilidades de los productos, se propone trabajar con repositorios independientes:
 
@@ -2293,13 +2468,13 @@ Para mantener separadas las responsabilidades de los productos, se propone traba
 AgriDron Solutions
 │
 ├── agridron-landing
-│   └── Landing Page
+│   └── Landing Page (HTML5, CSS3, JavaScript)
 │
 ├── agridron-frontend
-│   └── Frontend Angular
+│   └── Frontend Web Application (Vue + PrimeVue)
 │
 └── agridron-backend
-    ├── Backend Spring Boot
+    ├── Web Services (ASP.NET Core + C# + Entity Framework Core)
     ├── Unit Tests
     └── Integration / Acceptance Tests
 ```
@@ -2309,21 +2484,21 @@ Esta organización sigue la indicación del Project Statement de considerar los 
 
 ### 5.1.2. Source Code Management
 
-## 5.1.2.1. Plataforma y repositorios
+#### 5.1.2.1. Plataforma y repositorios
 
 El control de versiones del proyecto se realizará mediante **Git gestionado desde GitHub**. El Project Statement establece explícitamente GitHub como plataforma de control de versiones y solicita aplicar **GitFlow Workflow, Conventional Commits y Semantic Versioning**.
 
-Los repositorios considerados para AgriDron Solutions son:
+El Project Statement exige indicar, para cada producto, el URL del repositorio de GitHub. Los repositorios considerados para AgriDron Solutions son:
 
-| Producto | Repositorio | Contenido |
-|---|---|---|
-| Landing Page | `AgiDron-LandingPage-7760-G3` | HTML, CSS y JavaScript |
-| Frontend Web Application | `AgiDron-FrontEnd-7760-G3` | Angular y TypeScript |
-| Web Services | `AgiDron-BackEnd-7760-G3` | Java, Spring Boot, pruebas unitarias e integración/aceptación |
+| Producto | Repositorio | URL | Contenido |
+|---|---|---|---|
+| Landing Page | `AgriDron-LandingPage-7760-G3` | `[PEGAR URL REAL DEL REPOSITORIO]` | HTML5, CSS3 y JavaScript |
+| Frontend Web Application | `AgriDron-FrontEnd-7760-G3` | `[PEGAR URL REAL DEL REPOSITORIO]` | Vue Framework, PrimeVue |
+| Web Services | `AgriDron-BackEnd-7760-G3` | `[PEGAR URL REAL DEL REPOSITORIO]` | ASP.NET Core, C#, Entity Framework Core, pruebas unitarias e integración/aceptación |
 
-> Los nombres anteriores son una propuesta de nomenclatura. Si el equipo ya creó repositorios con nombres diferentes, deben sustituirse por los nombres reales y sus URLs reales antes de entregar el informe.
+> Los nombres anteriores son una propuesta de nomenclatura. El equipo debe reemplazar los nombres y URLs por los repositorios reales de su organización pública de GitHub antes de entregar el informe.
 
-## 5.1.2.2. GitFlow Workflow
+#### 5.1.2.2. GitFlow Workflow
 
 Se utilizará **GitFlow** como estrategia de organización de ramas.
 
@@ -2365,7 +2540,7 @@ gitGraph
 | `release/*` | Preparación de una nueva versión estable. |
 | `hotfix/*` | Corrección urgente de errores encontrados en producción. |
 
-## 5.1.2.3. Convención para Feature Branches
+#### 5.1.2.3. Convención para Feature Branches
 
 Cada funcionalidad debe desarrollarse en una rama independiente.
 
@@ -2388,7 +2563,7 @@ feature/mission-reports
 
 Se utilizarán nombres en **inglés**, en minúsculas y separados mediante guiones.
 
-## 5.1.2.4. Convención para Release Branches
+#### 5.1.2.4. Convención para Release Branches
 
 Formato:
 
@@ -2406,7 +2581,7 @@ release/1.1.1
 
 Las release branches permiten realizar ajustes finales antes de integrar una versión estable a `main`.
 
-## 5.1.2.5. Convención para Hotfix Branches
+#### 5.1.2.5. Convención para Hotfix Branches
 
 Formato:
 
@@ -2424,7 +2599,7 @@ hotfix/login-validation
 
 Los hotfixes estarán destinados exclusivamente a correcciones urgentes de versiones publicadas.
 
-## 5.1.2.6. Pull Requests
+#### 5.1.2.6. Pull Requests
 
 Las modificaciones realizadas en `feature/*`, `release/*` y `hotfix/*` deberán integrarse mediante Pull Requests.
 
@@ -2460,7 +2635,7 @@ Tag vX.Y.Z
 
 Se recomienda que ningún integrante trabaje directamente sobre `main` para funcionalidades nuevas.
 
-## 5.1.2.7. Conventional Commits
+#### 5.1.2.7. Conventional Commits
 
 Los mensajes de commit seguirán la especificación de **Conventional Commits**.
 
@@ -2496,7 +2671,7 @@ Tipos principales:
 
 Conventional Commits relaciona `feat` con incrementos **MINOR**, `fix` con incrementos **PATCH** y los cambios incompatibles con incrementos **MAJOR**, facilitando su integración con Semantic Versioning.
 
-## 5.1.2.8. Semantic Versioning
+#### 5.1.2.8. Semantic Versioning
 
 Las versiones del producto seguirán el formato:
 
@@ -2535,9 +2710,9 @@ v1.1.1
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-## 5.1.3.1. Principios generales
+#### 5.1.3.1. Principios generales
 
-El Project Statement establece que para los lenguajes utilizados en la solución debe aplicarse nomenclatura en **inglés**. Para AgriDron Solutions se aplicará esta regla a HTML, CSS, JavaScript, TypeScript y Java.
+El Project Statement establece que para los lenguajes utilizados en la solución debe aplicarse nomenclatura en **inglés**. Para AgriDron Solutions se aplicará esta regla a HTML, CSS, JavaScript y C#, siguiendo como referencia las guías oficiales (Google HTML/CSS Style Guide, Google JavaScript Style Guide, Vue Style Guide, C# Coding Conventions y Microsoft ASP.NET Core Coding Guidelines).
 
 Principios:
 
@@ -2551,7 +2726,7 @@ Principios:
 8. Mantener las pruebas junto con el código correspondiente.
 9. No incluir credenciales ni secretos dentro del código fuente.
 
-## 5.1.3.2. HTML
+#### 5.1.3.2. HTML
 
 Convenciones:
 
@@ -2569,7 +2744,7 @@ Ejemplo:
 </section>
 ```
 
-## 5.1.3.3. CSS
+#### 5.1.3.3. CSS
 
 Convenciones:
 
@@ -2592,7 +2767,7 @@ Ejemplo:
 }
 ```
 
-## 5.1.3.4. JavaScript
+#### 5.1.3.4. JavaScript
 
 Convenciones:
 
@@ -2612,78 +2787,98 @@ function createMission(missionData) {
 }
 ```
 
-## 5.1.3.5. TypeScript / Angular
+#### 5.1.3.5. Vue / PrimeVue
 
-Convenciones:
+Convenciones (alineadas con la Vue Style Guide):
+
+| Elemento | Convención | Ejemplo |
+|---|---|---|
+| Componente (nombre) | PascalCase | `MissionList` |
+| Componente (archivo) | PascalCase | `MissionList.vue` |
+| Prop | camelCase | `missionStatus` |
+| Evento emitido | kebab-case | `mission-created` |
+| Variable / referencia reactiva | camelCase | `missionList` |
+| Método | camelCase | `createMission()` |
+| Constante | UPPER_SNAKE_CASE | `API_BASE_URL` |
+| Composable | camelCase con prefijo `use` | `useMissionService` |
+| Carpeta de servicios | kebab-case | `mission-service` |
+
+Ejemplo (Composition API con `<script setup>`):
+
+```vue
+<script setup>
+import { ref } from "vue";
+import { createMission } from "@/services/mission-service";
+
+const missionStatus = ref("PENDING");
+
+async function handleCreateMission(mission) {
+  await createMission(mission);
+}
+</script>
+
+<template>
+  <section class="mission-summary">
+    <Button label="Create Mission" @click="handleCreateMission" />
+  </section>
+</template>
+```
+
+El uso de componentes de PrimeVue (`Button`, `DataTable`, `Dialog`, entre otros) debe respetar el Design System establecido en el capítulo de Style Guidelines, basado en Material Design.
+
+#### 5.1.3.6. C# / ASP.NET Core
+
+Convenciones (alineadas con C# Coding Conventions y Microsoft ASP.NET Core Coding Guidelines):
 
 | Elemento | Convención | Ejemplo |
 |---|---|---|
 | Clase | PascalCase | `MissionService` |
-| Interface | PascalCase | `Mission` |
-| Variable | camelCase | `missionStatus` |
-| Método | camelCase | `createMission()` |
-| Constante | UPPER_SNAKE_CASE | `API_BASE_URL` |
-| Archivo | kebab-case | `mission.service.ts` |
-| Componente | kebab-case | `mission-list` |
+| Interfaz | PascalCase con prefijo `I` | `IMissionService` |
+| Método | PascalCase | `CreateMission()` |
+| Propiedad | PascalCase | `MissionStatus` |
+| Variable local / parámetro | camelCase | `missionStatus` |
+| Constante | PascalCase | `MaxMissionDuration` |
+| Namespace | PascalCase | `AgriDron.Mission` |
+| DTO | PascalCase + Dto | `MissionResponseDto` |
+| Entidad (Entity Framework Core) | PascalCase | `Mission` |
 
-Ejemplo:
-
-```typescript
-export interface Mission {
-  id: number;
-  parcelId: number;
-  scheduledDate: string;
-  status: MissionStatus;
-}
-
-export class MissionService {
-  createMission(mission: Mission): void {
-    // implementation
-  }
-}
-```
-
-## 5.1.3.6. Java / Spring Boot
-
-Convenciones:
-
-| Elemento | Convención | Ejemplo |
-|---|---|---|
-| Class | PascalCase | `MissionService` |
-| Method | camelCase | `createMission()` |
-| Variable | camelCase | `missionStatus` |
-| Constant | UPPER_SNAKE_CASE | `MAX_MISSION_DURATION` |
-| Package | lowercase | `com.agridron.mission` |
-| DTO | PascalCase + DTO | `MissionResponseDTO` |
-| Entity | PascalCase | `Mission` |
-
-La estructura del backend seguirá una separación lógica entre:
+La estructura del backend seguirá una separación lógica entre capas, propia de ASP.NET Core:
 
 ```text
-controller/
-service/
-domain/
-repository/
-dto/
-config/
-exception/
+Controllers/
+Services/
+Domain/
+Repositories/
+DTOs/
+Data/          (DbContext de Entity Framework Core)
+Configuration/
+Exceptions/
 ```
 
 Ejemplo:
 
-```java
-@RestController
-@RequestMapping("/api/missions")
-public class MissionController {
+```csharp
+[ApiController]
+[Route("api/[controller]")]
+public class MissionsController : ControllerBase
+{
+    private readonly IMissionService _missionService;
 
-  @GetMapping("/{id}")
-  public MissionResponseDTO getMission(@PathVariable Long id) {
-    return missionService.getMission(id);
-  }
+    public MissionsController(IMissionService missionService)
+    {
+        _missionService = missionService;
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<MissionResponseDto>> GetMission(int id)
+    {
+        var mission = await _missionService.GetMissionAsync(id);
+        return Ok(mission);
+    }
 }
 ```
 
-## 5.1.3.7. API REST
+#### 5.1.3.7. API REST
 
 Los endpoints utilizarán nombres de recursos en plural y en inglés.
 
@@ -2711,7 +2906,7 @@ Se utilizarán los verbos HTTP según la operación:
 | PATCH | Actualizar parcialmente un recurso. |
 | DELETE | Eliminar un recurso. |
 
-## 5.1.3.8. Documentación y lenguaje
+#### 5.1.3.8. Documentación y lenguaje
 
 El idioma por defecto definido para los mensajes, interfaz de usuario e interfaz de documentación de los productos de la solución es **inglés**.
 
@@ -2727,13 +2922,13 @@ Por lo tanto:
 
 ### 5.1.4. Software Deployment Configuration
 
-## 5.1.4.1. Objetivo
+#### 5.1.4.1. Objetivo
 
 El despliegue permitirá publicar los productos de AgriDron Solutions en plataformas cloud y automatizar progresivamente el proceso de entrega.
 
 El Project Statement establece que esta configuración debe contemplar la creación de cuentas, configuración de recursos en proveedores cloud y configuración de proyectos de desarrollo para integración o automatización del deployment. El proceso debe considerar los productos **Landing Page, Web Applications y Web Services**.
 
-## 5.1.4.2. Arquitectura de despliegue
+#### 5.1.4.2. Arquitectura de despliegue
 
 Se propone separar los componentes desplegables de acuerdo con la arquitectura del sistema:
 
@@ -2744,8 +2939,8 @@ flowchart TB
 
   subgraph Cloud["Cloud Environment"]
     Landing["Landing Page"]
-    Frontend["Angular Frontend"]
-    Backend["Spring Boot REST API"]
+    Frontend["Vue Frontend"]
+    Backend["ASP.NET Core REST API"]
     Database[("Relational Database")]
   end
 
@@ -2762,7 +2957,7 @@ flowchart TB
   GitHub -->|"CI/CD"| Backend
 ```
 
-## 5.1.4.3. Ambientes
+#### 5.1.4.3. Ambientes
 
 Se utilizarán tres ambientes conceptuales:
 
@@ -2790,7 +2985,7 @@ main
 Production
 ```
 
-## 5.1.4.4. Integración continua
+#### 5.1.4.4. Integración continua
 
 El repositorio podrá utilizar **GitHub Actions** para automatizar las tareas de integración y despliegue.
 
@@ -2821,15 +3016,15 @@ flowchart LR
 ```text
 Checkout
 ↓
-Install dependencies
+Restore .NET dependencies
 ↓
 Run unit tests
 ↓
 Run integration tests
 ↓
-Build Spring Boot application
+Build ASP.NET Core application (dotnet build)
 ↓
-Package application
+Publish application (dotnet publish)
 ↓
 Deploy
 ```
@@ -2845,7 +3040,7 @@ Run lint
 ↓
 Run tests
 ↓
-Build Angular application
+Build Vue application (vite build)
 ↓
 Deploy
 ```
@@ -2862,7 +3057,7 @@ Build / prepare static assets
 Deploy
 ```
 
-## 5.1.4.5. Variables y secretos
+#### 5.1.4.5. Variables y secretos
 
 Las credenciales, API keys, tokens y contraseñas no deberán almacenarse directamente en el repositorio.
 
@@ -2882,7 +3077,7 @@ Los valores reales no se incluirán en archivos versionados.
 
 GitHub permite asociar secretos y variables a ambientes de despliegue. Además, los ambientes pueden restringir qué branches o tags tienen autorización para realizar deployments y pueden aplicar reglas de protección.
 
-## 5.1.4.6. Configuración de base de datos
+#### 5.1.4.6. Configuración de base de datos
 
 La base de datos relacional se desplegará como un servicio administrado o recurso equivalente dentro del proveedor cloud seleccionado.
 
@@ -2908,7 +3103,7 @@ DB_USER
 DB_PASSWORD
 ```
 
-## 5.1.4.7. Configuración de la API meteorológica
+#### 5.1.4.7. Configuración de la API meteorológica
 
 La API meteorológica será consumida exclusivamente desde el Backend.
 
@@ -2928,7 +3123,7 @@ WEATHER_API_KEY
 
 El Frontend no deberá contener directamente la clave privada del proveedor meteorológico.
 
-## 5.1.4.8. Estrategia de deployment
+#### 5.1.4.8. Estrategia de deployment
 
 La estrategia propuesta es:
 
@@ -2957,7 +3152,7 @@ flowchart TD
   I --> J["Production"]
 ```
 
-## 5.1.4.9. Trazabilidad del deployment
+#### 5.1.4.9. Trazabilidad del deployment
 
 Cada versión desplegada deberá poder relacionarse con:
 
@@ -2985,85 +3180,178 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 #### 5.2.1.1. Sprint Planning 1
 
-**Objetivo del Sprint:**
+A continuación se presenta el resumen del Sprint Planning Meeting del Sprint 1, siguiendo la estructura establecida en el Project Statement.
 
-[OBJETIVO.]
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | [YYYY-MM-DD] |
+| Time | [HH:MM AM/PM] |
+| Location | [Descripción de la ubicación de la reunión, física o virtual] |
+| Prepared By | [Apellidos y Nombres del Team Leader] |
+| Attendees (to planning meeting) | [Apellidos y Nombres de todos los asistentes] |
+| Sprint n − 1 Review Summary | No aplica (Sprint 1 es el primer Sprint del proyecto). |
+| Sprint n − 1 Retrospective Summary | No aplica (Sprint 1 es el primer Sprint del proyecto). |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | [Redactar el Sprint Goal siguiendo el template: "Our focus is on \<Outcome\>. We believe it delivers \<Impact\> to \<Customer(s)\>. This will be confirmed when \<Event happens\>."] |
+| Sprint 1 Velocity | [Cantidad de Story Points que el equipo puede aceptar en este Sprint] |
+| Sum of Story Points | [Suma de Story Points de los User Stories incluidos en este Sprint] |
 
-**Fecha de inicio:** [FECHA]
-
-**Fecha de finalización:** [FECHA]
-
-**Meta del Sprint:**
-
-[DESCRIPCIÓN.]
+> El Sprint Goal debe enfocarse en el negocio o en los usuarios (por ejemplo, entregar un feature o feature-set), sin detallar cómo se implementará ni referirse a la satisfacción de un integrante del equipo o a un ítem cerrado en la herramienta de gestión.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Aspecto | Líder | Colaboradores |
-| :--- | :--- | :--- |
-| [ASPECTO] | [NOMBRE] | [NOMBRES] |
-| [ASPECTO] | [NOMBRE] | [NOMBRES] |
+Para el Sprint 1, los principales aspectos considerados dentro del alcance funcional de la solución son: Landing Page, gestión de parcelas, planificación de misiones e integración con la API meteorológica. Para cada uno de estos aspectos se identifica un líder (L) y uno o más colaboradores (C) mediante la matriz Leadership-and-Collaboration (LACX):
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Field Management | Mission Planning | Weather Integration |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [Apellidos, Nombres] | [usuario-github] | L | C | C | — |
+| [Apellidos, Nombres] | [usuario-github] | C | L | C | — |
+| [Apellidos, Nombres] | [usuario-github] | C | C | L | C |
+| [Apellidos, Nombres] | [usuario-github] | — | — | C | L |
+
+> La organización de líderes y colaboradores debe guardar relación con la posterior asignación de tasks en el Sprint Backlog.
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| ID | User Story | Tarea | Responsable | Estado |
-| :--- | :--- | :--- | :--- | :--- |
-| US-001 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
-| US-002 | [USER STORY] | [TAREA] | [NOMBRE] | [ESTADO] |
+El Sprint 1 tiene como objetivo principal [resumen del objetivo del Sprint]. El Board del Sprint se gestiona en [Trello / Jira / YouTrack]: `[PEGAR URL PÚBLICO DEL BOARD]`.
+
+![Board del Sprint 1](assets/evidences/sprint1_board.png)
+
+| Sprint # | Sprint 1 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US-001 | [Título del User Story] | T-001 | [Título de la Task] | [Descripción de la Task] | [N] | [Apellidos, Nombres] | [To-do / In-Process / To-Review / Done] |
+| US-001 | [Título del User Story] | T-002 | [Título de la Task] | [Descripción de la Task] | [N] | [Apellidos, Nombres] | [To-do / In-Process / To-Review / Done] |
+| US-002 | [Título del User Story] | T-003 | [Título de la Task] | [Descripción de la Task] | [N] | [Apellidos, Nombres] | [To-do / In-Process / To-Review / Done] |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DEL DESARROLLO.]
+Durante el Sprint 1 se avanzó en la implementación de [resumen de los principales avances: Landing Page, gestión de parcelas, planificación de misiones, etc.] sobre los repositorios de Landing Page, Frontend Web Application y Web Services.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [usuario/AgriDron-LandingPage-7760-G3] | `feature/landing-hero-section` | `[hash]` | `feat: add landing hero section` | [Descripción del cambio] | [DD/MM/YYYY] |
+| [usuario/AgriDron-FrontEnd-7760-G3] | `feature/field-management` | `[hash]` | `feat: add parcel registration form` | [Descripción del cambio] | [DD/MM/YYYY] |
+| [usuario/AgriDron-BackEnd-7760-G3] | `feature/field-management` | `[hash]` | `feat: add parcel entity and repository` | [Descripción del cambio] | [DD/MM/YYYY] |
 
 ![Evidencia de desarrollo](assets/evidences/sprint1_development.png)
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-[PEGAR AQUÍ CAPTURAS / EVIDENCIAS DE EJECUCIÓN.]
+En este Sprint se implementaron y ejecutaron las siguientes vistas: [listar vistas/pantallas implementadas]. A continuación se presentan capturas de las principales vistas alcanzadas.
 
 ![Evidencia de ejecución](assets/evidences/sprint1_execution.png)
 
+**Video de navegación:** `[PEGAR ENLACE PRIVADO EN MICROSOFT STREAM]`
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-[PEGAR AQUÍ LA DOCUMENTACIÓN / EVIDENCIA DE SERVICIOS.]
+Durante el Sprint 1 se documentaron los siguientes endpoints con OpenAPI Specification vía Swagger, correspondientes al bounded context de gestión de parcelas.
+
+| Endpoint            | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | Explicación |
+|:--------------------| :--- | :--- | :--- | :--- | :--- |
+| `/api/parcels`      | GET | `GET /api/parcels` | `farmId` (query, opcional) | `[{ "id": 1, "name": "Parcel A", "areaHectares": 12.5 }]` | Devuelve la lista de parcelas registradas, opcionalmente filtradas por finca. |
+| `/api/parcels`      | POST | `POST /api/parcels` | Body: `{ "name": "string", "areaHectares": "number", "farmId": "int" }` | `{ "id": 2, "name": "Parcel B", "areaHectares": 8.0 }` | Registra una nueva parcela asociada a una finca. |
+| `/api/parcels/{id}` | GET | `GET /api/parcels/{id}` | `id` (path) | `{ "id": 1, "name": "Parcel A", "areaHectares": 12.5 }` | Devuelve el detalle de una parcela específica. |
+
+![Documentación Swagger - Endpoints de parcelas](assets/evidences/sprint1_swagger.png)
+
+**Repositorio de Web Services:** `[PEGAR URL DEL REPOSITORIO]`
+
+**Commits relacionados con documentación en este Sprint:**
+
+| Commit Id | Commit Message                                       |
+|:----------|:-----------------------------------------------------|
+| `[hash]`  | `docs: add OpenAPI annotations for parcel endpoints` |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-[PEGAR AQUÍ LA EVIDENCIA DEL DESPLIEGUE.]
+Durante el Sprint 1 se realizaron las siguientes actividades relacionadas con Deployment: creación de cuentas en el proveedor cloud seleccionado, configuración de los recursos iniciales para el Landing Page y configuración del proyecto para automatizar el despliegue mediante GitHub Actions.
+
+[Describir paso a paso lo realizado: creación de cuenta, configuración de recursos, variables de entorno, primer despliegue exitoso, etc.]
+
+![Evidencia de configuración de recursos cloud](assets/evidences/sprint1_deployment_setup.png)
+
+![Evidencia de primer despliegue del Landing Page](assets/evidences/sprint1_deployment_result.png)
+
+**URL desplegada (Landing Page):** `[PEGAR URL DE DESPLIEGUE]`
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-[DESCRIBIR LA COLABORACIÓN DURANTE EL SPRINT.]
+[Describir cómo se desarrollaron las actividades de implementación durante el Sprint 1, precisando la forma de trabajo del equipo (pair programming, revisión de Pull Requests, reuniones diarias, etc.). Debe evidenciarse que todos los integrantes del equipo tuvieron participación en la implementación de los productos correspondientes a este Sprint: Landing Page, Frontend Web Application y/o Web Services.]
 
-![Evidencia de colaboración del Sprint](assets/evidences/sprint1_collaboration.png)
+![Analíticos de colaboración y commits en GitHub - Sprint 1](assets/evidences/sprint1_collaboration.png)
+
+> Esta sección debe expandirse en cada Sprint y ser coherente con las evidencias de commits presentadas en la sección 5.2.n.4.
 
 ---
 
 ## 5.3. Validation Interviews
 
-### 5.3.1. Interview Design
+> Esta sección corresponde a las entregas en las que se cuenta con Landing Page y prototipos/productos desplegados para validar (AV2 / TB2). El equipo debe realizar entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el Landing Page y las aplicaciones.
 
-[DESCRIBIR EL DISEÑO DE LAS ENTREVISTAS DE VALIDACIÓN.]
+### 5.3.1. Diseño de Entrevistas
 
-### 5.3.2. Interview Registry
+Para cada segmento objetivo se especifican los elementos a validar en el Landing Page y en las aplicaciones, así como los user flows que forman parte del proceso de validación.
 
-[REGISTRAR LAS ENTREVISTAS DE VALIDACIÓN.]
+| Segmento     | Elementos a validar en Landing Page | User Flows a validar en la aplicación |
+|:-------------|:------------------------------------|:--------------------------------------|
+| [Segmento 1] | [Secciones, call-to-action, etc.]   | [User Flow 1, User Flow 2]            |
+| [Segmento 2] | [Secciones, call-to-action, etc.]   | [User Flow 1, User Flow 2]            |
 
-### 5.3.3. Heuristic Evaluations
+### 5.3.2. Registro de Entrevistas
 
-[PEGAR AQUÍ LOS RESULTADOS DE LAS EVALUACIONES HEURÍSTICAS.]
+Se requieren de 3 a 5 entrevistas por segmento objetivo. Cada entrevista debe registrarse en video (ver Anexo C del Project Statement: Videos de Exposiciones) y resumirse a continuación.
+
+**Entrevista N° [N] — Segmento: [Segmento]**
+
+- **Nombres y apellidos:** [Nombre]
+- **Edad:** [Edad]
+- **Distrito:** [Distrito]
+- **Fecha:** [Fecha]
+- **Timing en el video consolidado:** [hh:mm:ss] — **Duración:** [mm:ss]
+
+![Captura de la entrevista](assets/evidences/validation_interview_[n].png)
+
+**Resumen:** [Descripción de las principales apreciaciones del entrevistado con respecto a las tareas asignadas al interactuar con el Landing Page y la aplicación.]
+
+> Repetir esta estructura para cada entrevista (3 a 5 por segmento).
+
+**Video consolidado de entrevistas de validación:** `[PEGAR ENLACE PRIVADO EN MICROSOFT STREAM]`
+
+### 5.3.3. Evaluaciones según Heurísticas
+
+Se aplica el formato de evaluación heurística indicado en el Anexo D del Project Statement (Usability, Inclusive Design, Information Architecture), cubriendo las tareas evaluadas durante las sesiones de validación.
+
+**Tareas evaluadas:** [Listar las tareas incluidas en el alcance de la evaluación, p. ej. registro de usuario, planificación de misión, consulta de reporte, etc.]
+
+**Tabla resumen de problemas encontrados:**
+
+| #     | Problema                   | Escala de severidad | Heurística / Principio violado                                                   |
+|:------|:---------------------------|:--------------------|:---------------------------------------------------------------------------------|
+| 1     | [Descripción del problema] | [1-4]               | [Usability / Inclusive Design / Information Architecture: heurística específica] |
+| 2     | [Descripción del problema] | [1-4]               | [Heurística específica]                                                          |
+
+**Descripción de problemas:** para cada problema de la tabla, incluir severidad, heurística violada, descripción detallada con captura de pantalla y recomendación de mejora, siguiendo el formato del Anexo D.
 
 ---
 
 ## 5.4. Video About-the-Product
 
-**Enlace al video:**
+El Video About-the-Product tiene un enfoque promocional, dirigido tanto a visitantes del Landing Page como a usuarios de las aplicaciones. Resume el modelo de negocio, las características y beneficios de AgriDron Solutions, e incluye escenas de interacción con el producto y al menos un testimonio positivo por cada segmento objetivo, obtenido durante las entrevistas de validación.
 
-[PEGAR AQUÍ EL ENLACE AL VIDEO]
+![Captura representativa del video](assets/evidences/about_the_product.png)
 
-**Descripción:**
+- **Duración:** [1 a 3 minutos]
+- **URL en Microsoft Stream (enlace privado):** `[PEGAR ENLACE]`
+- **URL en YouTube (para incrustar en el Landing Page):** `[PEGAR ENLACE]`
 
-[DESCRIBIR BREVEMENTE EL CONTENIDO DEL VIDEO.]
+**Descripción del contenido:**
+
+[Describir brevemente la estructura del video: presentación del modelo de negocio, demostración de funcionalidades clave, testimonios por segmento, cierre.]
+
+> El video debe estar incrustado en una sección adecuada del Landing Page, además de estar publicado en Microsoft Stream y YouTube.
 
 ---
 
@@ -3071,25 +3359,37 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 
 ## Conclusión 1
 
-[PEGAR AQUÍ LA CONCLUSIÓN.]
+El proceso de Lean UX y Needfinding aplicado durante esta primera etapa permitió confirmar la existencia del problema planteado en el Problem Statement: los dos segmentos objetivo identificados —Agricultores y Administradores de Fincas, y Operadores Técnicos y Proveedores de Fumigación con Drones— dependen actualmente de métodos manuales (cuadernos de campo, hojas de Excel dispersas y coordinación por WhatsApp) para delimitar parcelas, planificar fumigaciones y sustentar el trabajo realizado ante el cliente. Las entrevistas evidenciaron de forma consistente (100% de los casos en ambos segmentos) pérdidas económicas por deriva de producto ante vientos imprevistos y ausencia de un registro digital confiable, lo cual valida las Business Assumptions y User Assumptions planteadas en el Lean UX Canvas y da sustento a la propuesta de valor de AgriDron Solutions frente a competidores como DroneDeploy, Climate FieldView y Agrivi, cuyas soluciones no están diseñadas para predios pequeños y medianos.
 
 ## Conclusión 2
 
-[PEGAR AQUÍ LA CONCLUSIÓN.]
+El diseño de la solución, incluyendo la Arquitectura de Software (C4 Model), el Diseño Orientado a Objetos y el Diseño de Base de Datos, se estructuró en coherencia directa con los Bounded Contexts identificados en el Event Storming (Field Management, Flight Operations, Weather Integration y Analytics & Reporting) y con las User Stories priorizadas en el Product Backlog. La decisión de implementar el Frontend con Vue y PrimeVue, y los Web Services con ASP.NET Core y C# sobre una base de datos relacional, responde a los lineamientos tecnológicos establecidos para el curso y permite una separación clara de responsabilidades entre la Landing Page, la Web Application y la API RESTful, facilitando el desarrollo incremental por Sprints.
+
+## Conclusión 3
+
+Durante el Sprint 1 el equipo logró desplegar la primera versión del Landing Page, cumpliendo con el alcance mínimo exigido para esta entrega (AV1), y estableció la configuración base del entorno de desarrollo, el flujo de trabajo en GitHub bajo GitFlow, Conventional Commits y Semantic Versioning, y la configuración inicial del pipeline de despliegue. Esto sienta una base ordenada de Software Configuration Management sobre la cual se apoyará la implementación de la Frontend Web Application y los Web Services en los siguientes Sprints.
 
 ## Recomendaciones
 
-[PEGAR AQUÍ LAS RECOMENDACIONES.]
+- Completar y validar con mayor profundidad los perfiles "Desconocido" registrados en el Registro de Entrevistas (fechas, edades y distritos pendientes), de modo que el Análisis de Entrevistas y los User Personas queden totalmente sustentados antes de la siguiente entrega.
+- Priorizar en el Sprint 2 las User Stories relacionadas con la delimitación de parcelas sobre mapa satelital y las alertas meteorológicas automáticas, dado que ambos segmentos las calificaron como el mayor diferenciador frente a sus métodos actuales.
+- Avanzar en paralelo con el despliegue de la primera versión de la Frontend Web Application, de forma que en TB1 se cuente con una experiencia end-to-end mínima entre Landing Page y Web Application, tal como exige el enunciado del trabajo final.
+- Reforzar la evidencia de colaboración en GitHub (commits y Pull Requests) de todos los integrantes del equipo desde el Sprint 2, para sustentar de forma más completa la sección de Student Outcome y el Team Collaboration Insights.
+- Iniciar la implementación de los primeros endpoints del RESTful API documentados con Swagger/OpenAPI, priorizando el bounded context de Field Management, para no acumular carga de desarrollo del backend hacia el final del ciclo de vida del proyecto.
 
 ---
 
 # Bibliografía
 
-> Registrar las fuentes utilizadas siguiendo el formato APA 7.
+> Fuentes utilizadas, registradas siguiendo el formato APA 7ª edición, en orden alfabético por apellido del primer autor.
 
-1. [REFERENCIA APA 7]
-2. [REFERENCIA APA 7]
-3. [REFERENCIA APA 7]
+1. García-Munguía, A., Guerra-Ávila, P. L., Islas-Ojeda, E., Flores-Sánchez, J. L., Vázquez-Martínez, O., García-Munguía, A. M., & García-Munguía, O. (2024). A review of drone technology and operation processes in agricultural crop spraying. *Drones*, *8*(11), 674. https://doi.org/10.3390/drones8110674
+
+2. Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). *Acerca de producción y protección vegetal*. FAO. Recuperado el 21 de febrero de 2025, de https://www.fao.org/plant-production-protection/about/es
+
+3. Safaeinejad, M., Karami, H., Ranjbar, S., Bakhoda, H., & Ahmadi, E. (2025). Reducing energy and environmental footprint in agriculture: A study on drone spraying vs conventional methods. *PLOS ONE*, *20*(9), e0323779. https://doi.org/10.1371/journal.pone.0323779
+
+4. Zhang, Y., Li, H., Torres-Sánchez, J., & García, C. (2024). Drones in precision agriculture: A comprehensive review of applications, technologies, and challenges. *Drones*, *8*(11), 686. https://doi.org/10.3390/drones8110686
 
 ---
 
@@ -3106,5 +3406,4 @@ Esto permite identificar qué cambios forman parte de una versión determinada y
 ## Anexo C: Otros
 
 [AGREGAR OTROS ANEXOS SI CORRESPONDE.]
-
 
