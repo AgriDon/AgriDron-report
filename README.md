@@ -327,18 +327,18 @@ Pilares de valor:
     </td>
   </tr>
   <tr>
-    <td><b>Nombre:</b> Sayago Vidal, Sebastian Leonardo</td>
+    <td><b>Nombre:</b> Jara Espinoza, Miguel Angel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202422642 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202512856 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto.
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Aporto con mis conocimientos en lean ux y en gitlow
     </td>
   </tr>
   <tr>
