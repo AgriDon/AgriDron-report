@@ -383,97 +383,50 @@ El usuario podrá registrar sus fincas y parcelas, seleccionar en un mapa el ár
 
 ### 1.2.1. Antecedentes y problemática
 
-1.2.1.1. What
-
-<p align="justify">
+#### 1.2.1.1. What
 
 El problema central es la presencia recurrente de plagas y parásitos en los cultivos, lo que reduce el rendimiento y la calidad de la cosecha. Los métodos tradicionales de fumigación, ya sean manuales o con tractor, pueden ser lentos, costosos e imprecisos. Además, pueden exponer a los trabajadores a productos químicos.
 
-</p>
-
-1.2.1.2. Where
-
-<p align="justify">
+#### 1.2.1.2. Where
 
 La problemática se presenta en terrenos agrícolas donde no existe una correcta gestión y monitoreo de las operaciones. Esto puede dificultar el control de plagas y afectar la producción.
 
-</p>
-
-1.2.1.3. When
-
-<p align="justify">
+#### 1.2.1.3. When
 
 El problema de las plagas ocurre principalmente durante las temporadas de crecimiento de los cultivos. El monitoreo y las aplicaciones de fumigación se realizan durante todo el ciclo de cultivo, ya sea de forma preventiva o cuando aparecen signos de infestación.
 
-</p>
-
-1.2.1.4. Who
-
-<p align="justify">
+#### 1.2.1.4. Who
 
 El ecosistema de AgriDron Solutions involucra a agricultores, cooperativas agrícolas, ingenieros agrónomos, técnicos de campo y operadores de drones. Los agricultores y cooperativas serán los principales clientes, mientras que el personal técnico podrá utilizar la plataforma para supervisar y gestionar las operaciones.
 
-</p>
-
-1.2.1.5. Why
-
-<p align="justify">
+#### 1.2.1.5. Why
 
 La causa principal es la falta de un sistema que permita gestionar y monitorear las operaciones de fumigación de forma centralizada. Esto puede generar pérdidas económicas y aumentar la exposición de los trabajadores a los riesgos de los métodos tradicionales.
 
-</p>
-
-1.2.1.6. How
-
-<p align="justify">
+#### 1.2.1.6. How
 
 AgriDron Solutions abordará esta problemática mediante una plataforma web que permita gestionar fincas y parcelas, seleccionar áreas de fumigación en un mapa, crear misiones con drones, consultar información meteorológica, monitorear los drones y revisar reportes e historial de operaciones.
 
-</p>
-
-1.2.1.7. How much
-
-<p align="justify">
+#### 1.2.1.7. How much
 
 Según la FAO (2023), se estima que hasta un 40% de la producción agrícola mundial se pierde cada año debido a plagas y enfermedades. Esto muestra la importancia de contar con mejores herramientas para el monitoreo y control de plagas.
 
-</p>
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Problem Statement 1
+El estado actual de **las operaciones de fumigación agrícola con drones** se ha enfocado principalmente en **agricultores y operadores que lidian con una coordinación manual, usando herramientas dispersas para la gestión de parcelas, la verificación del clima y careciendo de un monitoreo centralizado durante los vuelos**.
 
-<p align="justify">
+Lo que los productos o servicios existentes no logran abordar es **la necesidad de una plataforma unificada que integre la planificación previa al vuelo (mapeo y condiciones meteorológicas) con el seguimiento operativo y la generación de reportes históricos**.
 
-Los agricultores necesitan una forma centralizada de gestionar sus fincas, parcelas y áreas de fumigación, debido a que estas actividades forman parte de la planificación de sus operaciones con drones y pueden requerir coordinación manual.
+Nuestro producto o servicio abordará esta brecha al **proporcionar una plataforma web integral (AgriDron) que centraliza la selección de áreas mediante mapas interactivos, la integración de una API meteorológica externa, el monitoreo en tiempo real (simulado) de los drones y la generación automatizada de reportes de eficiencia**.
 
-</p>
+Nuestro enfoque inicial será **los pequeños y medianos agricultores independientes, así como los operadores y técnicos de drones agrícolas**.
 
-Problem Statement 2
+Sabremos que tenemos éxito cuando veamos **a los usuarios completar exitosamente el flujo de planificación de misiones de principio a fin, utilizar activamente el panel de monitoreo durante las operaciones y adoptar la plataforma de manera recurrente para consultar sus historiales y reportes de productividad**.
 
-<p align="justify">
 
-Los responsables de las operaciones de fumigación necesitan consultar las condiciones meteorológicas antes de realizar una misión, debido a que esta información es relevante para la planificación de la operación.
-
-</p>
-
-Problem Statement 3
-
-<p align="justify">
-
-Los responsables de una misión necesitan realizar un seguimiento del estado y ubicación del dron durante una operación, debido a que requieren conocer el progreso de la misión.
-
-</p>
-
-Problem Statement 4
-
-<p align="justify">
-
-Los usuarios necesitan consultar el historial y los reportes de las misiones realizadas, debido a que requieren mantener un registro de las operaciones de fumigación gestionadas.
-
-</p>
 
 #### 1.2.2.2. Lean UX Assumptions
 
