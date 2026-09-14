@@ -36,7 +36,7 @@ La plataforma permitirá registrar fincas y parcelas, seleccionar áreas de fumi
 | <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="150"/> | **Nombre:** Damacen Galindo, Italo Gianfranco <br> **Código:** U202421392 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                  |
 | <img src="assets/team/integrante_02.png" alt="Foto del integrante" width="150"/> | **Nombre:** Nicho Huillcánahui, Edwin Noe <br> **Código:** U20241G306 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                      |
 | <img src="assets/team/integrante_03.png" alt="Foto del integrante" width="150"/> | **Nombre:** Ramirez Gutierrez, Gabriel <br> **Código:** U202416053 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                         |
-| <img src="assets/team/integrante_04.png" alt="Foto del integrante" width="150"/> | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow |
+| <img src="../images/members/miguel.jpg" alt="Foto del integrante" width="150"/>  | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow |
 | <img src="assets/team/integrante_05.png" alt="Foto del integrante" width="150"/> | **Nombre:** Vasquez Roncal, Alexander Felipe <br> **Código:** U202222473 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                   |
 ## 1.2. Solution Profile
 ### 1.2.1.  Antecedentes y problemática
@@ -84,15 +84,99 @@ Nuestro enfoque inicial será **los pequeños y medianos agricultores independie
 Sabremos que tenemos éxito cuando veamos **a los usuarios completar exitosamente el flujo de planificación de misiones de principio a fin, utilizar activamente el panel de monitoreo durante las operaciones y adoptar la plataforma de manera recurrente para consultar sus historiales y reportes de productividad**.
 
 
-#### 1.2.2.2 Lean UX Assumptions
+
+#### 1.2.2.2. Lean UX Assumptions
+
+**1.2.2.2.1. Business Assumptions**
+* Creemos que la plataforma se posicionará como una herramienta de apoyo indispensable al centralizar la información dispersa de fincas, parcelas y misiones.
+* Creemos que nuestro modelo de negocio es viable ofreciendo un periodo de prueba gratuito que actuará como puente para la conversión a planes de pago.
+
+**1.2.2.2.2. Business Outcome Assumptions**
+* Creemos que lograremos una reducción del 40% en el tiempo y costo de la aplicación de pesticidas frente a los métodos tradicionales.
+* Creemos que facilitaremos una reducción en el tiempo de respuesta ante infestaciones de plagas gracias a la gestión y monitoreo continuo.
+* Creemos que alcanzaremos un aumento del 25% en la retención de clientes después del primer ciclo de cultivo utilizando la plataforma.
+* Creemos que obtendremos un incremento del 40% en la adopción de funciones premium tras el periodo de prueba gratuito.
+
+**1.2.2.2.3. User Assumptions**
+* Creemos que nuestros usuarios principales son pequeños y medianos agricultores (PyMAs), así como ingenieros agrónomos, operadores de drones y técnicos de campo.
+* Creemos que los agricultores priorizan soluciones que les ahorren tiempo, y están dispuestos a adoptar nuevas tecnologías si la interfaz es clara, intuitiva y requiere entrenamiento mínimo.
+* Creemos que el principal dolor de los usuarios es la falta de datos en tiempo real sobre las operaciones de fumigación, lo cual retrasa su toma de decisiones.
+* Creemos que los agricultores y técnicos preferirán planificar y supervisar operaciones desde dispositivos móviles, debido a la lejanía geográfica de las zonas de cultivo.
+
+**1.2.2.2.4. User Outcome and Benefit Assumptions**
+* Creemos que los usuarios lograrán evitar pérdidas económicas por plagas al tener un control total y centralizado de sus campos y parcelas.
+* Creemos que los responsables de la misión tomarán mejores decisiones al acceder a datos en tiempo real (antes, durante y después de la operación).
+* Creemos que los agricultores mejorarán significativamente su productividad y rentabilidad por hectárea.
+* Creemos que los operadores y trabajadores de campo se beneficiarán enormemente al reducir su exposición directa a productos químicos peligrosos.
+
+**1.2.2.2.5. Feature Assumptions**
+* Creemos que implementar un mapa interactivo resolverá la dificultad para definir con precisión las áreas y límites de fumigación.
+* Creemos que integrar una API externa para la consulta de condiciones meteorológicas es indispensable para planificar vuelos seguros y efectivos.
+* Creemos que un módulo de monitoreo (con datos simulados) permitirá realizar un seguimiento exacto del estado y ubicación de los drones autónomos.
+* Creemos que la generación de historiales y reportes automáticos (mostrando área cubierta, insumos usados y tiempo) será la herramienta clave para la gestión posterior a los vuelos.
 
 
-#### 1.2.2.3 Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 1 (Feature: Mapa interactivo)**
+We believe we will achieve a 40% reduction in time and cost of pesticide application
+If small and medium farmers
+Attain precise control and definition of their fumigation areas and parcel limits
+With an interactive map module for mission planning.
+
+**Hypothesis Statement 2 (Feature: API meteorológica externa)**
+We believe we will achieve a significant reduction in response time to pest infestations and flight cancellations
+If drone operators and field technicians
+Attain the ability to plan safe, effective, and weather-aware flights
+With a third-party weather API integration.
+
+**Hypothesis Statement 3 (Feature: Módulo de monitoreo con datos simulados)**
+We believe we will achieve a 25% increase in customer retention after the first crop cycle
+If farmers and agronomists
+Attain real-time visibility, peace of mind, and exact tracking of operations
+With a real-time drone monitoring module using simulated telemetry.
+
+**Hypothesis Statement 4 (Feature: Historial y reportes automáticos)**
+We believe we will achieve a 40% increase in the adoption of premium features after the free trial
+If farmers and agronomists
+Attain better post-flight management, productivity insights, and profitability
+With an automated reporting and history module that details covered areas, used inputs, and flight time.
 
 #### 1.2.2.4 Lean UX Canvas
 
-#### 1.2.2.4. Lean UX Canvas.
+| 1. Business Problem                                                                                                                                                                                                                                                                                                                                                                                                                                              | 5. Solutions (Features)                                                                                                                                                                                                                              | 2. Business Outcomes                                                                                                                                                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| El estado actual de la fumigación con drones sufre de coordinación manual y herramientas dispersas para gestionar parcelas, verificar el clima y monitorear vuelos. Se necesita una plataforma unificada (AgriDron) que centralice la planificación previa al vuelo, el seguimiento en tiempo real y la generación de reportes.                                                                                                                                  | - Mapa interactivo para definir áreas de fumigación.<br>- Integración de API meteorológica externa.<br>- Módulo de monitoreo en tiempo real (datos simulados).<br>- Generador de historiales y reportes automáticos de productividad.                | - Reducción del 40% en el tiempo y costo de aplicación de pesticidas.<br>- Reducción del tiempo de respuesta ante infestaciones.<br>- Aumento del 25% en la retención de clientes tras el primer ciclo.<br>- Incremento del 40% en adopción de funciones premium. |
+| **3. Users / Personas**                                                                                                                                                                                                                                                                                                                                                                                                                                          | **7. Most Important Learning**                                                                                                                                                                                                                       | **4. User Outcomes & Benefits**                                                                                                                                                                                                                                   |
+| - Pequeños y medianos agricultores (PyMAs).<br>- Ingenieros agrónomos.<br>- Operadores de drones agrícolas.<br>- Técnicos de campo.                                                                                                                                                                                                                                                                                                                              | Necesitamos validar si los agricultores y operadores de campo están dispuestos a abandonar sus métodos tradicionales (o herramientas dispersas) para adoptar una interfaz digital centralizada en dispositivos móviles para planificar sus misiones. | - Evitar pérdidas económicas por plagas.<br>- Control total y preciso sobre los límites de sus parcelas.<br>- Planificación de vuelos seguros gracias a datos climáticos.<br>- Reducción de la exposición a productos químicos peligrosos.                        |
+| **6. Hypotheses**                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                      | **8. Least Effort to Learn**                                                                                                                                                                                                                                      |
+| - Si brindamos un mapa interactivo a los agricultores, lograrán un control preciso, reduciendo costos y tiempos.<br>- Si integramos una API de clima para los operadores, planificarán vuelos seguros, reduciendo cancelaciones.<br>- Si ofrecemos monitoreo en tiempo real, los agricultores tendrán visibilidad exacta, aumentando la retención.<br>- Si automatizamos los reportes, mejorará la gestión post-vuelo, impulsando la adopción de planes premium. |                                                                                                                                                                                                                                                      | Construir prototipos navegables (Wireframes/Mockups) del flujo crítico: registro de finca, dibujo de parcela en mapa, verificación del clima y monitoreo de un dron, para probarlos directamente con agricultores en entrevistas de validación de necesidades.    |lo de suscripción con beneficios por segmento hará más viable el producto.<br>- Creemos que una interfaz clara y separada por rol facilitará la adopción por parte de restaurantes y proveedores. |                                                                                                                                                                                                                                                                                                                                               | - Construir un prototipo navegable de baja fidelidad con login, dashboard de inventario, alertas, pedidos y vista de demanda.<br>- Probarlo con entrevistas a dueños de chifas y proveedores para validar interés, utilidad y claridad de uso.                                                                                           |
 
 
 ## 1.3 Segmentos Objetivo
+
+1.3.1. Pequeños y Medianos Agricultores (PyMAs)
+
+Este es el segmento principal de AgriDron Solutions. Está conformado por productores agrícolas con extensiones de 5 a 50 hectáreas, que cultivan principalmente para el mercado local y regional. Pueden trabajar de forma independiente o agrupados en cooperativas y buscan reducir costos y proteger el rendimiento de sus cultivos.
+
+
+Características cuantitativas: edad entre 28 y 60 años, extensión de cultivo de 5 a 50 hectáreas, nivel educativo variado desde educación básica hasta técnica, familiaridad tecnológica media-baja, con adopción creciente de smartphones.
+
+
+Características cualitativas: su principal motivación es reducir costos y mejorar el rendimiento de sus cultivos. Sus principales problemas son las pérdidas por plagas, los costos de mano de obra y la falta de información para tomar decisiones.
+
+
+Relación con la solución: este segmento utilizará la plataforma para gestionar fincas y parcelas, seleccionar áreas de fumigación en el mapa, crear misiones, consultar el clima y revisar reportes e historial de sus operaciones.
+
+1.3.2. Personal Técnico (Ingenieros Agrónomos y Técnicos de Campo)
+
+Este segmento está conformado por ingenieros agrónomos, técnicos agrícolas y operadores de drones. Son usuarios de la plataforma que se encargan de revisar la información, planificar las operaciones y supervisar las misiones de fumigación.
+
+
+Características cuantitativas: edad entre 22 y 45 años, formación técnica o universitaria en agronomía, ingeniería agrícola o carreras afines, experiencia de 1 a 15 años en campo, a cargo de la supervisión de múltiples parcelas o unidades productivas de forma simultánea.
+
+
+Características cualitativas: cuentan con mayor familiaridad tecnológica que el agricultor promedio y valoran herramientas que les ayuden a ahorrar tiempo. Su principal motivación es contar con información precisa para planificar las operaciones. Su principal problema es la dificultad para supervisar varios campos al mismo tiempo.
+
+
+Relación con la solución: este segmento utilizará la plataforma para revisar información de las operaciones, planificar y ejecutar misiones de fumigación mediante el software de control de drones y supervisar varias unidades productivas a la vez.
