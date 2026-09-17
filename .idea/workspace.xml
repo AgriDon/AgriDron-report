@@ -11,12 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc9ede4-9cb5-4560-89a2-537811ae1a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/awsToolkit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/images/members/Alejandro.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/front-matter/10-chapter-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/10-chapter-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/front-matter/2-registros.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/2-registros.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +28,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Alejandro-Choquehuanca"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alejandro-Choquehuanca&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AgriDon/AgriDron-report.git",
-    "accountId": "3fac8e1f-7617-4c49-96ae-5919437763cd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AgriDon/AgriDron-report.git&quot;,
+    &quot;accountId&quot;: &quot;3fac8e1f-7617-4c49-96ae-5919437763cd&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -50,23 +49,23 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.00000066113732" />
-      <entry key="S10" value="1.002581632675112" />
-      <entry key="S30" value="1.8061517185939056" />
-      <entry key="S60" value="4.565666958808808" />
-      <entry key="M2" value="9.360612559377728" />
-      <entry key="M5" value="26.866086928977378" />
-      <entry key="M10" value="56.5440148738794" />
-      <entry key="M15" value="77.28231156748114" />
-      <entry key="M30" value="109.44595310910233" />
-      <entry key="H1" value="133.6966072857645" />
-      <entry key="H2" value="151.59385998680716" />
-      <entry key="H4" value="164.25817987157123" />
-      <entry key="D1" value="178.543724464151" />
-      <entry key="W1" value="181.49139687586091" />
+      <entry key="MS100" value="1.8064798151724997" />
+      <entry key="MS500" value="4.561273831450876" />
+      <entry key="S2" value="8.948153292382232" />
+      <entry key="S5" value="12.143403197688308" />
+      <entry key="S10" value="13.852637274382367" />
+      <entry key="S30" value="16.504841052153495" />
+      <entry key="S60" value="19.00900355350268" />
+      <entry key="M2" value="21.337764280291328" />
+      <entry key="M5" value="23.337028023999654" />
+      <entry key="M10" value="24.964225772900736" />
+      <entry key="M15" value="29.136890724924577" />
+      <entry key="M30" value="52.738215982946045" />
+      <entry key="H1" value="95.2063312958109" />
+      <entry key="H2" value="139.2016838328038" />
+      <entry key="H4" value="173.04063785039872" />
+      <entry key="D1" value="211.67491862453466" />
+      <entry key="W1" value="219.62883548313266" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -88,56 +87,57 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794202975869268" />
-      <entry key="MS500" value="0.9958497530944581" />
-      <entry key="S2" value="0.998960819551523" />
-      <entry key="S5" value="0.9995848589913152" />
-      <entry key="S10" value="1.0023730493227945" />
-      <entry key="S30" value="1.8060035746556489" />
-      <entry key="S60" value="4.56545120670614" />
-      <entry key="M2" value="9.360377102499607" />
-      <entry key="M5" value="26.865762930298953" />
-      <entry key="M10" value="56.543619646096886" />
-      <entry key="M15" value="77.28193154551799" />
-      <entry key="M30" value="109.44566880278633" />
-      <entry key="H1" value="133.69642619129561" />
-      <entry key="H2" value="151.5937521486448" />
-      <entry key="H4" value="164.2581187721476" />
-      <entry key="D1" value="178.5437127749235" />
-      <entry key="W1" value="181.49139515916457" />
+      <entry key="MS100" value="1.7503370395197273" />
+      <entry key="MS500" value="4.53577065821093" />
+      <entry key="S2" value="8.936591742517216" />
+      <entry key="S5" value="12.137187243643533" />
+      <entry key="S10" value="13.849079913314647" />
+      <entry key="S30" value="16.503168328325263" />
+      <entry key="S60" value="19.007841021045223" />
+      <entry key="M2" value="21.33702285008521" />
+      <entry key="M5" value="23.336675335214906" />
+      <entry key="M10" value="24.96402708542368" />
+      <entry key="M15" value="29.136724907542373" />
+      <entry key="M30" value="52.73804680989461" />
+      <entry key="H1" value="95.20617137723895" />
+      <entry key="H2" value="139.20156359285235" />
+      <entry key="H4" value="173.04056125040478" />
+      <entry key="D1" value="211.6749025027232" />
+      <entry key="W1" value="219.62883307707213" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JL9T8ScGoVqGFI0bJVFx0CtQE9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/chapter4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/chapter4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8dc9ede4-9cb5-4560-89a2-537811ae1a85" name="Changes" comment="" />
@@ -166,6 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="commitpruebasunitarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="commitpruebasunitarias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
