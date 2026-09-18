@@ -9,146 +9,88 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 - Agrivi: Software integral de gestión de explotaciones agrícolas (Farm Management Software - FMS) basado en el modelo SaaS en la nube. Su funcionamiento abarca la planificación completa de labores agrícolas, administración de inventarios de insumos químicos, trazabilidad de cosechas y registro de costos de producción. Además, integra alertas meteorológicas basadas en modelos predictivos para advertir sobre el riesgo de plagas y enfermedades, permitiendo llevar una bitácora detallada de las actividades de campo.
 
 
-### 2.1.1. Análisis competitivo
-
-A continuación, se presenta el Competitive Analysis Landscape, cuyo objetivo es contrastar objetivamente las capacidades, fortalezas, debilidades y modelos comerciales de AgriDron Solutions frente a los competidores analizados:
+### 2.1.1. Análisis Competitivo
 
 #### Competitive Analysis Landscape
 
-| Criterio                                  | AgriDron Solutions                                                                                                                                                                                                                                                                                   | DroneDeploy                                                                                                               | Climate FieldView                                                                                                          | Agrivi                                                                                                                        |
-|:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| **¿Por qué llevar a cabo este análisis?** | El objetivo de este análisis es evaluar las soluciones digitales agropecuarias actuales para identificar brechas de mercado, validar nuestra ventaja competitiva en la planificación y monitoreo de fumigación con drones, y estructurar una oferta accesible para pequeños y medianos agricultores. | Analizar al referente global en gestión de operaciones y mapas con drones en la nube.                                     | Evaluar al líder en analítica agronómica, clima y prescripción digital de insumos.                                         | Analizar al líder SaaS en gestión administrativa, trazabilidad y control fitosanitario de campos.                             |
-| **Logo / Identificador**                  | ![AgriDron](report/images/competitores/Agridron_Logo.png)                                                                                                                                                                                                                                                                     | ![DroneDeploy](report/images/competitores/dronedeploy-logo.png)                                                                                | ![Climate FieldView](report/images/competitores/Climate_FieldView.jpg)                                                                   | ![Agrivi](report/images/competitores/agrivi.jpg)                                                                                           |
-| **Perfil**                                | Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones.                                                                                       | Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones.               | Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales.            | Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo.   |
-| **Ventaja competitiva**                   | Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario.                                                                                                                         | Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales.      | Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites.                 | Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo. |
-| **¿Qué valor ofrece a los clientes?**     | Automatización accesible del flujo de fumigación, reducción del desperdicio de insumos químicos, prevención por clima adverso y visibilidad operativa en tiempo real.                                                                                                                                | Información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación.               | Optimización del rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo.         | Centralización administrativa de la finca, control estricto de inventarios y reducción de costos operativos generales.        |
-| **Mercado objetivo**                      | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación.                                                                                                                                                                                       | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea.                                 | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada.                                          | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias.                               |
-| **Estrategias de marketing**              | Marketing digital educativo, demostraciones en cooperativas locales, esquema freemium para visualización de parcelas y alianzas con técnicos de campo.                                                                                                                                               | Venta directa enterprise, marketing de contenidos B2B global, eventos del sector aeroespacial y certificaciones técnicas. | Distribución a través de redes de concesionarios de insumos Bayer, patrocinios agrícolas y pruebas de campo a gran escala. | Marketing inbound, presencia en conferencias globales AgTech, certificaciones digitales y canal de consultoría especializada. |
-| **Productos & Servicios**                 | Aplicación web (Vue), servicio RESTful (ASP.NET Core), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo.                                                                                                                                                         | Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D.            | Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra.         | Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo.    |
-| **Precios & Costos**                      | Esquema de suscripción modular mensual/anual económico, adaptado por cantidad de hectáreas gestionadas.                                                                                                                                                                                              | Modelo de suscripción SaaS anual de costo elevado (desde cientos hasta miles de USD anuales por usuario).                 | Suscripción anual base más costos adicionales por dispositivos de conexión física y hectáreas monitoreadas.                | Suscripción SaaS por niveles basada en el número de hectáreas y módulos empresariales contratados (alto costo).               |
-| **Canales de distribución**               | Aplicación web responsive (Desktop y Mobile) accesible desde cualquier navegador estándar y Landing Page oficial.                                                                                                                                                                                    | Plataforma web SaaS, aplicación móvil (iOS/Android) y portal en la nube.                                                  | Plataforma web, aplicaciones móviles (iOS/Android) y canal de distribución físico de hardware.                             | Plataforma web SaaS y aplicación móvil operativa para smartphones y tablets.                                                  |
+*¿Por qué llevar a cabo este análisis?* El objetivo de este análisis es evaluar las soluciones digitales agropecuarias actuales para identificar brechas de mercado, validar nuestra ventaja competitiva en la planificación y monitoreo de fumigación con drones, y estructurar una oferta accesible para pequeños y medianos agricultores.
 
----
-
-#### Análisis SWOT (Fortalezas, Oportunidades, Debilidades y Amenazas)
-
-A continuación, se detallan los cuadrantes estratégicos de AgriDron Solutions en contraste directo con los competidores identificados:
-
-| Cuadrante                         | Descripción Estratégica                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Fortalezas (Strengths)**        | • Plataforma web moderna construida sobre arquitectura distribuida escalable (ASP.NET Core y Vue).<br>• Enfoque especializado en la planificación, validación climática y monitoreo de fumigación aérea sin requerir hardware cautivo.<br>• Interfaz diseñada para una curva de aprendizaje mínima, adaptable a usuarios con alfabetización digital intermedia o baja.<br>• Integración directa con servicios externos de pronóstico meteorológico para mitigar riesgos de deriva química. |
-| **Debilidades (Weaknesses)**      | • Startup en etapa inicial con menor músculo financiero y base de clientes reducida frente a gigantes consolidados.<br>• Dependencia inicial de simulación para los flujos de telemetría de drones antes de la integración con hardware físico masivo.<br>• Marca nueva sin reconocimiento previo en ferias o asociaciones agrarias regionales.                                                                                                                                            |
-| **Oportunidades (Opportunities)** | • Creciente interés de pequeños y medianos agricultores por modernizar la fumigación para reducir pérdidas económicas por plagas.<br>• Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi), que no diseñan soluciones accesibles para predios de 5 a 50 hectáreas.<br>• Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes en un solo panel colaborativo.                                                                   |
-| **Amenazas (Threats)**            | • Resistencia cultural al cambio tecnológico por parte de productores agrícolas acostumbrados a métodos tradicionales manuales.<br>• Expansión o reducción de precios de plataformas consolidadas (como Bayer Climate FieldView) hacia segmentos de menores extensiones.<br>• Deficiencias de infraestructura de conectividad a internet en zonas rurales que dificulten el uso de plataformas web en campo.                                                                               |
-
+| Categoría | Subcategoría | AgriDron Solutions | DroneDeploy | Climate FieldView | Agrivi |
+|---|---|---|---|---|---|
+| **Perfil** | Logo / Identificador | ![AgriDron](report/images/competitors/Agridron_Logo.png) | ![DroneDeploy](report/images/competitors/dronedeploy-logo.png) | ![Climate FieldView](report/images/competitors/Climate_FieldView.jpg) | ![Agrivi](report/images/competitors/agrivi.jpg) |
+| **Perfil** | Overview | Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones. | Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones. | Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales. | Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo. |
+| **Perfil** | Ventaja competitiva / ¿Qué valor ofrece? | Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario. Automatiza el flujo de fumigación, reduce el desperdicio de insumos químicos, previene pérdidas por clima adverso y ofrece visibilidad operativa en tiempo real. | Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales. Ofrece información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación. | Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites. Optimiza el rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo. | Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo. Centraliza la administración de la finca, control de inventarios y reducción de costos operativos. |
+| **Perfil de Marketing** | Mercado objetivo | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación. | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea. | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada. | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias. |
+| **Perfil de Marketing** | Estrategias de marketing | Marketing digital educativo, demostraciones en cooperativas locales, esquema freemium para visualización de parcelas y alianzas con técnicos de campo. | Venta directa enterprise, marketing de contenidos B2B global, eventos del sector aeroespacial y certificaciones técnicas. | Distribución a través de redes de concesionarios de insumos Bayer, patrocinios agrícolas y pruebas de campo a gran escala. | Marketing inbound, presencia en conferencias globales AgTech, certificaciones digitales y canal de consultoría especializada. |
+| **Perfil de Producto** | Productos & Servicios | Aplicación web (Vue), servicio RESTful (ASP.NET Core), landing page informativa, módulo de clima por API y simulador de telemetría de vuelo. | Software en la nube, aplicación móvil de control de vuelo, módulo de análisis NDVI y visor de ortofotos 2D/3D. | Aplicación web y móvil, dispositivo FieldView Drive para tractores, mapas satelitales y prescripciones de siembra. | Plataforma web/móvil FMS, módulo de control de plagas, gestión de bodegas, reportes de auditoría y app de tareas de campo. |
+| **Perfil de Producto** | Precios & costos | Esquema de suscripción modular mensual/anual económico, adaptado por cantidad de hectáreas gestionadas. | Modelo de suscripción SaaS anual de costo elevado (desde cientos hasta miles de USD anuales por usuario). | Suscripción anual base más costos adicionales por dispositivos de conexión física y hectáreas monitoreadas. | Suscripción SaaS por niveles basada en el número de hectáreas y módulos empresariales contratados (alto costo). |
+| **Perfil de Producto** | Canales de distribución | Aplicación web responsive (Desktop y Mobile) accesible desde cualquier navegador estándar y Landing Page oficial. | Plataforma web SaaS, aplicación móvil (iOS/Android) y portal en la nube. | Plataforma web, aplicaciones móviles (iOS/Android) y canal de distribución físico de hardware. | Plataforma web SaaS y aplicación móvil operativa para smartphones y tablets. |
+| **Análisis SWOT** | Fortalezas | Plataforma web moderna sobre arquitectura distribuida escalable (ASP.NET Core y Vue). Enfoque especializado en planificación, validación climática y monitoreo de fumigación aérea sin hardware cautivo. Curva de aprendizaje mínima. Integración directa con pronóstico meteorológico. | Algoritmos de procesamiento rápido de ortomosaicos y modelado 3D reconocidos como líderes del mercado. Amplia base de usuarios consolidada a nivel global y alta compatibilidad con marcas de drones comerciales. | Respaldo corporativo de Bayer (Climate Corporation), con más de 36M de hectáreas pagadas gestionadas globalmente. Integración nativa con maquinaria John Deere vía FieldView Drive. | Cobertura integral del ciclo agrícola, desde planificación hasta reportes financieros. Soporte al cliente calificado consistentemente como receptivo y de calidad por los usuarios. |
+| **Análisis SWOT** | Debilidades | Startup en etapa inicial con menor músculo financiero y base de clientes reducida. Dependencia inicial de simulación de telemetría antes de la integración masiva con hardware físico. Marca nueva sin reconocimiento previo en ferias agrarias. | Precios elevados y esquema de suscripción percibido como confuso por los usuarios (planes desde $1,908 hasta más de $4,000 USD anuales). Procesamiento lento y problemas de carga reportados con frecuencia, además de funciones básicas de medición no disponibles en planes gratuitos. | Fallas de conectividad, errores de la aplicación y una interfaz calificada como confusa por algunos usuarios. Funcionalidades de monitoreo y pronóstico menos sofisticadas fuera de EE.UU., con reportes de auditoría e inventario más limitados que herramientas especializadas. | Integraciones con servicios externos de clima e IoT resultan costosas para usuarios pequeños. Módulo financiero carece de funciones contables completas, y la transparencia de precios es limitada en materiales públicos. |
+| **Análisis SWOT** | Oportunidades | Creciente interés de pequeños y medianos agricultores por modernizar la fumigación. Brecha de mercado desatendida por competidores de alto costo (DroneDeploy, Agrivi). Necesidad de cooperativas locales de centralizar la supervisión de múltiples lotes. | Expansión hacia nuevos sectores más allá de la agricultura, como construcción, minería e inspección de infraestructura. Creciente demanda de automatización con IA en la captura y análisis de datos aéreos. | Expansión internacional hacia más países y tipos de cultivo, aprovechando su reciente entrada a mercados como el Reino Unido y Europa. Creciente demanda de decisiones agronómicas basadas en datos climáticos e históricos. | Crecimiento del mercado de software agrícola entre cooperativas y medianas empresas agroexportadoras. Mayor exigencia regulatoria de trazabilidad y cumplimiento de certificaciones internacionales. |
+| **Análisis SWOT** | Amenazas | Resistencia cultural al cambio tecnológico. Expansión o reducción de precios de plataformas consolidadas (Bayer Climate FieldView) hacia segmentos pequeños. Deficiencias de conectividad rural. | Surgimiento de competidores especializados y más económicos en nichos específicos (como AgriDron en fumigación de PyMAs), que ofrecen soluciones más simples y accesibles. | Dependencia de la infraestructura y las políticas de uso de datos de una gran corporación (Bayer), lo que genera cuestionamientos sobre privacidad. Resistencia de agricultores a compartir información sensible con terceros. | Competencia de plataformas más simples y económicas orientadas a operaciones pequeñas. Complejidad percibida del sistema, que puede alejar a productores con menor alfabetización digital. |
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-<p align="justify">
+| Estrategia / Táctica | Descripción |
+|---|---|
+| **Alerta Climática Preventiva** | Implementar bloqueo automático de vuelos de fumigación cuando la API meteorológica detecte viento, lluvia o humedad fuera de rango seguro, evitando deriva química y desperdicio de insumos. |
+| **Onboarding sin Fricción** | Diseñar un flujo de registro e interfaz con curva de aprendizaje mínima, pensado para agricultores con alfabetización digital intermedia o baja, sin necesidad de capacitación técnica extensa como la que exigen Agrivi o DroneDeploy. |
+| **Alianzas con Cooperativas Agrarias** | Establecer demostraciones y pilotos gratuitos en cooperativas locales, generando adopción boca a boca y validando el producto en predios de 5 a 50 hectáreas, el segmento desatendido por los competidores. |
+| **Suscripción Escalable por Hectárea** | Modelo de precios modular mensual/anual ajustado a la cantidad de hectáreas gestionadas, permitiendo que pequeños productores paguen montos accesibles frente a los esquemas fijos de alto costo de DroneDeploy, Climate FieldView y Agrivi. |
+| **Panel Colaborativo Multi-Lote** | Centralizar en un solo tablero la supervisión de múltiples parcelas y operadores de drones, facilitando la coordinación de cooperativas que gestionan varios lotes dispersos simultáneamente. |
 
-A partir de los hallazgos obtenidos en el análisis competitivo y la matriz SWOT, se definen las estrategias y tácticas comerciales, técnicas y operativas que AgriDron Solutions implementará para posicionarse en el mercado:
-
-#### 1. Estrategia de Enfoque en Costos y Accesibilidad (Frente a DroneDeploy y Agrivi)
-Los competidores líderes manejan esquemas de precios enterprise con tarifas anuales elevadas, orientadas principalmente a grandes corporaciones o complejos agroindustriales. AgriDron Solutions capturará la cuota de mercado desatendida mediante una propuesta económica accesible para pequeños y medianos agricultores y coperativas:
-*   **Táctica de Pricing por Escala de Uso:** Implementar un modelo de suscripción flexible basado en rangos de hectáreas gestionadas o paquetes mensuales por temporada de fumigación, evitando contratos anuales forzosos.
-*   **Táctica Freemium de Entrada:** Ofrecer acceso gratuito para la delimitación de parcelas y consulta de métricas básicas de terreno, incentivando la conversión a planes de pago cuando el usuario requiera planificar rutas avanzadas de fumigación y monitorear condiciones meteorológicas.
-
-#### 2. Estrategia de Diferenciación por Interoperabilidad Abierta
-Mientras que herramientas como Climate FieldView priorizan maquinaria terrestre con dispositivos propietarios y plataformas como DJI restringen su ecosistema a su propio hardware, AgriDron Solutions se posiciona como una plataforma web integradora:
-*   **Táctica de Gestión Abierta de Órdenes de Servicio:** Proveer una plataforma web accesible mediante APIs RESTful que permita registrar parcelas, programar órdenes de fumigación y actualizar bitácoras de trabajo de forma manual por el operador técnico, sin requerir sincronizaciones complejas ni depender de una marca específica de dron.
-*   **Táctica de Validación Climática Contextual:** Integrar servicios externos de pronóstico meteorológico hiperlocal directamente en el flujo de trazado de parcelas, alertando al usuario sobre velocidades de viento y humedad que provoquen deriva química antes de ejecutar la misión.
-
-#### 3. Estrategia de Adopción Digital y Curva de Aprendizaje Acelerada (Usabilidad)
-Sistemas como Agrivi presentan una alta complejidad funcional y curvas de aprendizaje pronunciadas que dificultan su uso por parte de agricultores con alfabetización digital intermedia. AgriDron Solutions prioriza una experiencia de usuario (UX) centrada en tareas críticas y visuales:
-*   **Táctica de Interfaz Web Intuitiva y Guiada:** Diseñar un flujo de trabajo lineal estructurado en tres pasos simples: 1) Dibujar parcela en el mapa interactivo, 2) Validar condiciones climáticas automáticas, y 3) Asignar y monitorear la ruta de fumigación.
-*   **Táctica Responsive Multidispositivo:** Garantizar que la interfaz web opere de forma fluida tanto en laptops de oficina como en navegadores de teléfonos inteligentes y tablets usados por operadores en campo.
-
-#### 4. Estrategia de Penetración de Canal y Trabajo con Comunidades Agrícolas
-Para contrarrestar la fuerza de ventas global y las redes corporativas de competidores como Bayer Climate FieldView, AgriDron Solutions ejecutará una estrategia directa y local:
-*   **Táctica de Alianzas con Cooperativas Agrarias:** Realizar demostraciones en vivo y pruebas piloto colaborativas en asociaciones agrarias locales, permitiendo que varios agricultores compartan la experiencia de gestionar sus predios.
-</p>
-
----
-
-
+*Tabla. Estrategias y tácticas frente a competidores*
 
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
-**Objetivo de la entrevista:**
-El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativos, limitaciones tecnológicas y necesidades críticas de pequeños agricultores y técnicos de campo que utilizan drones como técnica principal de fumigación, con el fin de modelar perfiles de usuario precisos y fundamentar el diseño funcional de la plataforma web AgriDron.
 
-**Preguntas del segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
+**Objetivo de la entrevista:** El objetivo de las entrevistas es recopilar evidencia sobre los flujos operativos, limitaciones tecnológicas y necesidades críticas de pequeños agricultores y técnicos de campo que utilizan drones como técnica principal de fumigación, con el fin de modelar perfiles de usuario precisos y fundamentar el diseño funcional de la plataforma web AgriDron.
 
-#### Bloque A: Perfil Demográfico y Tecnológico
-1. ¿Cuál es su nombre, edad y en qué distrito o valle agrícola se encuentra ubicado su predio?
-2. ¿Qué tipos de cultivo maneja principalmente y cuántas hectáreas tiene bajo su administración?
-3. ¿Qué dispositivos utiliza con mayor frecuencia para coordinar sus labores (computadora, laptop, smartphone Android/iOS) y qué navegador web suele utilizar (Chrome, Edge, Safari)?
-4. ¿Qué aplicaciones o herramientas digitales utiliza con regularidad para comunicarse o gestionar compras/ventas (WhatsApp, banca móvil, hojas de Excel, redes sociales)?
+**Segmento 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
 
-#### Bloque B: Contexto Operativo y Puntos de Dolor - (Tecnica 5W + 2H)
-*    **What (Qué):**
-5. ¿Qué método utiliza actualmente para la fumigación y control de plagas en sus parcelas?
-6. ¿Cómo detecta, delimita y registra la presencia de una plaga o enfermedad en un lote específico?
+**Preguntas:**
 
-*    **Why (Por qué):**
-7. ¿Por qué considera que los métodos de fumigación que utiliza hoy en día le generan sobrecostos, demoras o riesgos en su cosecha?
+- ¿Cuál es su nombre, edad y en qué distrito o valle agrícola se encuentra ubicado su predio?
+- ¿Qué tipos de cultivo maneja principalmente y cuántas hectáreas tiene bajo su administración?
+- ¿Qué dispositivos utiliza con mayor frecuencia para coordinar sus labores (computadora, laptop, smartphone Android/iOS) y qué navegador web suele utilizar (Chrome, Edge, Safari)?
+- ¿Qué aplicaciones o herramientas digitales utiliza con regularidad para comunicarse o gestionar compras/ventas (WhatsApp, banca móvil, hojas de Excel, redes sociales)?
+- ¿Qué método utiliza actualmente para la fumigación y control de plagas en sus parcelas?
+- ¿Cómo detecta, delimita y registra la presencia de una plaga o enfermedad en un lote específico?
+- ¿Por qué considera que los métodos de fumigación que utiliza hoy en día le generan sobrecostos, demoras o riesgos en su cosecha?
+- ¿Quiénes toman la decisión de programar una fumigación y cómo supervisa o verifica usted el trabajo realizado por los aplicadores en campo?
+- ¿Con qué frecuencia y en qué momentos de la temporada agrícola requiere aplicar tratamientos a sus cultivos?
+- ¿Cuándo y por qué medio consulta el pronóstico del clima antes de fumigar, y cómo le afecta un cambio repentino de viento o lluvia durante la labor?
+- ¿Dónde lleva el registro de los límites de sus parcelas, fechas de fumigación y tipos de insumos químicos aplicados?
+- Si una plataforma web le permitiera dibujar sus parcelas sobre un mapa satelital para ordenar un servicio de dron, ¿cómo le resultaría más fácil hacerlo y qué apoyo requeriría para utilizarla?
+- ¿Cuánto consideraría razonable pagar mensualmente por un software web que le ayude a planificar y certificar los servicios de fumigación?
+- ¿Qué tan útil le resultaría recibir una alerta meteorológica automática que le indique si es viable o no fumigar antes de contratar al operador?
+- En caso de que una fumigación se interrumpa por mal clima o imprevistos de campo, ¿cómo le gustaría recibir el reporte de avance y reprogramar las hectáreas pendientes desde la web?
 
-*    **Who (Quién):**
-8. ¿Quiénes toman la decisión de programar una fumigación y cómo supervisa o verifica usted el trabajo realizado por los aplicadores en campo?
+**Segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
 
+**Preguntas:**
 
-*    **When (Cuándo):**
-9. ¿Con qué frecuencia y en qué momentos de la temporada agrícola requiere aplicar tratamientos a sus cultivos?
-10. ¿Cuándo y por qué medio consulta el pronóstico del clima antes de fumigar, y cómo le afecta un cambio repentino de viento o lluvia durante la labor?
+- ¿Cuál es su nombre, edad y en qué valles o zonas agrícolas presta principalmente sus servicios de fumigación o consultoria agricola?
+- ¿Qué formación técnica o experiencia previa tiene en el manejo y operación de drones agrícolas o agronomía?
+- ¿Qué dispositivos utiliza habitualmente durante su jornada de trabajo (smartphone Android/iOS, tablet de campo, laptop) y qué navegadores web utiliza con frecuencia?
+- ¿Qué herramientas digitales utiliza actualmente para coordinar su agenda de clientes, facturación o rutas de trabajo (WhatsApp, Google Calendar, hojas de cálculo, correo electrónico)?
+- ¿Qué información técnica del predio necesita conocer antes de trasladar su equipo al campo (cultivo, tipo de producto, ubicación exacta de linderos, obstáculos visuales)?
+- ¿Qué modelo o capacidad de dron utiliza y qué tipo de servicios de fumigación ofrece habitualmente (preventivos, curativos)?
+- ¿Por qué se presentan malentendidos o disputas con los agricultores respecto al área total realmente cubierta o la calidad de la aplicación?
+- ¿Por qué le resulta ineficiente o desgastante la forma en que coordina sus horarios y atiende las llamadas o mensajes de cotización hoy en día?
+- ¿Con quién coordina los detalles de la aplicación en el predio (dueño de finca, otro asesor técnico) y quién valida la conformidad del servicio al terminar la labor?
+- ¿En qué momento y a través de qué fuentes evalúa las condiciones climáticas (velocidad de viento, humedad, temperatura) antes de autorizar el despegue?
+- ¿Dónde y cómo registra la bitácora de servicios realizados (hectáreas tratadas, químicos descargados, incidencias o fallas en campo)?
+- ¿Cómo define o verifica actualmente el perímetro exacto que debe fumigar si el agricultor solo le da referencias verbales o ubicaciones aproximadas por WhatsApp?
+- Si surge un imprevisto en campo (cambio brusco de viento, lluvia repentina, avería de equipo o falta de producto), ¿cómo gestiona y documenta la suspensión para justificar el avance parcial ante el cliente?
+- ¿Cuánto cobra habitualmente por hectárea fumigada?
+- Si contara con una plataforma web donde pudiera ver las órdenes de servicio en un calendario con la parcela ya dibujada en un mapa satelital interactivo, ¿en qué medida agilizaría su trabajo previo al vuelo?
+- ¿Qué tan útil le resultaría contar con una bitácora web donde al finalizar la labor pueda registrar en un formulario rápido el total de hectáreas tratadas, el volumen aplicado y subir observaciones para que el agricultor las revise de inmediato?
+- Si la plataforma web le ofreciera alertas climáticas automáticas basadas en APIs meteorológicas para justificar técnicamente ante el agricultor por qué una labor debe pausarse o reprogramarse, ¿cómo impactaría en su relación con el cliente?
+- ¿Qué tan útil sería ver en tiempo real el estado del dron (batería, posición, avance) mientras se ejecuta la fumigación?
 
-*    **Where (Dónde):**
-11. ¿Dónde lleva el registro de los límites de sus parcelas, fechas de fumigación y tipos de insumos químicos aplicados?
-
-*    **How (Cómo):**
-12. Si una plataforma web le permitiera dibujar sus parcelas sobre un mapa satelital para ordenar un servicio de dron, ¿cómo le resultaría más fácil hacerlo y qué apoyo requeriría para utilizarla?
-
-*    **How Much (Cuánto):**
-13. ¿Cuánto consideraría razonable pagar mensualmente por un software web que le ayude a planificar y certificar los servicios de fumigación?
-
-#### Bloque C: Percepción sobre la Propuesta de Valor AgriDron Web
-14. ¿Qué tan útil le resultaría recibir una alerta meteorológica automática que le indique si es viable o no fumigar antes de contratar al operador?
-15. En caso de que una fumigación se interrumpa por mal clima o imprevistos de campo, ¿cómo le gustaría recibir el reporte de avance y reprogramar las hectáreas pendientes desde la web?
-
-
-**Preguntas del segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
-
-
-#### Bloque A: Perfil Demográfico y Tecnológico (Insumo para User Persona)
-1. ¿Cuál es su nombre , edad y en qué valles o zonas agrícolas presta principalmente sus servicios de fumigación o consultoria agricola?
-2. ¿Qué formación técnica o experiencia previa tiene en el manejo y operación de drones agrícolas o agronomía?
-3. ¿Qué dispositivos utiliza habitualmente durante su jornada de trabajo (smartphone Android/iOS, tablet de campo, laptop) y qué navegadores web utiliza con frecuencia?
-4. ¿Qué herramientas digitales utiliza actualmente para coordinar su agenda de clientes, facturación o rutas de trabajo (WhatsApp, Google Calendar, hojas de cálculo, correo electrónico)?
-
-#### Bloque B: Contexto Operativo y Dolores de Gestión (5W + 2H)
-*   **What (Qué):**
-5. ¿Qué información técnica del predio necesita conocer antes de trasladar su equipo al campo (cultivo, tipo de producto, ubicación exacta de linderos, obstáculos visuales)?
-6. ¿Qué modelo o capacidad de dron utiliza y qué tipo de servicios de fumigación ofrece habitualmente (preventivos, curativos)?
-*   **Why (Por qué):**
-7. ¿Por qué se presentan malentendidos o disputas con los agricultores respecto al área total realmente cubierta o la calidad de la aplicación?
-8. ¿Por qué le resulta ineficiente o desgastante la forma en que coordina sus horarios y atiende las llamadas o mensajes de cotización hoy en día?
-*   **Who (Quién):**
-9. ¿Con quién coordina los detalles de la aplicación en el predio (dueño de finca, otro asesor técnico) y quién valida la conformidad del servicio al terminar la labor?
-*   **When (Cuándo):**
-10. ¿En qué momento y a través de qué fuentes evalúa las condiciones climáticas (velocidad de viento, humedad, temperatura) antes de autorizar el despegue?
-*   **Where (Dónde):**
-11. ¿Dónde y cómo registra la bitácora de servicios realizados (hectáreas tratadas, químicos descargados, incidencias o fallas en campo)?
-*   **How (Cómo):**
-12. ¿Cómo define o verifica actualmente el perímetro exacto que debe fumigar si el agricultor solo le da referencias verbales o ubicaciones aproximadas por WhatsApp?
-13. Si surge un imprevisto en campo (cambio brusco de viento, lluvia repentina, avería de equipo o falta de producto), ¿cómo gestiona y documenta la suspensión para justificar el avance parcial ante el cliente?
-*   **How Much (Cuánto):**
-14. ¿Cuánto cobra habitualmente por hectárea fumigada?
-
-#### Bloque C: Percepción sobre la Propuesta de Valor (AgriDron Web)
-15. Si contara con una plataforma web donde pudiera ver las órdenes de servicio en un calendario con la parcela ya dibujada en un mapa satelital interactivo, ¿en qué medida agilizaría su trabajo previo al vuelo?
-16. ¿Qué tan útil le resultaría contar con una bitácora web donde al finalizar la labor pueda registrar en un formulario rápido el total de hectáreas tratadas, el volumen aplicado y subir observaciones para que el agricultor las revise de inmediato?
-17. Si la plataforma web le ofreciera alertas climáticas automáticas basadas en APIs meteorológicas para justificar técnicamente ante el agricultor por qué una labor debe pausarse o reprogramarse, ¿cómo impactaría en su relación con el cliente?
-18. ¿Qué tan útil sería ver en tiempo real el estado del dron (batería, posición, avance) mientras se ejecuta la fumigación?
 
 
 ### 2.2.2. Registro de entrevistas.
@@ -188,126 +130,85 @@ A continuación, se presenta la tabla de registro que sintetiza el análisis des
 
 ![User Persona 1](assets/needfinding/User_Person_segment_1.png)
 
-**Descripción:**
-
-Laura Ramos Paucar representa a una pequeña o mediana agricultora responsable de administrar sus cultivos y coordinar las actividades realizadas en sus parcelas. Tiene conocimientos sobre las labores agrícolas y utiliza herramientas digitales principalmente para comunicarse, consultar información y llevar algunos registros administrativos.
-
-Durante sus actividades de campo utiliza principalmente un smartphone Android, mientras que para tareas administrativas recurre a una laptop. Utiliza herramientas como WhatsApp, banca móvil y hojas de cálculo, pero la información relacionada con sus parcelas y fumigaciones se encuentra distribuida entre diferentes medios.
-
-Laura busca incorporar tecnologías que le permitan mejorar la planificación de las fumigaciones, reducir desperdicios y contar con mayor control sobre las operaciones realizadas en sus terrenos.
-
-**Necesidades:**
-
-- Registrar y consultar sus fincas y parcelas de manera organizada.
-- Delimitar las áreas de fumigación mediante un mapa.
-- Consultar las condiciones meteorológicas antes de programar una fumigación.
-- Conocer el avance de las operaciones realizadas en sus parcelas.
-- Mantener un historial digital de las fumigaciones realizadas.
-- Obtener reportes que le permitan verificar las operaciones y tomar decisiones.
-- Utilizar la plataforma fácilmente desde un smartphone.
-
-**Objetivos:**
-
-- Reducir los costos asociados a la fumigación y al uso innecesario de insumos.
-- Evitar retrasos ocasionados por condiciones climáticas desfavorables.
-- Mejorar el control y seguimiento de las operaciones de fumigación.
-- Mantener información organizada sobre sus parcelas y tratamientos.
-- Contar con evidencia digital de las operaciones realizadas.
-- Tomar decisiones oportunas basándose en información de sus cultivos y operaciones.
-
-**Frustraciones:**
-
-- Llevar información de las parcelas y fumigaciones en diferentes medios, como cuadernos, Excel y WhatsApp.
--  No contar con una delimitación digital de las áreas de trabajo.
--  Tener poca visibilidad sobre el avance real de una fumigación.
--  Tener que reprogramar operaciones debido a cambios repentinos del clima.
--  Depender de la información proporcionada por trabajadores u operadores para verificar el trabajo realizado.
--  Generar costos adicionales cuando una aplicación debe repetirse o no se realiza correctamente.
 
 #### Persona 2: Diego mendoza Rios
 
 ![User Persona 2](assets/needfinding/User_Person_segment_2.png)
 
-**Descripción:**
+### 2.3.2. User Task Matrix
 
-Diego cursa el 9no ciclo de Ingeniería Agrícola en la Universidad Nacional Agraria La Molina (UNALM) y cuenta con acreditaciones
-en pilotaje de multirrotores y aplicación aeroagrícola. Opera un dron con tanque de 40 litros para tratamientos preventivos y curativos
-en frutales (palto, vid, cítricos) y panllevar en el valle de Cañete y valles vecinos (Mala, Quilmaná). Apoya las labores técnicas
-en el predio agrícola de su familia y presta servicios a terceros, enfrentando a diario la falta de cartografía formal de
-los clientes y el desgaste de coordinar cotizaciones por chat.
+En la siguiente matriz se detallan las principales tareas que realiza el User Persona operador técnico de drones (Diego Mendoza Ríos) en su labor diaria de fumigación, indicando la frecuencia, importancia y dificultad de cada tarea, así como los problemas actuales que enfrenta antes de la existencia de la solución propuesta.
 
-**Necesidades:**
+| Tarea | Usuario | Frecuencia | Importancia | Dificultad | Problemas actuales |
+|:---|:---|:---|:---|:---|:---|
+| **Delimitar linderos y mapas de parcela** | Diego Mendoza Ríos | Alta | Alta | Alta | Recibe referencias verbales imprecisas del agricultor y debe recorrer el predio a pie para identificar y marcar manualmente los obstáculos y límites de la parcela. |
+| **Monitorear parámetros de vuelo y avance en tiempo real** | Diego Mendoza Ríos | Alta | Alta | Media | No cuenta con una interfaz unificada que le permita verificar batería, GPS y nivel de tanque de forma simultánea durante el vuelo. |
+| **Emitir actas/reportes de servicio digitales** | Diego Mendoza Ríos | Alta | Alta | Media | La falta de un reporte digital estandarizado genera desconfianza y reclamos de cobro con clientes que calculan las hectáreas tratadas "al tanteo". |
+| **Sustentar pausas climáticas por viento** | Diego Mendoza Ríos | Media | Alta | Alta | Le resulta difícil justificar ante el cliente una cancelación cuando el viento supera los 12-15 km/h, al no contar con un reporte técnico formal que respalde la decisión. |
+| **Gestionar cotizaciones y agendas de trabajo** | Diego Mendoza Ríos | Alta | Media | Alta | Sufre saturación administrativa al tener que responder mensajes y cotizar servicios mientras realiza maniobras de campo. |
+![UserJourneyPapping](report/images/Task matrix.jpeg)
 
-- arcelas predelimitadas: Recibir órdenes de servicio con las parcelas previamente delimitadas en mapas satelitales interactivos.
-- Actas de servicio digitales: Emitir actas de servicio digitales inmediatas con el registro de hectáreas y químicos de fumigación aplicados.
-- Monitoreo en tiempo real: Monitorear en tiempo real los parámetros del dron (batería, ubicación y avance) para mejorar el control de vuelo y dar transparencia al agricultor.
+### 2.3.3. User Journey Mapping
 
-**Objetivos:**
+En esta sección se presentan los User Journey Maps en su versión As-Is para cada segmento objetivo. Estos mapas resumen el recorrido actual de los usuarios en la gestión de sus tareas más relevantes, desde la identificación de una necesidad hasta la resolución manual de sus actividades, permitiendo visualizar pasos, fricciones, puntos de dolor y oportunidades de mejora antes de la intervención de AgriDron.
+- **Segmento objetivo 1: **
+![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-1.png)
 
-- Optimizar el costo por hectárea reduciendo el consumo de agua y productos químicos en cada campaña.
-- Conseguir un control de plagas uniforme sin dañar la estructura vegetal ni las flores de los cultivos.
-- Eliminar la exposición directa de las cuadrillas de campo a sustancias químicas peligrosas.
-- Tener trazabilidad de los tratamientos realizados mediante un registro digital formal que reemplace libretas y apuntes en papel.
-
-**Frustraciones:**
-
-- erder entre 30 y 60 minutos recorriendo linderos o marcando la trayectoria a pie porque el cliente solo da referencias verbales.
-- Desconfianza y reclamos de productores que calculan sus áreas "al tanteo" y dudan del reporte del GPS del dron.
-- Dificultad para sustentar cancelaciones o pausas cuando el viento supera los 12-15 km/h sin un reporte técnico formal.
-- Saturación administrativa por responder mensajes y cotizar mientras realiza calibraciones de campo.
-
-### 2.3.2. User Task Matrix.
-
-| Tarea                                                      | Usuario            | Frecuencia | Importancia | Dificultad | Problemas actuales                                                                                     |
-|:-----------------------------------------------------------|:-------------------|:-----------|:------------|:-----------|:-------------------------------------------------------------------------------------------------------|
-| **Delimitar linderos y mapas de parcela**                  | Diego Mendoza Ríos | Alta       | Alta        | Alta       | Recibe referencias verbales imprecisas y debe caminar los predios a pie para marcar obstáculos.        |
-| **Monitorear parámetros de vuelo y avance en tiempo real** | Diego Mendoza Ríos | Alta       | Alta        | Media      | Falta de una interfaz unificada para verificar batería, GPS y tanque simultáneamente.                  |
-| **Emitir actas/reportes de servicio digitales**            | Diego Mendoza Ríos | Alta       | Alta        | Media      | Genera desconfianza y reclamos de cobro con clientes que calculan hectáreas "al tanteo".               |
-| **Sustentar pausas climáticas por viento**                 | Diego Mendoza Ríos | Media      | Alta        | Alta       | Dificultad para justificar cancelaciones cuando el viento supera los 12-15 km/h sin un reporte formal. |
-| **Gestionar cotizaciones y agendas de trabajo**            | Diego Mendoza Ríos | Alta       | Media       | Alta       | Saturación administrativa por responder mensajes y cotizar mientras realiza maniobras de campo.        |
+- **Segmento objetivo 2: **
+  ![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-2.png)
 
 
-## 2.3.3 User Journey Mapping
+### 2.3.4. Empathy Mapping
 
+Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extraídas de las entrevistas y organizan, para cada User Persona, lo que el usuario dice, piensa, hace y siente en su contexto actual. Este artefacto permite profundizar en sus pains, gains, preocupaciones y motivaciones, facilitando una comprensión más humana del problema y orientando mejor las decisiones posteriores de diseño.
 
-### 2.3.4. Empathy Mapping.
+- **Segmento objetivo 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
+  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-1.png)
 
----
+- **Segmento objetivo 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
+  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-2.png)
+
 
 # 2.4. BIG PICTURE EVENT STORMING
 
 ---
 
-## 2.4.1. OPEN
 
----
+## 2.5. Ubiquitous Language
 
-## 2.4.2. EXPLORE
+El Ubiquitous Language es el lenguaje compartido entre el equipo, los stakeholders y los usuarios del negocio. En AgriDron se utilizarán términos del dominio expresados en inglés, con definiciones en español, para asegurar que los conceptos clave de fumigación, monitoreo y coordinación entre agricultores y operadores mantengan un significado único y consistente en toda la solución.
 
----
+#### Cross-Domain Terms
 
-## 2.4.3. CLOSE
+| Term | Definición | Context |
+|:---|:---|:---|
+| **Farmer** | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones. | Business actor |
+| **Operator** | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación. | Business actor |
+| **Supervisor** | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa. | Access and responsibilities |
 
----
+#### Farm and Mission Terms
 
-## 2.5. Ubiquitous Language.
+| Term | Definición | Context |
+|:---|:---|:---|
+| **Farm** | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas. | Farm management |
+| **Plot / Spraying Area** | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla. | Farm management |
+| **Spraying Mission** | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida. | Mission lifecycle |
+| **Incident** | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor. | Mission lifecycle |
+| **Service Record** | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente. | Mission lifecycle |
 
-| Término | Definición |
-| :--- | :--- |
-| **Finca** | Predio agrícola registrado por un Agricultor en la plataforma, identificado por nombre, ubicación geográfica y tamaño en hectáreas. Puede contener una o más parcelas. |
-| **Parcela / Área de fumigación** | Polígono delimitado sobre un mapa satelital dentro de los límites de una finca, sobre el cual se planifica y ejecuta una misión de fumigación. Su superficie se calcula automáticamente en hectáreas al momento de dibujarla. |
-| **Misión de fumigación** | Solicitud de servicio creada por un Agricultor sobre un área y un cultivo específicos. Atraviesa los estados *Pendiente*, *Asignada*, *En Progreso*, *Pausada* y *Completada* a lo largo de su ciclo de vida. |
-| **Geocerca** | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo. |
-| **Jornada de trabajo** | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. |
-| **Operador** | Piloto certificado que ejecuta las misiones de fumigación en campo, monitorea los parámetros del dron durante el vuelo y reporta incidencias o avances de la operación. |
-| **Agricultor** | Usuario propietario o administrador de una o más fincas, responsable de registrar parcelas, crear misiones de fumigación y consultar el historial y los reportes de productividad de sus operaciones. |
-| **Supervisor** | Usuario responsable de asignar misiones a operadores disponibles, monitorear en tiempo real el estado de los drones activos, gestionar el inventario de insumos y consultar reportes de eficiencia operativa. |
-| **Incidencia** | Evento imprevisto registrado por un Operador durante una misión en progreso (por ejemplo, clima adverso o falla técnica del equipo), que puede derivar en la pausa automática de la misión y una alerta al Supervisor. |
-| **Acta de servicio** | Registro digital inmediato emitido al completar una misión, que detalla las hectáreas efectivamente fumigadas y los químicos aplicados, sirviendo como evidencia verificable frente al cliente. |
-| **Reporte de productividad** | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado. |
-| **Reporte de eficiencia operativa** | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores. |
-| **Inventario de insumos** | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico. |
-| **Condiciones climáticas** | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos. |
-| **Dashboard de monitoreo en tiempo real** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión. |
+#### Field Operations Terms
 
----
+| Term | Definición | Context |
+|:---|:---|:---|
+| **Geofence** | Perímetro virtual asociado a una finca registrada, utilizado para validar automáticamente si un Operador se encuentra físicamente dentro del predio antes de iniciar el registro de su jornada de trabajo. | Field operations |
+| **Work Shift** | Periodo de tiempo trabajado por un Operador en campo, cuyo registro se inicia automáticamente al confirmarse su ubicación dentro de la geocerca de la finca, o de forma manual con verificación del Supervisor si esto no es posible. | Field operations |
+| **Real-time Monitoring Dashboard** | Panel que muestra la posición GPS, el nivel de batería, el estado de vuelo y el avance porcentual de los drones activos, actualizado continuamente durante la ejecución de una misión. | Real-time monitoring |
+
+#### Reporting and Supply Terms
+
+| Term | Definición | Context |
+|:---|:---|:---|
+| **Productivity Report** | Documento generado por el Agricultor que resume, por finca y rango de fechas, el área total fumigada, los insumos utilizados, las horas de operación, el costo por hectárea y el rendimiento estimado. | Reporting |
+| **Operational Efficiency Report** | Documento generado por el Supervisor con métricas de desempeño como tiempo promedio por hectárea, costo por hectárea, eficiencia en el uso de insumos y horas-hombre invertidas, incluyendo comparativas entre operadores. | Reporting |
+| **Supply Inventory** | Registro del stock disponible de pesticidas y fertilizantes gestionado por el Supervisor, con umbrales mínimos que generan alertas de reabastecimiento cuando el stock es crítico. | Supply management |
+| **Weather Conditions** | Información meteorológica obtenida de un servicio externo (Weather API) y consultada antes o durante una misión, utilizada para planificar operaciones y sustentar pausas por viento u otros factores adversos. | Weather monitoring |
