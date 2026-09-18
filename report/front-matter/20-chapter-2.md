@@ -17,7 +17,7 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 
 | Categoría | Subcategoría | AgriDron Solutions | DroneDeploy | Climate FieldView | Agrivi |
 |---|---|---|---|---|---|
-| **Perfil** | Logo / Identificador | ![AgriDron](report/images/competitors/Agridron_Logo.png) | ![DroneDeploy](report/images/competitors/dronedeploy-logo.png) | ![Climate FieldView](report/images/competitors/Climate_FieldView.jpg) | ![Agrivi](report/images/competitors/agrivi.jpg) |
+| **Perfil** | Logo / Identificador | ![AgriDron](../images/competitors/Agridron_Logo.png) | ![DroneDeploy](report/images/competitors/dronedeploy-logo.png) | ![Climate FieldView](../images/competitors/Climate_FieldView.jpg) | ![Agrivi](../images/competitors/agrivi.jpg) |
 | **Perfil** | Overview | Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones. | Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones. | Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales. | Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo. |
 | **Perfil** | Ventaja competitiva / ¿Qué valor ofrece? | Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario. Automatiza el flujo de fumigación, reduce el desperdicio de insumos químicos, previene pérdidas por clima adverso y ofrece visibilidad operativa en tiempo real. | Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales. Ofrece información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación. | Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites. Optimiza el rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo. | Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo. Centraliza la administración de la finca, control de inventarios y reducción de costos operativos. |
 | **Perfil de Marketing** | Mercado objetivo | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación. | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea. | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada. | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias. |
@@ -101,7 +101,7 @@ Para la recolección de requerimientos y el análisis de necesidades, se llevaro
 
 ##### Entrevista #1
 
-![Captura Entrevista Camila Ramos](report/images/entrevistas/Entrevista 1.jpeg)
+![Captura Entrevista Camila Ramos](../images/entrevistas/Entrevista 1.jpeg)
 
 *[Ver entrevista 1](https://drive.google.com/file/d/1psaWNUK8L0itk8C8gMyFpXQq39WQXifl/view?usp=sharing)*
 
@@ -120,7 +120,7 @@ Camila Ramos Paucar, estudiante de 10mo ciclo de Agronomía y administradora del
 
 ##### Entrevista #2
 
-![Captura Entrevista Diana](report/images/Entrevistas/Entrevista 2.jpeg)
+![Captura Entrevista Diana](../images/Entrevistas/Entrevista 2.jpeg)
 
 *[Ver entrevista 2](https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing)*
 
@@ -139,7 +139,7 @@ Diana, en representación de su padre Rómulo Huamán Ccora (52 años), administ
 
 ##### Entrevista #3
 
-![Captura Entrevista Jesus](report/images/Entrevistas/Entrevista 3.jpeg)
+![Captura Entrevista Jesus](../images/Entrevistas/Entrevista 3.jpeg)
 
 *[Ver entrevista 3](https://drive.google.com/file/d/1F-pGa2UEGo0BQbpPkvPRM1tF1KmVYhDm/view?usp=sharing)*
 
@@ -160,7 +160,7 @@ Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones d
 
 ##### Entrevista #4
 
-![Captura Entrevista Valeria Mendoza](report/images/Entrevistas/Entrevista 4.jpeg)
+![Captura Entrevista Valeria Mendoza](../images/Entrevistas/Entrevista 4.jpeg)
 
 *[Ver entrevista 4](https://drive.google.com/file/d/1YfTupEapOnlyeT2G-yDdhMz5-fWv1phb/view?usp=sharing)*
 
@@ -179,7 +179,7 @@ Valeria Sofía Mendoza Ríos, estudiante de 8vo ciclo de Ingeniería Agrícola y
 
 ##### Entrevista #5
 
-![Captura Entrevista Daniel Arias](report/images/Entrevistas/Entrevista 5.jpeg)
+![Captura Entrevista Daniel Arias](../images/Entrevistas/Entrevista 5.jpeg)
 
 *[Ver entrevista 5](https://drive.google.com/file/d/1SXFCVqgH8KDvp41xau_lsSTccw7PCdkT/view?usp=sharing)*
 
@@ -216,7 +216,7 @@ El análisis de las entrevistas realizadas permite identificar patrones claros e
 
 #### Segmento 1: Agricultores y Administradores de Fincas
 
-![Segmento 1: Agricultores y Administradores de Fincas - Características principales](report/images/analisis/Images Segmento1.png)
+![Segmento 1: Agricultores y Administradores de Fincas - Características principales](../images/analisis/Images Segmento1.png)
 
 Este segmento agrupa a agricultores y administradores de fincas que gestionan sus actividades principalmente mediante métodos tradicionales y herramientas digitales básicas. Los tres entrevistados utilizan smartphones como principal dispositivo de trabajo y dependen de WhatsApp para coordinar servicios, proveedores y operadores de fumigación.
 
@@ -263,7 +263,7 @@ Esto evidencia que la adopción tecnológica depende principalmente de que la he
 
 #### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
 
-![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](report/images/analisis/Images Segmento2.png)
+![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](../images/analisis/Images Segmento2.png)
 
 Este segmento está conformado por operadores técnicos que prestan servicios de fumigación agrícola con drones en diferentes valles de la costa peruana. Ambos entrevistados utilizan smartphones Android y tablets durante sus operaciones, mientras que las laptops son utilizadas principalmente para actividades administrativas y de planificación.
 
@@ -356,12 +356,12 @@ De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los
 ### 2.3.1. User Personas.
 #### Persona 1: Laura Ramos Paucar
 
-![User Persona 1](assets/needfinding/User_Person_segment_1.png)
+![User Persona 1](../assets/needfinding/User_Person_segment_1.png)
 
 
 #### Persona 2: Diego mendoza Rios
 
-![User Persona 2](assets/needfinding/User_Person_segment_2.png)
+![User Persona 2](../assets/needfinding/User_Person_segment_2.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -374,16 +374,16 @@ En la siguiente matriz se detallan las principales tareas que realiza el User Pe
 | **Emitir actas/reportes de servicio digitales** | Diego Mendoza Ríos | Alta | Alta | Media | La falta de un reporte digital estandarizado genera desconfianza y reclamos de cobro con clientes que calculan las hectáreas tratadas "al tanteo". |
 | **Sustentar pausas climáticas por viento** | Diego Mendoza Ríos | Media | Alta | Alta | Le resulta difícil justificar ante el cliente una cancelación cuando el viento supera los 12-15 km/h, al no contar con un reporte técnico formal que respalde la decisión. |
 | **Gestionar cotizaciones y agendas de trabajo** | Diego Mendoza Ríos | Alta | Media | Alta | Sufre saturación administrativa al tener que responder mensajes y cotizar servicios mientras realiza maniobras de campo. |
-![UserJourneyPapping](report/images/Task matrix.jpeg)
+![UserJourneyPapping](../images/Task matrix.jpeg)
 
 ### 2.3.3. User Journey Mapping
 
 En esta sección se presentan los User Journey Maps en su versión As-Is para cada segmento objetivo. Estos mapas resumen el recorrido actual de los usuarios en la gestión de sus tareas más relevantes, desde la identificación de una necesidad hasta la resolución manual de sus actividades, permitiendo visualizar pasos, fricciones, puntos de dolor y oportunidades de mejora antes de la intervención de AgriDron.
 - **Segmento objetivo 1: **
-![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-1.png)
+![UserJourneyPapping](../images/user-journey-mapping/UserJourneyMap-Segmento-1.png)
 
 - **Segmento objetivo 2: **
-  ![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-2.png)
+  ![UserJourneyPapping](../images/user-journey-mapping/UserJourneyMap-Segmento-2.png)
 
 
 ### 2.3.4. Empathy Mapping
@@ -391,10 +391,10 @@ En esta sección se presentan los User Journey Maps en su versión As-Is para ca
 Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extraídas de las entrevistas y organizan, para cada User Persona, lo que el usuario dice, piensa, hace y siente en su contexto actual. Este artefacto permite profundizar en sus pains, gains, preocupaciones y motivaciones, facilitando una comprensión más humana del problema y orientando mejor las decisiones posteriores de diseño.
 
 - **Segmento objetivo 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
-  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-1.png)
+  ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-1.png)
 
 - **Segmento objetivo 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
-  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-2.png)
+  ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-2.png)
 
 
 # 2.4. BIG PICTURE EVENT STORMING
