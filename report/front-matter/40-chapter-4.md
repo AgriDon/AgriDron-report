@@ -25,7 +25,7 @@ y rotación de los hélices de un dron agrícola. Acompañado de la tipografía 
 tecnológico aplicado al sector agropecuario.
 </p>
 
-<img src="report/images/logos/Agridron_Logo.png" alt="Agridron_Logo" width="650"/>
+![Agridron_Logo](../images/logos/Agridron_Logo.png)
 
 **2. Branding:**
 
@@ -46,12 +46,13 @@ alta legibilidad en pantallas y precisión técnica en datos:
 - **Brand / Títulos principales (Segoe UI):** Se utiliza en fuentes sans-serif para títulos (Display, Headline), encabezados
   de la landing page y secciones principales de la aplicación. Aporta modernidad y estructura visual limpia.
 
-<img src="report/images/chapter4/General_Style/Typography.jpg" alt="Typography Agridron" width="650"/>
+![Typography Agridron](../images/chapter4/General_Style/Typography.jpg)
+
 
 - **Plain / Cuerpo de texto (Montserrat):** Se emplea para el cuerpo de texto, párrafos, formularios, tablas, etiquetas y botones
   generales. Su alto rendimiento de lectura garantiza claridad en la consulta de datos operativos.
 
-<img src="report/images/chapter4/General_Style/Typography_body.jpg" alt="Typography Agridron" width="650"/>
+![Typography Agridron](../images/chapter4/General_Style/Typography_body.jpg)
 
 **4. Colors:**
 
@@ -64,8 +65,7 @@ contraste para maximizar la legibilidad en campo y gabinetes operativos:
 - **Amarillo / Alerta (#F59E0B):** Destinado a estados programados, advertencias meteorológicas y notificaciones de atención.
 - **Neutros (Blanco #FFFFFF y Gris Claro #F8FAFC):** Garantizan orden, espacio respirable y balance visual en la interfaz.
 
-<img src="report/images/chapter4/General_Style/colors.jpg" alt="Typography Agridron" width="650"/>
-
+![Colors Agridron](../images/chapter4/General_Style/colors.jpg)
 
 **5. Spacing:**
 
@@ -542,7 +542,7 @@ En la versión desktop, el wireframe organiza la información en un recorrido se
 - Nuestro equipo: Sección de respaldo con los perfiles del equipo multidisciplinario detrás de la solución.
 - Footer: Pie de página con enlaces de navegación interna, datos de contacto, ubicación y canales de redes sociales.
 
-<img src="report/images/chapter4/landing_wireframe.png" alt="Landing Page Wireframe" width="650"/>
+![Landing Page Wireframe](../images/chapter4/landing_wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -552,7 +552,7 @@ Los mock-ups finales de la Landing Page de AgriDron Solutions representan la con
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
 
-<img src="report/images/chapter4/landing_mockup.png" alt="Landing Page Mock-up" width="650"/>
+![Landing Page Mock-up](../images/chapter4/landing_mockup.png)
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -564,7 +564,7 @@ Los wireframes de las Web Applications definen la estructura base de las vistas 
 
 En escritorio, los wireframes muestran una estructura con sidebar lateral persistente, header superior con notificaciones/alertas y un área central de trabajo amplia, adecuada para la interacción con mapas cartográficos, monitoreo telemétrico y reportes gráficos de rendimiento. En mobile web, la información se reorganiza en tarjetas apiladas, paneles deslizantes y listas táctiles de fácil lectura bajo luz solar directa, reduciendo la complejidad visual sin perder funcionalidad ni velocidad de respuesta en campo.
 
-<img src="report/images/chapter4/Web_Applications_Wireframes.png" alt="Web Applications Wireframes" width="650"/>
+![Web Applications Wireframes](../images/chapter4/Web_Applications_Wireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -584,7 +584,7 @@ Este flujo representa el recorrido completo del usuario (agricultor u operador) 
 - Perfil y Configuración (Pantalla 9): Espacio donde el usuario (Juan Pérez - Rol: Agricultor) gestiona sus datos personales, seguridad y preferencias de alertas meteorológicas o notificaciones en la app.
 - Vista en Dispositivos Responsivos (Pantalla 10): Muestra la adaptación y equivalencia de las pantallas clave (Fincas y Monitoreo de Misión) en formato mobile/tablet para su uso directo en campo.
 
-<img src="report/images/chapter4/Web_Applications_Wireflow_Diagrams.png" alt="Web Applications Wireflow Diagrams" width="650"/>
+![Web Applications Wireflow Diagrams](../images/chapter4/Web_Applications_Wireflow_Diagrams.png)
 
 **link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
@@ -658,7 +658,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Pestañas de navegación interna (Perfil, Notificaciones, Seguridad, Integraciones).
 - Ficha de usuario con opción Editar perfil (Juan Pérez - juan.perez@agro.com) y controles deslizantes (toggle switches) para activar o desactivar notificaciones por correo, alertas en la aplicación y avisos meteorológicos preventivos.
 
-<img src="report/images/chapter4/Web_Applications_Mock-ups.png" alt="Web Applications Mock-ups" width="650"/>
+![Web Applications Mock-ups](../images/chapter4/Web_Applications_Mock-ups.png)
 
 **link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
@@ -686,7 +686,7 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 - Fuera de la geocerca: Si al iniciar la jornada la ubicación GPS del operador no coincide con los límites de la geocerca establecida, el sistema bloquea el registro, notifica al supervisor y finaliza el intento en estado Jornada no iniciada.
 - Incidencias técnicas o climáticas durante el vuelo: Si durante la pulverización surge una falla de equipo o cambio climático adverso.
 
-<img src="report/images/chapter4/Web_Applications_User_Flow_Diagrams.jpg" alt="Web Applications User Flow Diagrams" width="650"/>
+![Web Applications User Flow Diagrams](../images/chapter4/Web_Applications_User_Flow_Diagrams.jpg)
 
 **Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
 
@@ -694,9 +694,9 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 
 ## 4.5. Web Applications Prototyping
 
-<img src="report/images/chapter4/VersionMobile.png" alt="VersionMobile" width="650"/>
+![VersionMobile](../images/chapter4/VersionMobile.png)
 
-<img src="report/images/chapter4/VersionDesktop.png" alt="VersionDesktop" width="650"/>
+![VersionDesktop](../images/chapter4/VersionDesktop.png)
 
 ---
 
