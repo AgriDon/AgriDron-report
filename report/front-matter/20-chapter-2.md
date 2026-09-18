@@ -93,33 +93,261 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 
 
 
-### 2.2.2. Registro de entrevistas.
+### 2.2.2. Registro de entrevistas
 
-Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto:  **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**.
+Para la recolección de requerimientos y el análisis de necesidades, se llevaron a cabo entrevistas a profundidad con representantes de los dos segmentos objetivo del proyecto: **Segmento 1 (Agricultores y dueños de Fincas)** y **Segmento 2 (Operadores Técnicos de Fumigación con Drones)**. 
 
-La evidencia audiovisual consolidada se encuentra alojada en Microsoft Stream a través del siguiente enlace institucional:
-* **Enlace al repositorio de video:** [Entrevistas Needfinding - AgriDron Solutions](https://web.microsoftstream.com/video/placeholder-agridron-needfinding) => LINK DEL VIDEO
+#### Segmento 1: Agricultores y Administradores de Fincas
+
+##### Entrevista #1
+
+![Captura Entrevista Camila Ramos](report/images/entrevistas/Entrevista 1.jpeg)
+
+*[Ver entrevista 1](https://drive.google.com/file/d/1psaWNUK8L0itk8C8gMyFpXQq39WQXifl/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Camila Ramos Paucar, estudiante de 10mo ciclo de Agronomía y administradora del fundo familiar de 18 hectáreas (12 ha de uva de mesa y 6 ha de espárrago) en Subtanjalla, Ica, opera en campo con un smartphone Android y consolida información por las noches en su laptop con Google Chrome, usando WhatsApp para coordinar con cuadrillas y proveedores, banca móvil para transacciones y Excel para contabilidad. Controla plagas combinando un tractor de brazos rociadores en zonas planas con cuadrillas de mochilas manuales a motor en zonas densas, y le frustra el excesivo consumo de agua y agroquímicos del tractor, el daño mecánico a ramas bajas y el riesgo fitosanitario de las mochilas. Registra parcelas e incidencias a mano en cuadernos y planos en papel, pasándolos luego a Excel, y sufre pérdidas económicas cuando el viento de la tarde en Ica provoca deriva del producto o evaporación. Es metódica, analítica y orientada a la tecnificación sustentable. Considera intuitivo delimitar sus lotes en un mapa satelital interactivo con una breve inducción, valora críticamente las alertas meteorológicas automáticas para evitar gastos en vano y exige que, ante suspensiones climáticas, la plataforma le indique visualmente qué franja fue tratada y cuál quedó pendiente. Está dispuesta a pagar una suscripción mensual de entre 80 y 120 soles.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alexander Vasquez |
+| **Entrevistado** | Camila Ramos Paucar |
+| **Edad** | 25 años |
+| **Ubicación** | Distrito de Subtanjalla, Valle de Ica |
+| **Duración / Empieza en** | 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1psaWNUK8L0itk8C8gMyFpXQq39WQXifl/view?usp=sharing |
+
+##### Entrevista #2
+
+![Captura Entrevista Diana](report/images/Entrevistas/Entrevista 2.jpeg)
+
+*[Ver entrevista 2](https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Diana, en representación de su padre Rómulo Huamán Ccora (52 años), administra un predio de 12 hectáreas en el valle de Barranca, distrito de Supe, dedicado principalmente a maíz amarillo duro y algo de espárrago, repartido en tres lotes. La coordinación del predio se maneja casi por completo desde un smartphone Android, usando Chrome para navegar cuando es necesario; no cuentan con laptop en la chacra y solo ocasionalmente acceden a una computadora en la cabina de Internet del pueblo. WhatsApp es el canal principal para coordinar con proveedores de insumos y con el operador del dron, Yape se usa para los pagos, y Facebook se revisa poco, más que nada para publicaciones de la cooperativa. Antes fumigaban con mochila a motor, pero desde hace dos años contratan a un operador de dron particular por ser más rápido para las 12 hectáreas. Detectan las plagas caminando el lote y observando las hojas dañadas, sin un registro formal más allá de alguna foto suelta en el celular. Manifiestan frustración porque el operador aplica de más o de menos en ciertas zonas, ya que los límites del terreno y los obstáculos (huecos, postes) se le explican solo de palabra, lo que les ha generado pérdida de producto y dinero. La decisión de fumigar la toma Rómulo según el estado del cultivo, y la supervisión se limita a observar el vuelo desde la chacra, sin poder saber con certeza cuánta área quedó cubierta hasta caminarla después. Aplican entre 3 y 4 veces por campaña de maíz, sobre todo en la etapa de crecimiento vegetativo y ante la aparición de cogollero. Consultan el clima en una app del celular un día antes, aunque no siempre es precisa para su zona, y cuando el viento cambia de golpe durante la fumigación el operador a veces detiene la labor sin dejarles un sustento claro del motivo ni del avance real. No llevan registro digital: algunas fechas se anotan en un cuaderno de la chacra, mientras que los límites del terreno se conservan de memoria. Consideran positiva la idea de una plataforma donde dibujar sus parcelas sobre un mapa satelital, siempre que incluya una inducción inicial o el apoyo de un técnico para marcar bien los lotes la primera vez. Estarían dispuestos a pagar entre 30 y 40 soles mensuales, siempre que la herramienta ayude a evitar las pérdidas actuales por mala cobertura, valoran mucho una alerta meteorológica automática antes de contratar al operador para no perder el adelanto pagado, y preferirían recibir en el celular un aviso claro de cuánto se fumigó y qué parte quedó pendiente, para reprogramar esa área sin tener que renegociar todo de nuevo.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alejandro Choquehuanca |
+| **Entrevistado** | Diana (en representación de su padre, Rómulo Huamán Ccora) |
+| **Edad** | 25 (Rómulo Huamán Ccora: 52 años) |
+| **Ubicación** | Distrito de Supe, Valle de Barranca, Lima |
+| **Duración / Empieza| 0:00 | 
+| **Enlace** | https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing |
+
+##### Entrevista #3
+
+![Captura Entrevista Jesus](report/images/Entrevistas/Entrevista 3.jpeg)
+
+*[Ver entrevista 3](https://drive.google.com/file/d/1F-pGa2UEGo0BQbpPkvPRM1tF1KmVYhDm/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones desde hace tres años, y presta servicios de fumigación principalmente en los valles de Huaral y Barranca. Utiliza un smartphone Android para sus actividades diarias, una tablet para operar el software del dron y una laptop principalmente por las noches para revisar correos, usando Google Chrome como navegador. Coordina sus servicios y cotizaciones mediante WhatsApp, organiza sus citas en Google Calendar y lleva la facturación en Excel, aunque suele tener cruces de horarios debido a que registra las citas mientras responde mensajes. Opera un dron agrícola de 20 litros y ofrece aplicaciones preventivas y curativas. Antes de trasladarse al predio necesita conocer el cultivo, el producto y especialmente los linderos exactos, pero los agricultores suelen enviarle ubicaciones aproximadas por WhatsApp, por lo que debe llegar con anticipación y caminar los límites junto al propietario para identificar también obstáculos como postes o árboles. Esta situación le genera pérdida de tiempo y dificultades para organizar sus servicios, además de recibir solicitudes y cotizaciones incluso mientras se encuentra realizando un vuelo. También enfrenta malentendidos con los agricultores porque no cuenta con una forma visual y precisa de demostrar cuánta superficie fue realmente cubierta, mientras que los clientes suelen estimar las hectáreas "al ojo". La bitácora de los servicios la registra en una libreta física y, cuando dispone de tiempo, la transcribe a Excel, por lo que las incidencias no siempre quedan documentadas de manera detallada. Ante cambios bruscos de viento, lluvias, averías o falta de producto, explica verbalmente al agricultor el motivo de la suspensión, pero no dispone de un reporte técnico que respalde la decisión ni el avance parcial realizado. Evalúa las condiciones climáticas la noche anterior y la misma mañana mediante una aplicación genérica del celular, aunque esta no siempre proporciona información específica sobre el viento en la ubicación exacta. Cobra aproximadamente entre 35 y 45 soles por hectárea. Considera que una plataforma con órdenes de servicio, calendario y parcelas previamente delimitadas en un mapa satelital le permitiría ahorrar tiempo al evitar desplazarse antes al predio para verificar los linderos. También considera muy útil una bitácora web para registrar rápidamente las hectáreas tratadas, el volumen aplicado y las observaciones, ya que permitiría al agricultor consultar la información inmediatamente y reducir reclamos. Valora especialmente las alertas climáticas automáticas respaldadas por datos meteorológicos, porque le permitirían justificar técnicamente las suspensiones o reprogramaciones ante el cliente. Finalmente, considera clave contar con una vista en tiempo real del dron que integre batería, posición y avance en una sola pantalla para reaccionar con mayor rapidez ante cualquier inconveniente durante la fumigación.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alejandro Choquehuanca |
+| **Entrevistado** | Jesus |
+| **Edad** | 34 años |
+| **Ubicación** | Valle de Huaral y Barranca, Lima |
+| **Duración / Empieza** | 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing |
+
+#### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
+
+##### Entrevista #4
+
+![Captura Entrevista Valeria Mendoza](report/images/Entrevistas/Entrevista 4.jpeg)
+
+*[Ver entrevista 4](https://drive.google.com/file/d/1YfTupEapOnlyeT2G-yDdhMz5-fWv1phb/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Valeria Sofía Mendoza Ríos, estudiante de 8vo ciclo de Ingeniería Agrícola y operadora de drones agrícolas en el valle de Cañete (con salidas a Mala y Chincha), utiliza la tablet integrada al control del dron y su teléfono en campo, y al finalizar la jornada su laptop con Google Chrome para planificar vuelos, cartografía y reportes; coordina citas por WhatsApp, organiza compromisos en Google Calendar y gestiona costos y mantenimiento en Google Sheets. Opera drones de 30 litros con boquillas pulverizadoras finas en palto, cítricos y maíz, cobrando entre 70 y 90 soles por hectárea, y su dificultad crítica es la carencia de planos precisos: debe caminar linderos o volar a baja altura para marcar puntos manualmente, perdiendo entre 40 y 60 minutos antes de despegar. Afronta reclamos por diferencias entre el área declarada y la superficie neta tratada por el GPS del dron, registra bitácoras en hojas de cálculo con omisiones por fatiga, y ante vientos superiores a 12-15 km/h o temperaturas mayores a 28°C las suspensiones generan fricciones con los agricultores por falta de reportes técnicos inmediatos. Es analítica, técnica, proactiva y orientada a la seguridad de vuelo. Considera muy beneficioso visualizar pedidos programados con parcelas georreferenciadas en un mapa interactivo, valora una bitácora web rápida que emita actas instantáneas, respalda las alertas climáticas basadas en datos meteorológicos y califica de muy práctica la supervisión en tiempo real del dron (batería, avance y ubicación).
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Edwin Nicho |
+| **Entrevistado** | Valeria Sofía Mendoza Ríos |
+| **Edad** | 25 años |
+| **Ubicación** | Valle de Cañete (Lima Provincias) |
+| **Duración / Empieza en** | 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1YfTupEapOnlyeT2G-yDdhMz5-fWv1phb/view?usp=sharing |
+
+##### Entrevista #5
+
+![Captura Entrevista Daniel Arias](report/images/Entrevistas/Entrevista 5.jpeg)
+
+*[Ver entrevista 5](https://drive.google.com/file/d/1SXFCVqgH8KDvp41xau_lsSTccw7PCdkT/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Daniel Arias Dextre, de 24 años, es asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea en representación de su padre Roberto Arias, con operaciones en el Valle de Ica y Arequipa. En campo usa un smartphone Android con Google Chrome y una tablet de apoyo para revisión fotográfica; para el cierre administrativo usa una laptop con Excel, y sus herramientas de coordinación (WhatsApp y Google Calendar) le generan desorden y pérdida recurrente de información por la dispersión de mensajes. Prestan servicios en fundos de algodón, espárrago y vid con un dron DJI T10 de 10 litros más una unidad de respaldo, cubriendo de 15 a 25 ha/día a 35-55 soles/ha; la coordinación previa es caótica porque los clientes envían referencias imprecisas, obligándolos a recorrer el perímetro a pie junto al capataz y perdiendo más de 30 minutos antes de operar. Enfrentan desconfianza y quejas por diferencias entre hectáreas estimadas y reales, no cuentan con bitácora digital (anotan en libretas de papel que luego transcriben a Excel) y monitorean el clima con Google Weather y un anemómetro manual (límite de 15 km/h), sin actas formales para justificar suspensiones. Es joven, colaborador, pragmático y con visión modernizadora sobre el negocio de su padre. Considera muy provechoso visualizar las parcelas prediseñadas en un mapa satelital, estimando un ahorro de 20 a 30 minutos por servicio, valora la bitácora web rápida para eliminar el papeleo y respalda la planificación anticipada de rutas de vuelo sobre el mapa.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Italo Damacen |
+| **Entrevistado** | Daniel Arias Dextre (en representación de Roberto Arias) |
+| **Edad** | 24 años |
+| **Ubicación** | Reside en Lima (operaciones en Valle de Ica y Arequipa) |
+| **Duración / Empieza en** | POR CONFIRMAR / 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1SXFCVqgH8KDvp41xau_lsSTccw7PCdkT/view?usp=sharing |
 
 
-A continuación, se presenta la tabla de registro que sintetiza el análisis descriptivo de cada entrevista:
-
-| Datos del Entrevistado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Evidencia en Video                                                                                                                                                                                               | Resumen Descriptivo de la Entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombres y Apellidos:**<br>Camila Ramos Paucar<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Distrito de Subtanjalla, Valle de Ica<br><br>**Segmento:**<br>Segmento 1: Agricultores y Administradores de Fincas<br><br>**Ocupación:**<br>Estudiante de 10mo ciclo de Agronomía y administradora de campo (Fundo familiar de 18 ha)<br><br>**Fecha:**<br>10/09/2026<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR)                                                                                            | ![Captura Entrevista Camila Ramos](https://placehold.co/320x180?text=Entrevista+Camila+Ramos)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)*       | **Perfil Tecnológico y Dispositivos:**<br>En campo opera de forma intensiva con un smartphone Android y por las noches consolida información en su laptop mediante Google Chrome[cite: 6]. Utiliza WhatsApp como canal prioritario para coordinar con cuadrillas y proveedores, banca móvil para transacciones y hojas de cálculo de Microsoft Excel para contabilidad y fechas[cite: 6].<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Administra 18 hectáreas (12 ha de uva de mesa y 6 ha de espárrago)[cite: 6]. Controla plagas combinando un tractor de brazos rociadores en zonas planas con cuadrillas de mochilas manuales a motor en zonas densas[cite: 6]. Manifiesta frustración por el excesivo consumo de agua y agroquímicos del tractor, el daño mecánico a ramas bajas y el alto riesgo fitosanitario/humano de las mochilas[cite: 6]. Registra las parcelas e incidencias de plagas a mano en cuadernos y planos en papel, pasándolos luego a Excel[cite: 6]. Sufre constantes pérdidas económicas cuando el viento de la tarde en Ica provoca deriva del producto o evaporación[cite: 6].<br><br>**Personalidad y Metas:**<br>Metódica, analítica y orientada a la tecnificación sustentable. Busca optimizar costos por hectárea y modernizar la gestión de su fundo sin complicaciones burocráticas.<br><br>**Percepción de AgriDron Web:**<br>Considera intuitivo delimitar sus lotes haciendo clics en un mapa satelital interactivo (similar a Google Maps) con una breve inducción[cite: 6]. Valora de forma crítica las alertas meteorológicas automáticas para evitar gastos en vano de insumos y exige que, ante suspensiones climáticas, la plataforma le indique visualmente qué franja fue tratada y cuál quedó pendiente para reprogramarla[cite: 6]. Dispuesta a pagar una suscripción mensual de entre 80 a 120 soles[cite: 6].                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Nombres y Apellidos:**<br>Desconocido<br><br>**Edad:**<br>Desconocido<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 1: Agricultores y Administradores de Fincas<br><br>**Ocupación:**<br>Agricultor independiente (Cultivo de mandarina y palta)<br><br>**Fecha:**<br>10/09/2026<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR)                                                                                                                                                            | ![Captura Entrevista Agricultor](https://placehold.co/320x180?text=Entrevista+Agricultor)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)*           | **Perfil Tecnológico y Dispositivos:**<br>Trabaja casi exclusivamente desde su smartphone Android de marca Samsung y utiliza Google Chrome móvil para consultas en la web; no utiliza computadora para la gestión agrícola. Sus canales prioritarios de interacción son WhatsApp (para coordinar con jornales, técnicos y proveedores de fertilizantes) y la banca móvil del BCP para pago de jornales y transferencias rápidas.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Produce mandarina y palta. Para el control fitosanitario emplea mochilas manuales en mandarina y contrata a un tercero con tractor, parihuela y mangueras para los paltos de mayor altura. Detecta anomalías mediante inspección visual directa y consultas por foto vía WhatsApp al asesor comercial de insumos. Manifiesta frustración por el encarecimiento de los jornales, la exposición química de los operarios, el consumo elevado de combustible del tractor, la compactación del suelo y los daños a las ramas y floración por el arrastre de mangueras. La supervisión es agotadora y presencial. Aplica cada 15 a 20 días en brotación o alta humedad. No posee cartografía digital: conserva los linderos de memoria y lleva fechas y gastos en un cuaderno cuadriculado y comprobantes en papel. Enfrenta mermas severas cuando vientos imprevistos desvían la aplicación hacia predios colindantes.<br><br>**Personalidad y Metas:**<br>Práctico, tradicional, enfocado en el rendimiento económico directo y la simplificación de tareas. Busca evitar el desperdicio de insumos, eliminar la complejidad operativa y proteger la salud de su personal.<br><br>**Percepción de AgriDron Web:**<br>Considera que delimitar parcelas manualmente en una pantalla móvil pequeña puede ser engorroso; sugiere capacitación inicial o una opción asistida que trace los límites caminando el borde con el GPS del teléfono. Valora como fundamental recibir alertas tempranas de viento y humedad para evitar preparar caldo o pagar servicios en vano. Requiere que los reportes de interrupción le lleguen simplificados por WhatsApp con métricas claras (hectáreas tratadas vs. pendientes) y un botón de reprogramación directa. Dispuesto a pagar una suscripción mensual de entre 40 a 50 soles.                                                                                                                                                                                                                                                                                                                                                                     |
-| **Nombres y Apellidos:**<br>Valeria Sofía Mendoza Ríos<br><br>**Edad:**<br>25 años<br><br>**Distrito / Valle:**<br>Valle de Cañete (Lima Provincias)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Estudiante de 8vo ciclo de Ing. Agrícola, técnica de campo y operadora de drones agrícolas<br><br>**Fecha:**<br>POR CONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR)                                                                   | ![Captura Entrevista Valeria Mendoza](https://placehold.co/320x180?text=Entrevista+Valeria+Mendoza)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)* | **Perfil Tecnológico y Dispositivos:**<br>Durante las labores de campo utiliza la tablet integrada en el control del dron y su teléfono inteligente para llamadas operativas. Al finalizar la jornada, emplea su laptop personal mediante el navegador Google Chrome para la planificación de vuelos, cartografía y generación de reportes. Coordina citas y solicitudes mediante WhatsApp, organiza compromisos en Google Calendar y gestiona métricas de costos y mantenimiento en Google Sheets, resultándole desgastante atender consultas dispersas y cotizar mientras manipula equipos.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Opera en el valle de Cañete (con salidas hacia Mala y Chincha) en cultivos de palto, cítricos y maíz. Emplea drones de 30 litros con boquillas pulverizadoras finas para aplicaciones preventivas y curativas, con una tarifa de 70 a 90 soles por hectárea. Identifica como dificultad crítica la carencia de planos precisos: debe caminar linderos o volar a baja altura para marcar puntos manualmente, perdiendo entre 40 y 60 minutos antes de despegar por falta de datos previos sobre obstáculos (cables, árboles o acequias). Afronta reclamos de clientes por diferencias entre el área declarada en papel y la superficie neta tratada por el GPS del dron. Registra sus bitácoras en hojas de cálculo pero admite omisiones por fatiga. Ante condiciones climáticas adversas (vientos superiores a 12-15 km/h o temperaturas mayores a 28 °C), la suspensión del servicio genera fricciones con los agricultores por falta de reportes técnicos inmediatos.<br><br>**Personalidad y Metas:**<br>Analítica, técnica, proactiva y orientada a la seguridad de vuelo. Aspira a profesionalizar la provisión de sus servicios mediante trazabilidad digital y optimizar sus tiempos de coordinación en campo.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente beneficioso visualizar pedidos programados con parcelas georreferenciadas en un mapa interactivo para reducir el reconocimiento previo. Valora positivamente una bitácora web rápida que emita actas instantáneas para formalizar cobros y sustentar el volumen descargado. Respalda la incorporación de alertas climáticas basadas en datos meteorológicos para transparentar cancelaciones técnicas ante el productor. Finalmente, califica de muy práctica la supervisión en tiempo real del dron (batería, avance y ubicación) para optimizar el control de vuelo y brindar seguimiento directo al cliente desde el celular.                                                                                                     |
-| **Nombres y Apellidos:**<br>Carlos Mendoza<br><br>**Edad:**<br>38 años<br><br>**Distrito / Valle:**<br>Desconocido<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Operador técnico y proveedor de servicios de pulverización agrícola con drones (6 años de experiencia)<br><br>**Fecha:**<br>PORCONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR)                                                                                          | ![Captura Entrevista Carlos Mendoza](https://placehold.co/320x180?text=Entrevista+Carlos+Mendoza)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)*   | **Perfil Tecnológico y Dispositivos:**<br>Gestiona sus operaciones principalmente a través de su smartphone Android para llamadas, mensajería y revisión de aplicaciones meteorológicas; complementa la administración de servicios cargando datos en hojas de cálculo de Microsoft Excel en computadora cuando maneja varios trabajos en paralelo. Utiliza WhatsApp y llamadas telefónicas como sus canales centrales y casi exclusivos de interacción con los clientes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Presta servicios de aplicación preventiva y curativa contra plagas para diversos agricultores. La coordinación previa es altamente desgastante: atiende solicitudes dispersas entre chats de WhatsApp y llamadas, debiendo solicitar manualmente datos como cultivo, área estimada, producto a aplicar y obstáculos físicos (árboles, postes, cables). Enfrenta problemas frecuentes por la falta de precisión geográfica de los clientes, quienes envían referencias verbales o ubicaciones aproximadas, así como discrepancias entre las hectáreas estimadas 'al ojo' y la superficie real en campo. Registra los servicios de forma descentralizada entre notas rápidas en el celular, hojas sueltas y tablas de Excel. Ante variaciones imprevistas de viento o lluvia, se ve obligado a pausar la labor notificando por chat o llamada, afrontando dificultades para justificar y demostrar con exactitud cuánto terreno se avanzó y cuánto quedó pendiente por falta de un registro técnico respaldado.<br><br>**Personalidad y Metas:**<br>Experimentado, pragmático, responsable y enfocado en la eficiencia operativa. Busca reducir el desgaste administrativo de coordinar clientes dispersos, evitar malentendidos sobre el área realmente trabajada y centralizar su flujo de trabajo en una sola plataforma.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente conveniente contar con un calendario web integrado a mapas satelitales para visualizar linderos y áreas antes de desplazarse al predio. Valora positivamente el registro digital de bitácoras (hectáreas tratadas, volumen de insumo aplicado y notas de campo) como un soporte transparente para prevenir reclamos o discrepancias con los clientes. Aprueba la integración de alertas meteorológicas preventivas para orientar la toma de decisiones antes de movilizar equipos al campo. Destaca como prioridad que la plataforma consolide cliente, terreno, fechas y reportes finales en un único sistema accesible.                                                                                                                            |
-| **Nombres y Apellidos:**<br>Daniel Arias Dextre (en representación de su padre, Roberto Arias)<br><br>**Edad:**<br>24 años<br><br>**Distrito / Valle:**<br>Reside en Lima (operaciones familiares en el Valle de Ica y Arequipa)<br><br>**Segmento:**<br>Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones<br><br>**Ocupación:**<br>Asistente técnico operativo y co-gestor del negocio familiar de fumigación agroaérea<br><br>**Fecha:**<br>CONFIRMAR<br><br>**Timing de Video:**<br>POR CONFIRMAR (Duración: POR CONFIRMAR) | ![Captura Entrevista Daniel Arias](https://placehold.co/320x180?text=Entrevista+Daniel+Arias)<br><br>*[Ver fragmento (00:00)](https://web.microsoftstream.com/video/placeholder-agridron-needfinding?t=0)*       | **Perfil Tecnológico y Dispositivos:**<br>En campo apoyan las operaciones mediante un smartphone Android convencional con navegador Google Chrome y una tablet de apoyo para revisión fotográfica. Para el cierre administrativo utilizan una laptop en casa donde procesan facturas y organizan datos en Microsoft Excel. Sus herramientas digitales de coordinación se reducen a WhatsApp para comunicación continua con clientes y Google Calendar para agendar fechas tentativas, experimentando desorden y pérdida recurrente de información por la dispersión de mensajes.<br><br>**Contexto Operativo y Dolores (5W + 2H):**<br>Prestan servicios técnicos en fundos de algodón, espárrago y vid (principalmente en Ica y eventualmente Arequipa) utilizando un dron DJI T10 (capacidad de 10 litros) junto a una unidad de respaldo para labores preventivas y curativas, cubriendo de 15 a 25 ha/día con una tarifa de 35 a 55 soles/ha. La coordinación previa es caótica y manual: los clientes envían referencias imprecisas, en lugar de coordenadas exactas, obligándolos a recorrer el perímetro a pie junto al capataz perdiendo más de 30 minutos antes de operar. Enfrentan desconfianza y quejas por diferencias entre las hectáreas estimadas por el agricultor y las reales, así como por la dispersión del producto causada por el viento. No cuentan con bitácora digital: anotan datos en libretas de papel que luego transcriben a Excel y conservan fotos dispersas en el móvil. Monitorean el clima con Google Weather y un anemómetro manual (límite operativo de 15 km/h), pero carecen de actas formales para justificar suspensiones por mal tiempo o lluvias imprevistas ante el cliente.<br><br>**Personalidad y Metas:**<br>Joven, colaborador, pragmático, observador y con visión modernizadora sobre el negocio de su padre. Busca eliminar la duplicidad de tareas administrativas, agilizar la llegada a campo y erradicar las discrepancias con los clientes mediante registros digitales claros.<br><br>**Percepción de AgriDron Web:**<br>Considera altamente provechoso visualizar las parcelas prediseñadas en un mapa satelital interactivo, estimando un ahorro de 20 a 30 minutos por servicio al suprimir la inspección perimetral manual. Valora la bitácora web rápida para ingresar hectáreas tratadas e insumos desde el celular al culminar el vuelo, eliminando el papeleo de libretas y otorgando transparencia al cliente. Asimismo, respalda firmemente la planificación anticipada de rutas de vuelo sobre el mapa antes de arribar al predio para ejecutar la labor directamente y optimizar la ventana climática. |
 
 
-### 2.2.3 Análisis de entrevistas.
 
-| Segmento Objetivo | Análisis Estadístico y Cualitativo de Hallazgos |
-| :--- | :--- |
-| **Segmento 1:**<br>Agricultores y Administradores de Fincas | **1. Variables Demográficas y Geográficas:**<br>• **Rango de edad:** La muestra presenta un espectro generacional distribuido en un 50% de jóvenes profesionales tecnificados (25 años) y un 50% de agricultores tradicionales de mayor experiencia.<br>• **Distribución geográfica:** 50% en el Valle de Ica (distrito de Subtanjalla) y 50% en valles costeros aledaños a Lima.<br>• **Tamaño de predio y cultivos:** Predominan cultivos de alta rentabilidad como frutales (uva de mesa, mandarina, palta) y hortalizas (espárrago), con áreas productivas que oscilan entre medianas (18 ha) y pequeñas parcelas familiares.<br><br>**2. Variables Tecnológicas y Canales de Interacción:**<br>• **Dispositivos móviles:** El 100% de los entrevistados utiliza smartphone Android como dispositivo primario de trabajo en campo.<br>• **Dispositivos de escritorio / Navegadores:** El 50% utiliza laptops para tareas administrativas al cierre del día, mientras que el 50% prescinde por completo de la computadora para la gestión agrícola. El 100% que navega en internet emplea Google Chrome.<br>• **Canales de comunicación y banca:** El 100% utiliza WhatsApp como herramienta prioritaria de coordinación operativa y transaccional con personal y proveedores, y el 100% recurre a aplicativos de banca móvil para el pago de jornales y servicios.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Métodos actuales y costos:** El 100% emplea métodos tradicionales combinados (tractores con barras/parihuelas y cuadrillas con mochilas manuales a motor), reportando un gasto de entre 180 a 200 soles por hectárea tratada en pasadas convencionales.<br>• **Inconvenientes fitosanitarios y de supervisión:** El 100% manifiesta frustración por la alta exposición de los operarios a agroquímicos, el excesivo consumo de agua/producto, la compactación del suelo y el daño físico a flores y ramas. La supervisión presencial resulta agotadora e ineficiente.<br>• **Registro cartográfico y administrativo:** El 100% carece de cartografía digital; los linderos se mantienen de memoria o en planos de papel antiguos, y los registros de insumos y fechas se llevan manualmente en cuadernos de campo (el 50% los traslada posteriormente a hojas de Excel).<br>• **Impacto climático:** El 100% sufre pérdidas directas de dinero por vientos imprevistos que causan deriva y evaporación del fitosanitario fuera del lote.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Delimitación satelital interactiva:** El 100% califica positivamente el mapeo sobre imágenes satelitales, destacando que un 50% prefiere trazo por clics en pantalla y un 50% sugiere delimitación asistida mediante GPS móvil o acompañamiento inicial.<br>• **Alertas meteorológicas:** El 100% considera indispensable recibir alertas preventivas automáticas de viento y humedad para evitar preparar caldo o coordinar visitas fallidas.<br>• **Seguimiento y reprogramación:** El 100% exige reportes visuales ágiles ante cancelaciones por mal clima que detallen claramente las hectáreas tratadas frente a las pendientes, con opción de reprogramación inmediata (idealmente vinculada a notificaciones breves).<br>• **Disposición a pagar:** Presentan una disposición de suscripción mensual que varía entre los 40 y 120 soles, directamente proporcional al tamaño del predio tecnificado. |
-| **Segmento 2:**<br>Operadores Técnicos y Proveedores de Fumigación con Drones | **1. Variables Demográficas y Perfil Profesional:**<br>• **Rango de edad:** La edad promedio observada se distribuye entre jóvenes técnicos en formación (24 a 25 años, 66.7%) y operadores consolidados (38 años, 33.3%).<br>• **Ámbito de operación:** Cobertura de valles de la costa central y sur (Cañete, Mala, Chincha, Ica y Arequipa).<br>• **Nivel formativo:** El 66.7% cuenta con formación técnica o universitaria en ciencias agrícolas (Ingeniería Agrícola / Agronomía) complementada con acreditaciones de pilotaje, mientras que el 33.3% posee una trayectoria práctica especializada de hasta 6 años en operación continua.<br><br>**2. Variables Tecnológicas y Ecosistema Digital:**<br>• **Equipamiento en campo:** El 100% utiliza smartphones Android para la coordinación diaria, un 66.7% opera además con tablets (integradas en la radiocontroladora del dron o de apoyo fotográfico) y el 100% usa laptops en gabinete para consolidación administrativa mediante Google Chrome.<br>• **Canales y herramientas de gestión:** El 100% depende de WhatsApp y llamadas telefónicas para cotizaciones y acuerdos de servicio; el 66.7% recurre a Google Calendar para agendar citas tentativas y el 100% utiliza hojas de cálculo (Google Sheets / Microsoft Excel) como bitácora y control de costos.<br><br>**3. Contexto Operativo y Puntos de Dolor (5W + 2H):**<br>• **Capacidad de servicio y tarifas:** Operan drones multirrotor de 10 a 30 litros de capacidad para aplicaciones preventivas y curativas. El rendimiento diario promedio oscila entre 15 y 35 ha/día, con tarifas cobradas al cliente entre 35 y 90 soles por hectárea fumigada.<br>• **Dolor en delimitación y reconocimiento perimetral:** El 100% coincide en que la falta de coordenadas precisas o linderos satelitales formalizados genera pérdidas de 30 a 60 minutos por servicio al tener que caminar los terrenos a pie o realizar vuelos manuales previos de reconocimiento para ubicar obstáculos (postes, acequias, árboles).<br>• **Disputas de área y justificación técnica:** El 100% reporta desconfianza y fricciones frecuentes con los agricultores debido a diferencias entre el área calculada mediante mediciones referenciales y la superficie neta pulverizada que mide el GPS del dron. Asimismo, el 100% enfrenta dificultades para justificar suspensiones por ráfagas de viento mayores a 12-15 km/h al carecer de actas o sustentos meteorológicos formales ante el cliente.<br>• **Desgaste de coordinación:** El 100% califica como ineficiente y agotador el proceso de cotizar y ajustar horarios atendiendo mensajes dispersos mientras ejecutan maniobras en campo.<br><br>**4. Percepción de la Propuesta de Valor (AgriDron Web):**<br>• **Mapas y parcelas predefinidas:** El 100% valida que recibir la parcela previamente trazada por el agricultor reduciría hasta un 80% el tiempo de alistamiento de vuelo en campo.<br>• **Bitácora digital inmediata:** El 100% considera de alta utilidad emitir un acta digital rápida al culminar la labor para registrar hectáreas reales, químicos de fumigación aplicados e incidencias, evitando disputas de cobro.<br>• **Alertas meteorológicas:** El 100% señala que las alertas climáticas integradas respaldan técnicamente la decisión de pausar o posponer una labor sin deteriorar la relación con el agricultor.<br>• **Monitoreo de estado en tiempo real:** El 100% de los consultados en este aspecto califica como una función fundamental visualizar el estado del dron (batería, ubicación , quimico restante,etc.) para brindar total transparencia y hacer un mejor trabajo. |
 
----
+
+
+
+
+
+
+
+
+
+### 2.2.3. Análisis de entrevistas
+
+El análisis de las entrevistas realizadas permite identificar patrones claros en los dos segmentos objetivo de AgriDron Solutions: agricultores y administradores de fincas, y operadores técnicos y proveedores de fumigación con drones. A partir de las entrevistas, se evidencian problemas recurrentes relacionados con la delimitación de parcelas, la coordinación de servicios, el registro de las aplicaciones, las condiciones climáticas y la falta de información precisa sobre el área realmente fumigada.
+
+#### Segmento 1: Agricultores y Administradores de Fincas
+
+![Segmento 1: Agricultores y Administradores de Fincas - Características principales](report/images/analisis/Images Segmento1.png)
+
+Este segmento agrupa a agricultores y administradores de fincas que gestionan sus actividades principalmente mediante métodos tradicionales y herramientas digitales básicas. Los tres entrevistados utilizan smartphones como principal dispositivo de trabajo y dependen de WhatsApp para coordinar servicios, proveedores y operadores de fumigación.
+
+### Gestión de las parcelas y registros
+
+El 100% de los entrevistados no cuenta con una cartografía digital formal de sus parcelas. Los límites de los terrenos se conservan principalmente de memoria, mediante referencias verbales o utilizando cuadernos y planos físicos. Esto genera dificultades al momento de coordinar la fumigación, especialmente cuando existen varios lotes, obstáculos o zonas que requieren un tratamiento diferenciado.
+
+Asimismo, el 100% lleva los registros de las actividades agrícolas de manera manual o informal. Las fechas, incidencias y gastos se registran en cuadernos, fotografías sueltas o posteriormente en Excel, sin contar con un sistema centralizado que permita consultar el historial de las aplicaciones realizadas.
+
+### Problemas con la fumigación
+
+El 100% de los entrevistados manifestó problemas relacionados con la cobertura o precisión de las aplicaciones. Los agricultores no siempre pueden conocer con certeza qué parte de su parcela fue fumigada, debido a que los límites y obstáculos se comunican al operador principalmente de manera verbal.
+
+Esta situación puede ocasionar aplicaciones de más o de menos, pérdida de producto, gastos innecesarios y dudas sobre la cantidad real de terreno tratado. En algunos casos, los agricultores deben recorrer posteriormente la parcela para verificar el área cubierta.
+
+### Condiciones climáticas
+
+El 100% consulta las condiciones climáticas antes de realizar una aplicación, principalmente mediante aplicaciones del celular. Sin embargo, existe una percepción de que la información disponible no siempre es suficientemente precisa para la ubicación específica de sus parcelas.
+
+Los cambios repentinos de viento representan un problema recurrente, debido a que pueden provocar deriva del producto, evaporación o suspensión de la fumigación. Cuando esto ocurre, los agricultores no siempre reciben información clara sobre el motivo de la suspensión ni sobre cuánto terreno llegó a ser tratado.
+
+### Canales de comunicación
+
+El 100% utiliza WhatsApp como principal canal de comunicación para coordinar con operadores de drones, proveedores y trabajadores. Aunque es una herramienta habitual y accesible, la información importante queda dispersa entre conversaciones y mensajes.
+
+Los entrevistados muestran preferencia por recibir información directamente en su celular, especialmente avisos sobre el clima, estado de la fumigación, área tratada y zonas pendientes.
+
+### Adopción tecnológica
+
+Los tres entrevistados muestran apertura hacia una solución tecnológica siempre que sea sencilla y no requiera conocimientos técnicos avanzados.
+
+El 100% considera positiva la posibilidad de visualizar y delimitar sus parcelas mediante un mapa satelital interactivo. Sin embargo, uno de los entrevistados señaló que realizar esta delimitación desde una pantalla pequeña podría ser complicado y propuso contar con asistencia mediante GPS o apoyo inicial de un técnico.
+
+Esto evidencia que la adopción tecnológica depende principalmente de que la herramienta sea intuitiva, rápida y acompañada de una orientación inicial cuando sea necesario.
+
+### Funcionalidades de interés
+
+- El 100% valora la delimitación de parcelas mediante mapas satelitales.
+- El 100% considera importante recibir alertas meteorológicas antes de realizar una fumigación.
+- El 100% considera necesario conocer visualmente el área tratada y el área pendiente.
+- El 100% muestra interés en contar con registros digitales de las aplicaciones realizadas.
+- El 100% valora la posibilidad de reprogramar las zonas que quedaron pendientes después de una suspensión.
+- El 100% prefiere recibir información clara directamente en el celular.
+
+#### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
+
+![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](report/images/analisis/Images Segmento2.png)
+
+Este segmento está conformado por operadores técnicos que prestan servicios de fumigación agrícola con drones en diferentes valles de la costa peruana. Ambos entrevistados utilizan smartphones Android y tablets durante sus operaciones, mientras que las laptops son utilizadas principalmente para actividades administrativas y de planificación.
+
+### Gestión de pedidos y coordinación
+
+El 100% utiliza WhatsApp como principal canal para recibir solicitudes, realizar cotizaciones y coordinar los detalles de los servicios. Google Calendar también es utilizado por el 100% de los entrevistados para organizar sus citas y compromisos.
+
+Sin embargo, la coordinación mediante mensajes y llamadas genera desorden cuando reciben varias solicitudes simultáneamente. Uno de los principales problemas identificados es la recepción de cotizaciones mientras el operador se encuentra realizando un vuelo, obligándolo a interrumpir su actividad para responder.
+
+### Problemas principales
+
+El 100% identifica como problema la falta de información precisa sobre la ubicación y los límites de los terrenos antes de trasladarse al campo.
+
+Los agricultores suelen enviar ubicaciones aproximadas o referencias verbales, por lo que los operadores deben llegar antes de iniciar el servicio y recorrer los linderos junto con el propietario o capataz. Esta actividad genera pérdida de tiempo y retrasa el inicio de las operaciones.
+
+Además, el 100% ha experimentado dificultades para demostrar al cliente la superficie realmente fumigada. Las diferencias entre las hectáreas estimadas por los agricultores y el área registrada por el dron pueden generar dudas y reclamos sobre el servicio.
+
+### Registro de servicios
+
+El 100% de los operadores utiliza actualmente registros físicos o herramientas no integradas para documentar sus servicios.
+
+Las bitácoras se realizan en libretas, hojas sueltas o archivos de Excel que posteriormente deben ser transcritos. Esta metodología puede provocar omisiones, pérdida de información y registros incompletos de las incidencias ocurridas durante la fumigación.
+
+### Gestión de suspensiones
+
+El 100% enfrenta situaciones en las que debe suspender o reprogramar una aplicación debido a condiciones climáticas u otros imprevistos.
+
+Actualmente, las suspensiones se comunican principalmente de manera verbal al agricultor y no siempre existe un reporte técnico que permita demostrar el motivo de la interrupción, el avance realizado o el área que quedó pendiente.
+
+Esta situación puede generar dudas y discusiones entre el operador y el cliente.
+
+### Necesidades tecnológicas
+
+El 100% muestra interés en una plataforma que permita visualizar las órdenes de servicio junto con las parcelas previamente delimitadas en un mapa satelital.
+
+Las principales funcionalidades identificadas son:
+
+- Visualización de órdenes de servicio en un calendario.
+- Parcelas georreferenciadas y previamente delimitadas.
+- Registro digital de bitácoras.
+- Visualización de hectáreas tratadas.
+- Registro del volumen aplicado.
+- Registro de incidencias.
+- Alertas meteorológicas automáticas.
+- Reportes técnicos para justificar suspensiones.
+- Información centralizada del cliente, terreno y servicio.
+- Visualización del estado del dron durante la operación.
+
+### Supervisión del dron
+
+El 50% de los entrevistados señaló de manera explícita que contar con una vista centralizada del estado del dron sería clave para la operación, permitiendo visualizar batería, posición y avance en una sola pantalla.
+
+El otro 50% no manifestó una necesidad explícita de esta funcionalidad durante la entrevista, aunque sí mostró interés en herramientas relacionadas con la planificación, registro y seguimiento de los servicios.
+
+### Conclusiones para el diseño de arquetipos
+
+### Automatización simple y práctica
+
+Los resultados muestran que ambos segmentos actualmente dependen de herramientas dispersas como WhatsApp, cuadernos, Excel y aplicaciones meteorológicas. Por ello, la plataforma debe centralizar la información sin aumentar la complejidad del trabajo.
+
+La solución debe permitir realizar las tareas principales de manera rápida, especialmente desde dispositivos móviles, debido a que el smartphone es utilizado por el 100% de los entrevistados de ambos segmentos.
+
+### Diferenciación de valor por segmento
+
+- **Agricultores:** valoran principalmente conocer con precisión qué área fue fumigada, evitar pérdidas por mala cobertura, recibir alertas climáticas y poder reprogramar las zonas pendientes.
+- **Operadores:** necesitan principalmente reducir el tiempo de coordinación, disponer de parcelas georreferenciadas, registrar digitalmente las aplicaciones y contar con evidencia técnica ante suspensiones o reclamos.
+
+### Reducción de fricción
+
+El sistema debe reducir la dependencia de WhatsApp, llamadas telefónicas, referencias verbales, cuadernos y hojas de cálculo.
+
+Para los agricultores, la principal fricción se encuentra en la falta de visibilidad sobre el área realmente fumigada y en la incertidumbre provocada por las condiciones climáticas.
+
+Para los operadores, la principal fricción se encuentra en la coordinación previa, la falta de límites precisos de las parcelas y el registro manual de los servicios.
+
+Por ello, la plataforma debe ofrecer una solución rápida y estructurada que permita conectar al agricultor con el operador, compartir la ubicación exacta de la parcela y mantener un historial digital de cada servicio.
+
+### Oportunidad clave
+
+Existe una oportunidad de centralizar en una sola plataforma los procesos que actualmente se realizan mediante diferentes herramientas.
+
+La solución puede integrar la delimitación de parcelas en mapas satelitales, la programación de servicios, las alertas meteorológicas, el registro de bitácoras y la visualización del avance de la fumigación.
+
+De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los errores relacionados con la superficie tratada y proporcionar evidencia clara tanto al agricultor como al operador sobre el desarrollo y resultado de cada aplicación.
 
 
 

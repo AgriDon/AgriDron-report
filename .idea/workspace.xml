@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dc9ede4-9cb5-4560-89a2-537811ae1a85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/report/images/analisis/Images Segmento1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alejandro-Choquehuanca&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AgriDon/AgriDron-report.git&quot;,
+    &quot;accountId&quot;: &quot;a4c5b789-b91c-40b3-a1d6-e9e147ac1238&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0085491695410995" />
+      <entry key="MS500" value="1.3858200437647337" />
+      <entry key="S2" value="1.7881269827205637" />
+      <entry key="S5" value="1.9091561452454524" />
+      <entry key="S10" value="1.9534967987599394" />
+      <entry key="S30" value="1.9842522428361282" />
+      <entry key="S60" value="1.9920948759268196" />
+      <entry key="M2" value="1.9960461059632866" />
+      <entry key="M5" value="2.096626728516546" />
+      <entry key="M10" value="5.878715433941782" />
+      <entry key="M15" value="16.418376311344588" />
+      <entry key="M30" value="60.98592982306369" />
+      <entry key="H1" value="152.99156238794203" />
+      <entry key="H2" value="323.54407289057565" />
+      <entry key="H4" value="542.8488182969453" />
+      <entry key="D1" value="914.0809693823811" />
+      <entry key="W1" value="1008.1507701068622" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.8149759516457092E-124" />
+      <entry key="S60" value="1.3472104333197812E-62" />
+      <entry key="M2" value="1.1606939447253657E-31" />
+      <entry key="M5" value="4.22568340867504E-13" />
+      <entry key="M10" value="6.544274434042984E-7" />
+      <entry key="M15" value="7.841446993038773E-5" />
+      <entry key="M30" value="0.011260271643835614" />
+      <entry key="H1" value="0.16515187990300284" />
+      <entry key="H2" value="0.6847597499192469" />
+      <entry key="H4" value="1.4237531290385068" />
+      <entry key="D1" value="2.6471929460594943" />
+      <entry key="W1" value="2.9467937348169095" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9277865174015336" />
+      <entry key="MS500" value="1.3603358014158435" />
+      <entry key="S2" value="1.779346940043799" />
+      <entry key="S5" value="1.9053538890471913" />
+      <entry key="S10" value="1.9515424765330092" />
+      <entry key="S30" value="1.983588500366602" />
+      <entry key="S60" value="1.9917614360300782" />
+      <entry key="M2" value="1.9958789901336018" />
+      <entry key="M5" value="2.096552055620567" />
+      <entry key="M10" value="5.878559353798373" />
+      <entry key="M15" value="16.418151687080304" />
+      <entry key="M30" value="60.996629321999755" />
+      <entry key="H1" value="153.1559466823165" />
+      <entry key="H2" value="324.22796192049236" />
+      <entry key="H4" value="544.2718340270699" />
+      <entry key="D1" value="916.7279594172214" />
+      <entry key="W1" value="1011.097532072636" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JL9T8ScGoVqGFI0bJVFx0CtQE9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/chapter2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc9ede4-9cb5-4560-89a2-537811ae1a85" name="Changes" comment="" />
+      <created>1789429488269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789429488269</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="commitpruebasunitarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="commitpruebasunitarias" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
