@@ -762,244 +762,36 @@ Evita los cuellos de botella operativos. Una misión no puede ejecutarse si no h
 **link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
 
 ### 4.6.2. Software Architecture Context Diagram
-El **System Context Diagram de C4** representa el sistema como una única unidad y muestra los usuarios y sistemas externos que interactúan directamente con él. En este nivel no se detallan tecnologías internas.
+El diagrama de contexto ilustra el panorama general de AgriDron Solutions como el orquestador principal que unifica la planificación
+agronómica con la ejecución técnica en campo. En este ecosistema, se visualiza la interacción asíncrona del agricultor para registrar
+fincas y solicitar servicios, la vigilancia continua del supervisor para gestionar recursos operativos, y la intervención del operador
+técnico para validar coordenadas e iniciar misiones. Asimismo, el diagrama evidencia las dependencias críticas con sistemas externos,
+delegando la validación de riesgos climáticos a una API Meteorológica y el envío de notificaciones transaccionales a un Servicio de Correo,
+lo que garantiza una operación segura y enfocada netamente en el valor del negocio.
 
-```mermaid
-C4Context
-  title System Context Diagram - AgriDron Solutions
-
-  Person(farmer, "Agricultor / Cliente", "Solicita servicios de fumigación y consulta información de sus operaciones.")
-  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica misiones, monitorea operaciones y registra resultados.")
-
-  System(agridron, "AgriDron Solutions", "Plataforma web para la planificación y monitoreo de operaciones de fumigación agrícola mediante drones.")
-
-  System_Ext(weather, "API Meteorológica", "Servicio externo que proporciona información de condiciones meteorológicas.")
-
-  Rel(farmer, agridron, "Solicita y consulta servicios")
-  Rel(operator, agridron, "Gestiona parcelas, misiones y operaciones")
-  Rel(agridron, weather, "Consulta condiciones meteorológicas")
-```
-
-### Descripción
-
-**AgriDron Solutions** es el sistema principal en el alcance de la solución. El **Agricultor / Cliente** interactúa con la plataforma para solicitar y consultar información relacionada con sus servicios, mientras que el **Operador Técnico** la utiliza para gestionar parcelas, planificar misiones, monitorear operaciones y registrar resultados.
-
-La plataforma interactúa con una **API Meteorológica externa** para obtener información utilizada en la evaluación de las condiciones de operación.
+![](../images/c4/SystemContext.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
-El **Container Diagram de C4** realiza un acercamiento al sistema y muestra sus principales aplicaciones, servicios y almacenes de datos, incluyendo las tecnologías utilizadas y sus relaciones.
 
-Los contenedores definidos son:
+Este nivel detalla las unidades de despliegue y la distribución de responsabilidades técnicas dentro del sistema central.
+La capa de presentación se divide estratégicamente en una Landing Page enfocada en la adquisición pública de clientes y
+una Web Application (SPA) privada encargada de renderizar los mapas interactivos y la telemetría en tiempo real. Toda la lógica de negocio,
+flujos de dominio y validaciones de seguridad se centralizan exclusivamente en la RESTful API, la cual actúa como el único puente de comunicación
+autorizado hacia la base de datos relacional (PostgreSQL). Esta estructura asegura que ninguna interfaz cliente pueda manipular el estado del sistema
+sin cumplir con las reglas del dominio, protegiendo así la integridad de la información espacial e histórica.
 
-1. **Landing Page**
-2. **Frontend Angular**
-3. **Backend Spring Boot**
-4. **Base de Datos Relacional**
-5. **API Meteorológica Externa**
-
-```mermaid
-C4Container
-  title Container Diagram - AgriDron Solutions
-
-  Person(farmer, "Agricultor / Cliente", "Consulta información de sus servicios y operaciones.")
-  Person(operator, "Operador Técnico", "Gestiona parcelas, planifica y monitorea operaciones de fumigación.")
-
-  System_Ext(weather, "API Meteorológica", "API externa para obtener condiciones meteorológicas.")
-
-  System_Boundary(agridron, "AgriDron Solutions") {
-    Container(landing, "Landing Page", "HTML / CSS / JavaScript", "Presenta la solución y permite acceder a la plataforma.")
-    Container(frontend, "Frontend Angular", "Angular / TypeScript", "Interfaz web para gestionar parcelas, misiones, monitoreo, historial y reportes.")
-    Container(backend, "Backend Spring Boot", "Java / Spring Boot", "Implementa la lógica de negocio y expone la API REST.")
-    ContainerDb(database, "Base de Datos Relacional", "SQL", "Almacena usuarios, parcelas, misiones, drones, operaciones, incidentes y reportes.")
-  }
-
-  Rel(farmer, landing, "Consulta información")
-  Rel(operator, landing, "Consulta información")
-  Rel(farmer, frontend, "Consulta servicios")
-  Rel(operator, frontend, "Gestiona operaciones")
-  Rel(landing, frontend, "Redirige al acceso de la plataforma")
-  Rel(frontend, backend, "Consume API REST", "HTTPS / JSON")
-  Rel(backend, database, "Lee y almacena información", "SQL")
-  Rel(backend, weather, "Consulta condiciones meteorológicas", "HTTPS / JSON")
-```
-
-### Descripción de los contenedores
-
-| Contenedor                   | Tecnología              | Responsabilidad                                                                                  |
-|------------------------------|-------------------------|--------------------------------------------------------------------------------------------------|
-| **Landing Page**             | HTML / CSS / JavaScript | Presentar AgriDron Solutions y facilitar el acceso a la plataforma.                              |
-| **Frontend Angular**         | Angular / TypeScript    | Proporcionar la interfaz para gestionar parcelas, misiones, monitoreo, historial y reportes.     |
-| **Backend Spring Boot**      | Java / Spring Boot      | Implementar la lógica de negocio, exponer servicios REST y coordinar datos y servicios externos. |
-| **Base de Datos Relacional** | SQL                     | Persistir usuarios, parcelas, misiones, operaciones, incidentes y reportes.                      |
-| **API Meteorológica**        | Servicio externo        | Proporcionar datos meteorológicos para apoyar la planificación.                                  |
-
-### Flujo de comunicación
-
-1. El usuario accede a la **Landing Page**.
-2. El usuario utiliza el **Frontend Angular** para gestionar o consultar información.
-3. El **Frontend Angular** consume el **Backend Spring Boot** mediante API REST.
-4. El **Backend Spring Boot** consulta y actualiza la **Base de Datos Relacional**.
-5. El **Backend Spring Boot** consulta la **API Meteorológica** cuando se requiere información climática.
-6. La información procesada se presenta mediante el **Frontend Angular**.
-
-## Trazabilidad entre dominio y arquitectura
-
-| Bounded Context           | Responsabilidad                            | Soporte arquitectónico      |
-|---------------------------|--------------------------------------------|-----------------------------|
-| **Field Management**      | Campos, parcelas y áreas                   | Frontend + Backend + BD     |
-| **Flight Operations**     | Misiones, drones, operaciones e incidentes | Frontend + Backend + BD     |
-| **Weather Integration**   | Condiciones y alertas meteorológicas       | Backend + API Meteorológica |
-| **Analytics & Reporting** | Historial, métricas y reportes             | Frontend + Backend + BD     |
-
-La correspondencia permite mantener trazabilidad entre el análisis de dominio realizado mediante Event Storming y la arquitectura propuesta para AgriDron Solutions.
+![](../images/c4/Containers.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
-Esta sección presenta el diseño interno de los principales componentes de software de **AgriDron Solutions**. Se mantiene la separación entre la aplicación web, los servicios REST y las integraciones externas, alineándolos con los Bounded Contexts definidos en la arquitectura.
 
+El diagrama de componentes desglosa internamente la RESTful API para demostrar la correspondencia directa entre la
+arquitectura técnica y los Bounded Contexts definidos previamente en el Event Storming. La API se estructura en módulos
+altamente cohesivos donde el Flight Operations Component actúa como el núcleo orquestador, el cual interactúa estrictamente 
+con el Weather Component y el Inventory Component para validar que las condiciones climáticas y de stock sean seguras antes de autorizar
+un vuelo. Además, este diseño aplica el patrón de capa anticorrupción para aislar el núcleo del negocio de posibles alteraciones en los
+proveedores externos de clima y correo, resultando en una plataforma escalable, resiliente y alineada a las exigencias operativas.
 
-## 4.6.4.1. RESTful API
-
-La API RESTful implementada con Spring Boot concentra la lógica de aplicación y dominio. Se organiza en capas de presentación, aplicación, dominio e infraestructura.
-
-```mermaid
-flowchart LR
-  subgraph API["RESTful API - Spring Boot"]
-    subgraph Presentation["API / Presentation Layer"]
-      FC["Field Controller"]
-      MC["Mission Controller"]
-      WC["Weather Controller"]
-      RC["Report Controller"]
-    end
-    subgraph Application["Application Layer"]
-      FS["Field Service"]
-      MS["Mission Service"]
-      WS["Weather Service"]
-      RS["Report Service"]
-    end
-    subgraph Domain["Domain Layer"]
-      FD["Field Management Domain"]
-      MD["Flight Operations Domain"]
-      WD["Weather Integration Domain"]
-      RD["Analytics & Reporting Domain"]
-    end
-    subgraph Infrastructure["Infrastructure Layer"]
-      FR["Field Repository"]
-      MR["Mission Repository"]
-      RR["Report Repository"]
-      WA["Weather API Adapter"]
-    end
-  end
-  DB[("Relational Database")]
-  Weather["Weather API"]
-  FC --> FS
-  MC --> MS
-  WC --> WS
-  RC --> RS
-  FS --> FD
-  MS --> MD
-  WS --> WD
-  RS --> RD
-  FS --> FR
-  MS --> MR
-  RS --> RR
-  WS --> WA
-  FR --> DB
-  MR --> DB
-  RR --> DB
-  WA --> Weather
-```
-
-### Responsabilidades
-
-| Capa           | Responsabilidad                                                         |
-|----------------|-------------------------------------------------------------------------|
-| Presentation   | Recibir solicitudes HTTP y devolver respuestas mediante endpoints REST. |
-| Application    | Coordinar casos de uso y orquestar operaciones del dominio.             |
-| Domain         | Contener reglas y conceptos principales de cada Bounded Context.        |
-| Infrastructure | Implementar persistencia e integración con servicios externos.          |
-
-## 4.6.4.2. Web Application
-
-La aplicación web utiliza Angular para proporcionar las funcionalidades de operadores y clientes.
-
-```mermaid
-flowchart LR
-  subgraph Web["Web Application - Angular"]
-    subgraph Field["Field Management"]
-      Farms["Farm Management"]
-      Parcels["Parcel Management"]
-      Map["Interactive Map"]
-    end
-    subgraph Flight["Flight Operations"]
-      Missions["Mission Management"]
-      Schedule["Mission Calendar"]
-      Monitor["Mission Monitoring"]
-    end
-    subgraph Weather["Weather Integration"]
-      WeatherView["Weather View"]
-      Alerts["Weather Alerts"]
-    end
-    subgraph Reports["Analytics & Reporting"]
-      History["Mission History"]
-      ReportsView["Reports"]
-      Metrics["Operational Metrics"]
-    end
-    Shared["Shared Components / Authentication"]
-    APIClient["REST API Client"]
-  end
-  API["RESTful API"]
-  Farms --> APIClient
-  Parcels --> APIClient
-  Map --> APIClient
-  Missions --> APIClient
-  Schedule --> APIClient
-  Monitor --> APIClient
-  WeatherView --> APIClient
-  Alerts --> APIClient
-  History --> APIClient
-  ReportsView --> APIClient
-  Metrics --> APIClient
-  Shared --> APIClient
-  APIClient --> API
-```
-
-### Responsabilidades
-
-- **Field Management:** administrar campos, parcelas y áreas de fumigación.
-- **Flight Operations:** crear, programar y monitorear misiones.
-- **Weather Integration:** mostrar condiciones y alertas meteorológicas.
-- **Analytics & Reporting:** consultar historial y reportes.
-- **Shared Components:** centralizar elementos reutilizables y autenticación.
-- **REST API Client:** encapsular la comunicación con el Backend.
-
-## 4.6.4.3. Weather Integration Component
-
-La integración meteorológica se mantiene aislada para evitar acoplar directamente la lógica de negocio con la API externa.
-
-```mermaid
-flowchart LR
-  Backend["Backend Spring Boot"]
-  subgraph WeatherIntegration["Weather Integration"]
-    WS["Weather Service"]
-    WClient["Weather API Client"]
-    Mapper["Weather Response Mapper"]
-    Evaluator["Weather Condition Evaluator"]
-    Alert["Weather Alert Generator"]
-  end
-  External["External Weather API"]
-  Backend --> WS
-  WS --> WClient
-  WClient --> External
-  External --> WClient
-  WClient --> Mapper
-  Mapper --> Evaluator
-  Evaluator --> Alert
-  Alert --> Backend
-```
-
-El componente permite cambiar o adaptar el proveedor meteorológico sin modificar directamente los componentes de **Flight Operations**.
-
----
+![](../images/c4/Components.png)
 
 ## 4.7. Software Object-Oriented Design
 El diseño orientado a objetos representa los principales elementos del dominio y sus relaciones. El Project Statement solicita que los Class Diagrams incluyan clases, interfaces, enumeraciones, atributos, métodos, visibilidad, relaciones y multiplicidades cuando correspondan.
