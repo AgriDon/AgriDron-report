@@ -897,91 +897,29 @@ los clientes y el desgaste de coordinar cotizaciones por chat.
 
 ### 2.3.2. User Task Matrix
 
-| Tarea                                                      | Usuario            | Frecuencia | Importancia | Dificultad | Problemas actuales                                                                                     |
-|:-----------------------------------------------------------|:-------------------|:-----------|:------------|:-----------|:-------------------------------------------------------------------------------------------------------|
-| **Delimitar linderos y mapas de parcela**                  | Diego Mendoza Ríos | Alta       | Alta        | Alta       | Recibe referencias verbales imprecisas y debe caminar los predios a pie para marcar obstáculos.        |
-| **Monitorear parámetros de vuelo y avance en tiempo real** | Diego Mendoza Ríos | Alta       | Alta        | Media      | Falta de una interfaz unificada para verificar batería, GPS y tanque simultáneamente.                  |
-| **Emitir actas/reportes de servicio digitales**            | Diego Mendoza Ríos | Alta       | Alta        | Media      | Genera desconfianza y reclamos de cobro con clientes que calculan hectáreas "al tanteo".               |
-| **Sustentar pausas climáticas por viento**                 | Diego Mendoza Ríos | Media      | Alta        | Alta       | Dificultad para justificar cancelaciones cuando el viento supera los 12-15 km/h sin un reporte formal. |
-| **Gestionar cotizaciones y agendas de trabajo**            | Diego Mendoza Ríos | Alta       | Media       | Alta       | Saturación administrativa por responder mensajes y cotizar mientras realiza maniobras de campo.        |
+<img width="1437" height="1007" alt="User task Matrix" src="https://github.com/user-attachments/assets/633f67f9-5a73-430b-b47c-2c181fb0f078" />
+
 
 ### 2.3.3. User Journey Mapping
 
-<div align="center">
+**Segmento 1:**
 
-![User Journey Mapping](assets/needfinding/user_journey_mapping.png)
+<img width="2447" height="1341" alt="Customer journey Segmento 1" src="https://github.com/user-attachments/assets/d2f2aad6-9d68-4764-ae97-bb63b4b71674" />
 
-</div>
+**Segmento 2:**
 
-**Descripción:**
+<img width="2143" height="1249" alt="User Journey Map - Segmeno 2" src="https://github.com/user-attachments/assets/23f9311f-477a-41e8-bfec-cbaa0b7b6dd7" />
 
-<p align="justify">
-
-El journey map representa el recorrido actual ("as-is") de <strong>Diego Mendoza Ríos</strong>, piloto operador de dron que presta servicios de fumigación aeroagrícola a terceros, desde el primer contacto con el cliente hasta el cierre del servicio. Se seleccionó a este usuario porque concentra las tareas de mayor frecuencia e importancia identificadas en el User Task Matrix (2.3.2).
-
-</p>
-
-<p align="justify">
-
-El recorrido se organizó en seis etapas: <em>Contacto y Cotización</em>, <em>Coordinación y Delimitación</em>, <em>Preparación en Campo</em>, <em>Ejecución del Vuelo</em>, <em>Imprevisto Climático</em> y <em>Cierre y Reporte</em>. La curva emocional muestra que el nivel de satisfacción de Diego se mantiene predominantemente negativo a lo largo del proceso, con dos caídas críticas: durante la <strong>coordinación y delimitación</strong> del predio, y durante el manejo de un <strong>imprevisto climático</strong>.
-
-</p>
-
-<p align="justify">
-
-Los principales puntos de dolor identificados son:
-
-</p>
-
-<ul>
-  <li>Dependencia de referencias verbales imprecisas del cliente, lo que obliga a Diego a recorrer los linderos a pie durante 30 a 60 minutos.</li>
-  <li>Cálculo manual de insumos (agua y químicos) a partir de un área estimada, con riesgo de sub- o sobre-dosificación.</li>
-  <li>Ausencia de una interfaz unificada para monitorear batería, GPS y tanque del dron durante el vuelo.</li>
-  <li>Falta de evidencia técnica objetiva (por ejemplo, velocidad del viento) para sustentar pausas o cancelaciones ante el cliente.</li>
-  <li>Desconfianza del cliente respecto al área reportada por el GPS del dron, al no contar con actas de servicio digitales.</li>
-</ul>
-
-<p align="justify">
-
-Estos hallazgos evidencian que la mayor fuente de fricción no ocurre durante el vuelo en sí, sino en las etapas de coordinación previa y de cierre del servicio, donde la falta de digitalización genera pérdida de tiempo, sobrecostos y desconfianza. Estos puntos de dolor sustentan directamente las necesidades identificadas para Diego en el apartado 2.3.1 (parcelas predelimitadas, actas de servicio digitales y monitoreo en tiempo real).
-
-</p>
 
 ### 2.3.4. Empathy Mapping
 
-<div align="center">
+**Segmento 1:**
 
-![Empathy Mapping](assets/needfinding/empathy_mapping.png)
+<img width="1050" height="1858" alt="Empathy map Segmento 1" src="https://github.com/user-attachments/assets/d017351d-ff33-466e-b413-9c1bf66b5721" />
 
-</div>
+**Segmento 2:**
 
-**Descripción:**
-
-<p align="justify">
-
-El empathy map profundiza en la perspectiva de <strong>Diego Mendoza Ríos</strong>, piloto operador de dron, complementando el recorrido descrito en el User Journey Mapping (2.3.3). Se construyó sobre los seis campos del modelo clásico (Dice, Piensa, Hace, Siente, Dolores y Ganancias) a partir de la información recogida en las entrevistas (2.2) y su perfil de usuario (2.3.1).
-
-</p>
-
-<p align="justify">
-
-En los cuadrantes de <strong>Dice</strong> y <strong>Piensa</strong> se evidencia que Diego necesita información del terreno con anticipación y expresa dudas sobre si sus reportes generarán confianza en el cliente sin evidencia digital de respaldo. En <strong>Hace</strong> y <strong>Siente</strong> se observa que gran parte de sus acciones —recorrer linderos a pie, calcular insumos manualmente y coordinar por WhatsApp— están directamente asociadas a frustración, tensión y desgaste emocional, lo que confirma que el problema no es solo operativo, sino también de carga cognitiva y confianza.
-
-</p>
-
-<p align="justify">
-
-En la franja de <strong>Dolores</strong> se consolidan las fricciones más críticas: la pérdida de tiempo delimitando prediales, la falta de un reporte técnico para sustentar pausas por viento, los reclamos por desconfianza en el área reportada y la sobrecarga administrativa. En contraste, la franja de <strong>Ganancias</strong> recoge lo que Diego valoraría de una solución digital: parcelas predelimitadas, actas de servicio digitales, monitoreo en tiempo real y evidencia objetiva que respalde su trabajo frente al cliente.
-
-</p>
-
-<p align="justify">
-
-El empathy map confirma que los puntos de dolor identificados en el journey map no son hechos aislados, sino que están conectados con una necesidad más profunda de <strong>confianza y respaldo digital</strong> en cada etapa del servicio, lo cual refuerza la justificación de las funcionalidades propuestas para AgriDron Solutions (delimitación satelital, reportes automáticos y monitoreo en tiempo real).
-
-</p>
-
----
+<img width="1050" height="1948" alt="Empathy map - Segmento 2" src="https://github.com/user-attachments/assets/0bf534e0-3181-46ae-a9a6-b2954c6ad3ff" />
 
 ## 2.4. Big Picture EventStorming
 
