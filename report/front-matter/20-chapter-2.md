@@ -356,12 +356,12 @@ De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los
 ### 2.3.1. User Personas.
 #### Persona 1: Laura Ramos Paucar
 
-![User Persona 1](../assets/needfinding/User_Person_segment_1.png)
+![User Persona 1](../../assets/needfinding/User_Person_segment_1.png)
 
 
 #### Persona 2: Diego mendoza Rios
 
-![User Persona 2](../assets/needfinding/User_Person_segment_2.png)
+![User Persona 2](../../assets/needfinding/User_Person_segment_2.png)
 
 ### 2.3.2. User Task Matrix
 
