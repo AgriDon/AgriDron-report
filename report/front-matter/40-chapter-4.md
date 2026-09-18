@@ -479,6 +479,9 @@ Evita los cuellos de botella operativos. Una misión no puede ejecutarse si no h
 
 ![](../images/bounded-context/bc6.png)
 
+Se adjunta el tablero con el proceso en miro:
+[miro](https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUWFKa0EydzdPN20yN3dxUXNXSzdXb1EzNDJBYWUyd0Z5cEZpRDkzSnJNRkhBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=571792888407)
+
 ### 4.6.2. Software Architecture Context Diagram
 El **System Context Diagram de C4** representa el sistema como una única unidad y muestra los usuarios y sistemas externos que interactúan directamente con él. En este nivel no se detallan tecnologías internas.
 
