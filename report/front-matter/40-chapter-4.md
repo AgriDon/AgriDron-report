@@ -703,140 +703,61 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
-El **Design-Level Event Storming** permite representar el flujo principal del dominio de AgriDron Solutions mediante comandos, eventos de dominio, actores, políticas y agregados. A partir de este análisis se identifican cuatro áreas principales del dominio y se particiona la solución en los siguientes **Bounded Contexts**:
+El Design-Level Event Storming constituye el puente definitivo entre los requerimientos de negocio, identificados durante el proceso de Lean UX, y la arquitectura técnica de software. En esta etapa de diseño detallado bajo el enfoque de Domain-Driven Design (DDD), se descompone la complejidad del sistema AgriDron Solutions en partes modulares e independientes conocidas como Bounded Contexts.
 
-1. **Field Management**
-2. **Flight Operations**
-3. **Weather Integration**
-4. **Analytics & Reporting**
+Para cada contexto, se ha analizado minuciosamente la cadena de causa y efecto que rige el comportamiento del software, identificando los actores que interactúan con el sistema, los comandos , los agregadosde , los eventos de dominio , las políticas  y los modelos de lectura . Esta estructuración garantiza que la plataforma SaaS sea escalable, altamente cohesiva y esté estrictamente alineada con la propuesta de valor del proyecto.
 
 ### Flujo principal del dominio
 
-El flujo comienza cuando un agricultor solicita un servicio de fumigación y termina con el registro de los resultados y la generación de información histórica para consulta.
+A continuación, se describe y justifica cada uno de los Bounded Contexts identificados para la plataforma:
 
-<img src="report/images/chapter4/flujo_dominio.png" alt="Flujo principal del dominio" width="650"/>
+**Bounded context 1 : Identity & Access Management Context**
 
-**Link de Lucidchart:** https://lucid.app/lucidchart/e8a59167-4148-4d11-ab49-19abe080e585/edit?view_items=J4zqxcoJNdUQq%2BczQQMJK5LES6g%3D&page=0_0&invitationId=inv_ac46e8d4-1e8b-4dcd-b431-e285187b3edc
+Este contexto gestiona el registro de usuarios, la validación de credenciales, el control de acceso y la segregación de los roles operativos dentro de la plataforma (Agricultores, Operadores y Supervisores).
 
+Como plataforma SaaS multiusuario, AgriDron requiere un control estricto sobre quién accede a la información y qué acciones puede realizar. Se clasifica como un Generic Subdomain, ya que, si bien no es el núcleo diferenciador del negocio agrícola, es una pieza de infraestructura crítica y obligatoria para aislar la información confidencial de los clientes, asignar responsabilidades operativas y habilitar los modelos de suscripción.
 
-### Actores principales
+![](../images/bounded-context/bc1.png)
 
-| Actor                             | Responsabilidad                                                                                             |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Agricultor / Cliente**          | Solicita servicios y consulta información de sus operaciones.                                               |
-| **Operador técnico**              | Registra y planifica misiones, verifica condiciones, ejecuta y monitorea operaciones y registra resultados. |
-| **Sistema meteorológico externo** | Proporciona información climática para apoyar la planificación.                                             |
+**Bounded context 2 : Field Management Context**
 
-### Comandos
+Encargado de la gestión espacial y geográfica del dominio. Administra el registro de fincas, la definición visual de parcelas mediante mapas interactivos y la asignación de tipos de cultivo a los polígonos trazados.
 
-| Comando                              | Origen             | Propósito                                                       |
-|--------------------------------------|--------------------|-----------------------------------------------------------------|
-| Registrar parcela                    | Operador           | Crear información de una parcela agrícola.                      |
-| Delimitar área de fumigación         | Operador           | Definir el área que será tratada.                               |
-| Crear misión                         | Operador           | Crear una operación de fumigación asociada a una parcela.       |
-| Programar misión                     | Operador           | Definir fecha y hora planificadas.                              |
-| Consultar condiciones meteorológicas | Sistema            | Obtener información climática de la API externa.                |
-| Iniciar operación                    | Operador           | Marcar el inicio de la misión.                                  |
-| Monitorear operación                 | Operador / Sistema | Actualizar estado y ubicación simulada del dron.                |
-| Registrar incidente                  | Operador           | Registrar situaciones inesperadas.                              |
-| Finalizar operación                  | Operador           | Marcar la finalización de la misión.                            |
-| Registrar resultado                  | Operador           | Registrar hectáreas tratadas, volumen aplicado y observaciones. |
-| Actualizar historial                 | Sistema            | Incorporar la misión finalizada al historial.                   |
-| Generar reporte                      | Usuario / Sistema  | Generar información consolidada de la operación.                |
+Responde directamente a la problemática de negocio sobre la gestión manual y desordenada de las áreas de cultivo. Al digitalizar y centralizar los límites exactos de cada parcela, se garantiza precisión en los cálculos de área y se evita el desperdicio de insumos. Actúa como un Supporting Subdomain fundamental, ya que provee los datos espaciales necesarios para que las misiones de vuelo puedan existir.
 
-### Eventos de dominio
+![](../images/bounded-context/bc2.png)
 
-| Evento                                   | Descripción                                                          |
-|------------------------------------------|----------------------------------------------------------------------|
-| **Parcela registrada**                   | Se creó una parcela con su información básica.                       |
-| **Área de fumigación delimitada**        | Se definió geográficamente el área que será tratada.                 |
-| **Misión creada**                        | Se creó una nueva misión.                                            |
-| **Misión programada**                    | La misión tiene fecha y hora planificadas.                           |
-| **Condiciones meteorológicas obtenidas** | El sistema recibió información climática externa.                    |
-| **Misión autorizada**                    | Las condiciones disponibles permiten continuar con la planificación. |
-| **Alerta meteorológica generada**        | Las condiciones requieren advertencia, pausa o reprogramación.       |
-| **Operación iniciada**                   | Comenzó la ejecución de la misión.                                   |
-| **Estado de operación actualizado**      | Se actualizó el estado o ubicación simulada del dron.                |
-| **Incidente registrado**                 | Se registró una situación inesperada.                                |
-| **Operación finalizada**                 | Terminó la ejecución de la misión.                                   |
-| **Resultado de misión registrado**       | Se registraron las métricas y observaciones finales.                 |
-| **Historial actualizado**                | La misión finalizada está disponible como antecedente.               |
-| **Reporte generado**                     | Se generó información consolidada.                                   |
+**Bounded context 3 : Flight Operations Context**
 
-### Políticas y reglas de negocio
+Es el motor operativo de AgriDron. Abarca todo el ciclo de vida de la fumigación: la creación de la misión, la asignación de operadores, el inicio de la jornada laboral, la actualización de la telemetría del dron en tiempo real y el reporte de incidencias en campo hasta la finalización del vuelo.
 
-| Política                              | Regla                                                                                                       |
-|---------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Verificación meteorológica previa** | Antes de iniciar una misión se deben consultar las condiciones meteorológicas disponibles.                  |
-| **Evaluación de condiciones**         | Si las condiciones son desfavorables, se genera una alerta para apoyar la decisión de pausar o reprogramar. |
-| **Registro de incidentes**            | Una incidencia debe quedar registrada para mantener trazabilidad.                                           |
-| **Registro de resultados**            | Una misión finalizada debe conservar información sobre el trabajo realizado.                                |
-| **Actualización del historial**       | Los resultados de misiones finalizadas deben estar disponibles para consultas posteriores.                  |
+Representa el Core Domain (dominio central) del proyecto. Contiene la principal ventaja competitiva y propuesta de valor de la startup: la orquestación en tiempo real de operaciones de fumigación con drones. Es el contexto que más impacto tiene en la reducción de tiempos, costos operativos y exposición a riesgos químicos, cumpliendo con las hipótesis planteadas en el Lean UX.
 
-### Agregados principales
+![](../images/bounded-context/bc3.png)
 
-- **Farm / Parcel:** concentra información territorial y agrícola.
-- **Mission:** concentra la información principal de una operación y su ciclo de vida.
-- **Drone:** representa el recurso utilizado para ejecutar una misión.
-- **Mission Report:** concentra los resultados registrados al finalizar una operación.
+**Bounded context 4 : Weather Integration Context**
 
----
+Actúa como una capa especializada (Anti-Corruption Layer) que se comunica de forma continua con APIs meteorológicas externas para obtener pronósticos de viento, lluvia y temperatura.
 
-# 4.6.1.1. Bounded Contexts
+Las condiciones climáticas son un factor de riesgo crítico en la fumigación con drones. Este Supporting Subdomain justifica su existencia al transformar datos meteorológicos externos en reglas de negocio internas (alertas y bloqueos de vuelo). Además, cumple directamente con el requerimiento arquitectónico del proyecto de integrar y consumir servicios de terceros de manera aislada y resiliente.
 
-La partición del dominio se realiza considerando las responsabilidades y conceptos principales de la solución.
+![](../images/bounded-context/bc4.png)
 
-## Bounded Context 1: Field Management
+**Bounded context 5 : Analytics & Reporting Context**
 
-**Responsabilidad:** administrar la información de campos y parcelas utilizada para planificar servicios.
+Se encarga de procesar los datos históricos de las misiones completadas para calcular métricas de eficiencia, costos por hectárea, rendimiento de operadores y generar reportes exportables (PDF).
 
-**Conceptos:** campo, parcela, cultivo, ubicación, área de fumigación y coordenadas.
+Está alineado con el objetivo de negocio de fomentar la retención de clientes y la adopción de planes premium. Los agricultores y supervisores necesitan justificar sus inversiones tecnológicas; este contexto transforma los datos operativos brutos en inteligencia de negocio, permitiendo la toma de decisiones estratégicas basadas en el rendimiento real.
 
-**Operaciones:** registrar/actualizar parcela, visualizarla en mapa, delimitar área y asociar cultivo.
+![](../images/bounded-context/bc5.png)
 
-**Eventos:** `ParcelaRegistrada`, `AreaFumigacionDelimitada`, `InformacionCultivoRegistrada`.
+**Bounded context 6 : Inventory & Resource Management Context**
 
-## Bounded Context 2: Flight Operations
+Gestiona el catálogo de insumos químicos (pesticidas, herbicidas y fertilizantes), controlando los niveles de stock, registrando los descuentos por cada misión y emitiendo alertas cuando se alcanzan umbrales críticos.
 
-**Responsabilidad:** gestionar la planificación, ejecución y seguimiento de misiones.
+Evita los cuellos de botella operativos. Una misión no puede ejecutarse si no hay insumos físicos suficientes. Este contexto de soporte garantiza la continuidad de las operaciones en campo, mitigando el riesgo de desabastecimiento y permitiendo a las cooperativas agrícolas planificar sus compras con antelación, lo que impacta positivamente en la reducción de costos generales.
 
-**Conceptos:** misión, dron, programación, estado, operación, incidente y hectáreas tratadas.
-
-**Operaciones:** crear/programar misión, iniciar operación, actualizar estado, registrar incidentes, finalizar operación y registrar resultados.
-
-**Eventos:** `MisionCreada`, `MisionProgramada`, `OperacionIniciada`, `EstadoOperacionActualizado`, `IncidenteRegistrado`, `OperacionFinalizada`.
-
-## Bounded Context 3: Weather Integration
-
-**Responsabilidad:** encapsular la integración con la API meteorológica y proporcionar información climática para apoyar la planificación.
-
-**Conceptos:** consulta meteorológica, condición, viento, temperatura, humedad, precipitación y alerta.
-
-**Operaciones:** consultar condiciones, consultar pronóstico, evaluar condiciones y generar alertas.
-
-**Eventos:** `CondicionesMeteorologicasObtenidas`, `CondicionesEvaluadas`, `AlertaMeteorologicaGenerada`.
-
-## Bounded Context 4: Analytics & Reporting
-
-**Responsabilidad:** conservar y presentar información histórica de las operaciones.
-
-**Conceptos:** historial, resultado, reporte, estadística y métrica.
-
-**Operaciones:** registrar resultados, consultar historial, consolidar métricas y generar reportes.
-
-**Eventos:** `ResultadoMisionRegistrado`, `HistorialActualizado`, `ReporteGenerado`.
-
-### Relación entre Bounded Contexts
-
-<img src="report/images/chapter4/DDD_BoundedContext.jpg" alt="DDD Bounded Context" width="650"/>
-```
-
-### Justificación
-
-- **Field Management** mantiene la información territorial.
-- **Flight Operations** gestiona el ciclo de vida de la misión.
-- **Weather Integration** aísla la dependencia externa de información meteorológica.
-- **Analytics & Reporting** transforma resultados en información histórica y reportes.
+![](../images/bounded-context/bc6.png)
 
 **link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
 
