@@ -31,10 +31,10 @@ Proyecto
 **Integrantes**
 
 
-| **Código** |       **Apellidos y Nombres**       |
-|:-----------:|:-----------------------------------:|
-| U202512856                   |     Jara Espinoza Miguel Angel      |
-
+| **Código** |  **Apellidos y Nombres**   |
+|:-----------:|:--------------------------:|
+| U202512856                   | Jara Espinoza Miguel Angel |
+| U202512856                   |        JEdwin Nicho        |
 
 
 Setiembre 2026
