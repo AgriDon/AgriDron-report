@@ -76,17 +76,15 @@ Objetivo de Negocio #2 [Segmento 2: Personal Técnico / Operadores de Drones]:
 - BG03 - Reducción de Disputas: Alcanzar un 90% de misiones cerradas con Acta de Servicio digital inmediata y cero disputas por hectáreas tratadas en el primer semestre.
 
 **Impact Mapping Segmento 1:**
-<div align="center">
-   <img src="report/images/chapter3/Impactmap-Segmento1.png" alt=" Impact Mapping Segmento 1" />>
-</div>
+
+
+![ImpactMap1](../images/chapter3/Impactmap-Segmento1.png)
 
 <sub>Ilustración. Impact Mapping de Pequeños y Medianos Agricultores</sub>
 
 **Impact Mapping Segmento 2:**
 
-<div align="center">
-   <img src="report/images/chapter3/Impactmap-Segmento2.png" alt=" Impact Mapping Segmento 2" />
-</div>
+![ImpactMap2](../images/chapter3/Impactmap-Segmento2.png)
 
 <sub>Ilustración. Impact Mapping de Personal Técnico / Operadores de Drones</sub>
 
