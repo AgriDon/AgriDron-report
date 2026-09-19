@@ -83,30 +83,29 @@ Objetivo de Negocio #2 [Segmento 2: Personal Técnico / Operadores de Drones]:
 
 ## 3.3. Product Backlog
 
-| ID     | Epic / Módulo        | User Story / Technical Story                                                                                                                                         | Prioridad  | Story Points  | Estado |
-|:-------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-------------:|:-------|
-| TU-00  | Infraestructura      | Configuración de Arquitectura Base en Spring Boot                                                                                                                    | ALTA       |       5       | To-Do  |
-| TU-002 | Seguridad            | Implementación de Seguridad y Autenticación JWT                                                                                                                      | ALTA       |       5       | To-Do  |
-| TU-004 | Field Management     | Configuración de Persistencia Espacial en Base de Datos (GIS)                                                                                                        | ALTA       |       5       | To-Do  |
-| LP-001 | Landing Page         | Como visitante, quiero visualizar la propuesta de valor de AgriDron en la página principal, para entender rápidamente qué ofrece el servicio.                        | ALTA       |       2       | To-Do  |
-| LP-002 | Landing Page         | Como visitante, quiero ver los servicios y características principales de AgriDron, para evaluar si la solución satisface mis necesidades.                           | ALTA       |       2       | To-Do  |
-| LP-003 | Landing Page         | Como visitante, quiero conocer los planes de precios y suscripción, para tomar una decisión informada sobre la contratación del servicio.                            | ALTA       |       3       | To-Do  |
-| LP-004 | Landing Page         | Como visitante, quiero registrarme en la plataforma proporcionando mis datos básicos, para acceder a las funcionalidades de la Web Application.                      | ALTA       |       5       | To-Do  |
-| LP-005 | Landing Page         | Como visitante registrado, quiero iniciar sesión con mis credenciales, para acceder a la Web Application.                                                            | ALTA       |       3       | To-Do  |
-| LP-006 | Landing Page         | Como visitante, quiero acceder a los términos y condiciones de servicio, para conocer las políticas de uso y privacidad.                                             | BAJA       |       1       | To-Do  |
-| LP-007 | Landing Page         | Como visitante, quiero cambiar el idioma del sitio entre español e inglés, para navegar en mi idioma preferido.                                                      | MEDIA      |       5       | To-Do  |
-| WA-001 | Web App - Agricultor | Como agricultor, quiero registrar mis fincas en la plataforma, para gestionar mis parcelas de forma centralizada.                                                    | ALTA       |       5       | To-Do  |
-| WA-002 | Web App - Agricultor | Como agricultor, quiero dibujar el área de fumigación sobre un mapa interactivo, para planificar misiones de manera precisa.                                         | ALTA       |       8       | To-Do  |
-| WA-003 | Web App - Agricultor | Como agricultor, quiero crear una misión de fumigación seleccionando el área y el cultivo, para solicitar el servicio.                                               | ALTA       |       5       | To-Do  |
-| TU-003 | Weather Integration  | Integración con Servicio Externo de Clima (Weather API)                                                                                                              | MEDIA      |       3       | To-Do  |
-| WA-004 | Web App - Agricultor | Como agricultor, quiero consultar el historial de misiones de fumigación de mis fincas, para dar seguimiento a las operaciones realizadas.                           | MEDIA      |       5       | To-Do  |
-| WA-005 | Web App - Agricultor | Como agricultor, quiero generar reportes de productividad por hectárea, para justificar inversiones y tomar decisiones estratégicas.                                 | MEDIA      |       8       | To-Do  |
-| WA-006 | Web App - Operador   | Como operador, quiero visualizar las misiones de fumigación que me han sido asignadas, para planificar mi jornada de trabajo.                                        | ALTA       |       3       | To-Do  |
-| WA-007 | Web App - Operador   | Como operador, quiero actualizar el estado de una misión (En Progreso / Completada), para mantener informado al agricultor y al supervisor.                          | ALTA       |       5       | To-Do  |
-| WA-008 | Web App - Operador   | Como operador, quiero registrar mis horas trabajadas con verificación de ubicación, para garantizar precisión en la información de mi jornada.                       | MEDIA      |       8       | To-Do  |
-| WA-009 | Web App - Operador   | Como operador, quiero registrar incidencias durante la operación (clima adverso, falla técnica, etc.), para documentar interrupciones y justificar reprogramaciones. | MEDIA      |       5       | To-Do  |
-| WA-010 | Web App - Supervisor | Como supervisor, quiero asignar misiones creadas por agricultores a operadores disponibles, para coordinar las operaciones de campo.                                 | ALTA       |       5       | To-Do  |
-| TU-005 | Flight Operations    | Implementación de Simulador de Telemetría para Drones (WebSockets)                                                                                                   | ALTA       |       8       | To-Do  |
-| WA-011 | Web App - Supervisor | Como supervisor, quiero ver el estado y ubicación de todos los drones activos en tiempo real, para optimizar la coordinación de misiones.                            | ALTA       |       8       | To-Do  |
-| WA-012 | Web App - Supervisor | Como supervisor, quiero consultar reportes de eficiencia operativa (tiempo/hectárea, costo/hectárea), para evaluar el desempeño y optimizar recursos.                | MEDIA      |       8       | To-Do  |
-| WA-013 | Web App - Supervisor | Como supervisor, quiero gestionar el inventario de pesticidas y fertilizantes disponibles, para planificar compras y garantizar el abastecimiento.                   | MEDIA      |       5       | To-Do  |
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|:---:|:---:|---|---|:---:|
+| 1 | LP-001 | Visualizar propuesta de valor | Como visitante, quiero visualizar la propuesta de valor de AgriDron en la página principal, para entender rápidamente los beneficios del servicio. | 2 |
+| 2 | LP-002 | Conocer servicios ofrecidos | Como visitante, quiero revisar los servicios principales, para evaluar si resuelven las necesidades de mi campo. | 2 |
+| 3 | LP-003 | Ver planes y precios | Como visitante, quiero conocer las tarifas y planes de suscripción, para tomar una decisión informada antes de registrarme. | 3 |
+| 4 | LP-006 | Registrarse como nuevo usuario | Como visitante, quiero registrarme ingresando mis datos básicos, para acceder a la Web Application. | 5 |
+| 5 | LP-007 | Iniciar sesión en la plataforma | Como usuario registrado, quiero ingresar con mis credenciales, para acceder a mi espacio de trabajo en la Web Application. | 3 |
+| 6 | TU-001 | Arquitectura Base en Spring Boot | Como Developer, quiero configurar la estructura multicapa del API, para asegurar mantenibilidad y gestión global de excepciones. | 5 |
+| 7 | TU-002 | Seguridad y Autenticación JWT | Como Developer, quiero implementar autenticación basada en JWT, para proteger las rutas según el rol de usuario. | 5 |
+| 8 | WA-001 | Registrar finca y parcelas en mapa interactivo | Como agricultor, quiero delimitar mis parcelas dibujando sobre un mapa satelital, para tener catastrados los linderos. | 8 |
+| 9 | TU-004 | Persistencia Geoespacial de Parcelas | Como Developer, quiero estructurar la persistencia en formato GeoJSON, para almacenar con precisión coordenadas espaciales. | 5 |
+| 10 | WA-002 | Solicitar misión con validación de riesgos | Como agricultor, quiero solicitar una misión especificando cultivo y fecha, para contratar el servicio técnico con dron. | 5 |
+| 11 | TU-003 | Integración con Weather API | Como Developer, quiero integrar un cliente externo de clima, para bloquear vuelos inseguros (Anti-Corruption Layer). | 3 |
+| 12 | WA-009 | Asignar misiones a operadores | Como supervisor, quiero asignar solicitudes pendientes a mi equipo técnico, para asegurar la cobertura operativa. | 3 |
+| 13 | WA-005 | Gestionar agenda de órdenes | Como operador, quiero revisar mi agenda en un calendario con la parcela en mapa, para planificar mi ruta al campo. | 3 |
+| 14 | WA-006 | Iniciar y monitorear sesión de pulverización | Como operador, quiero registrar el despegue y ver los parámetros del dron, para controlar la cobertura real en campo. | 5 |
+| 15 | TU-005 | Simulador de Telemetría para Drones | Como Developer, quiero implementar un emulador vía WebSockets, para simular eventos de vuelo, batería y altitud. | 8 |
+| 16 | WA-010 | Monitorear flota en tiempo real | Como supervisor, quiero ver la ubicación GPS de todos los drones activos, para coordinar múltiples misiones en paralelo. | 8 |
+| 17 | WA-008 | Emitir acta de servicio en campo | Como operador, quiero registrar hectáreas netas y volumen de líquido al aterrizar, para emitir la conformidad final. | 5 |
+| 18 | WA-007 | Registrar incidencias de vuelo | Como operador, quiero documentar interrupciones por mal tiempo o fallas mecánicas, para justificar la pausa técnica. | 3 |
+| 19 | WA-012 | Gestionar stock de agroquímicos | Como supervisor, quiero registrar entradas de fertilizantes, para evitar cuellos de botella en futuras fumigaciones. | 5 |
+| 20 | WA-003 | Consultar historial y estados | Como agricultor, quiero revisar el listado de mis misiones históricas, para dar seguimiento temporal a las sanidades aplicadas. | 3 |
+| 21 | WA-004 | Generar reporte de tratamientos | Como agricultor, quiero exportar un consolidado fitosanitario, para respaldar el control de insumos auditables. | 5 |
+| 22 | WA-011 | Consultar métricas de eficiencia | Como supervisor, quiero graficar los costos de horas-hombre y líquidos por hectárea, para evaluar el desempeño. | 5 |
+| 23 | LP-004 | Consultar términos y condiciones | Como visitante, quiero acceder a las políticas de privacidad, para informarme sobre el tratamiento de mis datos. | 1 |
+| 24 | LP-005 | Cambiar idioma del sitio | Como visitante, quiero alternar el idioma de la página, para consultar la información en español o inglés. | 2 |
