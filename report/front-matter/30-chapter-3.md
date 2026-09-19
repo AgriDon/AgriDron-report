@@ -109,3 +109,11 @@ Objetivo de Negocio #2 [Segmento 2: Personal Técnico / Operadores de Drones]:
 | 22 | WA-011 | Consultar métricas de eficiencia | Como supervisor, quiero graficar los costos de horas-hombre y líquidos por hectárea, para evaluar el desempeño. | 5 |
 | 23 | LP-004 | Consultar términos y condiciones | Como visitante, quiero acceder a las políticas de privacidad, para informarme sobre el tratamiento de mis datos. | 1 |
 | 24 | LP-005 | Cambiar idioma del sitio | Como visitante, quiero alternar el idioma de la página, para consultar la información en español o inglés. | 2 |
+
+Se adjunta capturas con evidencia del backlog en la tecnología Jira, mostrando la priorización y estimación de puntos de historia para cada requerimiento.
+
+![Backlog](../images/chapter3/backlog1.png)
+
+![Backlog2](../images/chapter3/backlog2.png)
+
+Adicionalmente se adjunta el link de acceso al tablero de Jira para la gestión del Product Backlog: [Jira Board](https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiY2IwZjM2ZjdhNzhiNDA3ZmIwODg0NWEwMGM2NGFhZDgiLCJwIjoiaiJ9)
