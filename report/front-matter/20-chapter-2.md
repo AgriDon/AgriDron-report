@@ -103,7 +103,7 @@ Para la recolección de requerimientos y el análisis de necesidades, se llevaro
 
 ![Captura Entrevista Camila Ramos](../images/entrevistas/Entrevista 1.jpeg)
 
-*[Ver entrevista 1](https://drive.google.com/file/d/1psaWNUK8L0itk8C8gMyFpXQq39WQXifl/view?usp=sharing)*
+*[Ver entrevista 1](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
 **Resumen de entrevista:**
 
@@ -115,14 +115,14 @@ Camila Ramos Paucar, estudiante de 10mo ciclo de Agronomía y administradora del
 | **Entrevistado** | Camila Ramos Paucar |
 | **Edad** | 25 años |
 | **Ubicación** | Distrito de Subtanjalla, Valle de Ica |
-| **Duración / Empieza en** | 0:00 |
-| **Enlace** | https://drive.google.com/file/d/1psaWNUK8L0itk8C8gMyFpXQq39WQXifl/view?usp=sharing |
+| **Duración / Empieza en** | 4:42 / 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
 ##### Entrevista #2
 
 ![Captura Entrevista Diana](../images/Entrevistas/Entrevista 2.jpeg)
 
-*[Ver entrevista 2](https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing)*
+*[Ver entrevista 2](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
 **Resumen de entrevista:**
 
@@ -134,14 +134,14 @@ Diana, en representación de su padre Rómulo Huamán Ccora (52 años), administ
 | **Entrevistado** | Diana (en representación de su padre, Rómulo Huamán Ccora) |
 | **Edad** | 25 (Rómulo Huamán Ccora: 52 años) |
 | **Ubicación** | Distrito de Supe, Valle de Barranca, Lima |
-| **Duración / Empieza| 0:00 | 
-| **Enlace** | https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing |
+| **Duración / Empieza | 7:08 / 4:43 | 
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
 ##### Entrevista #3
 
 ![Captura Entrevista Jesus](../images/Entrevistas/Entrevista 3.jpeg)
 
-*[Ver entrevista 3](https://drive.google.com/file/d/1F-pGa2UEGo0BQbpPkvPRM1tF1KmVYhDm/view?usp=sharing)*
+*[Ver entrevista 3](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
 **Resumen de entrevista:**
 
@@ -153,8 +153,8 @@ Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones d
 | **Entrevistado** | Jesus |
 | **Edad** | 34 años |
 | **Ubicación** | Valle de Huaral y Barranca, Lima |
-| **Duración / Empieza** | 0:00 |
-| **Enlace** | https://drive.google.com/file/d/1M5gN6fJdg-7LlhIqzyVWb7mHcHxu4GER/view?usp=sharing |
+| **Duración / Empieza** | 8:13 / 11:51 |
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
 #### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
 
@@ -162,7 +162,7 @@ Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones d
 
 ![Captura Entrevista Valeria Mendoza](../images/Entrevistas/Entrevista 4.jpeg)
 
-*[Ver entrevista 4](https://drive.google.com/file/d/1YfTupEapOnlyeT2G-yDdhMz5-fWv1phb/view?usp=sharing)*
+*[Ver entrevista 4](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
 **Resumen de entrevista:**
 
@@ -174,14 +174,14 @@ Valeria Sofía Mendoza Ríos, estudiante de 8vo ciclo de Ingeniería Agrícola y
 | **Entrevistado** | Valeria Sofía Mendoza Ríos |
 | **Edad** | 25 años |
 | **Ubicación** | Valle de Cañete (Lima Provincias) |
-| **Duración / Empieza en** | 0:00 |
-| **Enlace** | https://drive.google.com/file/d/1YfTupEapOnlyeT2G-yDdhMz5-fWv1phb/view?usp=sharing |
+| **Duración / Empieza en** | 8:50 / 20:05 |
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
 ##### Entrevista #5
 
 ![Captura Entrevista Daniel Arias](../images/Entrevistas/Entrevista 5.jpeg)
 
-*[Ver entrevista 5](https://drive.google.com/file/d/1SXFCVqgH8KDvp41xau_lsSTccw7PCdkT/view?usp=sharing)*
+*[Ver entrevista 5](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
 **Resumen de entrevista:**
 
@@ -193,10 +193,27 @@ Daniel Arias Dextre, de 24 años, es asistente técnico operativo y co-gestor de
 | **Entrevistado** | Daniel Arias Dextre (en representación de Roberto Arias) |
 | **Edad** | 24 años |
 | **Ubicación** | Reside en Lima (operaciones en Valle de Ica y Arequipa) |
-| **Duración / Empieza en** | POR CONFIRMAR / 0:00 |
-| **Enlace** | https://drive.google.com/file/d/1SXFCVqgH8KDvp41xau_lsSTccw7PCdkT/view?usp=sharing |
+| **Duración / Empieza en** | 6:36 / 28:56 |
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
+##### Entrevista #6
 
+![Captura Entrevista Eduardo Osorio](report/images/Entrevistas/Entrevista 6.jpeg)
+
+*[Ver entrevista 6](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+
+**Resumen de entrevista:**
+
+Eduardo Osorio, de 34 años, es técnico agropecuario y piloto certificado de drones agrícolas (DGAC), con formación adicional del fabricante DJI Agras, y presta servicios de fumigación principalmente en el valle de Cañete y Chincha, con trabajos ocasionales en Ica. En campo usa un smartphone Android con Google Chrome y una tablet de campo integrada al control del dron; no cuenta con laptop propia y depende de la de un familiar para reportes administrativos. Coordina toda su operación por WhatsApp, lleva su agenda en un cuaderno físico y delega la facturación a su esposa en una hoja de Excel simple, sin usar Google Calendar ni otras herramientas digitales. Opera con un DJI Agras T30 de 30 litros, ofreciendo servicios preventivos y curativos en cultivos de algodón, maíz, palto y espárrago, a un precio de 35 a 45 soles por hectárea. Enfrenta disputas frecuentes con agricultores por diferencias entre el área estimada y la realmente cubierta, ya que estos miden "a ojo" sin referencia técnica clara. La coordinación de citas es desgastante por la falta de un calendario visual, generando cruces de trabajos y pérdida de tiempo en traslados. Cuando el predio no tiene coordenadas exactas, debe caminar el perímetro en modo manual antes del vuelo automático, perdiendo entre 20 y 40 minutos por servicio. No lleva bitácora digital (registra todo en un cuaderno de campo que transcribe tardíamente a Excel) y evalúa el clima con la app Windy la noche previa y un anemómetro manual en campo, sin evidencia formal para justificar suspensiones por viento o lluvia ante el cliente. Se muestra receptivo y pragmático frente a la digitalización de su negocio: considera muy útil visualizar las parcelas ya dibujadas en un mapa satelital antes del vuelo, valora una bitácora web rápida para dar transparencia inmediata al agricultor, y ve en las alertas climáticas automáticas una forma de respaldar técnicamente sus decisiones de pausar labores.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alejandro Samir |
+| **Entrevistado** | Eduardo Osorio |
+| **Edad** | 34 años |
+| **Ubicación** | Opera en el valle de Cañete y Chincha (ocasionalmente Ica) |
+| **Duración / Empieza en** | 5:12 / 35:34 |
+| **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
 
 
 
