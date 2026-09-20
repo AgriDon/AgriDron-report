@@ -542,7 +542,12 @@ En la versión desktop, el wireframe organiza la información en un recorrido se
 - Nuestro equipo: Sección de respaldo con los perfiles del equipo multidisciplinario detrás de la solución.
 - Footer: Pie de página con enlaces de navegación interna, datos de contacto, ubicación y canales de redes sociales.
 
-![Landing Page Wireframe](../images/chapter4/landing_wireframe.png)
+![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Desktop_Wireframe.png)
+
+**Mobile**
+- En la versión mobile, la interfaz de la Landing Page adapta su arquitectura a una sola columna vertical con el objetivo de optimizar la lectura y facilitar la interacción táctil en entornos de campo. La hero section compacta la cabecera mediante un menú de navegación desplegable tipo hamburguesa y conserva el mensaje principal sobre la optimización de cultivos, complementado por los tres pilares de valor clave y los botones de acción apilados a ancho completo (Comienza tu prueba gratis y Ver cómo funciona) para asegurar un alcance cómodo con el pulgar.
+
+![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Mobile_Wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -552,11 +557,16 @@ Los mock-ups finales de la Landing Page de AgriDron Solutions representan la con
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
 
-![Landing Page Mock-up](../images/chapter4/landing_mockup.png)
+![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Desktop_Mock_up.png)
+
+**Mobile**
+
+![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Mobile_Mock_up.png)
 
 ## 4.4. Web Applications UX/UI Design
 
-La propuesta UX/UI de las Web Applications de AgriDron Solutions está diseñada para responder a las necesidades principales de sus usuarios clave: permitir que los agricultores planifiquen y soliciten misiones de fumigación de precisión sobre sus parcelas con rapidez, dar a los operadores técnicos un control telemétrico detallado durante la ejecución del vuelo en campo, y proporcionar a los supervisores visibilidad clara sobre la flota de drones, personal asignado, inventario de insumos y misiones globales. A partir de ello, la interfaz prioriza el acceso directo a módulos críticos (mapas satelitales, misiones, telemetría en vivo y alertas climáticas), la visualización rápida del estado operativo en tiempo real y la reducción de pasos en las tareas más frecuentes de la jornada agrícola.
+Para los agricultores, la interfaz prioriza una experiencia clara y accesible que permite catastrar fincas y parcelas dibujando polígonos sobre mapas satelitales interactivos, programar misiones fitosanitarias con validación climática preventiva y auditar el historial de tratamientos mediante reportes consolidados. Para los operadores técnicos, la plataforma agiliza la recepción de órdenes de trabajo con áreas predelimitadas, proporciona un panel de monitoreo con telemetría simulada (posición GPS, nivel de batería y avance de pulverización) y facilita la emisión instantánea de actas de servicio digitales que certifican las hectáreas netas tratadas y respaldan suspensiones operativas ante vientos adversos.
+A partir de estas necesidades, el diseño de la aplicación web reduce la sobrecarga cognitiva en campo y gabinete mediante una arquitectura modular: garantiza acceso inmediato a mapas interactivos, visualización de estados en tiempo real (programada, en progreso, pausada o completada), consulta automatizada de datos meteorológicos y flujos guiados en pocos pasos para optimizar cada jornada agrícola.
 
 ### 4.4.1. Web Applications Wireframes
 
@@ -564,7 +574,18 @@ Los wireframes de las Web Applications definen la estructura base de las vistas 
 
 En escritorio, los wireframes muestran una estructura con sidebar lateral persistente, header superior con notificaciones/alertas y un área central de trabajo amplia, adecuada para la interacción con mapas cartográficos, monitoreo telemétrico y reportes gráficos de rendimiento. En mobile web, la información se reorganiza en tarjetas apiladas, paneles deslizantes y listas táctiles de fácil lectura bajo luz solar directa, reduciendo la complejidad visual sin perder funcionalidad ni velocidad de respuesta en campo.
 
-![Web Applications Wireframes](../images/chapter4/Web_Applications_Wireframes.png)
+![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Desktop.png)
+
+![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Desktop_.png)
+
+![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile.png)
+
+![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile_.png)
+
+![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile__.png)
+
+
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -596,6 +617,8 @@ En escritorio, la aplicación estructura su área de trabajo mediante un sidebar
 
 A continuación, se detallan los 8 escenarios visuales clave presentados en la propuesta de alta fidelidad:
 
+**Desktop**
+
 **1. Inicio / Dashboard**
 
 - Propósito: Vista principal y centro de control operativo tras autenticarse en la plataforma.
@@ -603,6 +626,8 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Tarjetas de métricas generales (KPIs): Resumen numérico con total de Fincas registradas (3), Parcelas (8), Misiones (5) y Área total (18.5 ha).
 - Misiones recientes: Tabla resumida con ID de misión (MS-001, MS-002, MS-003), parcela de destino, fecha y badges de estado con código de color (En curso, Completada, Programada).
 - Widget meteorológico: Panel en tiempo real que exhibe temperatura (18 °C), condición del cielo (Parcialmente nublado), velocidad del viento (12 km/h) y humedad relativa (68%)
+
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-1.png)
 
 **2. Gestión de Fincas**
 
@@ -613,6 +638,8 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Botón contextual destacado + Nueva finca para el registro acelerado de campos.
 - Tarjetas de finca (Finca Los Olivos, Finca San José, Finca La Esperanza) que incluyen miniatura satelital, ubicación geográfica (Valle de Cañete, Valle de Mala - Lima) y extensión en hectáreas (8.5 ha, 6.2 ha, 3.8 ha) con botón directo de inspección Ver
 
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-6.png)
+
 **3. Gestión de Parcelas**
 
 - Propósito: Visualización y delimitación cartográfica de los lotes agrícolas pertenecientes a una finca.
@@ -622,6 +649,8 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Contenedor de mapa satelital interactivo con herramientas de zoom y trazado poligonal en vivo.
 - Menú desplegable para filtrado rápido por finca (Finca Los Olivos) y lista lateral de parcelas activas (Lote 1 - Uva 2.5 ha, Lote 2 - Uva 3.2 ha, Lote 3 - Palta 2.8 ha, Lote 4 - Palta 1.9 ha) con botones de acción contextual (+ Nueva parcela).
 
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-4.png)
+
 **4. Planificación de Misiones**
 
 - Propósito: Flujo asistido (wizard) en 4 pasos para programar una pulverización de precisión.
@@ -629,6 +658,8 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 
 - Indicador de progreso por etapas (1. Parcela ➔ 2. Fecha y hora ➔ 3. Insumos ➔ 4. Resumen).
 - Previsualización geoespacial del área a tratar (2.5 ha), selección del tipo de cultivo (Uva) y definición del agroquímico (Fungicida), con botón primario Siguiente ➔.
+
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-5.png)
 
 **5. Monitoreo de Misiones**
 
@@ -640,15 +671,18 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Panel telemétrico en vivo: batería (68%), altitud (25 m), velocidad (5.2 m/s), nivel de señal GPS (Excelente) y caudal de flujo (2.5 L/min).
 - Barra de avance lineal de misión (60%) dividida por fases (Preparación 08:15 ➔ En ejecución 08:30 ➔ En pausa ➔ Finalizada).
 
+![Web Applications Mock-ups](../../assets/chapter4/Web_Applications_Mock-ups_2.png)
+
 **6. Reportes e Historial**
 
 - Propósito: Consulta analítica, fiscalización del consumo de insumos y auditoría de vuelos ejecutados.
-
 **Componentes clave:**
 
 - Navegación por pestañas (Misiones, Uso de insumos, Ahorros).
 - Selector de rango de fechas (01/04/2025 - 30/04/2025) con filtro aplicable.
 - Tabla con ID de orden, parcela, fecha de aplicación, hectáreas tratadas y botón directo para descargar el acta de conformidad digital.
+
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-3.png)
 
 **7. Perfil y Configuración**
 - Propósito: Gestión de la información del usuario, seguridad de la cuenta y reglas de notificación.
@@ -658,7 +692,22 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Pestañas de navegación interna (Perfil, Notificaciones, Seguridad, Integraciones).
 - Ficha de usuario con opción Editar perfil (Juan Pérez - juan.perez@agro.com) y controles deslizantes (toggle switches) para activar o desactivar notificaciones por correo, alertas en la aplicación y avisos meteorológicos preventivos.
 
-![Web Applications Mock-ups](../images/chapter4/Web_Applications_Mock-ups.png)
+![Web Applications Mock-ups](../../assets/chapter4/Web%20Applications%20Mock-ups-7.png)
+
+
+**Mobile**
+
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-1-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-2-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-3-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-4-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-5-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-6-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-7-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-8-Mobile.png)
+![Web Applications Mock-ups Mobile](../../assets/chapter4/Web%20Applications%20Mock-ups-9-Mobile.png)
+
+
 
 **link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
