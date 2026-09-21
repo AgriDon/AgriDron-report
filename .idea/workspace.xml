@@ -1,4 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2581ec0c-eac5-420d-8d96-799ad82d58db" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5001415781888647" />
+      <entry key="MS500" value="2.5150224243073893" />
+      <entry key="S2" value="3.107324597515522" />
+      <entry key="S5" value="4.039901926444342" />
+      <entry key="S10" value="4.784499329889423" />
+      <entry key="S30" value="5.530283376982424" />
+      <entry key="S60" value="5.995837742061531" />
+      <entry key="M2" value="7.944265667162543" />
+      <entry key="M5" value="13.736346509235485" />
+      <entry key="M10" value="18.32380136945344" />
+      <entry key="M15" value="20.443849200356944" />
+      <entry key="M30" value="22.97086586882206" />
+      <entry key="H1" value="24.415734313834317" />
+      <entry key="H2" value="25.18947475987993" />
+      <entry key="H4" value="25.59001127754125" />
+      <entry key="D1" value="25.93100093221631" />
+      <entry key="W1" value="25.990126491995134" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3261725040955255" />
+      <entry key="MS500" value="2.400106301379289" />
+      <entry key="S2" value="3.0699286243882784" />
+      <entry key="S5" value="4.023503934921332" />
+      <entry key="S10" value="4.77588479493622" />
+      <entry key="S30" value="5.527285311523727" />
+      <entry key="S60" value="5.994274430971016" />
+      <entry key="M2" value="7.943300476615146" />
+      <entry key="M5" value="13.735731081843042" />
+      <entry key="M10" value="18.323400498082723" />
+      <entry key="M15" value="20.443552875381677" />
+      <entry key="M30" value="22.97070023531508" />
+      <entry key="H1" value="24.415646469761754" />
+      <entry key="H2" value="25.189429487086457" />
+      <entry key="H4" value="25.589988290901875" />
+      <entry key="D1" value="25.9309970513591" />
+      <entry key="W1" value="25.99012593635388" />
+    </decayedShown>
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "dart.analysis.tool.window.visible": "false",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
 </project>
