@@ -1,43 +1,9 @@
-# Student Outcome 5
-**Criterio**: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
 
-<table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta </strong></td>
-      <td>
-        <p><b>Alumno</b><br><em><b>AV1</b></em><br>info</p>
-        <p><b>Nicho Huillcañahui Edwin Noe</b><br><em><b>AV1</b></em><br>Participé en el video de exposición explicando ante cámara los hallazgos del Capítulo II. Prioricé un lenguaje sencillo al presentar los perfiles de usuario (User Personas) y sus necesidades a una audiencia no técnica, apoyándome en las capturas de UXPressia para ilustrar el discurso en lugar de leer texto. Durante las entrevistas de Needfinding, apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar, y en la sustentación grupal recibí y respondí preguntas del docente sobre el criterio usado para identificar patrones entre segmentos.</p>
-        <p><b></b><br><em><b></b></em><br></p>
-        <p><b>Alumno</b><br><em><b>AV1</b></em><br>info aqui</p>
-        <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.</p>
-        <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.</p>
-      </td>
-      <td><p>Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.</p></td>
-    </tr>
-    <tr>
-      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-      <td>
-        <p><b>Alumno</b><br><em><b>AV1</b></em><br>info aqui</p>
-        <p><b>Nicho Huillcañahui Edwin Noe</b><br><em><b>AV1</b></em><br>Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.</p>
-        <p><b></b><br><em><b></b></em><br></p>
-        <p><b>Alumno</b><br><em><b>AV1</b></em><br>info aqui</p>
-        <p><b>Vasquez Roncal, Alexnader Felipe</b><br><em><b>AV1</b></em><br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.</p>
-        <p><b>Damacen Galindo, Italo Gianfranco</b><br><em><b>AV1</b></em><br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.</p>
-      </td>
-      <td><p>Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.</p></td>
-    </tr>
-  </tbody>
-</table>
+## Student Outcome 5
+
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---|---|---|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Jara Espinoza, Miguel Angel**<br><br>AV1: Asumió el rol de Team Leader general y coordinó el modelado estratégico del proyecto, liderando las sesiones de Design-Level Event Storming para delimitar los Bounded Contexts y organizando la estructura de ramas del repositorio según GitFlow.<br><br>**Nicho Huillcañahui, Edwin Noe**<br><br>AV1: Lideró la definición de la arquitectura de software técnica en C4 Model (Contexto, Contenedores y Componentes), guiando al equipo en la correspondencia entre los Bounded Contexts y los módulos de la RESTful API.<br><br>**Damacen Galindo, Italo Gianfranco**<br><br>AV1: Dirigió las actividades del proceso Lean UX y diseño de interfaces, liderando la conceptualización visual de la Landing Page en Figma y estableciendo las pautas del Style Guidelines para el equipo.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br><br>AV1: Encabezó la especificación de requisitos y gestión ágil, organizando el taller colaborativo de Big Picture Event Storming en Miro y liderando la redacción del Product Backlog priorizado por valor de negocio.<br><br>**Vasquez Roncal, Alexander Felipe**<br><br>AV1: Lideró la investigación de campo y Needfinding, coordinando las pautas de las entrevistas a agricultores y operadores técnicos para consolidar los User Persona, Task Matrix y Journey Maps. | Durante este primer hito (AV1), el equipo demostró un liderazgo rotativo y horizontal altamente eficiente, donde cada integrante asumió la dirección técnica y metodológica de un frente crítico del proyecto (arquitectura, UX, requerimientos, investigación de campo y gestión de repositorio), asegurando que las decisiones técnicas se tomaran por consenso fundamentado y garantizando la alineación integral entre las necesidades del negocio y los estándares arquitectónicos del curso. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Damacen Galindo, Italo Gianfranco**<br><br>AV1: Facilitó las reuniones de Sprint Planning 1, desglosando las User Stories del Product Backlog en tareas técnicas estimadas en horas dentro del tablero de control e incentivando la participación equitativa de todos los miembros.<br><br>**Nicho Huillcañahui, Edwin Noe**<br><br>AV1: Fomentó la colaboración técnica integrando las revisiones de diseño de bases de datos relacionales y diagramas de clases UML, garantizando que las observaciones de los compañeros se reflejaran en el modelo de persistencia.<br><br>**Jara Espinoza, Miguel Angel**<br><br>AV1: Estableció las metas de entrega para los wireframes y mockups de la aplicación web y landing page, promoviendo sesiones de feedback constructivo para adaptar las interfaces a criterios de diseño inclusivo y accesibilidad.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br><br>AV1: Planificó y monitoreó el avance de la redacción colaborativa del informe en GitHub bajo Conventional Commits, revisando activamente los pull requests del equipo para cumplir con los plazos estipulados para el Sprint 1.<br><br>**Vasquez Roncal, Alexander Felipe**<br><br>AV1: Colaboró activamente en la construcción de los artefactos de empatía y definición del Ubiquitous Language, integrando aportes multidisciplinarios para consensuar la terminología compartida entre desarrolladores y usuarios de campo. | A lo largo del Sprint 1, el equipo consolidó un entorno de trabajo colaborativo, inclusivo y transparente basado en el marco ágil Scrum, logrando establecer metas realistas mediante la planificación y descomposición de tareas en el Sprint Backlog, lo que permitió coordinar esfuerzos continuos en GitHub y cumplir oportunamente con la totalidad de los artefactos de diseño, análisis y requerimientos previstos para la primera entrega. |
