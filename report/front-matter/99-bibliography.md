@@ -16,7 +16,7 @@
 
 **Enlace de miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=439115746776
 
-**Link LandingPague:** [https://opensource-upc.github.io/AgiDron-LandingPage-7760-G3/](https://agridon.github.io/Agridron-LandingPage/)
+**Link LandingPague:** [https://agridon.github.io/Agridron-LandingPage/](https://agridon.github.io/Agridron-LandingPage/)
 
 **Link PPT:** 
 
