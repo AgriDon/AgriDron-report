@@ -743,9 +743,18 @@ User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
 
 ## 4.5. Web Applications Prototyping
 
-![VersionMobile](../images/chapter4/VersionMobile.png)
+La fase de prototipado de AgriDron permite simular la navegación y la interacción principal de las aplicaciones antes de su implementación final. Los prototipos fueron diseñados para validar la continuidad entre arquitectura de información, componentes de interfaz y flujos funcionales, tanto en escritorio como en mobile. Además del prototipo navegable en Figma, esta sección debe incorporar evidencia audiovisual del recorrido de uso, tal como solicita la rúbrica.
 
-![VersionDesktop](../images/chapter4/VersionDesktop.png)
+### Escritorio
+![VersionDesktop](../images/chapter4/General_Style/Desktop_mockup.jpeg)
+
+[Prototype Desktop](https://www.figma.com/proto/sweBI03lIapUdrs9n7NSBd/Desktop_Mockup_AgriDron_Dashboard?node-id=1-223&p=f&t=PRBckX0JVZMMyKwQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
+
+### Mobile
+
+![VersionMobile](../images/chapter4/General_Style/Mobile_mockap_prototype.jpeg)
+
+[Prototype Mobile](https://www.figma.com/proto/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=130-685&p=f&t=N56V7wGMn82j0ExJ-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A17&starting-point-node-id=116%3A572&show-proto-sidebar=1)
 
 ---
 
