@@ -289,6 +289,8 @@ Esta sería la captura antes de empezar el sprint con las task creadas en Trello
 
 ![Imagen del Sprint 1 hecho en Trello](../images/chapter5/sprint_1.png)
 
+**link del trello:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Se presentarán las capturas que muestran el despliegue de la Landing Page en GitHub Pages.
