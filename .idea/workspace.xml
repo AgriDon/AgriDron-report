@@ -11,7 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2581ec0c-eac5-420d-8d96-799ad82d58db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/report/front-matter/1-caratula.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/1-caratula.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/Task matrix.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Taskmatrix.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/analisis/Images Segmento1.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/analisis/ImagesSegmento1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/images/analisis/Images Segmento2.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/analisis/ImagesSegmento2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +128,19 @@
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/home/avasquez/repo/apliWeb/AgriDron-report/report/front-matter",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ImportExportFile.TargetDir.RECENT_KEYS">
+      <recent name="$USER_HOME$/Descargas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

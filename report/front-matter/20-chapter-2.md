@@ -101,7 +101,16 @@ Para la recolección de requerimientos y el análisis de necesidades, se llevaro
 
 ##### Entrevista #1
 
-![Captura Entrevista Camila Ramos](../images/entrevistas/Entrevista 1.jpeg)
+![Captura Entrevista Camila Ramos](../images/Entrevistas/Entrevista1.jpeg)
+
+<div class="center">
+
+*Figura: Evidencia de Entrevista #1 – Camila Ramos Paucar*
+
+*Captura de pantalla de videollamada realizada a través de Google Meet entre el entrevistador Alexander Vasquez y la entrevistada Camila Ramos Paucar (estudiante de Agronomía y administradora de fundo agrícola). 
+En la imagen se observan ambas ventanas activas con cámara encendida durante la sesión de recolección de requerimientos.*
+</div>
+
 
 *[Ver entrevista 1](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -120,7 +129,16 @@ Camila Ramos Paucar, estudiante de 10mo ciclo de Agronomía y administradora del
 
 ##### Entrevista #2
 
-![Captura Entrevista Diana](../images/Entrevistas/Entrevista 2.jpeg)
+![Captura Entrevista Diana](../images/Entrevistas/Entrevista2.jpeg)
+<div class="center">
+
+*Figura: Evidencia de Entrevista #2 – Diana*
+
+*Captura de pantalla de videollamada realizada por el entrevistador Samir Choquehuanca con Diana, quien se encuentra en 
+representación del agricultor Rómulo Huamán Ccora. Se muestra la transmisión en vivo de la reunión donde se discutieron los 
+métodos de fumigación y coordinación en el valle de Barranca*
+
+</div>
 
 *[Ver entrevista 2](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -139,7 +157,16 @@ Diana, en representación de su padre Rómulo Huamán Ccora (52 años), administ
 
 ##### Entrevista #3
 
-![Captura Entrevista Jesus](../images/Entrevistas/Entrevista 3.jpeg)
+![Captura Entrevista Jesus](../images/Entrevistas/Entrevista3.jpeg)
+
+<div class="center">
+
+*Figura: Evidencia de Entrevista #3 – Jesus Arroyo*
+
+*Captura de pantalla de la entrevista remota sostenida entre Samir Choquehuanca y el piloto técnico de drones Jesus Arroyo. 
+La imagen presenta a ambos participantes en videollamada durante la indagación de flujos operativos y delimitación de linderos en campo.*
+
+</div>
 
 *[Ver entrevista 3](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -160,7 +187,17 @@ Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones d
 
 ##### Entrevista #4
 
-![Captura Entrevista Valeria Mendoza](../images/Entrevistas/Entrevista 4.jpeg)
+![Captura Entrevista Valeria Mendoza](../images/Entrevistas/Entrevista4.jpeg)
+
+<div class="center">
+
+*Figura: Evidencia de Entrevista #4 – Valeria Sofía Mendoza Ríos*
+
+*Captura de pantalla del servicio Google Meet que registra la entrevista realizada por Edwin Nicho a Valeria Sofía 
+Mendoza Ríos (operadora de drones de fumigación). Muestra la interfaz de llamada a
+las 10:58 p.m. con el nombre del código de reunión*
+
+</div>
 
 *[Ver entrevista 4](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -179,7 +216,17 @@ Valeria Sofía Mendoza Ríos, estudiante de 8vo ciclo de Ingeniería Agrícola y
 
 ##### Entrevista #5
 
-![Captura Entrevista Daniel Arias](../images/Entrevistas/Entrevista 5.jpeg)
+![Captura Entrevista Daniel Arias](../images/Entrevistas/Entrevista5.jpeg)
+
+<div class="center">
+
+*Figura: Evidencia de Entrevista #5 – Daniel Arias Dextre*
+
+*Captura de pantalla de videollamada en la plataforma Zoom llevada a cabo por el entrevistador Italo Damacen 
+con Daniel Arias Dextre (co-gestor de servicios de fumigación aeroagrícola). La imagen documenta la entrevista
+técnica sobre logística y uso de equipos DJI Agras T10*
+
+</div>
 
 *[Ver entrevista 5](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -198,7 +245,16 @@ Daniel Arias Dextre, de 24 años, es asistente técnico operativo y co-gestor de
 
 ##### Entrevista #6
 
-![Captura Entrevista Eduardo Osorio](report/images/Entrevistas/Entrevista 6.jpeg)
+![Captura Entrevista Eduardo Osorio](../images/Entrevistas/Entrevista6.jpeg)
+
+<div class="center">
+
+*Figura: Evidencia de Entrevista #6 – Eduardo Osorio*
+
+*Captura de pantalla de videollamada entre Alejandro Samir Choquehuanca y el piloto agropecuario Eduardo Osorio. Muestra las imágenes 
+en directo de ambos participantes dialogando sobre la problemática de delimitación de áreas y disputas de cobro en Cañete y Chincha.*
+
+</div>
 
 *[Ver entrevista 6](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
 
@@ -233,7 +289,14 @@ El análisis de las entrevistas realizadas permite identificar patrones claros e
 
 #### Segmento 1: Agricultores y Administradores de Fincas
 
-![Segmento 1: Agricultores y Administradores de Fincas - Características principales](../images/analisis/Images Segmento1.png)
+![Segmento 1: Agricultores y Administradores de Fincas - Características principales](../images/analisis/ImagesSegmento1.png)
+
+*Figura: Análisis de Entrevistas – Segmento 1 (Agricultores y Administradores de Fincas)*
+
+*Infografía estadística con gráfico de barras verticales que sintetiza los hallazgos del Segmento 1
+($n = 3$). Destaca que el 100% de los entrevistados utiliza smartphone y WhatsApp como herramientas principales, 
+el 100% realiza registros manuales o carece de cartografía digital formal, el 33% ha sufrido pérdidas por
+factores climáticos y el 67% muestra un interés directo en visualizar las áreas fumigadas frente a las pendientes.*
 
 Este segmento agrupa a agricultores y administradores de fincas que gestionan sus actividades principalmente mediante métodos tradicionales y herramientas digitales básicas. Los tres entrevistados utilizan smartphones como principal dispositivo de trabajo y dependen de WhatsApp para coordinar servicios, proveedores y operadores de fumigación.
 
@@ -280,7 +343,15 @@ Esto evidencia que la adopción tecnológica depende principalmente de que la he
 
 #### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
 
-![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](../images/analisis/Images Segmento2.png)
+![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](../images/analisis/ImagesSegmento2.png)
+
+*Figura: Análisis de Entrevistas – Segmento 2 (Operadores Técnicos de Drones)*
+
+*Infografía cuantitativa con gráfico de barras para el Segmento 2 ($n = 2$). 
+Registra un 100% de adopción en WhatsApp y Google Calendar para coordinación y 
+agendas, un 100% de dificultad crítica para obtener linderos precisos, un 100% de registros 
+de servicio en libretas/Excel y necesidad de alertas climáticas, un 50% de uso de laptops en
+campo y un 50% de requerimiento explicito de monitoreo del dron en tiempo real.*
 
 Este segmento está conformado por operadores técnicos que prestan servicios de fumigación agrícola con drones en diferentes valles de la costa peruana. Ambos entrevistados utilizan smartphones Android y tablets durante sus operaciones, mientras que las laptops son utilizadas principalmente para actividades administrativas y de planificación.
 
@@ -375,10 +446,27 @@ De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los
 
 ![User Persona 1](../../assets/needfinding/User_Person_segment_1.png)
 
+*Figura: User Persona 1 – Laura / Camila Ramos Paucar (Segmento 1)*
+*Artefacto de diseño de experiencia de usuario desarrollado en UXPressia
+que presenta la ficha del arquetipo del agricultor racional. Incluye la 
+fotografía de una joven en un cultivo sosteniendo una tablet, datos demográficos 
+(25 años, Subtanjalla, Ica), citas textuales sobre el uso eficiente de fitosanitarios, 
+sus objetivos de optimización de costos, frustraciones por pérdidas debidas al viento, 
+y barras de nivel para sus habilidades tecnológicas y canales de comunicación habituales 
+(WhatsApp, Banca Móvil BCP, Google Chrome).*
+
 
 #### Persona 2: Diego mendoza Rios
 
 ![User Persona 2](../../assets/needfinding/User_Person_segment_2.png)
+
+*Figura: User Persona 2 – Diego Mendoza Ríos (Segmento 2)*
+*Ficha de User Persona en UXPressia que describe al arquetipo del operador técnico de drones. 
+Contiene la imagen representativa de un operador revisando una tablet en campo, sus datos 
+clave (27 años, Cañete), motivaciones enfocadas en la recepción de parcelas georreferenciadas
+y emisión de actas digitales, frustraciones vinculadas a la pérdida de tiempo midiendo predios 
+a pie y disputas por mediciones "al ojo", junto con sus herramientas de trabajo (Android, Windows, 
+Google Calendar, llamadas directas).*
 
 ### 2.3.2. User Task Matrix
 
@@ -391,7 +479,8 @@ En la siguiente matriz se detallan las principales tareas que realiza el User Pe
 | **Emitir actas/reportes de servicio digitales** | Diego Mendoza Ríos | Alta | Alta | Media | La falta de un reporte digital estandarizado genera desconfianza y reclamos de cobro con clientes que calculan las hectáreas tratadas "al tanteo". |
 | **Sustentar pausas climáticas por viento** | Diego Mendoza Ríos | Media | Alta | Alta | Le resulta difícil justificar ante el cliente una cancelación cuando el viento supera los 12-15 km/h, al no contar con un reporte técnico formal que respalde la decisión. |
 | **Gestionar cotizaciones y agendas de trabajo** | Diego Mendoza Ríos | Alta | Media | Alta | Sufre saturación administrativa al tener que responder mensajes y cotizar servicios mientras realiza maniobras de campo. |
-![UserJourneyPapping](../images/Task matrix.jpeg)
+![UserJourneyPapping](../images/Taskmatrix.jpeg)
+*Figura: User Task Matrix*
 
 ### 2.3.3. User Journey Mapping
 
@@ -409,10 +498,27 @@ Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extr
 
 - **Segmento objetivo 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
   ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-1.png)
+*Figura: Empathy Map – Segmento 1: Agricultores y Administradores*
+*Diagrama de empatía estructurado en siete bloques en UXPressia para el arquetipo de
+Camila Ramos. Detalla lo que el usuario ve en el campo (hojas dañadas, tractores compactando el suelo), 
+lo que oye (quejas por peso de mochilas, recomendaciones de insumos), lo que piensa y siente 
+(ansiedad por el clima, temor a pagar por servicios incompletos), lo que dice y hace 
+(recorrer parcelas, usar WhatsApp y banca móvil), así como sus dolores (desperdicio financiero e informalidad) 
+y ganancias (ahorro de insumos y cartografía satelital interactiva).*
+
+<br>
 
 - **Segmento objetivo 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
   ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-2.png)
 
+*Figura: Empathy Map – Segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones*
+
+*Diagrama de empatía en UXPressia enfocado en el operador Diego Mendoza. Organiza la experiencia del piloto 
+dividida en: qué ve en el terreno (cables ocultos, planos en papel obsoletos), qué escucha (reclamos de 
+agricultores por suspensiones de vuelo), qué piensa y siente (estrés por decidir si volar con viento o arriesgar el equipo),
+sus acciones cotidianas (despegar al amanecer, medir viento con anemómetro), sus dolores (disputas por hectáreas, sobrecarga 
+de mensajes por WhatsApp) y ganancias esperadas (parcelas delimitadas previamente, actas de servicio instantáneas y 
+respaldo meteorológico).*
 
 # 2.4. BIG PICTURE EVENT STORMING
 
