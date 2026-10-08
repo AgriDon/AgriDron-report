@@ -12,16 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2581ec0c-eac5-420d-8d96-799ad82d58db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/20-chapter-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista 6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Entrevistas/Entrevista6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/Task matrix.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/Taskmatrix.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/analisis/Images Segmento1.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/analisis/ImagesSegmento1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/images/analisis/Images Segmento2.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/images/analisis/ImagesSegmento2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/front-matter/2-registros.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/2-registros.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/front-matter/30-chapter-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/front-matter/30-chapter-3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +28,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alejandro-Choquehuanca&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AgriDon/AgriDron-report.git&quot;,
+    &quot;accountId&quot;: &quot;3fac8e1f-7617-4c49-96ae-5919437763cd&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5001415781888647" />
-      <entry key="MS500" value="2.5150224243073893" />
-      <entry key="S2" value="3.107324597515522" />
-      <entry key="S5" value="4.039901926444342" />
-      <entry key="S10" value="4.784499329889423" />
-      <entry key="S30" value="5.530283376982424" />
-      <entry key="S60" value="5.995837742061531" />
-      <entry key="M2" value="7.944265667162543" />
-      <entry key="M5" value="13.736346509235485" />
-      <entry key="M10" value="18.32380136945344" />
-      <entry key="M15" value="20.443849200356944" />
-      <entry key="M30" value="22.97086586882206" />
-      <entry key="H1" value="24.415734313834317" />
-      <entry key="H2" value="25.18947475987993" />
-      <entry key="H4" value="25.59001127754125" />
-      <entry key="D1" value="25.93100093221631" />
-      <entry key="W1" value="25.990126491995134" />
+      <entry key="MS100" value="1.001563739843952" />
+      <entry key="MS500" value="1.922619998295449" />
+      <entry key="S2" value="6.843299343456099" />
+      <entry key="S5" value="13.55902609117257" />
+      <entry key="S10" value="20.52693812557008" />
+      <entry key="S30" value="34.463831645926746" />
+      <entry key="S60" value="45.61516125379838" />
+      <entry key="M2" value="63.46596545403389" />
+      <entry key="M5" value="97.13527604693905" />
+      <entry key="M10" value="121.90224855226758" />
+      <entry key="M15" value="133.51131046368025" />
+      <entry key="M30" value="147.61826222231778" />
+      <entry key="H1" value="155.8404667803924" />
+      <entry key="H2" value="160.29450015037278" />
+      <entry key="H4" value="162.61466290710194" />
+      <entry key="D1" value="164.5978157268043" />
+      <entry key="W1" value="164.94243040241923" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -80,29 +84,29 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3261725040955255" />
-      <entry key="MS500" value="2.400106301379289" />
-      <entry key="S2" value="3.0699286243882784" />
-      <entry key="S5" value="4.023503934921332" />
-      <entry key="S10" value="4.77588479493622" />
-      <entry key="S30" value="5.527285311523727" />
-      <entry key="S60" value="5.994274430971016" />
-      <entry key="M2" value="7.943300476615146" />
-      <entry key="M5" value="13.735731081843042" />
-      <entry key="M10" value="18.323400498082723" />
-      <entry key="M15" value="20.443552875381677" />
-      <entry key="M30" value="22.97070023531508" />
-      <entry key="H1" value="24.415646469761754" />
-      <entry key="H2" value="25.189429487086457" />
-      <entry key="H4" value="25.589988290901875" />
-      <entry key="D1" value="25.9309970513591" />
-      <entry key="W1" value="25.99012593635388" />
+      <entry key="MS100" value="0.027060671483401376" />
+      <entry key="MS500" value="1.39551051989997" />
+      <entry key="S2" value="6.664864930315692" />
+      <entry key="S5" value="13.479384885922597" />
+      <entry key="S10" value="20.482641931085855" />
+      <entry key="S30" value="34.44290990803833" />
+      <entry key="S60" value="45.60168074021208" />
+      <entry key="M2" value="63.45761599366651" />
+      <entry key="M5" value="97.13103198306672" />
+      <entry key="M10" value="121.89979925271952" />
+      <entry key="M15" value="133.50957171675398" />
+      <entry key="M30" value="147.617326715811" />
+      <entry key="H1" value="155.83997929742563" />
+      <entry key="H2" value="160.29425099613445" />
+      <entry key="H4" value="162.61453691076943" />
+      <entry key="D1" value="164.5977945243939" />
+      <entry key="W1" value="164.94242736845217" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KOG3bXlAeVUillGjsVPCQJ6EP2" />
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
@@ -125,6 +129,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "develop",
@@ -133,7 +146,8 @@
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -149,10 +163,38 @@
     </attachedChunks>
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2581ec0c-eac5-420d-8d96-799ad82d58db" name="Changes" comment="" />
+      <created>1791486343959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791486343959</updated>
+    </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

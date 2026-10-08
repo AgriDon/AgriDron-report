@@ -158,4 +158,4 @@ Se adjunta capturas con evidencia del backlog en la tecnología Jira, mostrando 
 
 ![Backlog2](../images/chapter3/backlog2.png)
 
-Adicionalmente se adjunta el link de acceso al tablero de Jira para la gestión del Product Backlog: [Jira Board](https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiY2IwZjM2ZjdhNzhiNDA3ZmIwODg0NWEwMGM2NGFhZDgiLCJwIjoiaiJ9)
+Adicionalmente se adjunta el link de acceso al tablero de Jira para la gestión del Product Backlog: https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiY2IwZjM2ZjdhNzhiNDA3ZmIwODg0NWEwMGM2NGFhZDgiLCJwIjoiaiJ9
