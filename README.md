@@ -263,7 +263,7 @@ Pilares de valor:
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="500"/>
+       <img width="650"  alt="image" src="https://github.com/user-attachments/assets/4c1d03a8-ec5b-484f-9621-4cf59cc49cca" />
     </td>
   </tr>
   <tr>
