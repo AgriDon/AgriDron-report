@@ -270,15 +270,15 @@ Pilares de valor:
     <td><b>Nombre:</b> Damacen Galindo, Italo Gianfranco</td>
   </tr>
   <tr>
-    <td><b>Código:</b> U202421392 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
+    <td><b>Código:</b> U202421392 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
+      Soy Italo Damacen, estudiante de Ingeniería de Software. Me considero una persona responsable, organizada y comprometida con el trabajo. Cuento con conocimientos en C++, HTML y CSS, además de conocimientos básicos de JavaScript y Java. Me interesa el desarrollo de software y la organización de proyectos.
       <br/><br/>
       <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
+      Participé principalmente en la elaboración del Capítulo I de AgriDron Solutions, incluyendo el Startup Profile, Solution Profile, antecedentes, problemática y Lean UX. También apoyé en la organización de las entrevistas, separando la información de cada entrevistado, colocando timestamps y ordenando las evidencias para facilitar su documentación y presentación.
     </td>
   </tr>
   <tr>
