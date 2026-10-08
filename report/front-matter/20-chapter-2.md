@@ -446,7 +446,7 @@ De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los
 
 ![User Persona 1](../../assets/needfinding/User_Person_segment_1.png)
 
-*Figura: User Persona 1 – Laura / Camila Ramos Paucar (Segmento 1)*
+*Figura: User Persona 1 – Laura Ramos Paucar (Segmento 1)*
 *Artefacto de diseño de experiencia de usuario desarrollado en UXPressia
 que presenta la ficha del arquetipo del agricultor racional. Incluye la 
 fotografía de una joven en un cultivo sosteniendo una tablet, datos demográficos 
