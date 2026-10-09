@@ -470,17 +470,50 @@ Google Calendar, llamadas directas).*
 
 ### 2.3.2. User Task Matrix
 
-En la siguiente matriz se detallan las principales tareas que realiza el User Persona operador técnico de drones (Diego Mendoza Ríos) en su labor diaria de fumigación, indicando la frecuencia, importancia y dificultad de cada tarea, así como los problemas actuales que enfrenta antes de la existencia de la solución propuesta.
+A continuación se presenta el User Task Matrix que consolida y compara las principales tareas que realizan los dos arquetipos de usuario del proyecto: **Camila Ramos Paucar** (Segmento 1: Agricultores y Administradores de Fincas) y **Diego Mendoza Ríos** (Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones). Estas tareas corresponden a actividades del mundo real que se ejecutan independientemente de la existencia de la solución de software.
 
-| Tarea | Usuario | Frecuencia | Importancia | Dificultad | Problemas actuales |
-|:---|:---|:---|:---|:---|:---|
-| **Delimitar linderos y mapas de parcela** | Diego Mendoza Ríos | Alta | Alta | Alta | Recibe referencias verbales imprecisas del agricultor y debe recorrer el predio a pie para identificar y marcar manualmente los obstáculos y límites de la parcela. |
-| **Monitorear parámetros de vuelo y avance en tiempo real** | Diego Mendoza Ríos | Alta | Alta | Media | No cuenta con una interfaz unificada que le permita verificar batería, GPS y nivel de tanque de forma simultánea durante el vuelo. |
-| **Emitir actas/reportes de servicio digitales** | Diego Mendoza Ríos | Alta | Alta | Media | La falta de un reporte digital estandarizado genera desconfianza y reclamos de cobro con clientes que calculan las hectáreas tratadas "al tanteo". |
-| **Sustentar pausas climáticas por viento** | Diego Mendoza Ríos | Media | Alta | Alta | Le resulta difícil justificar ante el cliente una cancelación cuando el viento supera los 12-15 km/h, al no contar con un reporte técnico formal que respalde la decisión. |
-| **Gestionar cotizaciones y agendas de trabajo** | Diego Mendoza Ríos | Alta | Media | Alta | Sufre saturación administrativa al tener que responder mensajes y cotizar servicios mientras realiza maniobras de campo. |
-![UserJourneyPapping](../images/Taskmatrix.jpeg)
-*Figura: User Task Matrix*
+| ID | Tarea del Dominio Agrícola (Task) | Camila Ramos Paucar (Agricultora) | | Diego Mendoza Ríos (Operador Técnico) | |
+|:---:|:---|:---:|:---:|:---:|:---:|
+| | | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| **TK01** | Inspección fitosanitaria y detección de daños en cultivo | Alta | Crítica | Baja | Media |
+| **TK02** | Coordinación, consulta de tarifas y acuerdo de fechas | Media | Media | Alta | Media |
+| **TK03** | Monitoreo y comprobación de condiciones climáticas locales | Alta | Crítica | Alta | Crítica |
+| **TK04** | Delimitación física y entrega de linderos del predio | Baja | Media | Alta | Crítica |
+| **TK05** | Calibración de boquillas y dosificación de insumos químicos | Baja | Crítica | Alta | Crítica |
+| **TK06** | Supervisión de vuelo y constatación de cobertura del lote | Media | Crítica | Alta | Crítica |
+| **TK07** | Sustentación técnica y gestión de pausas por clima adverso | Baja | Crítica | Media | Crítica |
+| **TK08** | Registro de bitácoras de campo y control de costos | Media | Media | Alta | Media |
+| **TK09** | Cierre de servicio, liquidación y pago de hectáreas tratadas | Media | Media | Alta | Media |
+
+
+
+<div align="center">
+
+![User Task Matrix](../../assets/needfinding/Taskmatrix1.png)
+
+*Figura 2.1: User Task Matrix desarrollado en UXPressia para el Segmento 1.*
+
+</div>
+
+<div align="center">
+
+![User Task Matrix](../../assets/needfinding/Taskmatrix2.png)
+
+*Figura 2.2: User Task Matrix desarrollado en UXPressia para el Segmento 2.*
+
+</div>
+
+#### Análisis de tareas, coincidencias y diferencias
+
+* **Tareas con mayor frecuencia e importancia:**
+  * **Verificación de condiciones climáticas (TK03):** Representa una coincidencia unánime con frecuencia **Alta** e importancia **Crítica** para ambos actores. Un pronóstico inadecuado o ráfagas imprevistas de viento (> 15 km/h) generan la deriva del pesticida (pérdida económica y daño ambiental para el agricultor) o el aborto de la misión en campo (pérdida logística y de combustible para el operador).
+  * **Constatación de cobertura y supervisión de vuelo (TK06):** Ambos perfiles coinciden en una importancia **Crítica**. Camila necesita la certeza de que el follaje del lote fue pulverizado de manera uniforme para salvar su cosecha, mientras que Diego asume la responsabilidad operativa del vuelo, el control de batería y la descarga del tanque del dron.
+
+* **Principales diferencias operativas:**
+  * **Inspección agronómica (TK01):** Es de frecuencia **Alta** para Camila (recorre sus parcelas semanalmente para monitorear plagas), mientras que para Diego es de frecuencia **Baja** o secundaria, ya que él interviene cuando el problema fitosanitario ya fue diagnosticado y se requiere la aplicación aérea.
+  * **Delimitación de linderos y reconocimiento perimetral (TK04):** Para el agricultor tiene frecuencia **Baja** (solo cuando contrata un nuevo servicio o rota de lote), pero para el operador técnico es de frecuencia **Alta** e importancia **Crítica** (debe recorrer y verificar los límites de cada nuevo cliente antes de volar para prevenir colisiones con árboles, cables de alta tensión o acequias).
+  * **Calibración técnica y registro de bitácoras (TK05 y TK08):** Constituyen tareas de frecuencia **Alta** para el operador en cada jornada de vuelo para mantener la aeronavegabilidad y el balance de insumos, mientras que para el agricultor son tareas periódicas de supervisión y archivo contable.
+
 
 ### 2.3.3. User Journey Mapping
 
@@ -520,7 +553,7 @@ sus acciones cotidianas (despegar al amanecer, medir viento con anemómetro), su
 de mensajes por WhatsApp) y ganancias esperadas (parcelas delimitadas previamente, actas de servicio instantáneas y 
 respaldo meteorológico).*
 
-# 2.4. BIG PICTURE EVENT STORMING
+## 2.4. Big Picture EventStorming
 
 **OPEN**
 
@@ -550,8 +583,8 @@ La fase "Close" (Cierre y Definición de Alcance) actúa como la culminación de
 
 ![](../images/big-picture-event-storming/close3.png)
 
-Se adjunta el tablero en miro con el procedimiento:
-[link tablero miro](https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUWFKa0EydzdPN20yN3dxUXNXSzdXb1FBTHVPcUFNQ0tVZ2Q4bUdMZTk4THN3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=100284565376)
+**URL completo del tablero de trabajo en Miro:**
+https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUWFKa0EydzdPN20yN3dxUXNXSzdXb1FBTHVPcUFNQ0tVZ2Q4bUdMZTk4THN3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=100284565376
 
 ---
 
