@@ -112,7 +112,7 @@ En la imagen se observan ambas ventanas activas con cámara encendida durante la
 </div>
 
 
-*[Ver entrevista 1](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 1: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -140,7 +140,7 @@ métodos de fumigación y coordinación en el valle de Barranca*
 
 </div>
 
-*[Ver entrevista 2](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 2: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -168,7 +168,7 @@ La imagen presenta a ambos participantes en videollamada durante la indagación 
 
 </div>
 
-*[Ver entrevista 3](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 3: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -199,7 +199,7 @@ las 10:58 p.m. con el nombre del código de reunión*
 
 </div>
 
-*[Ver entrevista 4](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 4: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -228,7 +228,7 @@ técnica sobre logística y uso de equipos DJI Agras T10*
 
 </div>
 
-*[Ver entrevista 5](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 5: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -256,7 +256,7 @@ en directo de ambos participantes dialogando sobre la problemática de delimitac
 
 </div>
 
-*[Ver entrevista 6](https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing)*
+*Ver entrevista 6: https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing*
 
 **Resumen de entrevista:**
 
@@ -270,17 +270,6 @@ Eduardo Osorio, de 34 años, es técnico agropecuario y piloto certificado de dr
 | **Ubicación** | Opera en el valle de Cañete y Chincha (ocasionalmente Ica) |
 | **Duración / Empieza en** | 5:12 / 35:34 |
 | **Enlace** | https://drive.google.com/file/d/1bX9HVre3tKKn_i6xJ4ZcYVOJnFxwul1M/view?usp=sharing |
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### 2.2.3. Análisis de entrevistas
