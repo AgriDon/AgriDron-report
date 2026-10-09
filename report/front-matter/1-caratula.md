@@ -23,13 +23,13 @@
 
 ### **Integrantes**
 
-| **Código** |  **Apellidos y Nombres**   |
-|:-----------:|:--------------------------:|
-| U202512856 | Jara Espinoza Miguel Angel |
-| U202512856 | J. Edwin Nicho |
+| **Código** |       **Apellidos y Nombres**        |
+|:-----------:|:------------------------------------:|
+| U202512856 |      Jara Espinoza Miguel Angel      |
+| U202512856 |     Nicho Huillcañahui Edwin Noe     |
 | U202420249 | Choquehuanca Vasquez Alejandro Samir |
-| U202421392 | Damacen Galindo, Italo Gianfranco |
-| U202222473 | Vasquez Roncal, Alexander Felipe |
+| U202421392 |  Damacen Galindo, Italo Gianfranco   |
+| U202222473 |   Vasquez Roncal, Alexander Felipe   |
 
 
 <div align="center">

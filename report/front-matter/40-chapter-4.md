@@ -629,6 +629,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 **1. Inicio / Dashboard**
 
 - Propósito: Vista principal y centro de control operativo tras autenticarse en la plataforma.
+
   **Componentes clave:**
 - Tarjetas de métricas generales (KPIs): Resumen numérico con total de Fincas registradas (3), Parcelas (8), Misiones (5) y Área total (18.5 ha).
 - Misiones recientes: Tabla resumida con ID de misión (MS-001, MS-002, MS-003), parcela de destino, fecha y badges de estado con código de color (En curso, Completada, Programada).
@@ -638,59 +639,108 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 
 **2. Gestión de Fincas**
 
-- Propósito: Administrar los predios agrícolas registrados por el usuario, su ubicación y superficie total.
+- **Propósito:** Administrar los predios agrícolas registrados por el usuario, permitiendo consultar su ubicación geográfica, superficie total y acceder a sus opciones de gestión.
 
 **Componentes clave:**
 
-- Botón contextual destacado + Nueva finca para el registro acelerado de campos.
-- Tarjetas de finca (Finca Los Olivos, Finca San José, Finca La Esperanza) que incluyen miniatura satelital, ubicación geográfica (Valle de Cañete, Valle de Mala - Lima) y extensión en hectáreas (8.5 ha, 6.2 ha, 3.8 ha) con botón directo de inspección Ver
+- Botón contextual destacado **+ Nueva Finca** para registrar nuevos predios agrícolas.
+- Tarjetas de finca que incluyen una imagen representativa del terreno, nombre del predio, ubicación geográfica y extensión en hectáreas.
+- Botón **Ver** para acceder directamente a la información detallada de cada finca.
+- Menú de acciones contextual para acceder a opciones adicionales de gestión de los predios.
+- Barra lateral de navegación que facilita el acceso a los módulos de Inicio, Fincas, Parcelas, Misiones, Drones, Reportes y Configuración.
+
+![GestionFincas](../images/chapter4/GestionFincas.png)
 
 **3. Gestión de Parcelas**
 
-- Propósito: Visualización y delimitación cartográfica de los lotes agrícolas pertenecientes a una finca.
+- **Propósito:** Visualizar y administrar las parcelas agrícolas pertenecientes a una finca, facilitando la identificación de sus límites geográficos, distribución y extensión territorial.
 
 **Componentes clave:**
 
-- Contenedor de mapa satelital interactivo con herramientas de zoom y trazado poligonal en vivo.
-- Menú desplegable para filtrado rápido por finca (Finca Los Olivos) y lista lateral de parcelas activas (Lote 1 - Uva 2.5 ha, Lote 2 - Uva 3.2 ha, Lote 3 - Palta 2.8 ha, Lote 4 - Palta 1.9 ha) con botones de acción contextual (+ Nueva parcela).
+- Selector de finca que permite identificar el predio agrícola cuyas parcelas se desean consultar (Finca Los Olivos).
+- Vista cartográfica satelital que presenta la delimitación poligonal del terreno, incluyendo medidas aproximadas de sus lados y superficie total (24,519 m²).
+- Herramientas de navegación cartográfica con controles de acercamiento, alejamiento y ubicación geográfica.
+- Panel lateral con listado de parcelas registradas (Lote 1 - Uva 2.5 ha, Lote 2 - Uva 3.2 ha, Lote 3 - Uva 2.8 ha, Lote 4 - Uva 1.9 ha y Lote 5 - Uva 8.4 ha), acompañado de imágenes representativas y menús de acciones contextuales.
+- Botón destacado **+ Nueva Parcela** para iniciar el registro de nuevos lotes agrícolas dentro de la finca seleccionada.
 
-**4. Planificación de Misiones**
 
-- Propósito: Flujo asistido (wizard) en 4 pasos para programar una pulverización de precisión.
-  **Componentes clave:**
+![GestionParcelas](../images/chapter4/GestionParcelas.png)
 
-- Indicador de progreso por etapas (1. Parcela ➔ 2. Fecha y hora ➔ 3. Insumos ➔ 4. Resumen).
-- Previsualización geoespacial del área a tratar (2.5 ha), selección del tipo de cultivo (Uva) y definición del agroquímico (Fungicida), con botón primario Siguiente ➔.
+**4. Monitoreo de Misiones**
 
-**5. Monitoreo de Misiones**
-
-- Propósito: Control telemétrico en tiempo real del estado del vuelo y descarga de insumos sobre la parcela.
+- **Propósito:** Supervisar el estado y progreso de las misiones agrícolas en ejecución, permitiendo consultar la información operativa, el área de intervención y los parámetros de funcionamiento del dron en tiempo real.
 
 **Componentes clave:**
 
-- Badge de estado en tiempo real (MS-001 - En curso) y mapa satelital con la trayectoria del dron trazada.
-- Panel telemétrico en vivo: batería (68%), altitud (25 m), velocidad (5.2 m/s), nivel de señal GPS (Excelente) y caudal de flujo (2.5 L/min).
-- Barra de avance lineal de misión (60%) dividida por fases (Preparación 08:15 ➔ En ejecución 08:30 ➔ En pausa ➔ Finalizada).
+- Tarjeta informativa de la misión (MS-001) que presenta su estado actual (En curso), parcela asignada (Lote 3 - Iva), fecha y hora de inicio (12 Abr 2025 - 08:30), operador responsable (Carlos Mendoza) y barra de progreso (60%).
+- Previsualización geoespacial del terreno agrícola con delimitación poligonal del área intervenida durante la misión.
+- Panel de telemetría del dron que muestra indicadores operativos como batería (80%), altitud (25 m), velocidad (5.2 m/s), calidad de señal GPS (Excelente) y nivel de líquido disponible (1.5 Lt).
+- Línea de tiempo que representa las etapas del ciclo de vida de la misión: Preparación, En ejecución, En pausa y Finalizada, con indicadores visuales de seguimiento.
+- Botón **Ver detalle** para acceder a información adicional de la misión y enlace **Volver a misiones** para regresar al listado general.
+
+![MonitoreodeMisiones](../images/chapter4/MonitereoMisiones.png)
+
+
+**5. Planificación de Misiones**
+
+- **Propósito:** Facilitar la programación de misiones de fumigación agrícola mediante un flujo asistido de cuatro etapas, permitiendo seleccionar la parcela, definir la fecha y hora de ejecución, configurar los insumos y revisar los parámetros de la operación antes de su programación.
+
+**Componentes clave:**
+
+- Indicador de progreso secuencial (wizard) organizado en cuatro etapas: **1. Parcela → 2. Fecha y Hora → 3. Insumos → 4. Resumen**, que orienta al usuario durante la planificación de la misión.
+- Selectores desplegables para identificar la finca (Finca Los Olivos) y la parcela agrícola (Lote 1 - Uva) donde se realizará la fumigación.
+- Previsualización geoespacial del terreno mediante una imagen satelital con delimitación poligonal del área de intervención y herramientas de navegación cartográfica (zoom y ubicación).
+- Panel informativo que muestra la superficie seleccionada (2.5 ha), el tipo de cultivo (Uva) y un selector para definir el tratamiento agrícola (Fungicida).
+- Botón principal **Siguiente →** para continuar con la configuración de la fecha y hora de ejecución de la misión.
+
+![PlanificaciondeMisiones](../images/chapter4/PlanificaciónMisiones.png)
+
+
 
 **6. Reportes e Historial**
 
-- Propósito: Consulta analítica, fiscalización del consumo de insumos y auditoría de vuelos ejecutados.
+- **Propósito:** Facilitar la consulta, seguimiento y análisis del historial de misiones agrícolas, permitiendo revisar las operaciones registradas, evaluar el consumo de insumos y consultar los ahorros generados durante las actividades de fumigación.
 
 **Componentes clave:**
 
-- Navegación por pestañas (Misiones, Uso de insumos, Ahorros).
-- Selector de rango de fechas (01/04/2025 - 30/04/2025) con filtro aplicable.
-- Tabla con ID de orden, parcela, fecha de aplicación, hectáreas tratadas y botón directo para descargar el acta de conformidad digital.
+- Navegación mediante pestañas organizadas en tres categorías: **Misiones, Uso de insumos y Ahorros**, que permiten acceder a diferentes tipos de reportes operativos.
+- Selector de rango de fechas (01/04/2025 - 30/04/2025) acompañado del botón **Filtrar**, para consultar los registros correspondientes a un periodo determinado.
+- Tabla de historial de misiones que presenta información organizada por identificador (ID), parcela intervenida, fecha de ejecución, estado de la operación (En curso, Completado o Programado) y superficie agrícola en hectáreas.
+- Botones de descarga individuales asociados a cada misión para obtener los reportes correspondientes a las operaciones registradas.
+- Controles de paginación que permiten navegar entre las diferentes páginas del historial de misiones mediante botones numéricos y la opción **Next >**.
+
+![ReportesAndHistorial](../images/chapter4/ReportesAndHistorial.png)
+
 
 **7. Perfil y Configuración**
-- Propósito: Gestión de la información del usuario, seguridad de la cuenta y reglas de notificación.
+
+- **Propósito:** Permitir al usuario administrar su información personal, configurar las preferencias de notificación y acceder a las opciones de seguridad e integración de su cuenta dentro de la plataforma.
 
 **Componentes clave:**
 
-- Pestañas de navegación interna (Perfil, Notificaciones, Seguridad, Integraciones).
-- Ficha de usuario con opción Editar perfil (Juan Pérez - juan.perez@agro.com) y controles deslizantes (toggle switches) para activar o desactivar notificaciones por correo, alertas en la aplicación y avisos meteorológicos preventivos.
+- Menú de navegación interna organizado en cuatro secciones: **Perfil, Notificaciones, Seguridad e Integraciones**, que facilita el acceso a las distintas opciones de configuración.
+- Panel de información del usuario que presenta fotografía de perfil, nombre (Juan Pérez), correo electrónico (juan.perez@gmail.com) y rol asignado (Agricultor).
+- Botón **Editar Perfil** que permite acceder a las opciones de modificación de los datos personales del usuario.
+- Sección de preferencias con controles deslizantes (toggle switches) para activar o desactivar las **Notificaciones por correo**, **Notificaciones en la app** y **Alertas meteorológicas**, permitiendo personalizar la recepción de avisos según las necesidades del agricultor.
 
-![Web Applications Mock-ups](../images/chapter4/Web_Applications_Mock-ups.png)
+![PerfilAndConfiguracion](../images/chapter4/PerfilAndConfiguracion.png)
+
+
+**8. Gestión de Drones**
+
+- **Propósito:** Administrar los drones agrícolas registrados en la plataforma, permitiendo consultar sus características técnicas, verificar su estado operativo y realizar acciones de registro, edición o eliminación de equipos.
+
+**Componentes clave:**
+
+- Botón destacado **+ Registrar nuevo dron** que permite iniciar el proceso de incorporación de nuevos equipos agrícolas a la plataforma.
+- Cuadrícula de tarjetas informativas organizada en dos columnas, donde se visualizan los drones registrados mediante una imagen representativa y su modelo (Dron 4455).
+- Indicador visual de estado operativo mediante una etiqueta de color que permite identificar la condición actual de cada dron.
+- Información técnica de cada equipo que incluye número de serie (SN), superficie de referencia (8.5 ha) y capacidad del tanque de pulverización (40 L).
+- Botón **Editar** para acceder a la modificación de los datos y características de un dron registrado.
+- Botón **Eliminar** para gestionar la eliminación de equipos del inventario de drones.
+- Barra lateral de navegación que facilita el acceso a los módulos de Inicio, Fincas, Parcelas, Misiones, Drones, Reportes y Configuración.
+
+![PerfilAndConfiguracion](../images/chapter4/GestionDeDrones.png)
 
 **link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
 
