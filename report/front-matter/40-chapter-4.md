@@ -589,25 +589,32 @@ En escritorio, los wireframes muestran una estructura con sidebar lateral persis
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-Los diagramas de wireflow de AgriDron Solutions ilustran la secuencia e interacción de las pantallas de la aplicación web para cumplir los objetivos clave del usuario dentro del sistema de fumigación con drones. Cada flujo mapea la transición entre interfaces a partir de un propósito operativo (user goal), detallando desde el ingreso a la plataforma hasta el monitoreo telemétrico en tiempo real y la gestión del perfil.
-
+Los wireflows de AgriDron Solutions muestran cómo cambian las pantallas wireframe a medida que el usuario avanza en un flujo concreto. Cada wireflow se construye a partir de un user goal y representa la secuencia de pasos necesarios para alcanzarlo, incluyendo decisiones intermedias y estados relevantes de la interfaz.
 User Goal Principal: Planificar, ejecutar y monitorear una misión de fumigación de precisión
 
-Este flujo representa el recorrido completo del usuario (agricultor u operador) a través de la interfaz web para llevar a cabo una operación de pulverización con drones:
+**User Goal 1: Descubrir la propuesta de valor y solicitar una demostración comercial.**
+Este wireflow representa el recorrido del visitante del sitio web desde la landing page principal hasta el formulario de contacto de AgriDron Solutions. El flujo muestra la navegación a través de las secciones de servicios, tarifas y equipo multidisciplinario, permitiendo explorar los beneficios de la pulverización con drones y la normativa fitosanitaria antes de enviar la solicitud de demostración comercial.
 
-- Acceso y Autenticación (Pantallas 1 y 2): El usuario inicia en la Landing Page pública y transiciona al Inicio de Sesión para ingresar sus credenciales (correo y contraseña).
-- Panel de Control Operativo (Pantalla 3 - Dashboard): Tras autenticarse, accede al panel inicial que muestra un resumen ejecutivo de la operación: métricas generales (fincas registradas, parcelas, misiones activas, hectáreas totales), listado de misiones recientes con estado de avance y un widget de clima en tiempo real (18 °C, viento, humedad).
-- Gestión de Fincas (Pantalla 4): A través del sidebar lateral, el usuario ingresa al módulo de Mis Fincas donde visualiza las propiedades registradas (Finca Los Olivos, Finca San José, Finca La Esperanza) y sus extensiones en hectáreas.
-- Gestión de Parcelas (Pantalla 5): Al seleccionar una finca, la interfaz despliega sus parcelas delimitadas sobre un mapa satelital interactivo (Lote 1, Lote 2 - Uva, Lote 3 - Palta), permitiendo agregar nuevos lotes o seleccionar uno existente para operar.
-- Planificación de Misiones (Pantalla 6): El flujo avanza hacia la herramienta de configuración en 4 pasos (1. Parcela, 2. Tratamiento, 3. Fecha y hora, 4. Resumen). El usuario selecciona la parcela (Lote 1 - Uva, 2.5 ha), especifica el tipo de agroquímico (Fungicida) y valida el área sobre el mapa interactivo.
-- Monitoreo de Misiones en Tiempo Real (Pantalla 7 - Misión MS-001): Durante el vuelo, el sistema muestra la ruta sobre el mapa satelital y el panel de telemetría con datos críticos en vivo: nivel de batería (68%), altitud (45 m), velocidad (5.2 m/s), modo de vuelo (Automático) y flujo de líquido (2.5 L/min), junto con una barra de progreso por etapas (Preparación 08:15 ➔ En ejecución 08:30 ➔ En pausa ➔ Finalizada).
-- Reportes e Historial (Pantalla 8): Concluida la misión, los datos se almacenan en el historial general, donde se pueden filtrar por rango de fechas, finca y estado para consultar el detalle de hectáreas trabajadas y descargar reportes.
-- Perfil y Configuración (Pantalla 9): Espacio donde el usuario (Juan Pérez - Rol: Agricultor) gestiona sus datos personales, seguridad y preferencias de alertas meteorológicas o notificaciones en la app.
-- Vista en Dispositivos Responsivos (Pantalla 10): Muestra la adaptación y equivalencia de las pantallas clave (Fincas y Monitoreo de Misión) en formato mobile/tablet para su uso directo en campo.
 
-![Web Applications Wireflow Diagrams](../images/chapter4/Web_Applications_Wireflow_Diagrams.png)
+![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams1.png)
 
-**link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
+**User Goal 2: Completar el registro de usuario y autenticarse en la plataforma.**
+Este wireflow muestra la secuencia de acceso e ingreso al sistema según el rol del usuario (agricultor u operador técnico). Incluye la navegación por las pantallas de registro de datos, el formulario de inicio de sesión seguro y el flujo alternativo para el restablecimiento de contraseña mediante correo electrónico, mostrando los estados de validación de campos obligatorios e inicio de sesión fallido. 
+
+![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams2.jpeg)
+
+**User Goal 3: Delimitar parcelas agrícolas y gestionar la información 
+del terreno.**
+Este wireflow representa el recorrido del agricultor dentro del módulo de gestión territorial sobre el mapa interactivo. Muestra la interacción para registrar fincas, trazar vértices poligonales de parcelas, asignar tipos de cultivo y etapas fenológicas, así como la alternancia entre capas cartográficas (satelital/topográfica) y los controles para editar o inhabilitar parcelas.
+
+![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams3.jpeg)
+
+**User Goal 4: Administrar el inventario de la flota de drones e insumos agrícolas.**
+Este wireflow detalla la pantalla de catálogo y gestión de flota para operadores y supervisores. Visualiza el recorrido para dar de alta nuevos drones, configurar modelos de boquillas, registrar productos agroquímicos autorizados, monitorear el estado operativo de los equipos y documentar reportes de mantenimiento preventivo o fallas técnicas.
+
+![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams4.jpeg)
+
+**Link del Miro:** https://miro.com/welcomeonboard/OU1LdXRSanlNQXZ5bUErM2JqS0xsNTdsZGg4TTdjUHBreWpNSjBBNEU4K3MwT29LcU5NRE80Ym9semMrb2dBckxXMGlEWktwMkt1QTdBWW9UTVJML1o2OExBWDBmUTdoZW1GcmFzci9hZUhsRGRRRUZ1ZC9nRUVDS01ZQkNUbUZQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=698081833794
 
 ### 4.4.3. Web Applications Mock-ups
 
