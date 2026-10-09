@@ -2,315 +2,177 @@
 
 ## 5.1. Software Configuration Management
 
-Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El método cubre la configuración del entorno de desarrollo, la gestion del código y el despliegue, alineado a las buenas prácticas de ingeniería de software y metodologías ágiles.
+Para tener consistencia y seguimiento del desarrollo de la plataforma, se definió un conjunto de herramientas y estrategias de trabajo. Esta sección cubre la configuración del entorno de desarrollo, la gestión del código fuente y el despliegue, alineados con las buenas prácticas de ingeniería de software y con los marcos de trabajo ágiles.
 
 ### 5.1.1. Software Development Environment Configuration
 
-Con el fin de facilitar la colaboración del equipo en las distintas etapas del ciclo de vida de AgriDron Solutions,
-se ha configurado un entorno de desarrollo unificado. Este entorno incluye herramientas estandarizadas para gestión
-de proyectos, diseño UX/UI, modelado de dominio, codificación, pruebas de API, documentación y control de versiones.
-La selección responde a criterios de integración con tecnologías open-source (Vue 3 + C# .NET 10), soporte para datos
-geoespaciales/climáticos y cumplimiento de estándares de la industria.
+Con el fin de facilitar la colaboración del equipo en las distintas etapas del ciclo de vida de AgriDron Solutions, se configuró un entorno de desarrollo unificado. Este entorno incluye herramientas estandarizadas para gestión de proyectos, diseño UX/UI, modelado de dominio, codificación, documentación y simulación de APIs, despliegue y control de versiones. La selección responde a criterios de integración con tecnologías open-source (Vue 3 y C# con .NET), soporte para datos geoespaciales y climáticos, y cumplimiento de estándares de la industria.
 
-| Categoría                   | Herramienta                     | Propósito                                                                                              | Tipo de acceso / Enlace                                                             |
-|:----------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| **Project Management**      | Jira                          | Gestión del backlog, trazabilidad de Historias de Usuario, tareas y sprints del equipo bajo Scrum.       | [Jira ](https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiY2IwZjM2ZjdhNzhiNDA3ZmIwODg0NWEwMGM2NGFhZDgiLCJwIjoiaiJ9)                                               |
-| **Requirements Management** | UXPressia                       | Elaboración de User Personas, Journey Maps, Impact Mapping y artefactos de needfinding.                | [UXPressia ](https://UXPressia.com/es/home)                                         |
-| **Product UX/UI Design**    | Figma                           | Diseños de wireframes, wireflows, mockups de alta fidelidad y prototipado interactivo del sistema web. | [Figma ](https://figma.com/es/home)                                                 |
-| **Modelado de Software**    | Structurizr / Miro              | Diagramación de arquitectura (C4 Model, EventStorming, Ubiquitous Language y Bounded Contexts).        | [Structurizr ](https://structurizr.com/es/home) / [Miro ](https://miro.com/es/home) |
-| **Frontend Development**    | Web Storm                       | Desarrollo de la Landing Page y la Web Application en Vue.js 3 (HTML5, CSS3, JavaScript/TypeScript).   | [VS Code ](https://code.visualstudio.com/es/home)                                   |
-| **Backend Development**     | JetBrains Rider / Visual Studio | Desarrollo de la Web API RESTful en C# (.NET 10) siguiendo Domain-Driven Design (DDD).                 | [JetBrains Rider ](https://jetbrains.com/es/home)                                   |
-| **API Testing**             | Postman                         | Pruebas funcionales, validación de endpoints RESTful e integración de servicios de clima y mapas.      | [Postman ](https://postman.com/es/home)                                             |
-| **Version Control**         | GitHub                          | Alojar y gestionar repositorios de código fuente mediante GitFlow y llamadas de CI/CD.                 | [GitHub ](https://github.com/es/home)                                               |
-| **Software Documentation**  | Markdown                        | Redacción técnica de la documentación del proyecto bajo el enfoque Docs-as-Code.                       | Compatible con GitHub / VS Code                                                     |
+| Categoría | Herramienta | Propósito | Tipo de acceso / Enlace |
+|:--|:--|:--|:--|
+| **Project Management** | Jira / Trello | Gestión del backlog, trazabilidad de historias de usuario, y tablero de tareas de cada Sprint bajo Scrum. | [Jira](https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog) / [Trello](https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron) |
+| **Requirements Management** | UXPressia | Elaboración de User Personas, Journey Maps, Empathy Maps e Impact Mapping. | [UXPressia](https://uxpressia.com) |
+| **Product UX/UI Design** | Figma | Wireframes, wireflows, mock-ups de alta fidelidad y prototipos interactivos. | [Figma](https://www.figma.com) |
+| **Modelado de Software** | Structurizr / Miro | Diagramas de arquitectura (C4 Model) y sesiones de EventStorming. | [Structurizr](https://structurizr.com) / [Miro](https://miro.com) |
+| **Frontend Development** | WebStorm | Desarrollo de la Web Application en Vue 3 (HTML5, CSS3 y JavaScript). | [WebStorm](https://www.jetbrains.com/webstorm/) |
+| **Backend Development** | JetBrains Rider | Desarrollo del RESTful API en C# (.NET) siguiendo Domain-Driven Design. | [JetBrains Rider](https://www.jetbrains.com/rider/) |
+| **API Mocking & Documentation** | Apidog | Simulación de endpoints (mock API) y documentación con OpenAPI. | [Apidog](https://apidog.com) |
+| **Deployment** | GitHub Pages / Firebase Hosting | Publicación de la Landing Page y de la Web Application. | [GitHub Pages](https://pages.github.com) / [Firebase](https://firebase.google.com/products/hosting) |
+| **Version Control** | GitHub | Alojamiento de repositorios y control de versiones mediante GitFlow y Conventional Commits. | [GitHub](https://github.com) |
+| **Software Documentation** | Markdown | Redacción del informe del proyecto en formato Docs-as-Code. | Compatible con GitHub |
 
 ### 5.1.2. Source Code Management
 
 #### 5.1.2.1. Plataforma y repositorios
 
-El control de versiones del proyecto se realiza centralizadamente en GitHub.
-La estructura de repositorios cubre los tres componentes principales del sistema:
+El control de versiones del proyecto se realiza en GitHub, dentro de la organización pública AgriDon. Los repositorios son los siguientes:
 
 <div align="center">
 
-| Producto Digital          | URL del Repositorio                            |
-|---------------------------|------------------------------------------------|
-| Landing Page              | https://github.com/AgriDon/Agridron-LandingPage| 
-| Frontend Web Application  | https://github.com/AgriDon/Agridron-Fronted    | 
-| Web Services (Backend API)| https://github.com/AgriDon/Agridron-backend    |
+| Producto digital | URL del repositorio |
+|:--|:--|
+| Project Report | https://github.com/AgriDon/AgriDron-report |
+| Landing Page | https://github.com/AgriDon/Agridron-LandingPage |
+| Frontend Web Application | https://github.com/AgriDon/Agridron-Fronted |
+| API simulado (mock) | https://github.com/AgriDon/agridron-mock-api |
+| Web Services (Backend API) | https://github.com/AgriDon/Agridron-backend |
 
 </div>
 
-**Modelo de Ramificación (GitFlow Workflow)**
+**Modelo de ramificación (GitFlow Workflow)**
 
-Se adopta la estrategia GitFlow para mantener una separación estricta entre el código de desarrollo, las entregas parciales y las versiones estables en producción:
+Se adopta GitFlow para mantener una separación clara entre el código en desarrollo, las entregas parciales y las versiones estables:
 
-- main: Contiene exclusivamente el código probado y estable en producción.
-- develop: Rama principal de integración para el trabajo en progreso.
-- feature/*: Ramas destinadas a nuevas características o historias de usuario.
-  - Convención: `feature/US<numero>-<nombre-descriptivo>`
-  - Ejemplo: feature/US002-farm-polygon-drawing
-- release/*: Estabilización y preparación de liberaciones a producción.
-  - Convención: release/X.Y.Z
-  - Ejemplo: release/1.0.0
-- hotfix/*: Correcciones urgentes aplicadas directamente sobre la rama main.
-  - Convención: hotfix/X.Y.Z
-  - Ejemplo: hotfix/1.0.1
+- `main`: contiene el código estable, que es el que se publica.
+- `develop`: rama de integración del trabajo en progreso.
+- `feature/*`: ramas para cada funcionalidad o bounded context.
+  - Convención: `feature/<nombre-descriptivo>`
+  - Ejemplos: `feature/fieldManagement`, `feature/reportingContext`, `feature/dashboard-and-settings`
+- `release/*`: estabilización y preparación de versiones.
+  - Convención: `release/X.Y.Z`
+  - Ejemplo: `release/1.0.0`
+- `hotfix/*`: correcciones urgentes aplicadas sobre `main`.
+  - Convención: `hotfix/X.Y.Z`
+  - Ejemplo: `hotfix/1.0.1`
 
-**Versionado Semántico**
+**Versionado semántico**
 
-Se adopta la nomenclatura MAJOR.MINOR.PATCH para controlar los lanzamientos:
+Las versiones siguen la nomenclatura MAJOR.MINOR.PATCH (Semantic Versioning 2.0.0):
 
-- **MAJOR:** Cambios incompatibles en las API o reestructuraciones profundas del sistema.
-- **MINOR:** Incorporación de nuevas funcionalidades retrocompatibles (ej. módulo de telemetría).
-- **PATCH:** Correcciones menores de errores retrocompatibles (ej. ajuste en cálculo de hectáreas).
-- **Ejemplos:** v1.0.0 (Lanzamiento inicial AV1), v1.1.0 (Integración Weather API), v1.1.1 (Fix en visor de mapa).
+- **MAJOR:** cambios incompatibles en el API o reestructuraciones profundas.
+- **MINOR:** nuevas funcionalidades retrocompatibles.
+- **PATCH:** correcciones de errores retrocompatibles.
+- **Ejemplos:** v1.0.0 (primera versión de la Landing Page), v1.1.0 (primera versión de la Web Application), v1.1.1 (corrección en el visor de mapa).
 
-**Convenciones para Commits**
+**Convenciones para commits**
 
-Se impone la estructura estandarizada `<type>[optional scope]: <description>` para registrar los cambios en el historial Git de manera clara y automatizable:
+Los mensajes de commit siguen la estructura de Conventional Commits `<type>[optional scope]: <description>`:
 
-- **feat:** Nueva funcionalidad para el usuario.
-- **fix:** Corrección de un fallo en el sistema.
-- **docs:** Modificaciones exclusivamente en la documentación.
-- **style:** Formato de código (espaciados, comas) sin alteración de la lógica.
-- **refactor:** Cambios de código que no corrigen bugs ni agregan funcionalidades.
-- **test:** Incorporación o ajuste de pruebas automatizadas.
-- **chore:** Tareas administrativas, de compilación o dependencias.
+- **feat:** nueva funcionalidad.
+- **fix:** corrección de un error.
+- **docs:** cambios solo en la documentación.
+- **style:** formato de código sin cambios de lógica.
+- **refactor:** cambios de código que no corrigen errores ni agregan funcionalidades.
+- **test:** incorporación o ajuste de pruebas.
+- **chore:** tareas de compilación, configuración o dependencias.
 
-Ejemplos de commits en el proyecto:
+Ejemplos de commits del proyecto:
 
 ```
-feat(parcelas): implement interactive polygon drawing with Leaflet
-fix(weather): handle null wind velocity response from Weather API
-docs(readme): update API setup instructions for backend developers
-
+feat(reporting): implement analytics and reporting bounded context
+fix(flightOperations): resolve i18n translation keys and status badge styles in missions
+docs(api): add OpenAPI specification for mock endpoints
 ```
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para velar por la legibilidad, mantenibilidad y calidad técnica del código fuente,
-el equipo ha suscrito guías de estilo oficiales. Todos los identificadores, variables,
-nombres de métodos y comentarios del código se redactan en inglés.
+Para velar por la legibilidad, mantenibilidad y calidad del código, el equipo adopta guías de estilo oficiales. Todos los identificadores, variables, nombres de métodos y comentarios del código se redactan en inglés.
 
----
+**Backend: C# con .NET**
 
-**Backend: C# con .NET 10 Framework**
+Para el RESTful API se toma como base la guía C# Coding Conventions y las Microsoft ASP.NET Core Coding Guidelines, con una estructura de capas basada en Domain-Driven Design:
 
-Para la Web API RESTful construida con .NET 10, se toma como base la Microsoft C# Coding Conventions estructurada bajo Domain-Driven Design (DDD):
-
-- **Estructura de Capas (DDD):**
-  - **Domain:** Entidades del negocio agrario, Agregados, Value Objects y Contratos de Repositorios.
-  - **Application:** Casos de uso, servicios de aplicación, Handlers de comandos/consultas (CQRS) y DTOs.
-  - **Infrastructure:** Implementación de repositorios (Entity Framework Core), persistencia de datos geoespaciales y clientes para llamadas HTTP externas (Weather API).
-  - **API:** Controladores RESTful ([ApiController]), Middlewares de manejo de excepciones y Swagger OpenAPI documentation.
+- **Estructura de capas:**
+  - **Domain:** entidades, agregados, value objects y contratos de repositorios.
+  - **Application:** casos de uso, servicios de aplicación, handlers de comandos y consultas, y DTOs.
+  - **Infrastructure:** implementación de repositorios (Entity Framework Core), persistencia y clientes HTTP para servicios externos (clima).
+  - **API:** controladores RESTful (`[ApiController]`), middlewares de manejo de excepciones y documentación OpenAPI con Swagger.
 - **Nomenclatura:**
-  - Clases, Interfaces, Interfaces de Repositorio y Enum en PascalCase: FincaService, IParcelaRepository, MissionStatus.
-  - Métodos, parámetros y variables locales en camelCase: calculateTreatedArea(), plotCoordinates, droneId.
-  - Constantes en PascalCase o UPPER_SNAKE_CASE.
-- **Documentación y Anotaciones:**
-  - Uso de XML Documentation Comments (`/// <summary>`) en todos los métodos y endpoints públicos.
-  - Decoración clara de controladores con atributos de enrutamiento y validaciones de Data Annotations ([HttpGet], [HttpPost], [FromBody], [Required]).
+  - Clases, interfaces, enumeraciones y métodos en PascalCase: `FarmService`, `IParcelRepository`, `MissionStatus`, `CalculateTreatedArea()`.
+  - Parámetros y variables locales en camelCase: `plotCoordinates`, `droneId`.
+  - Interfaces con prefijo `I`. Constantes en PascalCase.
+- **Documentación y anotaciones:**
+  - Comentarios XML (`/// <summary>`) en métodos y endpoints públicos.
+  - Controladores con atributos de enrutamiento y validaciones (`[HttpGet]`, `[HttpPost]`, `[FromBody]`, `[Required]`).
 
-**Frontend: Vue.js 3 Framework (JavaScript / HTML5 / CSS3)**
+**Frontend: Vue 3 (JavaScript, HTML5 y CSS3)**
 
-El desarrollo de la aplicación web y la landing page utiliza Vue 3
-(Composition API) junto a JavaScript/TypeScript, HTML5 y CSS3, siguiendo la Vue.js
-Style Guide oficial y la Airbnb JavaScript Style Guide:
+La Web Application y la Landing Page siguen la Vue Style Guide, la Google JavaScript Style Guide, las MDN JavaScript guidelines y la Google HTML/CSS Style Guide:
 
-- **Estructura Modular de Componentes:**
-  - Arquitectura organizada por módulos del negocio (/fincas, /parcelas, /misiones, /drones).
-  - Archivos de un solo componente (Single File Components - .vue) agrupando `<template>`, `<script>` y `<style scoped>`.
+- **Estructura modular:**
+  - Código organizado por bounded contexts (`fieldManagement`, `flightOperations`, `weatherIntegration`, `reporting`) y una capa `shared` para componentes y vistas comunes.
+  - Single File Components (`.vue`) que agrupan `<template>`, `<script>` y `<style scoped>`.
 - **Nomenclatura:**
-  - Archivos de componentes y vistas en kebab-case: farm-management-view.vue, map-polygon-editor.vue.
-  - Nombre de componentes registrados dentro del script en PascalCase: FarmManagementView, MapPolygonEditor
-  - Variables, funciones y propiedades (props) en camelCase: selectedParcelId, fetchWeatherForecast()
-- **HTML & Accesibilidad:**
-  - Uso estricto de elementos semánticos de HTML5 (`<main>`, `<header>`, `<section>`, `<article>`, `<nav>`).
-  - Inclusión de atributos alt en imágenes y etiquetas aria-* para accesibilidad web.
-- **CSS & Metodología BEM (Block Element Modifier):**
-  - Clases escritas en kebab-case con nomenclatura BEM para evitar colisión de estilos:
-    - Bloque: .mission-card
-    - Elemento: .mission-card__status-badge
-    - Modificador: .mission-card__status-badge--in-progress
-  - Uso de estilos encapsulados mediante `<style scoped>` dentro de cada componente Vue.
-
-Estas guías aseguran que el código sea limpio, mantenible y fácil de entender para todos los miembros del equipo.
+  - Archivos de componentes y vistas en kebab-case: `farm-management-view.vue`, `map-polygon-editor.vue`.
+  - Nombres de componentes en PascalCase: `FarmManagementView`, `MapPolygonEditor`.
+  - Variables, funciones y props en camelCase: `selectedParcelId`, `fetchWeatherForecast()`.
+- **HTML y accesibilidad:**
+  - Elementos semánticos de HTML5 (`<main>`, `<header>`, `<section>`, `<article>`, `<nav>`).
+  - Atributos `alt` en imágenes y atributos `aria-*` para accesibilidad.
+- **CSS con nomenclatura BEM (Block Element Modifier):**
+  - Clases en kebab-case para evitar colisiones de estilos:
+    - Bloque: `.mission-card`
+    - Elemento: `.mission-card__status-badge`
+    - Modificador: `.mission-card__status-badge--in-progress`
+  - Estilos encapsulados con `<style scoped>` en cada componente Vue.
 
 ### 5.1.4. Software Deployment Configuration
 
-La configuración de despliegue del sistema AgriDron Solutions establece los procesos, herramientas y entornos
-necesarios para la publicación continua y automatizada de sus tres productos digitales: Landing Page,
-Web Services (Backend API) y Frontend Web Application. Este esquema garantiza la replicabilidad, disponibilidad
-y trazabilidad en el ciclo de vida del software en producción.
-
----
+La configuración de despliegue de AgriDron Solutions establece los procesos, herramientas y entornos para publicar los productos digitales: Landing Page, Web Application y Web Services.
 
 **Despliegue de la Landing Page**
 
-- Tecnología: HTML5, CSS3, JavaScript (Vanilla), diseño web responsivo optimizado para conversión.
-- Repositorio GitHub: https://github.com/AgriDon/Agridron-LandingPage
-- Plataforma de Despliegue: GitHub Pages.
-- Método de Despliegue:
-  - La rama main actúa como la fuente oficial de producción para la página de presentación del servicio.
-  - Se configura la publicación automática tomando como origen el directorio raíz (/) de la rama main.
-  - Las nuevas iteraciones y cambios aprobados en develop se integran a main mediante Pull Requests revisados por el equipo.
-  - GitHub Pages compila y actualiza el sitio web de forma inmediata tras cada integración detectada en la rama principal.
+- Tecnología: HTML5, CSS3 y JavaScript, con diseño responsive.
+- Repositorio: https://github.com/AgriDon/Agridron-LandingPage
+- Plataforma: GitHub Pages.
+- Procedimiento:
+  - La rama `main` es la fuente de publicación, tomando el directorio raíz (`/`).
+  - Los cambios aprobados en `develop` se integran a `main` mediante Pull Requests revisados por el equipo.
+  - GitHub Pages actualiza el sitio tras cada integración en `main`.
+- URL: https://agridon.github.io/Agridron-LandingPage/
 
-**Despliegue del Backend (Web Services API)**
+**Despliegue de la Web Application**
 
-- Tecnología: C# con .NET 10 Framework (Web API RESTful).
-- Repositorio GitHub: https://github.com/AgriDon/Agridron-backend
-- Plataforma de Despliegue: Render
-- Método de Despliegue:
-  - La Web API se empaqueta mediante la compilación nativa de .NET 10 o el uso de un archivo ejecutable optimizado.
-  - Se configura un pipeline de integración y despliegue continuo (CI/CD) desde GitHub para sincronizar los cambios de la rama main.
-  - Las variables de entorno sensibles (cadenas de conexión a la base de datos, llaves secretas JWT y credenciales de la Weather API) se gestionan de forma segura en el panel de configuración de Render.
-  - El servicio expone una URL pública asegurada con HTTPS y directivas CORS para el consumo exclusivo de la aplicación web de AgriDron.
+- Tecnología: Vue 3 con Vite (JavaScript, HTML5 y CSS3).
+- Repositorio: https://github.com/AgriDon/Agridron-Fronted
+- Plataforma: Firebase Hosting.
+- Procedimiento:
+  - Se genera el build de producción con `npm run build`, que produce los archivos estáticos en la carpeta `dist`.
+  - Se publica con Firebase CLI mediante `firebase deploy --only hosting`.
+  - Firebase Hosting se configura como single-page app, de modo que todas las rutas se redirijan a `index.html`.
+  - Las variables de entorno del cliente (como la URL base del API) se definen en archivos `.env`.
+  - La automatización del despliegue con GitHub Actions está planificada para los siguientes Sprints.
+- URL: https://agridronapp.web.app
 
-**Despliegue del Frontend Web Application**
+**API simulado (mock)**
 
-- Tecnología: Vue.js 3 (Composition API, JavaScript/TypeScript, HTML5, CSS3).
-- Repositorio GitHub: https://github.com/AgriDon/Agridron-LandingPage
-- Plataforma de Despliegue: Firebase Hosting.
-- Método de Despliegue:
-  - El proyecto en Vue 3 se compila ejecutando el comando npm run build, generando los activos estáticos minimizados en la carpeta /dist.
-  - La rama main sirve como fuente central para el entorno de producción.
-  - Se sincroniza la CLI de Firebase mediante un flujo de trabajo en GitHub Actions para automatizar la publicación tras cada confirmación en main.
-  - Se configuran las variables de entorno del cliente (como la URL base del Backend y tokens de mapas satelitales) directamente dentro del entorno de compilación de Firebase.
+- Herramienta: Apidog (servicio de mock).
+- Repositorio: https://github.com/AgriDon/agridron-mock-api
+- La especificación OpenAPI se versiona en el repositorio y la Web Application consume la URL del mock mientras el RESTful API se implementa.
 
-**Consideraciones Finales y Estrategia CI/CD**
+**Despliegue del Backend (Web Services)** *(planificado)*
 
-- Separación de Entornos: Los entornos de desarrollo (Development), pruebas (Staging) y producción (Production) se mantienen aislados mediante archivos de configuración parametrizados (appsettings.Development.json / appsettings.Production.json en el Backend y archivos .env en el Frontend).
-- Documentación Docs-as-Code: El procedimiento paso a paso para la configuración y despliegue se documenta en la Wiki del repositorio principal en GitHub.
-- Pruebas de Humo (Smoke Testing): Posterior a cada despliegue, se realizan pruebas de verificación manuales y automatizadas sobre endpoints clave (disponibilidad de la API /health, renderizado de parcelas en el mapa y emisión de actas de servicio).
-- Automatización Continua: Se evalúa la integración completa de GitHub Actions para gestionar la ejecución de pruebas unitarias previo a cada merge hacia la rama main
+- Tecnología: C# con .NET (RESTful API).
+- Repositorio: https://github.com/AgriDon/Agridron-backend
+- Plataforma prevista: Render.
+- Las variables sensibles (cadenas de conexión, claves JWT y credenciales del servicio de clima) se gestionarán en la configuración de la plataforma, y el servicio expondrá una URL con HTTPS y CORS restringido a la Web Application.
+
+**Consideraciones generales**
+
+- **Separación de entornos:** los entornos de desarrollo y producción se mantienen aislados mediante archivos de configuración (`appsettings.Development.json` y `appsettings.Production.json` en el backend, y archivos `.env` en el frontend).
+- **Pruebas de humo:** después de cada despliegue se verifica manualmente la carga de la aplicación, la navegación entre vistas y el consumo de los endpoints.
 
 ## 5.2. Landing Page, Services & Applications Implementation
-
-### 5.2.1. Sprint 1
-
-#### 5.2.1.1. Sprint Planning 1
-
-En el Sprint 1, el equipo se enfocó en el diseño, desarrollo e implementación de la Landing Page de AgriDron Solutions. Este producto digital constituye el principal punto de contacto e interacción para dar a conocer la propuesta de valor del servicio de fumigación con drones a pequeños y medianos agricultores (PyMAs) y operadores técnicos. El objetivo principal fue estructurar secciones informativas, claras y atractivas que transmitan confianza, muestren los planes disponibles y capten registros de clientes potenciales.
-
-| Campo                              | Detalle                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint #**                       | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Fecha**                          | 01/09/2026 – 15/09/2026                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Hora**                           | 16:00 hrs                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Lugar**                          | Virtual (Discord / Microsoft Teams)                                                                                                                                                                                                                                                                                                                                                                            |
-| **Preparado por**                  | Damacen Galindo, Italo Gianfranco; Vasquez Roncal, Alexander Felipe                                                                                                                                                                                                                                                                                                                                            | 
-| **Asistentes**                     | Damacen Galindo, Italo Gianfranco; Nicho Huillcañahui, Edwin Noe; Vasquez Roncal, Alexander Felipe;choquehuanca vasquez, alejandro samir; Jara Espinoza, Miguel Angel                                                                                                                                                                                                                                          |
-| **Sprint 0 Review Summary**        | No aplica por ser el primer sprint.                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint 0 Retrospective Summary** | No aplica por ser el primer sprint.                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint 1 Goal**                  | Desarrollar y desplegar la Landing Page de AgriDron Solutions en un entorno accesible, responsivo y de alto rendimiento, presentando la propuesta de valor de la pulverización agrícola con drones, planes comercializables y un formulario de captura de leads tanto para agricultores como para operadores técnicos. Se considerará cumplido al estar desplegada en producción y funcional vía GitHub Pages. |
-| **Sprint 1 Velocity**              | Límite de 35 SP \| Sumatoria de Story Points: 30 SP                                                                                                                                                                                                                                                                                                                                                            |
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-Para asegurar la calidad y distribución equitativa de las responsabilidades durante el desarrollo de la Landing Page,
-se definieron roles de liderazgo (L) y colaboración (C) para cada aspecto técnico del proyecto entre los integrantes del equipo:
-
-| Team Member                               | GitHub Username   | Structure HTML | Design UI & Responsive | Scripts and UX | SEO and Accessibility | Content and Assets |
-|:------------------------------------------|:------------------|:---------------|:-----------------------|:---------------|:----------------------|:-------------------|
-| **Damacen Galindo, Italo Gianfranco**     | italodamacen      | L              | C                      | C              | -                     | C                  |
-| **Nicho Huillcañahui, Edwin Noe**         | edwinnicho        | C              | L                      | C              | C                     | -                  |
-| **Jara Espinoza, Miguel Angel**           | MiguelJara        | C              | C                      | L              | C                     | -                  |
-| **choquehuanca vasquez, alejandro samir** | SamirChoquehuanca | C              | C                      | C              | L                     | C                  |
-| **Vasquez Roncal, Alexander Felipe**      | alexandervasquez  | C              | C                      | -              | C                     | L                  |
-
-#### 5.2.1.3. Sprint Backlog 1
-
-El Sprint Backlog 1 desglose las Historias de Usuario seleccionadas para la construcción de la
-Landing Page de AgriDron Solutions en tareas técnicas cuantificables en horas de trabajo,
-asignadas formalmente a los miembros del equipo de desarrollo.
-
-| US Id    | US Title                                                    | Task Id | Task Title                                                                  | Descripción                                                                                                                 | Estimación (Horas) | Asignado A                            | Estado |
-|:---------|:------------------------------------------------------------|:--------|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|:-------------------|:--------------------------------------|:-------|
-| **US37** | Página de inicio con hero section                           | T01     | Crear estructura HTML de la Hero Section                                    | Maquetar la sección principal (Hero) resaltando la propuesta de pulverización agrícola con drones mediante HTML5 semántico. | 2                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US37** | Página de inicio con hero section                           | T02     | Implementar estilos CSS de la Hero Section                                  | Aplicar hojas de estilos CSS3 para definir la línea gráfica agrotech, colores institucionales y tipografía.                 | 2                  | Nicho Huillcañahui, Edwin Noe         | Done   |
-| **US37** | Página de inicio con hero section                           | T03     | Implementar CTAs y enlace al formulario de registro                         | Añadir botones interactivos ("Solicitar Servicio" / "Unirme como Operador") que dirijan al registro.                        | 1                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US37** | Página de inicio con hero section                           | T04     | Adaptar Hero Section a diseño responsive                                    | Garantizar la correcta visualización de la sección principal en dispositivos móviles y tablets.                             | 2                  | Nicho Huillcañahui, Edwin Noe         | Done   |
-| **US38** | Sección de características principales                      | T05     | Crear estructura HTML de la sección de características                      | Construir el layout para presentar la delimitación satelital, mapas de aplicación y actas digitales.                        | 1                  | Vasquez Roncal, Alexander Felipe      | Done   |
-| **US38** | Sección de características principales                      | T06     | Agregar iconos y estilos visuales a cada característica                     | Incorporar iconografía agrícola/técnica y estilos CSS para dinamizar las funcionalidades clave.                             | 2                  | Vasquez Roncal, Alexander Felipe      | Done   |
-| **US39** | Sección de planes y precios                                 | T07     | Crear estructura HTML de la sección de planes                               | Maquetar la sección de planes de servicio por hectárea y suscripciones operativas.                                          | 1                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US39** | Sección de planes y precios                                 | T08     | Implementar estilos de tarjetas de planes y precios                         | Diseñar tarjetas comparativas resaltando beneficios por volumen y tipo de cultivo.                                          | 2                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US39** | Sección de planes y precios                                 | T09     | Agregar CTA de selección de plan con redirección al registro                | Vincular cada tarjeta de precio directamente con el flujo de creación de cuenta según el perfil.                            | 1                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US40** | Sección de preguntas frecuentes                             | T10     | Crear estructura HTML del acordeón FAQ                                      | Maquetar la estructura base para resolver dudas sobre seguridad de vuelo, clima y costos.                                   | 1                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US40** | Sección de preguntas frecuentes                             | T11     | Implementar lógica de expansión y colapso de preguntas                      | Programar la interactividad con JavaScript para desplegar u ocultar respuestas del FAQ.                                     | 2                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US41** | Navegación y menú principal                                 | T12     | Crear navbar sticky con enlaces de navegación                               | Desarrollar la barra de navegación fija superior con desplazamiento suave hacia cada sección.                               | 2                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US41** | Navegación y menú principal                                 | T13     | Implementar menú hamburguesa para dispositivos móviles                      | Programar el menú colapsable lateral optimizado para pantallas táctiles pequeñas.                                           | 2                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US42** | Responsividad total y optimización mobile                   | T14     | Definir e implementar breakpoints responsive globales                       | Establecer los media queries en CSS para adaptar la web a resoluciones de smartphone, tablet y desktop.                     | 2                  | Nicho Huillcañahui, Edwin Noe         | Done   |
-| **US42** | Responsividad total y optimización mobile                   | T15     | Verificar tamaño mínimo de elementos interactivos                           | Validar que botones y enlaces mantengan una zona táctil mínima de 44px para facilidades de uso en campo.                    | 1                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US42** | Responsividad total y optimización mobile                   | T16     | Validar que las imágenes no generen scroll horizontal                       | Asegurar mediante CSS que los mapas y gráficos no sobrepasen el ancho de pantalla en móviles.                               | 1                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US43** | SEO y accesibilidad web                                     | T17     | Configurar meta tags de SEO (título, descripción, keywords)                 | Incorporar metadatos optimizados para la búsqueda de servicios de fumigación agrícola con drones.                           | 1                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US43** | SEO y accesibilidad web                                     | T18     | Agregar atributos alt, roles ARIA y estructura semántica HTML5              | Integrar etiquetas de accesibilidad para facilitar la lectura por herramientas de asistencia.                               | 2                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US43** | SEO y accesibilidad web                                     | T19     | Verificar navegación por teclado y visibilidad del foco                     | Asegurar la usabilidad de la landing page navegando exclusivamente con la tecla Tab.                                        | 1                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US44** | Footer con información adicional                            | T20     | Crear estructura HTML del footer                                            | Maquetar el pie de página con información de contacto, cobertura regional y enlaces legales.                                | 1                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US44** | Footer con información adicional                            | T21     | Implementar enlaces a redes sociales y páginas legales                      | Enlazar los accesos a redes oficiales, términos de servicio y políticas de privacidad.                                      | 1                  | choquehuanca vasquez, alejandro samir | Done   |
-| **US45** | Visualizar métricas de impacto                              | T22     | Crear sección de métricas e impacto con estadísticas                        | Diseñar el bloque visual con cifras de hectáreas pulverizadas, ahorro de agua y reducción de deriva.                        | 2                  | Vasquez Roncal, Alexander Felipe      | Done   |
-| **US46** | Muestra del producto                                        | T23     | Integrar galería de imágenes del producto con texto alternativo             | Mostrar capturas del sistema de mapeo satelital y vuelos en campo con descripciones alt.                                    | 1                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US46** | Muestra del producto                                        | T24     | Integrar video del producto con fallback de texto alternativo               | Incrustar un video demostrativo de los drones en operación fitosanitaria con texto descriptivo alternativo.                 | 2                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US47** | Calls to action                                             | T25     | Distribuir CTAs secundarios en secciones clave de la Landing Page           | Ubicar botones estratégicos de "Cotizar Fumigación" a lo largo del recorrido visual del usuario.                            | 1                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US48** | Secciones interactivas con contenido expandible             | T26     | Implementar scripts de show/hide para contenido condicional                 | Programar funciones en JavaScript para revelar detalles técnicos de drones y productos compatibles.                         | 1                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US49** | Sobre el equipo detrás de AgriDron Solutions                | T28     | Crear sección del equipo con video y texto alternativo                      | Maquetar la presentación de los miembros fundadores del proyecto con material multimedia.                                   | 2                  | Vasquez Roncal, Alexander Felipe      | Done   |
-| **US50** | Prioridad en mostrar las funcionalidades a los Agricultores | T29     | Ordenar sección de funcionalidades priorizando beneficios para agricultores | Estructurar el contenido visual para destacar primero el ahorro de insumos y el control de plagas en predios.               | 1                  | Jara Espinoza, Miguel Angel           | Done   |
-| **US51** | Soporte multiidioma                                         | T30     | Agregar atributos data-i18n a los elementos HTML de la landing page         | Identificar y etiquetar los elementos de texto con data-i18n para permitir la localización (ES/EN).                         | 1                  | Damacen Galindo, Italo Gianfranco     | Done   |
-| **US51** | Soporte multiidioma                                         | T31     | Implementar selector de idiomas y lógica de cambio                          | Crear los botones de cambio de idioma en el header y la función updateLanguage() para conmutar textos.                      | 1                  | Nicho Huillcañahui, Edwin Noe         | Done   |
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-A continuación se presenta el registro de commits y modificaciones realizadas en la rama de
-desarrollo y producción del repositorio de la Landing Page durante el transcurso del Sprint 1,
-evidenciando la progresión técnica del producto:
-
-| Repository                 | Branch  | Commit Id | Commit Message                                                | Commit Message Body                                                                                      | Commited on (Date)     |
-|:---------------------------|:--------|:----------|:--------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|:-----------------------|
-| **AgriDron-LandingPage**   | develop | 1eca1eb   | feat: css hero section and CTA.                               | Implementación de la maquetación base y llamados a la acción de la sección principal.                    | 04 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | e7cfb4d   | fix: Readme with wrong text.                                  | Corrección de textos informativos y descripción general de AgriDron Solutions.                           | 04 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 0a4749c   | feat: responsive for hero sections.                           | Adaptación de la Hero Section para vistas en smartphones y tablets.                                      | 04 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 6f65577   | feat: add features section and update HTML structure.         | Inclusión de la sección de características del servicio de fumigación con drones y nuevos iconos SVG.    | 04 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | main    | 0a1e1cc   | feat(landing-page): add css and html for hero section.        | Fusión de la Hero Section validada hacia la rama principal de producción.                                | 05 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | main    | d9651aa   | feat(landing-page): add css and html for features section.    | Integración de la sección de características en la rama main.                                            | 05 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 62ce603   | feat(landing-page): add text information for plans.           | Incorporación de la información de paquetes de hectáreas y suscripciones operativas.                     | 06 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 8967aeb   | feat: add styles on plans.                                    | Estilización de tarjetas de precios y resaltado del plan más solicitado.                                 | 07 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 85fecd0   | docs(readme): fix README.md                                   | Actualización de instrucciones de instalación y guía de despliegue.                                      | 08 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 5bcaa5e   | Merge remote-tracking branch 'origin/develop' into develop.   | Sincronización de cambios remotos en la rama de integración.                                             | 08 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 5ba9214   | feat: add FAQ section.                                        | Creación del acordeón dinámico para preguntas frecuentes sobre condiciones climáticas y vuelos.          | 09 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 16d8090   | Merge branch 'develop' of AgriDron-LandingPage into develop.  | Resolución de conflictos menores e integración de nuevas tareas del equipo.                              | 10 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | ae2af7a   | feat: add header.                                             | Implementación de la barra de navegación superior fija con menú desplegable responsive.                  | 11 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 4b8c9d1   | feat: add team, gallery and impact metrics.                   | Adición de las secciones sobre el equipo fundador, galería de drones en operación y métricas de impacto. | 12 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 68c9d1d   | feat: add footer.                                             | Maquetación del pie de página con accesos a redes, áreas de cobertura regional y páginas legales.        | 13 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 25283da   | feat: add i18n and fixes to the footer.                       | Integración del selector multiidioma (ES/EN) y ajustes finales en los enlaces del footer.                | 14 de Septiembre, 2026 |
-| **AgriDron-LandingPage**   | develop | 3452838   | Merge branch 'develop' of AgriDron-LandingPage into develop.  | Integración final del código funcional del Sprint 1 para publicación automatizada en GitHub Pages.       | 14 de Septiembre, 2026 |
-
-Esta sería la captura antes de empezar el sprint con las task creadas en Trello y listas para asignarse a los miembros respectivos:
-
-![Imagen del Sprint 1 hecho en Trello](../images/chapter5/sprint_1.png)
-
-**link del trello:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-Se presentarán las capturas que muestran el despliegue de la Landing Page en GitHub Pages.
-La interfaz es responsiva, asegurando accesibilidad para diversos perfiles de usuario.
-
-![Hero Section](../images/chapter5/landingPage/heroSection.png)
-
-*Figura: Hero Section de la Landing Page con propuesta de valor clara.*
-
-![Feature Section](../images/chapter5/landingPage/featureSection.png)
-
-*Figura: Feature Section de la Landing Page con información sobre las características principales.*
-
-![How It Works](../images/chapter5/landingPage/howItWorks.png)
-
-*Figura: How It Works de la Landing Page con información sobre el proceso de uso.*
-
-![For Whom](../images/chapter5/landingPage/forwhom.png)
-
-*Figura: For Whom de la Landing Page con información sobre el público objetivo.*
 
 ![Team Members](../images/chapter5/landingPage/teamMembers.png)
 
@@ -322,7 +184,7 @@ La interfaz es responsiva, asegurando accesibilidad para diversos perfiles de us
 
 **Aquí está el enlace a la página desplegada:** https://agridon.github.io/Agridron-LandingPage/
 
-**Enlace del video de ejecucion en youtube:**
+**Enlace del video de ejecucion en youtube:**  https://youtu.be/R6O4g6COh6o
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -351,20 +213,308 @@ El gráfico de contribuciones muestra una distribución equitativa de tareas ent
 
 *Reporte de contribuciones y commits del equipo Agridron en el repositorio de la Landing Page*
 
-# Conclusiones
+### 5.2.2. Sprint 2
 
-El proceso de desarrollo de AgriDron Solutions en esta primera entrega (AV1)
-logró validar las hipótesis iniciales de adopción y comunicación mediante el
-despliegue de una Landing Page pública y responsiva que conecta a Pequeños y
-Medianos Agricultores (PyMAs) con Operadores Técnicos de drones de fumigación.
+#### 5.2.2.1. Sprint Planning 2
 
-La plataforma responde directamente a las necesidades identificadas en las
-entrevistas de validación y needfinding, donde el 100% de los agricultores
-carecía de herramientas digitales para solicitar servicios de fumigación con
-parámetros técnicos y el 100% de los operadores coordinaba sus jornadas de
-vuelo mediante canales informales como WhatsApp o llamadas telefónicas.
-Como resultado, AgriDron Solutions centraliza la captación de clientes y
-la presentación de la propuesta de valor agrotech, reduciendo coordinaciones
-informales y mejorando la vinculación entre ambos segmentos desde su primer contacto.
+En el Sprint 2, el equipo se enfocó en el diseño, desarrollo y despliegue de la primera versión de la Web Application de AgriDron Solutions, desarrollada con Vue y PrimeVue bajo el lenguaje de diseño Material Design, y en la actualización de la Landing Page para que sus llamadas a la acción (CTA) redirijan a la vista correspondiente de la Web Application según el segmento.
+
+| Campo | Detalle |
+|:--|:--|
+| **Sprint #** | Sprint 2 |
+| **Fecha** | 26/09/2026 – 09/10/2026 |
+| **Hora** | 16:00 hrs |
+| **Lugar** | Virtual (Discord / Microsoft Teams) |
+| **Preparado por** | Damacen Galindo, Italo Gianfranco; Vasquez Roncal, Alexander Felipe |
+| **Asistentes** | Damacen Galindo, Italo Gianfranco; Nicho Huillcañahui, Edwin Noe; Vasquez Roncal, Alexander Felipe; Choquehuanca Vasquez, Alejandro Samir; Jara Espinoza, Miguel Angel |
+| **Sprint 1 Review Summary** | La Landing Page quedó desplegada en GitHub Pages con las secciones planificadas (hero, características, planes y precios, preguntas frecuentes, navegación, equipo, galería, métricas de impacto y footer), diseño responsive, soporte multiidioma (ES/EN) y configuración de SEO y accesibilidad. [COMPLETAR: feedback del docente recibido en AV1] |
+| **Sprint 1 Retrospective Summary** | Aciertos: uso de ramas feature y Pull Requests hacia `develop` y `main`, y reparto de aspectos entre líderes y colaboradores. Oportunidades de mejora: aplicar Conventional Commits de forma consistente en todos los mensajes y mejorar la estimación de tareas. |
+| **Sprint 2 Goal** | Nuestro enfoque está en que agricultores y operadores técnicos puedan acceder a la Web Application desde la Landing Page, gestionar sus fincas y parcelas, y dar seguimiento a las misiones de fumigación, la flota de drones y los reportes. Creemos que esto genera confianza y reduce la coordinación informal por WhatsApp o llamadas. Se confirmará cuando un usuario de prueba pueda recorrer, sin ayuda del equipo, la Landing Page y la Web Application desplegada. |
+| **Sprint 2 Velocity** | Límite de 35 SP \| Sumatoria de Story Points: 30 SP |
 
 ---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2 se definieron aspectos asociados a la Web Application y a la actualización de la Landing Page. Cada aspecto tiene un líder (L) responsable de su calidad y colaboradores (C) que apoyan su ejecución. Esta distribución se relaciona con la asignación de tareas del Sprint Backlog 2.
+
+| Team Member | GitHub Username | Authentication & Routing | Field Management (Map) | Mission Request & Weather | Landing Page Update & CTAs | i18n & Accessibility | Deployment |
+|:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|
+| **Damacen Galindo, Italo Gianfranco** | italodamacen | L | C | C | C | - | C |
+| **Nicho Huillcañahui, Edwin Noe** | edwinnicho | C | L | C | - | C | L |
+| **Jara Espinoza, Miguel Angel** | MiguelJara | C | C | L | C | C | C |
+| **Choquehuanca Vasquez, Alejandro Samir** | SamirChoquehuanca | C | C | C | C | L | - |
+| **Vasquez Roncal, Alexander Felipe** | alexandervasquez | - | C | C | L | C | C |
+
+---
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 descompone las historias de usuario seleccionadas en tareas técnicas estimadas en horas.
+El objetivo principal del sprint es entregar la primera versión desplegada de la Web Application, integrada con la Landing Page.
+
+![Board del Sprint 2](../../assets/chapter5/sprint2/trello.png)
+
+*Figura: Board del Sprint 2 en Trello.*
+
+**URL público del board:** https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron
+
+
+| Sprint # | Sprint 2 |
+|:--|:--|
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+|:--|:--|:--|:--|:--|:-:|:--|:--|
+| LP-006 | Registrarse como nuevo usuario | T01 | Crear vista de registro | Construir el formulario de registro con PrimeVue y validaciones de campos. | [6] | [ ] | [Done] |
+| LP-006 | Registrarse como nuevo usuario | T02 | Conectar registro con el servicio de autenticación | Enviar los datos del formulario al servicio [local/mock/API] y manejar respuestas de éxito y error. | [5] | [ ] | [Done] |
+| LP-007 | Iniciar sesión en la plataforma | T03 | Crear vista de inicio de sesión | Construir el formulario de acceso con mensajes de error accesibles. | [4] | [ ] | [Done] |
+| LP-007 | Iniciar sesión en la plataforma | T04 | Configurar rutas protegidas por rol | Configurar Vue Router con guardas de navegación para agricultor, operador y supervisor. | [5] | [ ] | [Done] |
+| WA-001 | Registrar finca y parcelas en mapa interactivo | T05 | Integrar biblioteca de mapas | Incorporar la biblioteca de mapas ([Leaflet / otra]) con capa satelital. | [6] | [ ] | [Done] |
+| WA-001 | Registrar finca y parcelas en mapa interactivo | T06 | Implementar dibujo de polígonos de parcelas | Permitir delimitar parcelas sobre el mapa y calcular el área en hectáreas. | [10] | [ ] | [Done] |
+| WA-001 | Registrar finca y parcelas en mapa interactivo | T07 | Crear formulario y listado de fincas | Registrar nombre, ubicación y cultivo, y listar las fincas del usuario. | [6] | [ ] | [Done] |
+| WA-002 | Solicitar misión con validación de riesgos | T08 | Crear formulario de solicitud de misión | Seleccionar parcela, cultivo y fecha para solicitar el servicio. | [6] | [ ] | [Done] |
+| WA-002 | Solicitar misión con validación de riesgos | T09 | Mostrar validación de riesgo climático | Presentar la condición del clima antes de confirmar la solicitud. | [4] | [ ] | [Done] |
+| TU-003 | Integración con Weather API | T10 | Consumir servicio externo de clima | Implementar el cliente del servicio externo ([nombre de la API]) y manejar errores de conexión. | [6] | [ ] | [Done] |
+| WA-003 | Consultar historial y estados | T11 | Crear vista de historial de misiones | Listar misiones con su estado y filtros básicos. | [5] | [ ] | [Done] |
+| WA-005 | Gestionar agenda de órdenes | T12 | Crear vista de agenda del operador | Mostrar las órdenes asignadas en calendario junto con la parcela. | [6] | [ ] | [Done] |
+| — | Tarea general (Landing Page) | T13 | Actualizar CTAs por segmento | Redirigir cada CTA de la Landing Page a la vista correspondiente de la Web Application. | [4] | [ ] | [Done] |
+| — | Tarea general (i18n y a11y) | T14 | Implementar i18n y atributos ARIA en la Web Application | Soportar inglés (en_US, por defecto) y español latinoamericano (es_419), y configurar ARIA. | [8] | [ ] | [Done] |
+| — | Tarea general (Despliegue) | T15 | Desplegar la Web Application | Configurar el despliegue desde el repositorio y publicar la primera versión. | [5] | [ ] | [Done] |
+ 
+---
+
+| AgriDon/Agridron-Fronted | feature/fieldManagement | 914f310 | docs: resolver conflicto en README.md al fusionar develop | Resolución del conflicto en el README al integrar develop en la rama de la funcionalidad. | 06/10/2026 |
+| AgriDon/Agridron-Fronted | feature/fieldManagement | e6070f3 | bounded contex 2 field management | Implementación del bounded context Field Management (fincas y parcelas). | 06/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 9faa7f4 | Merge pull request #1 from AgriDon/feature/fieldManagement | Integración de Field Management en develop mediante Pull Request #1. | 06/10/2026 |
+| AgriDon/Agridron-Fronted | feature/weatherIntegration | 1dde398 | feat(weatherIntegration): migrate weatherIntegration bounded context from Angular to Vue | Migración del bounded context Weather Integration a Vue. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | feature/flightOperations | 401c3b2 | add: flightOpe | Primera versión del bounded context Flight Operations. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | feature/flightOperations | 2fea35d | add: comments | Comentarios de documentación en el código de Flight Operations. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | feature/fieldManagement | 4a18e03 | Merge remote-tracking branch 'origin/feature/flightOperations' into feature/fieldManagement | Integración de Flight Operations en la rama de Field Management. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | feature/fieldManagement | 18f17f6 | se agregaron bounded contex feature/weatherIntegration and feature/flightOperations | Se incorporan los bounded contexts Weather Integration y Flight Operations a la rama de Field Management. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | develop | e989dff | Merge pull request #2 from AgriDon/feature/fieldManagement | Integración de los tres bounded contexts en develop mediante Pull Request #2. | 07/10/2026 |
+| AgriDon/Agridron-Fronted | develop | e0f9ad0 | feat(db): add new crop treatment entry and update server script | Nuevo registro de tratamiento de cultivo en los datos de prueba y actualización del script del servidor. | 08/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 6145836 | fix(flightOperations): resolve i18n translation keys and status badge styles in missions | Corrección de claves de traducción y estilos de las etiquetas de estado en misiones. | 08/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 11208cd | refactor(architecture): align fieldManagement, flightOperations, and weather integration with DDD principles | Reorganización de los tres bounded contexts según las convenciones de DDD. | 08/10/2026 |
+| AgriDon/Agridron-Fronted | develop | aa3efae | fix(primevue): bypass license verification and suppress invalid license watermark | [Completar con el detalle real del cambio.] | 08/10/2026 |
+| AgriDon/Agridron-Fronted | feature/reportingContext | f91dea6 | feat(reporting): implement analytics and reporting bounded context (BC5) | Implementación del bounded context Analytics & Reporting. | 08/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 9235c48 | Merge branch 'feature/reportingContext' into develop | Integración de Analytics & Reporting en develop. | 08/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 3c8b7dc | feat(flightOperations): integrate drone fleet management from FlightOperations branch | Integración de la gestión de la flota de drones en Flight Operations. | 09/10/2026 |
+| AgriDon/Agridron-Fronted | develop | f007a56 | refactor(flightOperations): align architecture with DDD conventions | Reorganización de Flight Operations según las convenciones de DDD. | 09/10/2026 |
+| AgriDon/Agridron-Fronted | feature/dashboard-and-settings | be3e9fb | refactor(shared): move layout component to shared presentation layer | El componente de layout pasa a la capa de presentación compartida. | 09/10/2026 |
+| AgriDon/Agridron-Fronted | feature/dashboard-and-settings | ea80eb2 | feat(shared): implement dashboard home and settings views matching mockups | Vistas de inicio (dashboard) y configuración según los mock-ups del capítulo IV. | 09/10/2026 |
+| AgriDon/Agridron-Fronted | feature/dashboard-and-settings | b5a66f0 | fix(ui): improve home KPI image reliability and synchronize user profile with layout header | Mejora de la carga de imágenes de los KPI y sincronización del perfil de usuario con la cabecera del layout. | 09/10/2026 |
+| AgriDon/Agridron-Fronted | develop | 8430748 | Merge branch 'feature/dashboard-and-settings' into develop | Integración del dashboard y configuración en develop. | 09/10/2026 |
+
+##### Repositorio: Landing Page
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:--|:--|:--|:--|:--|:-:|
+| AgriDon/Agridron-LandingPage | develop | f9a0fe6 | add: Improvements to responsive desing | Mejoras del diseño responsive para dispositivos móviles y de escritorio. | 07/10/2026 |
+| AgriDon/Agridron-LandingPage | main | 4ec863a | Merge pull request #2 from AgriDon/develop | Publicación de las mejoras responsive mediante Pull Request #2. | 07/10/2026 |
+| AgriDon/Agridron-LandingPage | develop | b5d4852 | add: translator | Selector de idioma para la internacionalización (inglés y español). | 07/10/2026 |
+| AgriDon/Agridron-LandingPage | main | a703f2a | Merge pull request #3 from AgriDon/develop | Publicación del selector de idioma mediante Pull Request #3. | 07/10/2026 |
+
+*Nota: los commits del 18/09/2026 de ambos repositorios (Initial commit y primera versión de la Landing Page) pertenecen al Sprint 1 y se presentan en la sección 5.2.1.4.*
+ 
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2 se logró la primera versión funcional de la Web Application de AgriDron Solutions, desarrollada con Vue 3 y PrimeVue, junto con la actualización de la Landing Page. La Web Application integra los bounded contexts Field Management, Weather Integration, Flight Operations y Analytics & Reporting, además de un layout compartido con las vistas de inicio (dashboard) y configuración, construidas según los mock-ups definidos en el capítulo IV. La interfaz se adapta a distintos tamaños de pantalla y soporta cambio de idioma entre inglés y español.
+
+Se utilizó un API simulado (mock) para validar los flujos de gestión de fincas y parcelas, misiones, flota de drones y analítica sin depender del RESTful API en desarrollo. A continuación se presentan las principales vistas implementadas durante el Sprint, junto con una explicación de lo que permite hacer cada una.
+
+##### Landing Page
+
+![Landing Page en escritorio](../../assets/chapter5/sprint2/landingPage.png)
+
+*Figura: Landing Page en su versión de escritorio.*
+
+![Landing Page en móvil](../../assets/chapter5/sprint2/landingPageMovile.png)
+
+*Figura: Landing Page en su versión móvil.*
+
+En este Sprint se mejoró el diseño de la Landing Page para que las secciones se reorganicen correctamente en pantallas pequeñas, manteniendo la legibilidad y el tamaño adecuado de los elementos interactivos.
+
+![Selector de idioma de la Landing Page](../../assets/chapter5/sprint2/idioma.png)
+
+*Figura: Selector de idioma (inglés / español) y botón de demostración en la Landing Page.*
+
+Se incorporó el selector de idioma, que permite al visitante alternar entre inglés (idioma por defecto) y español latinoamericano, como parte del enfoque de internacionalización del producto. Además, un botón permite acceder a una demostración del sistema.
+
+##### Web Application
+
+![Vista de inicio](../../assets/chapter5/sprint2/home.png)
+
+*Figura: Vista de inicio (dashboard) con indicadores clave (KPI).*
+
+La vista de inicio presenta un resumen de la operación mediante indicadores clave (KPI), de modo que el usuario identifique rápidamente el estado general de sus fincas y misiones al ingresar. El perfil del usuario se muestra sincronizado con la cabecera del layout.
+
+![Gestión de fincas y parcelas](../../assets/chapter5/sprint2/fieldManagement.png)
+
+*Figura: Vista de gestión de fincas y parcelas (Field Management).*
+
+Esta vista permite registrar y consultar las fincas y parcelas del agricultor, que son la base para solicitar misiones de fumigación.
+
+![Listado de misiones con etiquetas de estado](../../assets/chapter5/sprint2/missionList.png)
+
+*Figura: Listado de misiones con etiquetas de estado (Flight Operations).*
+
+El listado de misiones muestra cada misión con una etiqueta de estado, lo que facilita el seguimiento de las operaciones. Los textos de la vista se traducen según el idioma seleccionado.
+
+![Gestión de la flota de drones](../../assets/chapter5/sprint2/droneFleet.png)
+
+*Figura: Vista de gestión de la flota de drones.*
+
+Esta vista permite consultar los drones disponibles y su estado, información que apoya la asignación de misiones a los operadores.
+
+![Analítica y reportes](../../assets/chapter5/sprint2/analytics.png)
+
+*Figura: Vista de analítica y reportes (Analytics & Reporting).*
+
+La vista de analítica consolida información histórica de las operaciones y de los tratamientos aplicados, y apoya la toma de decisiones del agricultor y del supervisor.
+
+##### Enlaces
+
+**Web Application desplegada:** https://agridronapp.web.app
+
+**Landing Page desplegada:** https://agridon.github.io/Agridron-LandingPage/
+
+**Video de ejecución:** [COMPLETAR: URL del video (YouTube o Microsoft Stream) y duración]
+
+---
+
+    "location": "Cañete",
+    "temperature": 24.5,
+    "humidity": 68,
+    "windSpeed": 12.3,
+    "precipitation": 0,
+    "observedAt": "2026-10-02T08:00:00",
+    "alerts": []
+}
+]
+```
+ 
+`GET /drones` devuelve la flota de drones con su estado, nivel de batería y fechas de mantenimiento:
+ 
+```json
+[
+  {
+    "id": 1,
+    "serialNumber": "AGRI-DRN-001-A",
+    "model": "DJI Agras T40",
+    "capacity": 40,
+    "status": "AVAILABLE",
+    "batteryLevel": 80,
+    "nozzleId": 1,
+    "lastMaintenanceDate": "2026-08-10",
+    "nextMaintenanceDate": "2026-11-10"
+  }
+]
+```
+
+![Vista de analítica y reportes](../../assets/chapter5/sprint2/apidog-endpoints.png)
+
+Figura: Lista de endpoints documentados en Apidog.
+
+![Documentación de endpoints en Apidog mission](../../assets/chapter5/sprint2/apidog-missions.png)
+
+Figura: Prueba del endpoint GET /missions con datos de muestra en Apidog.
+
+![Documentación de endpoints en Apidog clima](../../assets/chapter5/sprint2/apidog-clima.png)
+
+Figura: Prueba del endpoint GET /weather con datos de muestra en Apidog.
+
+Repositorio de Web Services: https://github.com/AgriDon/agridron-mock-api/tree/develop
+
+Commits relacionados con documentación: 5125fde
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron actividades de despliegue para los tres productos de la solución. Se publicó la primera versión de la Web Application en Firebase Hosting, se volvió a desplegar la Landing Page con las mejoras de diseño responsive y el selector de idioma, y se dejó disponible el API simulado que consume la Web Application mientras el RESTful API en ASP.NET Core se encuentra en desarrollo.
+
+| Producto | Plataforma | URL desplegada | Repositorio |
+|:--|:--|:--|:--|
+| Landing Page | GitHub Pages | https://agridon.github.io/Agridron-LandingPage/ | https://github.com/AgriDon/Agridron-LandingPage |
+| Web Application | Firebase Hosting | https://agridronapp.web.app | https://github.com/AgriDon/Agridron-Fronted |
+| API simulado (mock) | Apidog | https://mock.apidog.com/m1/1395107-1402934-default | https://github.com/AgriDon/agridron-mock-api |
+
+##### Landing Page
+
+La Landing Page se publica desde la rama `main` de su repositorio con GitHub Pages. En este Sprint, las mejoras de diseño responsive y el selector de idioma se integraron en `develop` y se publicaron mediante los Pull Requests #2 y #3 hacia `main` (07/10/2026), lo que activó un nuevo despliegue.
+
+![Despliegue de la Landing Page en GitHub Pages](../../assets/chapter5/sprint2/deploy-landing.png)
+
+*Figura: Despliegue de la Landing Page en GitHub Pages.*
+
+##### Web Application
+
+La Web Application se desplegó en Firebase Hosting, que sirve la aplicación compilada de Vue como un sitio estático con HTTPS. Pasos realizados:
+
+1. **Creación del proyecto en Firebase.** Desde la consola de Firebase se creó el proyecto AgridronApp y se habilitó el servicio Firebase Hosting.
+
+   ![Creación del proyecto](../../assets/chapter5/sprint2/deploy-webapp-1.png)
+
+   *Figura: Creación del proyecto en la consola de Firebase.*
+
+2. **Instalación de Firebase CLI e inicio de sesión.** Se instaló la herramienta con `npm install -g firebase-tools` y se inició sesión con `firebase login`.
+
+   ![Instalación e inicio de sesión](../../assets/chapter5/sprint2/deploy-webapp-2.png)
+
+   *Figura: Instalación de Firebase CLI e inicio de sesión.*
+
+3. **Inicialización de Hosting.** Dentro del repositorio `Agridron-Fronted` se ejecutó `firebase init hosting`. Se seleccionó el proyecto creado, se indicó `dist` como directorio público y se configuró la aplicación como single-page app, de modo que todas las rutas se redirijan a `index.html` y la navegación entre vistas funcione al recargar la página.
+
+   ![Inicialización de Hosting](../../assets/chapter5/sprint2/deploy-webapp-3.png)
+
+   *Figura: Inicialización de Firebase Hosting en el repositorio.*
+
+4. **Build y despliegue.** Se generó el build de producción con `npm run build` y se publicó con `firebase deploy --only hosting`, que devolvió la URL de Hosting. Se verificó que la aplicación cargara en esa URL, incluyendo la navegación entre vistas.
+
+   ![Despliegue exitoso](../../assets/chapter5/sprint2/deploy-webapp-4.png)
+
+   *Figura: Despliegue completado y aplicación disponible en Firebase Hosting.*
+
+##### API simulado
+
+Los endpoints simulados se publican mediante el servicio de mock de Apidog, cuya URL base es https://mock.apidog.com/m1/1395107-1402934-default. La Web Application consume esa URL, y la especificación OpenAPI se versiona en el repositorio `agridron-mock-api`.
+
+![Configuración del API simulado](../../assets/chapter5/sprint2/deploy-mock.png)
+
+*Figura: Configuración del API simulado en Apidog.*
+
+##### Integración con el flujo de trabajo
+
+El despliegue de la Landing Page es automático: cada integración en `main` actualiza GitHub Pages. La Web Application se publica con Firebase CLI después de integrar los cambios en el repositorio; la automatización de este paso con GitHub Actions está planificada para los siguientes Sprints. [COMPLETAR: confirmar la rama desde la que se despliega la Web Application]
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo desarrolló las actividades de implementación en tres repositorios de la organización AgriDron en GitHub: la Web Application (`Agridron-Fronted`), la Landing Page (`Agridron-LandingPage`) y el API simulado (`agridron-mock-api`). El trabajo se organizó con GitFlow: cada bounded context o funcionalidad se desarrolló en una rama `feature/*` y se integró en `develop` mediante Pull Requests o merges, y las versiones estables de la Landing Page se publicaron desde `main`. Se adoptó Conventional Commits; algunos mensajes de este Sprint no siguen la convención, por lo que se reforzará su aplicación en el siguiente Sprint.
+
+##### Contribución por integrante
+
+| Integrante | Repositorio | Aporte principal en el Sprint 2 | Commits |
+|:--|:--|:--|:-:|
+| Damacen Galindo, Italo Gianfranco | https://github.com/AgriDon/Agridron-Fronted/tree/develop | bounded context Flight Operations | 937C310 |
+| Nicho Huillcañahui, Edwin Noe | https://github.com/AgriDon/Agridron-LandingPage/tree/develop | despliegue en Firebase Hosting y configuración del proyecto | 977K250 |
+| Jara Espinoza, Miguel Angel | https://github.com/AgriDon/agridron-mock-api/tree/develop | especificación OpenAPI y API simulado | 837A410 |
+| Choquehuanca Vasquez, Alejandro Samir | https://github.com/AgriDon/Agridron-Fronted/tree/develop | internacionalización y accesibilidad | 867K750 |
+| Vasquez Roncal, Alexander Felipe | https://github.com/AgriDon/Agridron-LandingPage/tree/develop | Landing Page responsive y vistas de dashboard | 356C250 |
+##### Web Application
+
+![Insights de la Web Application - Sprint 2](../../assets/chapter5/sprint2/insights-webapp.png)
+
+*Figura: Contribuciones de los integrantes en el repositorio de la Web Application durante el Sprint 2.*
+
+##### Landing Page
+
+![Insights de la Landing Page - Sprint 2](../../assets/chapter5/sprint2/insights-landing.png)
+
+*Figura: Contribuciones de los integrantes en el repositorio de la Landing Page durante el Sprint 2.*
+
+##### API simulado
+
+![Insights del API simulado - Sprint 2](../../assets/chapter5/sprint2/insights-mock-api.png)
+
+*Figura: Contribuciones de los integrantes en el repositorio del API simulado durante el Sprint 2.*
