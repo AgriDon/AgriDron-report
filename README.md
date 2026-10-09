@@ -1526,6 +1526,34 @@ Adicionalmente se adjunta el link de acceso al tablero de Jira para la gestión 
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
