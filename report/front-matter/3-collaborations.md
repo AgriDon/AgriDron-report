@@ -2,7 +2,7 @@
 
 Todas las actividades asignadas para la AV1 se encuentran documentadas en los repositorios de GitHub pertenecientes a la organización de AgriDron, accesible en el siguiente enlace:
 
-[Organización Agridron](https://github.com/AgriDon)
+Organización Agridron: https://github.com/AgriDon
 
 En cuanto al informe del proyecto, cada integrante del equipo participó en la elaboración de los diferentes capítulos y apartados asignados, desarrollando contenido en formato Markdown, tablas, diagramas, evidencias y demás artefactos correspondientes al proyecto Agridron.
 
@@ -10,7 +10,7 @@ El progreso de cada integrante fue registrado mediante commits realizados en las
 
 El repositorio principal del Project Report se encuentra disponible en:
 
-[Repositorio Agridron](https://github.com/AgriDon/AgriDron-report.git)
+Repositorio Agridron: https://github.com/AgriDon/AgriDron-report.git
 
 ## Insights AV1
 
