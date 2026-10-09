@@ -501,6 +501,7 @@ Durante el Sprint 2, el equipo desarrolló las actividades de implementación en
 | Jara Espinoza, Miguel Angel | https://github.com/AgriDon/agridron-mock-api/tree/develop | especificación OpenAPI y API simulado | 837A410 |
 | Choquehuanca Vasquez, Alejandro Samir | https://github.com/AgriDon/Agridron-Fronted/tree/develop | internacionalización y accesibilidad | 867K750 |
 | Vasquez Roncal, Alexander Felipe | https://github.com/AgriDon/Agridron-LandingPage/tree/develop | Landing Page responsive y vistas de dashboard | 356C250 |
+
 ##### Web Application
 
 ![Insights de la Web Application - Sprint 2](../../assets/chapter5/sprint2/insights-webapp.png)
