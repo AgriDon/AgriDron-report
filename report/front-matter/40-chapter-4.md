@@ -696,31 +696,25 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Los User Flow Diagrams de AgriDron Solutions representan los recorridos funcionales principales de los usuarios dentro de la plataforma web, detallando la lógica de navegación, las reglas de negocio, los puntos de decisión y el comportamiento del sistema ante condiciones esperadas o interrupciones operativas. A diferencia del wireflow, este diagrama se enfoca en las bifurcaciones lógicas y validaciones que determinan el avance del usuario desde el inicio hasta el cumplimiento de sus objetivos.
+Los user flows de AgriDron Solutions representan la secuencia detallada de pasos, decisiones lógicas del sistema y estados de éxito que sigue cada perfil de usuario para alcanzar sus objetivos funcionales dentro de la aplicación web.
 
-User Goal 1: Planificar y ejecutar una misión de fumigación de precisión.
+**User Goal 1: Solicitar y coordinar una demostración comercial del servicio.**
+Este user flow define el camino lógico que realiza un visitante desde el ingreso al portal público hasta la confirmación del envío del formulario de contacto. El flujo detalla las validaciones del sistema sobre los campos requeridos, el registro de la solicitud comercial en la base de datos y la emisión del mensaje de confirmación de recepción.
 
-**Happy path (Camino feliz):**
+![Web Applications User Flow Diagrams](../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram1.jpeg)
 
-- Autenticación e inicio: El usuario inicia sesión correctamente en la aplicación web.
-- Validación de infraestructura agrícola: El sistema verifica que la finca ya está registrada y que la parcela objetivo se encuentra delimitada geométricamente en el mapa satelital.
-- Configuración de misión: El usuario crea la misión especificando parcela, fecha, insumos agrícolas y tipo de tratamiento fitosanitario.
-- Validación meteorológica: La plataforma consulta las condiciones climáticas en tiempo real y confirma que son favorables para el vuelo.
-- Asignación de personal: El sistema notifica la misión pendiente y confirma la disponibilidad de un operador técnico, asignándole la orden.
-- Verificación de geocerca y campo: El operador inicia su jornada de trabajo y el sistema valida positivamente su ubicación dentro de la geocerca permitida.
-- Ejecución y cierre: Se inicia el vuelo de fumigación automatizado sin incidencias, el operador completa la misión y el sistema emite automáticamente el acta digital y el reporte operativo, alcanzando el estado final Misión Completada.
+**User Goal 2: Registrar fincas y parametrizar polígonos de parcelas en el mapa.**
+Este user flow abarca la lógica secuencial para la creación y actualización de terrenos agrícolas. Detalla desde la inserción de datos de la finca hasta el trazado de coordenadas en el mapa, el cálculo automático de hectáreas por parte del sistema, la asociación de datos agronómicos y el filtrado por tipo de cultivo.
 
-**Unhappy paths y rutas alternativas (Excepciones y decisiones):**
+![Web Applications User Flow Diagrams](../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram2.jpeg)
 
-- Finca o parcela no registrada: Si el usuario no cuenta con la finca o parcela registrada, el flujo se desvía para exigir el registro previo de los predios en la base de datos geográfica antes de continuar con la creación de la misión.
-- Condición climática desfavorable: Si el análisis meteorológico detecta vientos fuertes o lluvia, el sistema bloquea la autorización y retorna al usuario a la fase de planificación para modificar la fecha o los parámetros de la misión.
-- Sin operador disponible: Si no existe un operador disponible al momento de la asignación, la orden queda diferida en estado Misión pendiente de asignación.
-- Fuera de la geocerca: Si al iniciar la jornada la ubicación GPS del operador no coincide con los límites de la geocerca establecida, el sistema bloquea el registro, notifica al supervisor y finaliza el intento en estado Jornada no iniciada.
-- Incidencias técnicas o climáticas durante el vuelo: Si durante la pulverización surge una falla de equipo o cambio climático adverso.
+**User Goal 3: Programar misiones de pulverización y consultar el historial de servicios.**
+Este user flow describe la secuencia lógica que sigue el agricultor para solicitar una orden de fumigación y hacer seguimiento a sus ejecuciones. Incluye la selección de la parcela, cultivo y agroquímico con la validación de condiciones climáticas aptas, el registro de la solicitud en la lista de misiones y la consulta detallada del reporte o acta técnica de un servicio completado.
 
-![Web Applications User Flow Diagrams](../images/chapter4/Web_Applications_User_Flow_Diagrams.jpg)
+![Web Applications User Flow Diagrams](../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram3.jpeg)
 
-**Link del Miro:** https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702
+
+**Link del Miro:** [https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=310365063702](https://miro.com/welcomeonboard/OU1LdXRSanlNQXZ5bUErM2JqS0xsNTdsZGg4TTdjUHBreWpNSjBBNEU4K3MwT29LcU5NRE80Ym9semMrb2dBckxXMGlEWktwMkt1QTdBWW9UTVJML1o2OExBWDBmUTdoZW1GcmFzci9hZUhsRGRRRUZ1ZC9nRUVDS01ZQkNUbUZQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=698081833794)
 
 ---
 
