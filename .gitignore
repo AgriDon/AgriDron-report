@@ -1,2 +1,4 @@
 .idea
 .ai
+# Ignorar configuraciones de IntelliJ IDEA
+.idea/
