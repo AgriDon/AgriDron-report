@@ -48,7 +48,7 @@ Se adopta la estrategia GitFlow para mantener una separación estricta entre el 
 - main: Contiene exclusivamente el código probado y estable en producción.
 - develop: Rama principal de integración para el trabajo en progreso.
 - feature/*: Ramas destinadas a nuevas características o historias de usuario.
-  - Convención: feature/US<numero>-<nombre-descriptivo>
+  - Convención: `feature/US<numero>-<nombre-descriptivo>`
   - Ejemplo: feature/US002-farm-polygon-drawing
 - release/*: Estabilización y preparación de liberaciones a producción.
   - Convención: release/X.Y.Z
@@ -68,7 +68,7 @@ Se adopta la nomenclatura MAJOR.MINOR.PATCH para controlar los lanzamientos:
 
 **Convenciones para Commits**
 
-Se impone la estructura estandarizada <type>[optional scope]: <description> para registrar los cambios en el historial Git de manera clara y automatizable:
+Se impone la estructura estandarizada `<type>[optional scope]: <description>` para registrar los cambios en el historial Git de manera clara y automatizable:
 
 - **feat:** Nueva funcionalidad para el usuario.
 - **fix:** Corrección de un fallo en el sistema.
@@ -109,7 +109,7 @@ Para la Web API RESTful construida con .NET 10, se toma como base la Microsoft C
   - Métodos, parámetros y variables locales en camelCase: calculateTreatedArea(), plotCoordinates, droneId.
   - Constantes en PascalCase o UPPER_SNAKE_CASE.
 - **Documentación y Anotaciones:**
-  - Uso de XML Documentation Comments (/// <summary>) en todos los métodos y endpoints públicos.
+  - Uso de XML Documentation Comments (`/// <summary>`) en todos los métodos y endpoints públicos.
   - Decoración clara de controladores con atributos de enrutamiento y validaciones de Data Annotations ([HttpGet], [HttpPost], [FromBody], [Required]).
 
 **Frontend: Vue.js 3 Framework (JavaScript / HTML5 / CSS3)**
@@ -120,20 +120,20 @@ Style Guide oficial y la Airbnb JavaScript Style Guide:
 
 - **Estructura Modular de Componentes:**
   - Arquitectura organizada por módulos del negocio (/fincas, /parcelas, /misiones, /drones).
-  - Archivos de un solo componente (Single File Components - .vue) agrupando <template>, <script> y <style scoped>.
+  - Archivos de un solo componente (Single File Components - .vue) agrupando `<template>`, `<script>` y `<style scoped>`.
 - **Nomenclatura:**
   - Archivos de componentes y vistas en kebab-case: farm-management-view.vue, map-polygon-editor.vue.
   - Nombre de componentes registrados dentro del script en PascalCase: FarmManagementView, MapPolygonEditor
   - Variables, funciones y propiedades (props) en camelCase: selectedParcelId, fetchWeatherForecast()
 - **HTML & Accesibilidad:**
-  - Uso estricto de elementos semánticos de HTML5 (<main>, <header>, <section>, <article>, <nav>).
+  - Uso estricto de elementos semánticos de HTML5 (`<main>`, `<header>`, `<section>`, `<article>`, `<nav>`).
   - Inclusión de atributos alt en imágenes y etiquetas aria-* para accesibilidad web.
 - **CSS & Metodología BEM (Block Element Modifier):**
   - Clases escritas en kebab-case con nomenclatura BEM para evitar colisión de estilos:
     - Bloque: .mission-card
     - Elemento: .mission-card__status-badge
     - Modificador: .mission-card__status-badge--in-progress
-  - Uso de estilos encapsulados mediante <style scoped> dentro de cada componente Vue.
+  - Uso de estilos encapsulados mediante `<style scoped>` dentro de cada componente Vue.
 
 Estas guías aseguran que el código sea limpio, mantenible y fácil de entender para todos los miembros del equipo.
 
