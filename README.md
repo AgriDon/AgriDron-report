@@ -1,5 +1,5 @@
-<div align="center">
-<img src="../../assets/upc_logo.png" alt="UPC Logo" width="150"/>
+﻿<div align="center">
+<img src="assets/upc_logo.png" alt="UPC Logo" width="150"/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
 ### Carrera de Ingeniería de Software
@@ -157,11 +157,11 @@ Repositorio Agridron: https://github.com/AgriDon/AgriDron-report.git
 
 En esta sección se presentan las métricas de colaboración obtenidas mediante GitHub Insights. Estas evidencias permiten visualizar los commits realizados por los integrantes del equipo durante la AV1 y reflejan la participación de Agridron en la elaboración y evolución del Project Report.
 
-![Project Report Collaboration Insights AV1](../images/Insights/Insights1.png)
+![Project Report Collaboration Insights AV1](report/images/Insights/Insights1.png)
 
 **Figura:** Métricas generales de contribución de los integrantes de Agridron durante la AV1.
 
-![Project Report Contributors AV1](../images/Insights/Insights2.png)
+![Project Report Contributors AV1](report/images/Insights/Insights2.png)
 
 **Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la AV1.
 
@@ -169,11 +169,11 @@ En esta sección se presentan las métricas de colaboración obtenidas mediante 
 
 En esta sección se presentan las métricas de colaboración obtenidas mediante GitHub Insights. Estas evidencias permiten visualizar los commits realizados por los integrantes del equipo durante la TB1 y reflejan la participación de Agridron en la elaboración y evolución del Project Report.
 
-![Project Report Collaboration Insights TB1](../images/Insights/Insights3.png)
+![Project Report Collaboration Insights TB1](report/images/Insights/Insights3.png)
 
 **Figura:** Métricas generales de contribución de los integrantes de Agridron durante la TB1.
 
-![Project Report Contributors TB1](../images/Insights/Insights4.png)
+![Project Report Contributors TB1](report/images/Insights/Insights4.png)
 
 **Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la TB1.
 
@@ -320,11 +320,11 @@ La plataforma permitirá registrar fincas y parcelas, seleccionar áreas de fumi
 
 |                                             Foto                                              | Detalles del Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       <img src="assets/team/integrante_01.png" alt="Foto del integrante" width="150"/>        | **Nombre:** Damacen Galindo, Italo Gianfranco <br> **Código:** U202421392 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|         <img src="../images/members/EdwinNicho.jpg" alt="Foto de Edwin" width="150"/>         | **Nombre:** Nicho Huillcañahui, Edwin Noe <br> **Código:** U20241G306 <br> **Carrera:** Ingeniería de Software <br><br> **Descripción:**<br> Mi nombre es Edwin Noe Nicho Huillcañahui, soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona responsable, curiosa y comprometida con el aprendizaje continuo. Me interesa el desarrollo de aplicaciones web y móviles, así como comprender el funcionamiento de las tecnologías y herramientas utilizadas en la construcción de soluciones de software. <br><br> **Aporte y función dentro del equipo:**<br> Me gusta participar en el diseño de interfaces y prototipos interactivos utilizando Figma. Asimismo,explorar el código, comprender cómo se relacionan los diferentes componentes de una aplicación y aprender sobre patrones de arquitectura de software.                                                                                                                                                                  |
-|        <img src="../images/members/samir.jpeg" alt="Foto del integrante" width="150"/>        | **Nombre:** Samir Choquehuanca <br> **Código:** U202416053 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Estudiante de Ingeniería de Software con conocimientos en programación en C++, JavaScript y Python, y en desarrollo web con HTML y CSS. Soy una persona responsable, con capacidad para aprender nuevas herramientas y aplicar mis conocimientos en proyectos académicos <br><br> **Aporte y función dentro del equipo:**<br> Aporto en el desarrollo y la programación de las funcionalidades del proyecto, y colaboro en el diseño de la interfaz con HTML y CSS. Cumplo con mis tareas en los plazos acordados y apoyo al grupo resolviendo dudas y reforzando las partes que lo necesiten.                                                                                                                                                                                                                                                                                                                              |
-|        <img src="../images/members/miguel.jpg" alt="Foto del integrante" width="150"/>        | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| <img src="../images/members/Alexander_Vasquez.png" alt="Alexander Vasquez foto" width="150"/> | **Nombre:** Vasquez Roncal, Alexander Felipe <br> **Código:** U202222473 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Alexander Vasquez, tengo 27 años y actualmente estoy cursando el cuarto ciclo de la carrera de Ingeniería de Software. Soy una persona disciplinada, con capacidad para trabajar en equipo. Mis habilidades técnicas incluyen lenguajes de programación como Python y C + +. Me esfuerzo por contribuir activamente al desarrollo del proyecto  <br><br> **Aporte y función dentro del equipo:**<br> Mi participacion incluyo ayudar en la documentacion del capitulo 3, 4 y 5, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.                                                                                                                                                                                                                                                 |
+|       <img src="report/images/members/ItaloDamacen.png" alt="Foto del integrante" width="150"/>        | **Nombre:** Damacen Galindo, Italo Gianfranco <br> **Código:** U202421392 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|         <img src="report/images/members/EdwinNicho.jpg" alt="Foto de Edwin" width="150"/>         | **Nombre:** Nicho Huillcañahui, Edwin Noe <br> **Código:** U20241G306 <br> **Carrera:** Ingeniería de Software <br><br> **Descripción:**<br> Mi nombre es Edwin Noe Nicho Huillcañahui, soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona responsable, curiosa y comprometida con el aprendizaje continuo. Me interesa el desarrollo de aplicaciones web y móviles, así como comprender el funcionamiento de las tecnologías y herramientas utilizadas en la construcción de soluciones de software. <br><br> **Aporte y función dentro del equipo:**<br> Me gusta participar en el diseño de interfaces y prototipos interactivos utilizando Figma. Asimismo,explorar el código, comprender cómo se relacionan los diferentes componentes de una aplicación y aprender sobre patrones de arquitectura de software.                                                                                                                                                                  |
+|        <img src="report/images/members/samir.jpeg" alt="Foto del integrante" width="150"/>        | **Nombre:** Samir Choquehuanca <br> **Código:** U202416053 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Estudiante de Ingeniería de Software con conocimientos en programación en C++, JavaScript y Python, y en desarrollo web con HTML y CSS. Soy una persona responsable, con capacidad para aprender nuevas herramientas y aplicar mis conocimientos en proyectos académicos <br><br> **Aporte y función dentro del equipo:**<br> Aporto en el desarrollo y la programación de las funcionalidades del proyecto, y colaboro en el diseño de la interfaz con HTML y CSS. Cumplo con mis tareas en los plazos acordados y apoyo al grupo resolviendo dudas y reforzando las partes que lo necesiten.                                                                                                                                                                                                                                                                                                                              |
+|        <img src="report/images/members/miguel.jpg" alt="Foto del integrante" width="150"/>        | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <img src="report/images/members/Alexander_Vasquez.png" alt="Alexander Vasquez foto" width="150"/> | **Nombre:** Vasquez Roncal, Alexander Felipe <br> **Código:** U202222473 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Alexander Vasquez, tengo 27 años y actualmente estoy cursando el cuarto ciclo de la carrera de Ingeniería de Software. Soy una persona disciplinada, con capacidad para trabajar en equipo. Mis habilidades técnicas incluyen lenguajes de programación como Python y C + +. Me esfuerzo por contribuir activamente al desarrollo del proyecto  <br><br> **Aporte y función dentro del equipo:**<br> Mi participacion incluyo ayudar en la documentacion del capitulo 3, 4 y 5, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.                                                                                                                                                                                                                                                 |
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -595,7 +595,7 @@ Para validar la propuesta de valor de AgriDron Solutions y asegurar un posiciona
 
 | Categoría | Subcategoría | AgriDron Solutions | DroneDeploy | Climate FieldView | Agrivi |
 |---|---|---|---|---|---|
-| **Perfil** | Logo / Identificador | ![AgriDron](../images/competitors/Agridron_Logo.png) | ![DroneDeploy](../images/competitors/dronedeploy-logo.png) | ![Climate FieldView](../images/competitors/Climate_FieldView.jpg) | ![Agrivi](../images/competitors/agrivi.jpg) |
+| **Perfil** | Logo / Identificador | ![AgriDron](report/images/competitors/Agridron_Logo.png) | ![DroneDeploy](report/images/competitors/dronedeploy-logo.png) | ![Climate FieldView](report/images/competitors/Climate_FieldView.jpg) | ![Agrivi](report/images/competitors/agrivi.jpg) |
 | **Perfil** | Overview | Plataforma web distribuida e interoperable diseñada para la planificación sobre mapas interactivos, validación climática vía API externa y simulación de telemetría para operaciones de fumigación con drones. | Plataforma empresarial de software para mapeo aéreo, fotogrametría 3D y análisis multiespectral con drones. | Plataforma digital corporativa enfocada en la recolección masiva de datos agronómicos terrestres y satelitales. | Sistema integral de planificación de recursos agrícolas (Farm ERP) en la nube enfocado en gestión y cumplimiento normativo. |
 | **Perfil** | Ventaja competitiva / ¿Qué valor ofrece? | Plataforma web abierta e intuitiva que integra delimitación de polígonos, consulta meteorológica en tiempo real y seguimiento de drones sin ataduras a hardware propietario. Automatiza el flujo de fumigación, reduce el desperdicio de insumos químicos, previene pérdidas por clima adverso y ofrece visibilidad operativa en tiempo real. | Algoritmos líderes de procesamiento rápido de ortomosaicos y amplia compatibilidad con marcas de drones comerciales. Ofrece información visual de alta resolución del estado del campo y herramientas de medición de áreas y elevación. | Respaldo y validación agronómica global de Bayer, con integración directa a maquinaria pesada y satélites. Optimiza el rendimiento de la cosecha mediante decisiones basadas en datos climáticos e históricos del suelo. | Módulo exhaustivo de trazabilidad agrícola, cumplimiento de certificaciones internacionales y gestión financiera del cultivo. Centraliza la administración de la finca, control de inventarios y reducción de costos operativos. |
 | **Perfil de Marketing** | Mercado objetivo | Pequeños y medianos agricultores (PyMAs), cooperativas agrarias y operadores técnicos de drones de fumigación. | Grandes corporaciones agrícolas, empresas de ingeniería, construcción e inspección aérea. | Medianos y grandes productores agrícolas con maquinaria mecanizada y tecnificada. | Medianas y grandes empresas agroexportadoras, consultores agrícolas y cadenas agroalimentarias. |
@@ -679,7 +679,7 @@ Para la recolección de requerimientos y el análisis de necesidades, se llevaro
 
 ##### Entrevista #1
 
-![Captura Entrevista Camila Ramos](../images/Entrevistas/Entrevista1.jpeg)
+![Captura Entrevista Camila Ramos](report/images/Entrevistas/Entrevista1.jpeg)
 
 <div class="center">
 
@@ -707,7 +707,7 @@ Camila Ramos Paucar, estudiante de 10mo ciclo de Agronomía y administradora del
 
 ##### Entrevista #2
 
-![Captura Entrevista Diana](../images/Entrevistas/Entrevista2.jpeg)
+![Captura Entrevista Diana](report/images/Entrevistas/Entrevista2.jpeg)
 <div class="center">
 
 *Figura: Evidencia de Entrevista #2 – Diana*
@@ -735,7 +735,7 @@ Diana, en representación de su padre Rómulo Huamán Ccora (52 años), administ
 
 ##### Entrevista #3
 
-![Captura Entrevista Jesus](../images/Entrevistas/Entrevista3.jpeg)
+![Captura Entrevista Jesus](report/images/Entrevistas/Entrevista3.jpeg)
 
 <div class="center">
 
@@ -765,7 +765,7 @@ Jesus, de 34 años, es técnico en mecatrónica y piloto certificado de drones d
 
 ##### Entrevista #4
 
-![Captura Entrevista Valeria Mendoza](../images/Entrevistas/Entrevista4.jpeg)
+![Captura Entrevista Valeria Mendoza](report/images/Entrevistas/Entrevista4.jpeg)
 
 <div class="center">
 
@@ -794,7 +794,7 @@ Valeria Sofía Mendoza Ríos, estudiante de 8vo ciclo de Ingeniería Agrícola y
 
 ##### Entrevista #5
 
-![Captura Entrevista Daniel Arias](../images/Entrevistas/Entrevista5.jpeg)
+![Captura Entrevista Daniel Arias](report/images/Entrevistas/Entrevista5.jpeg)
 
 <div class="center">
 
@@ -823,7 +823,7 @@ Daniel Arias Dextre, de 24 años, es asistente técnico operativo y co-gestor de
 
 ##### Entrevista #6
 
-![Captura Entrevista Eduardo Osorio](../images/Entrevistas/Entrevista6.jpeg)
+![Captura Entrevista Eduardo Osorio](report/images/Entrevistas/Entrevista6.jpeg)
 
 <div class="center">
 
@@ -856,7 +856,7 @@ El análisis de las entrevistas realizadas permite identificar patrones claros e
 
 #### Segmento 1: Agricultores y Administradores de Fincas
 
-![Segmento 1: Agricultores y Administradores de Fincas - Características principales](../images/analisis/ImagesSegmento1.png)
+![Segmento 1: Agricultores y Administradores de Fincas - Características principales](report/images/analisis/ImagesSegmento1.png)
 
 *Figura: Análisis de Entrevistas – Segmento 1 (Agricultores y Administradores de Fincas)*
 
@@ -910,7 +910,7 @@ Esto evidencia que la adopción tecnológica depende principalmente de que la he
 
 #### Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones
 
-![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](../images/analisis/ImagesSegmento2.png)
+![Segmento 2: Operadores Técnicos y Proveedores de Fumigación con Drones - Características principales](report/images/analisis/ImagesSegmento2.png)
 
 *Figura: Análisis de Entrevistas – Segmento 2 (Operadores Técnicos de Drones)*
 
@@ -1011,7 +1011,7 @@ De esta manera, se busca reducir el tiempo previo a cada servicio, disminuir los
 ### 2.3.1. User Personas.
 #### Persona 1: Laura Ramos Paucar
 
-![User Persona 1](../../assets/needfinding/User_Person_segment_1.png)
+![User Persona 1](assets/needfinding/User_Person_segment_1.png)
 
 *Figura: User Persona 1 – Laura Ramos Paucar (Segmento 1)*
 *Artefacto de diseño de experiencia de usuario desarrollado en UXPressia
@@ -1025,7 +1025,7 @@ y barras de nivel para sus habilidades tecnológicas y canales de comunicación 
 
 #### Persona 2: Diego mendoza Rios
 
-![User Persona 2](../../assets/needfinding/User_Person_segment_2.png)
+![User Persona 2](assets/needfinding/User_Person_segment_2.png)
 
 *Figura: User Persona 2 – Diego Mendoza Ríos (Segmento 2)*
 *Ficha de User Persona en UXPressia que describe al arquetipo del operador técnico de drones.
@@ -1056,7 +1056,7 @@ A continuación se presenta el User Task Matrix que consolida y compara las prin
 
 <div align="center">
 
-![User Task Matrix](../../assets/needfinding/Taskmatrix1.png)
+![User Task Matrix](assets/needfinding/Taskmatrix1.png)
 
 *Figura 2.1: User Task Matrix desarrollado en UXPressia para el Segmento 1.*
 
@@ -1064,7 +1064,7 @@ A continuación se presenta el User Task Matrix que consolida y compara las prin
 
 <div align="center">
 
-![User Task Matrix](../../assets/needfinding/Taskmatrix2.png)
+![User Task Matrix](assets/needfinding/Taskmatrix2.png)
 
 *Figura 2.2: User Task Matrix desarrollado en UXPressia para el Segmento 2.*
 
@@ -1086,10 +1086,10 @@ A continuación se presenta el User Task Matrix que consolida y compara las prin
 
 En esta sección se presentan los User Journey Maps en su versión As-Is para cada segmento objetivo. Estos mapas resumen el recorrido actual de los usuarios en la gestión de sus tareas más relevantes, desde la identificación de una necesidad hasta la resolución manual de sus actividades, permitiendo visualizar pasos, fricciones, puntos de dolor y oportunidades de mejora antes de la intervención de AgriDron.
 - **Segmento objetivo 1: **
-  ![UserJourneyPapping](../images/user-journey-mapping/UserJourneyMap-Segmento-1.png)
+  ![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-1.png)
 
 - **Segmento objetivo 2: **
-  ![UserJourneyPapping](../images/user-journey-mapping/UserJourneyMap-Segmento-2.png)
+  ![UserJourneyPapping](report/images/user-journey-mapping/UserJourneyMap-Segmento-2.png)
 
 
 ### 2.3.4. Empathy Mapping
@@ -1097,7 +1097,7 @@ En esta sección se presentan los User Journey Maps en su versión As-Is para ca
 Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extraídas de las entrevistas y organizan, para cada User Persona, lo que el usuario dice, piensa, hace y siente en su contexto actual. Este artefacto permite profundizar en sus pains, gains, preocupaciones y motivaciones, facilitando una comprensión más humana del problema y orientando mejor las decisiones posteriores de diseño.
 
 - **Segmento objetivo 1: Pequeños y Medianos Agricultores / Propietarios de Fincas**
-  ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-1.png)
+  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-1.png)
   *Figura: Empathy Map – Segmento 1: Agricultores y Administradores*
   *Diagrama de empatía estructurado en siete bloques en UXPressia para el arquetipo de
   Camila Ramos. Detalla lo que el usuario ve en el campo (hojas dañadas, tractores compactando el suelo),
@@ -1109,7 +1109,7 @@ Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extr
 <br>
 
 - **Segmento objetivo 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones**
-  ![Empathy Mapping](../images/Empatymap/Empathymap-Segmento-2.png)
+  ![Empathy Mapping](report/images/Empatymap/Empathymap-Segmento-2.png)
 
 *Figura: Empathy Map – Segmento 2: Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones*
 
@@ -1126,29 +1126,29 @@ respaldo meteorológico).*
 
 La fase "Open" (Exploración Abierta) constituye el primer paso del taller de Event Storming, diseñado para fomentar una lluvia de ideas sin restricciones tecnológicas ni arquitectónicas. En esta etapa inicial, el objetivo principal es capturar todos los Eventos de Dominio relevantes de la operativa actual (redactados siempre en tiempo pasado) para mapear el proceso físico real de la fumigación agrícola de extremo a extremo, evidenciando cómo fluye el negocio desde la solicitud inicial del cliente hasta el cierre del servicio, antes de la introducción de AgriDron Solutions.
 
-![](../images/big-picture-event-storming/open1.png)
+![](report/images/big-picture-event-storming/open1.png)
 
 **EXPLORE**
 
 Durante la fase "Explore" (Exploración Secuencial), el modelo caótico inicial se consolida estructurando los eventos descubiertos en una estricta línea de tiempo cronológica de izquierda a derecha. En este punto, el ecosistema se enriquece introduciendo visualmente a los actores humanos involucrados en cada paso, las herramientas empíricas o sistemas que utilizan actualmente y, de manera crítica, los puntos de dolor (Pain Points) logísticos y operativos que justifican la necesidad y el valor de negocio de implementar la plataforma de software.
 
-![](../images/big-picture-event-storming/explore1.png)
+![](report/images/big-picture-event-storming/explore1.png)
 
-![](../images/big-picture-event-storming/explore2.png)
+![](report/images/big-picture-event-storming/explore2.png)
 
-![](../images/big-picture-event-storming/explore3.png)
+![](report/images/big-picture-event-storming/explore3.png)
 
-![](../images/big-picture-event-storming/explore4.png)
+![](report/images/big-picture-event-storming/explore4.png)
 
 **CLOSE**
 
 La fase "Close" (Cierre y Definición de Alcance) actúa como la culminación del taller, orientada a tomar decisiones tangibles de diseño y establecer los límites técnicos del proyecto. La información y fricciones descubiertas se clasifican en tres tableros estratégicos: los problemas operativos críticos que la arquitectura debe resolver obligatoriamente, las interrogantes técnicas que exigen mayor investigación por parte del equipo, y los procesos funcionales que quedan explícitamente fuera del alcance (Out of Scope) para la versión actual, previniendo así el desborde de requerimientos.
 
-![](../images/big-picture-event-storming/close1.png)
+![](report/images/big-picture-event-storming/close1.png)
 
-![](../images/big-picture-event-storming/close2.png)
+![](report/images/big-picture-event-storming/close2.png)
 
-![](../images/big-picture-event-storming/close3.png)
+![](report/images/big-picture-event-storming/close3.png)
 
 **URL completo del tablero de trabajo en Miro:**
 https://miro.com/welcomeonboard/TTZqTjVVY2FwVHRweVBhSnhsdFk2ajFjWUFVM2hTaWVrYk1sLzN5NVAzcHhzSHhTRmFuaW5WV0ZiK2tDcXRvdXBJY1BOcit0OGljUlptWGxHbDVaUWFKa0EydzdPN20yN3dxUXNXSzdXb1FBTHVPcUFNQ0tVZ2Q4bUdMZTk4THN3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=100284565376
@@ -1306,13 +1306,13 @@ Objetivo de Negocio #2 [Segmento 2: Personal Técnico / Operadores de Drones]:
 **Impact Mapping Segmento 1:**
 
 
-![ImpactMap1](../images/chapter3/Impactmap-Segmento1.png)
+![ImpactMap1](report/images/chapter3/Impactmap-Segmento1.png)
 
 <sub>Ilustración. Impact Mapping de Pequeños y Medianos Agricultores</sub>
 
 **Impact Mapping Segmento 2:**
 
-![ImpactMap2](../images/chapter3/Impactmap-Segmento2.png)
+![ImpactMap2](report/images/chapter3/Impactmap-Segmento2.png)
 
 <sub>Ilustración. Impact Mapping de Personal Técnico / Operadores de Drones</sub>
 
@@ -1395,9 +1395,9 @@ Todas las estimaciones se encuentran expresadas en la escala Fibonacci de Story 
 
 Se adjuntan capturas con evidencia del backlog en la herramienta Jira Software, mostrando la priorización y estimación de puntos de historia para cada requisito del proyecto.
 
-![Backlog](../images/chapter3/backlog1.png)
+![Backlog](report/images/chapter3/backlog1.png)
 
-![Backlog2](../images/chapter3/backlog2.png)
+![Backlog2](report/images/chapter3/backlog2.png)
 
 Adicionalmente se adjunta el link de acceso al tablero de Jira para la gestión del Product Backlog: https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiY2IwZjM2ZjdhNzhiNDA3ZmIwODg0NWEwMGM2NGFhZDgiLCJwIjoiaiJ9
 
@@ -1428,7 +1428,7 @@ y rotación de los hélices de un dron agrícola. Acompañado de la tipografía 
 tecnológico aplicado al sector agropecuario.
 </p>
 
-![Agridron_Logo](../images/logos/Agridron_Logo.png)
+![Agridron_Logo](report/images/logos/Agridron_Logo.png)
 
 **2. Branding:**
 
@@ -1449,13 +1449,13 @@ alta legibilidad en pantallas y precisión técnica en datos:
 - **Brand / Títulos principales (Segoe UI):** Se utiliza en fuentes sans-serif para títulos (Display, Headline), encabezados
   de la landing page y secciones principales de la aplicación. Aporta modernidad y estructura visual limpia.
 
-![Typography Agridron](../images/chapter4/General_Style/Typography.jpg)
+![Typography Agridron](report/images/chapter4/General_Style/Typography.jpg)
 
 
 - **Plain / Cuerpo de texto (Montserrat):** Se emplea para el cuerpo de texto, párrafos, formularios, tablas, etiquetas y botones
   generales. Su alto rendimiento de lectura garantiza claridad en la consulta de datos operativos.
 
-![Typography Agridron](../images/chapter4/General_Style/Typography_body.jpg)
+![Typography Agridron](report/images/chapter4/General_Style/Typography_body.jpg)
 
 **4. Colors:**
 
@@ -1468,7 +1468,7 @@ contraste para maximizar la legibilidad en campo y gabinetes operativos:
 - **Amarillo / Alerta (#F59E0B):** Destinado a estados programados, advertencias meteorológicas y notificaciones de atención.
 - **Neutros (Blanco #FFFFFF y Gris Claro #F8FAFC):** Garantizan orden, espacio respirable y balance visual en la interfaz.
 
-![Colors Agridron](../images/chapter4/General_Style/colors.jpg)
+![Colors Agridron](report/images/chapter4/General_Style/colors.jpg)
 
 **5. Spacing:**
 
@@ -1946,14 +1946,14 @@ En la versión desktop, el wireframe organiza la información en un recorrido se
 - Footer: Pie de página con enlaces de navegación interna, datos de contacto, ubicación y canales de redes sociales.
 
 <div align="center">
-<img src="../../assets/chapter4/Landing_Page_Desktop_Wireframe.png" alt="Landing Page Desktop Wireframe" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Landing_Page_Desktop_Wireframe.png" alt="Landing Page Desktop Wireframe" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Mobile**
 - En la versión mobile, la interfaz de la Landing Page adapta su arquitectura a una sola columna vertical con el objetivo de optimizar la lectura y facilitar la interacción táctil en entornos de campo. La hero section compacta la cabecera mediante un menú de navegación desplegable tipo hamburguesa y conserva el mensaje principal sobre la optimización de cultivos, complementado por los tres pilares de valor clave y los botones de acción apilados a ancho completo (Comienza tu prueba gratis y Ver cómo funciona) para asegurar un alcance cómodo con el pulgar.
 
 <div align="center">
-<img src="../../assets/chapter4/Landing_Page_Mobile_Wireframe.png" alt="Landing Page Mobile Wireframe" width="260" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Landing_Page_Mobile_Wireframe.png" alt="Landing Page Mobile Wireframe" width="260" style="max-width: 100%; height: auto;"/>
 </div>
 
 ### 4.3.2. Landing Page Mock-up
@@ -1965,13 +1965,13 @@ Los mock-ups finales de la Landing Page de AgriDron Solutions representan la con
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
 
 <div align="center">
-<img src="../../assets/chapter4/Landing_Page_Desktop_Mock_up.png" alt="Landing Page Desktop Mock-up" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Landing_Page_Desktop_Mock_up.png" alt="Landing Page Desktop Mock-up" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Mobile**
 
 <div align="center">
-<img src="../../assets/chapter4/Landing_Page_Mobile_Mock_up.png" alt="Landing Page Mobile Mock-up" width="260" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Landing_Page_Mobile_Mock_up.png" alt="Landing Page Mobile Mock-up" width="260" style="max-width: 100%; height: auto;"/>
 </div>
 
 ## 4.4. Web Applications UX/UI Design
@@ -1986,23 +1986,23 @@ Los wireframes de las Web Applications definen la estructura base de las vistas 
 En escritorio, los wireframes muestran una estructura con sidebar lateral persistente, header superior con notificaciones/alertas y un área central de trabajo amplia, adecuada para la interacción con mapas cartográficos, monitoreo telemétrico y reportes gráficos de rendimiento. En mobile web, la información se reorganiza en tarjetas apiladas, paneles deslizantes y listas táctiles de fácil lectura bajo luz solar directa, reduciendo la complejidad visual sin perder funcionalidad ni velocidad de respuesta en campo.
 
 <div align="center">
-<img src="../../assets/chapter4/Web_Applications%20Wireframes_Desktop.png" alt="Web Applications Wireframes Desktop 1" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web_Applications%20Wireframes_Desktop.png" alt="Web Applications Wireframes Desktop 1" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 <div align="center">
-<img src="../../assets/chapter4/Web_Applications%20Wireframes_Desktop_.png" alt="Web Applications Wireframes Desktop 2" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web_Applications%20Wireframes_Desktop_.png" alt="Web Applications Wireframes Desktop 2" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 <div align="center">
-<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile.png" alt="Web Applications Wireframes Mobile 1" width="240" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web_Applications%20Wireframes_Mobile.png" alt="Web Applications Wireframes Mobile 1" width="240" style="max-width: 100%; height: auto;"/>
 </div>
 
 <div align="center">
-<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile_.png" alt="Web Applications Wireframes Mobile 2" width="240" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web_Applications%20Wireframes_Mobile_.png" alt="Web Applications Wireframes Mobile 2" width="240" style="max-width: 100%; height: auto;"/>
 </div>
 
 <div align="center">
-<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile__.png" alt="Web Applications Wireframes Mobile 3" width="240" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web_Applications%20Wireframes_Mobile__.png" alt="Web Applications Wireframes Mobile 3" width="240" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2018,14 +2018,14 @@ Este wireflow representa el recorrido del visitante del sitio web desde la landi
 
 
 <div align="center">
-<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams1.png" alt="Web Applications Wireflow Diagrams 1" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams1.png" alt="Web Applications Wireflow Diagrams 1" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **User Goal 2: Completar el registro de usuario y autenticarse en la plataforma.**
 Este wireflow muestra la secuencia de acceso e ingreso al sistema según el rol del usuario (agricultor u operador técnico). Incluye la navegación por las pantallas de registro de datos, el formulario de inicio de sesión seguro y el flujo alternativo para el restablecimiento de contraseña mediante correo electrónico, mostrando los estados de validación de campos obligatorios e inicio de sesión fallido. 
 
 <div align="center">
-<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams2.jpeg" alt="Web Applications Wireflow Diagrams 2" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams2.jpeg" alt="Web Applications Wireflow Diagrams 2" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **User Goal 3: Delimitar parcelas agrícolas y gestionar la información
@@ -2033,14 +2033,14 @@ del terreno.**
 Este wireflow representa el recorrido del agricultor dentro del módulo de gestión territorial sobre el mapa interactivo. Muestra la interacción para registrar fincas, trazar vértices poligonales de parcelas, asignar tipos de cultivo y etapas fenológicas, así como la alternancia entre capas cartográficas (satelital/topográfica) y los controles para editar o inhabilitar parcelas.
 
 <div align="center">
-<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams3.jpeg" alt="Web Applications Wireflow Diagrams 3" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams3.jpeg" alt="Web Applications Wireflow Diagrams 3" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **User Goal 4: Administrar el inventario de la flota de drones e insumos agrícolas.**
 Este wireflow detalla la pantalla de catálogo y gestión de flota para operadores y supervisores. Visualiza el recorrido para dar de alta nuevos drones, configurar modelos de boquillas, registrar productos agroquímicos autorizados, monitorear el estado operativo de los equipos y documentar reportes de mantenimiento preventivo o fallas técnicas.
 
 <div align="center">
-<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams4.jpeg" alt="Web Applications Wireflow Diagrams 4" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams4.jpeg" alt="Web Applications Wireflow Diagrams 4" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Link del Miro:** https://miro.com/welcomeonboard/OU1LdXRSanlNQXZ5bUErM2JqS0xsNTdsZGg4TTdjUHBreWpNSjBBNEU4K3MwT29LcU5NRE80Ym9semMrb2dBckxXMGlEWktwMkt1QTdBWW9UTVJML1o2OExBWDBmUTdoZW1GcmFzci9hZUhsRGRRRUZ1ZC9nRUVDS01ZQkNUbUZQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=698081833794
@@ -2065,7 +2065,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Widget meteorológico: Panel en tiempo real que exhibe temperatura (18 °C), condición del cielo (Parcialmente nublado), velocidad del viento (12 km/h) y humedad relativa (68%)
 
 <div align="center">
-<img src="../../assets/chapter4/Web%20Applications%20Mock-ups-1.png" alt="Web Applications Mock-up Dashboard" width="600" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/Web%20Applications%20Mock-ups-1.png" alt="Web Applications Mock-up Dashboard" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **2. Gestión de Fincas**
@@ -2081,7 +2081,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Barra lateral de navegación que facilita el acceso a los módulos de Inicio, Fincas, Parcelas, Misiones, Drones, Reportes y Configuración.
 
 <div align="center">
-<img src="../images/chapter4/GestionFincas.png" alt="Gestión de Fincas Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/GestionFincas.png" alt="Gestión de Fincas Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **3. Gestión de Parcelas**
@@ -2098,7 +2098,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 
 
 <div align="center">
-<img src="../images/chapter4/GestionParcelas.png" alt="Gestión de Parcelas Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/GestionParcelas.png" alt="Gestión de Parcelas Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **4. Monitoreo de Misiones**
@@ -2114,7 +2114,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Botón **Ver detalle** para acceder a información adicional de la misión y enlace **Volver a misiones** para regresar al listado general.
 
 <div align="center">
-<img src="../images/chapter4/MonitereoMisiones.png" alt="Monitoreo de Misiones Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/MonitereoMisiones.png" alt="Monitoreo de Misiones Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2131,7 +2131,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Botón principal **Siguiente →** para continuar con la configuración de la fecha y hora de ejecución de la misión.
 
 <div align="center">
-<img src="../images/chapter4/PlanificaciónMisiones.png" alt="Planificación de Misiones Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/PlanificaciónMisiones.png" alt="Planificación de Misiones Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2149,7 +2149,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Controles de paginación que permiten navegar entre las diferentes páginas del historial de misiones mediante botones numéricos y la opción **Next >**.
 
 <div align="center">
-<img src="../images/chapter4/ReportesAndHistorial.png" alt="Reportes e Historial Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/ReportesAndHistorial.png" alt="Reportes e Historial Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2165,7 +2165,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Sección de preferencias con controles deslizantes (toggle switches) para activar o desactivar las **Notificaciones por correo**, **Notificaciones en la app** y **Alertas meteorológicas**, permitiendo personalizar la recepción de avisos según las necesidades del agricultor.
 
 <div align="center">
-<img src="../images/chapter4/PerfilAndConfiguracion.png" alt="Perfil y Configuración Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/PerfilAndConfiguracion.png" alt="Perfil y Configuración Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2184,7 +2184,7 @@ A continuación, se detallan los 8 escenarios visuales clave presentados en la p
 - Barra lateral de navegación que facilita el acceso a los módulos de Inicio, Fincas, Parcelas, Misiones, Drones, Reportes y Configuración.
 
 <div align="center">
-<img src="../images/chapter4/GestionDeDrones.png" alt="Gestión de Drones Mockup" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/GestionDeDrones.png" alt="Gestión de Drones Mockup" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **link del figma:** https://www.figma.com/design/gIhPSpNHHNel3RMWLQSl8a/Sin-t%C3%ADtulo?node-id=0-1&t=LmubQnBsex2NasC8-1
@@ -2197,21 +2197,21 @@ Los user flows de AgriDron Solutions representan la secuencia detallada de pasos
 Este user flow define el camino lógico que realiza un visitante desde el ingreso al portal público hasta la confirmación del envío del formulario de contacto. El flujo detalla las validaciones del sistema sobre los campos requeridos, el registro de la solicitud comercial en la base de datos y la emisión del mensaje de confirmación de recepción.
 
 <div align="center">
-<img src="../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram1.jpeg" alt="Web Applications User Flow Diagram 1" width="580" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram1.jpeg" alt="Web Applications User Flow Diagram 1" width="580" style="max-width: 100%; height: auto;"/>
 </div>
 
 **User Goal 2: Registrar fincas y parametrizar polígonos de parcelas en el mapa.**
 Este user flow abarca la lógica secuencial para la creación y actualización de terrenos agrícolas. Detalla desde la inserción de datos de la finca hasta el trazado de coordenadas en el mapa, el cálculo automático de hectáreas por parte del sistema, la asociación de datos agronómicos y el filtrado por tipo de cultivo.
 
 <div align="center">
-<img src="../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram2.jpeg" alt="Web Applications User Flow Diagram 2" width="580" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram2.jpeg" alt="Web Applications User Flow Diagram 2" width="580" style="max-width: 100%; height: auto;"/>
 </div>
 
 **User Goal 3: Programar misiones de pulverización y consultar el historial de servicios.**
 Este user flow describe la secuencia lógica que sigue el agricultor para solicitar una orden de fumigación y hacer seguimiento a sus ejecuciones. Incluye la selección de la parcela, cultivo y agroquímico con la validación de condiciones climáticas aptas, el registro de la solicitud en la lista de misiones y la consulta detallada del reporte o acta técnica de un servicio completado.
 
 <div align="center">
-<img src="../../assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram3.jpeg" alt="Web Applications User Flow Diagram 3" width="580" style="max-width: 100%; height: auto;"/>
+<img src="assets/chapter4/UserFlow_Diagrams/UserFlow_Diagram3.jpeg" alt="Web Applications User Flow Diagram 3" width="580" style="max-width: 100%; height: auto;"/>
 </div>
 
 
@@ -2222,11 +2222,11 @@ Este user flow describe la secuencia lógica que sigue el agricultor para solici
 ## 4.5. Web Applications Prototyping
 
 <div align="center">
-<img src="../images/chapter4/VersionMobile.png" alt="Prototipo Interactivo Móvil" width="280" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/VersionMobile.png" alt="Prototipo Interactivo Móvil" width="280" style="max-width: 100%; height: auto;"/>
 </div>
 
 <div align="center">
-<img src="../images/chapter4/VersionDesktop.png" alt="Prototipo Interactivo Desktop" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/chapter4/VersionDesktop.png" alt="Prototipo Interactivo Desktop" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 ---
@@ -2249,7 +2249,7 @@ Este contexto gestiona el registro de usuarios, la validación de credenciales, 
 Como plataforma SaaS multiusuario, AgriDron requiere un control estricto sobre quién accede a la información y qué acciones puede realizar. Se clasifica como un Generic Subdomain, ya que, si bien no es el núcleo diferenciador del negocio agrícola, es una pieza de infraestructura crítica y obligatoria para aislar la información confidencial de los clientes, asignar responsabilidades operativas y habilitar los modelos de suscripción.
 
 <div align="center">
-<img src="../images/bounded-context/bc1.png" alt="Bounded Context 1: Identity & Access Management" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc1.png" alt="Bounded Context 1: Identity & Access Management" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Bounded context 2 : Field Management Context**
@@ -2259,7 +2259,7 @@ Encargado de la gestión espacial y geográfica del dominio. Administra el regis
 Responde directamente a la problemática de negocio sobre la gestión manual y desordenada de las áreas de cultivo. Al digitalizar y centralizar los límites exactos de cada parcela, se garantiza precisión en los cálculos de área y se evita el desperdicio de insumos. Actúa como un Supporting Subdomain fundamental, ya que provee los datos espaciales necesarios para que las misiones de vuelo puedan existir.
 
 <div align="center">
-<img src="../images/bounded-context/bc2.png" alt="Bounded Context 2: Field Management" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc2.png" alt="Bounded Context 2: Field Management" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Bounded context 3 : Flight Operations Context**
@@ -2269,7 +2269,7 @@ Es el motor operativo de AgriDron. Abarca todo el ciclo de vida de la fumigació
 Representa el Core Domain (dominio central) del proyecto. Contiene la principal ventaja competitiva y propuesta de valor de la startup: la orquestación en tiempo real de operaciones de fumigación con drones. Es el contexto que más impacto tiene en la reducción de tiempos, costos operativos y exposición a riesgos químicos, cumpliendo con las hipótesis planteadas en el Lean UX.
 
 <div align="center">
-<img src="../images/bounded-context/bc3.png" alt="Bounded Context 3: Flight Operations" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc3.png" alt="Bounded Context 3: Flight Operations" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Bounded context 4 : Weather Integration Context**
@@ -2279,7 +2279,7 @@ Actúa como una capa especializada (Anti-Corruption Layer) que se comunica de fo
 Las condiciones climáticas son un factor de riesgo crítico en la fumigación con drones. Este Supporting Subdomain justifica su existencia al transformar datos meteorológicos externos en reglas de negocio internas (alertas y bloqueos de vuelo). Además, cumple directamente con el requerimiento arquitectónico del proyecto de integrar y consumir servicios de terceros de manera aislada y resiliente.
 
 <div align="center">
-<img src="../images/bounded-context/bc4.png" alt="Bounded Context 4: Weather Integration" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc4.png" alt="Bounded Context 4: Weather Integration" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Bounded context 5 : Analytics & Reporting Context**
@@ -2289,7 +2289,7 @@ Se encarga de procesar los datos históricos de las misiones completadas para ca
 Está alineado con el objetivo de negocio de fomentar la retención de clientes y la adopción de planes premium. Los agricultores y supervisores necesitan justificar sus inversiones tecnológicas; este contexto transforma los datos operativos brutos en inteligencia de negocio, permitiendo la toma de decisiones estratégicas basadas en el rendimiento real.
 
 <div align="center">
-<img src="../images/bounded-context/bc5.png" alt="Bounded Context 5: Analytics & Reporting" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc5.png" alt="Bounded Context 5: Analytics & Reporting" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **Bounded context 6 : Inventory & Resource Management Context**
@@ -2299,7 +2299,7 @@ Gestiona el catálogo de insumos químicos (pesticidas, herbicidas y fertilizant
 Evita los cuellos de botella operativos. Una misión no puede ejecutarse si no hay insumos físicos suficientes. Este contexto de soporte garantiza la continuidad de las operaciones en campo, mitigando el riesgo de desabastecimiento y permitiendo a las cooperativas agrícolas planificar sus compras con antelación, lo que impacta positivamente en la reducción de costos generales.
 
 <div align="center">
-<img src="../images/bounded-context/bc6.png" alt="Bounded Context 6: Inventory & Resource Management" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/bounded-context/bc6.png" alt="Bounded Context 6: Inventory & Resource Management" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 **link de mmiro:** https://miro.com/app/board/uXjVHl_E4nc=/?share_link_id=823387251080
@@ -2313,7 +2313,7 @@ delegando la validación de riesgos climáticos a una API Meteorológica y el en
 lo que garantiza una operación segura y enfocada netamente en el valor del negocio.
 
 <div align="center">
-<img src="../images/c4/SystemContext.png" alt="C4 System Context Diagram" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/c4/SystemContext.png" alt="C4 System Context Diagram" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 ### 4.6.3. Software Architecture Container Diagrams
@@ -2326,7 +2326,7 @@ autorizado hacia la base de datos relacional (PostgreSQL). Esta estructura asegu
 sin cumplir con las reglas del dominio, protegiendo así la integridad de la información espacial e histórica.
 
 <div align="center">
-<img src="../images/c4/Containers.png" alt="C4 Container Diagram" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/c4/Containers.png" alt="C4 Container Diagram" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
@@ -2339,7 +2339,7 @@ un vuelo. Además, este diseño aplica el patrón de capa anticorrupción para a
 proveedores externos de clima y correo, resultando en una plataforma escalable, resiliente y alineada a las exigencias operativas.
 
 <div align="center">
-<img src="../images/c4/Components.png" alt="C4 Component Diagram" width="600" style="max-width: 100%; height: auto;"/>
+<img src="report/images/c4/Components.png" alt="C4 Component Diagram" width="600" style="max-width: 100%; height: auto;"/>
 </div>
 
 ## 4.7. Software Object-Oriented Design
@@ -2902,11 +2902,11 @@ La configuración de despliegue de AgriDron Solutions establece los procesos, he
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-![Team Members](../images/chapter5/landingPage/teamMembers.png)
+![Team Members](report/images/chapter5/landingPage/teamMembers.png)
 
 *Figura: Team Members de la Landing Page con información sobre el equipo de trabajo.*
 
-![Footer](../images/chapter5/landingPage/footer.png)
+![Footer](report/images/chapter5/landingPage/footer.png)
 
 *Figura: Footer de la Landing Page con información de contacto y redes sociales.*
 
@@ -2923,12 +2923,12 @@ servicios externos ni conexiones a API's, por lo cual no hay generación ni evid
 
 La evidencia del despliegue de la Landing Page durante el Sprint se mostrará a continuación, el despliegue se realizará en GitHub Pages.
 
-![settings github](../images/chapter5/github/settings.png)
+![settings github](report/images/chapter5/github/settings.png)
 
 *Nos dirigimos a la seccion de deploy, y selecionamos la rama main:*
 *Luego de unos minutos, el deploy se realizara correctamente:*
 
-![deploy github](../images/chapter5/github/deploy.png)
+![deploy github](report/images/chapter5/github/deploy.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2937,7 +2937,7 @@ Durante el Sprint 1, el equipo utilizó una metodología colaborativa mediante P
 revisiones de código, asegurando que cada sección cumpliera con los estándares de calidad definidos.
 El gráfico de contribuciones muestra una distribución equitativa de tareas entre maquetación, estilos, lógica de i18n y despliegue.
 
-![deploy github](../images/chapter5/github/TeamCollaboration.png)
+![deploy github](report/images/chapter5/github/TeamCollaboration.png)
 
 *Reporte de contribuciones y commits del equipo Agridron en el repositorio de la Landing Page*
 
@@ -2980,7 +2980,7 @@ Para el Sprint 2 se definieron aspectos asociados a la Web Application y a la ac
 El Sprint Backlog 2 descompone las historias de usuario seleccionadas en tareas técnicas estimadas en horas.
 El objetivo principal del sprint es entregar la primera versión desplegada de la Web Application, integrada con la Landing Page.
 
-![Board del Sprint 2](../../assets/chapter5/sprint2/trello.png)
+![Board del Sprint 2](assets/chapter5/sprint2/trello.png)
 
 *Figura: Board del Sprint 2 en Trello.*
 
@@ -3065,17 +3065,17 @@ Se utilizó un API simulado (mock) para validar los flujos de gestión de fincas
 
 ##### Landing Page
 
-![Landing Page en escritorio](../../assets/chapter5/sprint2/landingPage.png)
+![Landing Page en escritorio](assets/chapter5/sprint2/landingPage.png)
 
 *Figura: Landing Page en su versión de escritorio.*
 
-![Landing Page en móvil](../../assets/chapter5/sprint2/landingPageMovile.png)
+![Landing Page en móvil](assets/chapter5/sprint2/landingPageMovile.png)
 
 *Figura: Landing Page en su versión móvil.*
 
 En este Sprint se mejoró el diseño de la Landing Page para que las secciones se reorganicen correctamente en pantallas pequeñas, manteniendo la legibilidad y el tamaño adecuado de los elementos interactivos.
 
-![Selector de idioma de la Landing Page](../../assets/chapter5/sprint2/idioma.png)
+![Selector de idioma de la Landing Page](assets/chapter5/sprint2/idioma.png)
 
 *Figura: Selector de idioma (inglés / español) y botón de demostración en la Landing Page.*
 
@@ -3083,31 +3083,31 @@ Se incorporó el selector de idioma, que permite al visitante alternar entre ing
 
 ##### Web Application
 
-![Vista de inicio](../../assets/chapter5/sprint2/home.png)
+![Vista de inicio](assets/chapter5/sprint2/home.png)
 
 *Figura: Vista de inicio (dashboard) con indicadores clave (KPI).*
 
 La vista de inicio presenta un resumen de la operación mediante indicadores clave (KPI), de modo que el usuario identifique rápidamente el estado general de sus fincas y misiones al ingresar. El perfil del usuario se muestra sincronizado con la cabecera del layout.
 
-![Gestión de fincas y parcelas](../../assets/chapter5/sprint2/fieldManagement.png)
+![Gestión de fincas y parcelas](assets/chapter5/sprint2/fieldManagement.png)
 
 *Figura: Vista de gestión de fincas y parcelas (Field Management).*
 
 Esta vista permite registrar y consultar las fincas y parcelas del agricultor, que son la base para solicitar misiones de fumigación.
 
-![Listado de misiones con etiquetas de estado](../../assets/chapter5/sprint2/missionList.png)
+![Listado de misiones con etiquetas de estado](assets/chapter5/sprint2/missionList.png)
 
 *Figura: Listado de misiones con etiquetas de estado (Flight Operations).*
 
 El listado de misiones muestra cada misión con una etiqueta de estado, lo que facilita el seguimiento de las operaciones. Los textos de la vista se traducen según el idioma seleccionado.
 
-![Gestión de la flota de drones](../../assets/chapter5/sprint2/droneFleet.png)
+![Gestión de la flota de drones](assets/chapter5/sprint2/droneFleet.png)
 
 *Figura: Vista de gestión de la flota de drones.*
 
 Esta vista permite consultar los drones disponibles y su estado, información que apoya la asignación de misiones a los operadores.
 
-![Analítica y reportes](../../assets/chapter5/sprint2/analytics.png)
+![Analítica y reportes](assets/chapter5/sprint2/analytics.png)
 
 *Figura: Vista de analítica y reportes (Analytics & Reporting).*
 
@@ -3152,15 +3152,15 @@ La vista de analítica consolida información histórica de las operaciones y de
 ]
 ```
 
-![Vista de analítica y reportes](../../assets/chapter5/sprint2/apidog-endpoints.png)
+![Vista de analítica y reportes](assets/chapter5/sprint2/apidog-endpoints.png)
 
 Figura: Lista de endpoints documentados en Apidog.
 
-![Documentación de endpoints en Apidog mission](../../assets/chapter5/sprint2/apidog-missions.png)
+![Documentación de endpoints en Apidog mission](assets/chapter5/sprint2/apidog-missions.png)
 
 Figura: Prueba del endpoint GET /missions con datos de muestra en Apidog.
 
-![Documentación de endpoints en Apidog clima](../../assets/chapter5/sprint2/apidog-clima.png)
+![Documentación de endpoints en Apidog clima](assets/chapter5/sprint2/apidog-clima.png)
 
 Figura: Prueba del endpoint GET /weather con datos de muestra en Apidog.
 
@@ -3182,7 +3182,7 @@ Durante el Sprint 2 se realizaron actividades de despliegue para los tres produc
 
 La Landing Page se publica desde la rama `main` de su repositorio con GitHub Pages. En este Sprint, las mejoras de diseño responsive y el selector de idioma se integraron en `develop` y se publicaron mediante los Pull Requests #2 y #3 hacia `main` (07/10/2026), lo que activó un nuevo despliegue.
 
-![Despliegue de la Landing Page en GitHub Pages](../../assets/chapter5/sprint2/deploy-landing.png)
+![Despliegue de la Landing Page en GitHub Pages](assets/chapter5/sprint2/deploy-landing.png)
 
 *Figura: Despliegue de la Landing Page en GitHub Pages.*
 
@@ -3192,25 +3192,25 @@ La Web Application se desplegó en Firebase Hosting, que sirve la aplicación co
 
 1. **Creación del proyecto en Firebase.** Desde la consola de Firebase se creó el proyecto AgridronApp y se habilitó el servicio Firebase Hosting.
 
-   ![Creación del proyecto](../../assets/chapter5/sprint2/deploy-webapp-1.png)
+   ![Creación del proyecto](assets/chapter5/sprint2/deploy-webapp-1.png)
 
    *Figura: Creación del proyecto en la consola de Firebase.*
 
 2. **Instalación de Firebase CLI e inicio de sesión.** Se instaló la herramienta con `npm install -g firebase-tools` y se inició sesión con `firebase login`.
 
-   ![Instalación e inicio de sesión](../../assets/chapter5/sprint2/deploy-webapp-2.png)
+   ![Instalación e inicio de sesión](assets/chapter5/sprint2/deploy-webapp-2.png)
 
    *Figura: Instalación de Firebase CLI e inicio de sesión.*
 
 3. **Inicialización de Hosting.** Dentro del repositorio `Agridron-Fronted` se ejecutó `firebase init hosting`. Se seleccionó el proyecto creado, se indicó `dist` como directorio público y se configuró la aplicación como single-page app, de modo que todas las rutas se redirijan a `index.html` y la navegación entre vistas funcione al recargar la página.
 
-   ![Inicialización de Hosting](../../assets/chapter5/sprint2/deploy-webapp-3.png)
+   ![Inicialización de Hosting](assets/chapter5/sprint2/deploy-webapp-3.png)
 
    *Figura: Inicialización de Firebase Hosting en el repositorio.*
 
 4. **Build y despliegue.** Se generó el build de producción con `npm run build` y se publicó con `firebase deploy --only hosting`, que devolvió la URL de Hosting. Se verificó que la aplicación cargara en esa URL, incluyendo la navegación entre vistas.
 
-   ![Despliegue exitoso](../../assets/chapter5/sprint2/deploy-webapp-4.png)
+   ![Despliegue exitoso](assets/chapter5/sprint2/deploy-webapp-4.png)
 
    *Figura: Despliegue completado y aplicación disponible en Firebase Hosting.*
 
@@ -3218,7 +3218,7 @@ La Web Application se desplegó en Firebase Hosting, que sirve la aplicación co
 
 Los endpoints simulados se publican mediante el servicio de mock de Apidog, cuya URL base es https://mock.apidog.com/m1/1395107-1402934-default. La Web Application consume esa URL, y la especificación OpenAPI se versiona en el repositorio `agridron-mock-api`.
 
-![Configuración del API simulado](../../assets/chapter5/sprint2/deploy-mock.png)
+![Configuración del API simulado](assets/chapter5/sprint2/deploy-mock.png)
 
 *Figura: Configuración del API simulado en Apidog.*
 
@@ -3244,19 +3244,19 @@ Durante el Sprint 2, el equipo desarrolló las actividades de implementación en
 
 ##### Web Application
 
-![Insights de la Web Application - Sprint 2](../../assets/chapter5/sprint2/insights-webapp.png)
+![Insights de la Web Application - Sprint 2](assets/chapter5/sprint2/insights-webapp.png)
 
 *Figura: Contribuciones de los integrantes en el repositorio de la Web Application durante el Sprint 2.*
 
 ##### Landing Page
 
-![Insights de la Landing Page - Sprint 2](../../assets/chapter5/sprint2/insights-landing.png)
+![Insights de la Landing Page - Sprint 2](assets/chapter5/sprint2/insights-landing.png)
 
 *Figura: Contribuciones de los integrantes en el repositorio de la Landing Page durante el Sprint 2.*
 
 ##### API simulado
 
-![Insights del API simulado - Sprint 2](../../assets/chapter5/sprint2/insights-mock-api.png)
+![Insights del API simulado - Sprint 2](assets/chapter5/sprint2/insights-mock-api.png)
 
 *Figura: Contribuciones de los integrantes en el repositorio del API simulado durante el Sprint 2.*
 
