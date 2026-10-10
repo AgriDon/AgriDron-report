@@ -92,5 +92,5 @@
 | 12.7    | 19/09/2026 | Choquehuanca Vasquez, Alejandro Samir | Team Collaboration Insights during Sprint                           |
 | 12.8    | 19/09/2026 | Jara Espinoza, Miguel Angel           | Actualización del Capítulo V                                        |
 | 12.9    | 08/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Update to Chapter V                                                 |
- 
+   
 

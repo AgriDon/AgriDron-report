@@ -317,112 +317,14 @@ Pilares de valor:
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-> Para cada integrante, colocar foto, nombre, código, carrera, descripción y aporte/rol dentro del proyecto.
+|                                             Foto                                              | Detalles del Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       <img src="assets/team/Italo Damacen.png" alt="Foto del integrante" width="150"/>        | **Nombre:** Damacen Galindo, Italo Gianfranco <br> **Código:** U202421392 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|         <img src="report/images/members/EdwinNicho.jpg" alt="Foto de Edwin" width="150"/>         | **Nombre:** Nicho Huillcañahui, Edwin Noe <br> **Código:** U20241G306 <br> **Carrera:** Ingeniería de Software <br><br> **Descripción:**<br> Mi nombre es Edwin Noe Nicho Huillcañahui, soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona responsable, curiosa y comprometida con el aprendizaje continuo. Me interesa el desarrollo de aplicaciones web y móviles, así como comprender el funcionamiento de las tecnologías y herramientas utilizadas en la construcción de soluciones de software. <br><br> **Aporte y función dentro del equipo:**<br> Me gusta participar en el diseño de interfaces y prototipos interactivos utilizando Figma. Asimismo,explorar el código, comprender cómo se relacionan los diferentes componentes de una aplicación y aprender sobre patrones de arquitectura de software.                                                                                                                                                                  |
+|        <img src="report/images/members/samir.jpeg" alt="Foto del integrante" width="150"/>        | **Nombre:** Samir Choquehuanca <br> **Código:** U202416053 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Estudiante de Ingeniería de Software con conocimientos en programación en C++, JavaScript y Python, y en desarrollo web con HTML y CSS. Soy una persona responsable, con capacidad para aprender nuevas herramientas y aplicar mis conocimientos en proyectos académicos <br><br> **Aporte y función dentro del equipo:**<br> Aporto en el desarrollo y la programación de las funcionalidades del proyecto, y colaboro en el diseño de la interfaz con HTML y CSS. Cumplo con mis tareas en los plazos acordados y apoyo al grupo resolviendo dudas y reforzando las partes que lo necesiten.                                                                                                                                                                                                                                                                                                                              |
+|        <img src="report/images/members/miguel.jpg" alt="Foto del integrante" width="150"/>        | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <img src="report/images/members/Alexander_Vasquez.png" alt="Alexander Vasquez foto" width="150"/> | **Nombre:** Vasquez Roncal, Alexander Felipe <br> **Código:** U202222473 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Alexander Vasquez, tengo 27 años y actualmente estoy cursando el cuarto ciclo de la carrera de Ingeniería de Software. Soy una persona disciplinada, con capacidad para trabajar en equipo. Mis habilidades técnicas incluyen lenguajes de programación como Python y C + +. Me esfuerzo por contribuir activamente al desarrollo del proyecto  <br><br> **Aporte y función dentro del equipo:**<br> Mi participacion incluyo ayudar en la documentacion del capitulo 3, 4 y 5, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.                                                                                                                                                                                                                                                 |
 
-<table>
-  <tr>
-    <td rowspan="4" align="center">
-       <img width="650"  alt="image" src="https://github.com/user-attachments/assets/4c1d03a8-ec5b-484f-9621-4cf59cc49cca" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre:</b> Damacen Galindo, Italo Gianfranco</td>
-  </tr>
-  <tr>
-    <td><b>Código:</b> U202421392 &nbsp;|&nbsp; <b>Carrera:</b> Ingeniería de Software</td>
-  </tr>
-  <tr>
-    <td>
-      <b>Descripción:</b><br/>
-      Soy Italo Damacen, estudiante de Ingeniería de Software. Me considero una persona responsable, organizada y comprometida con el trabajo. Cuento con conocimientos en C++, HTML y CSS, además de conocimientos básicos de JavaScript y Java. Me interesa el desarrollo de software y la organización de proyectos.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      Participé principalmente en la elaboración del Capítulo I de AgriDron Solutions, incluyendo el Startup Profile, Solution Profile, antecedentes, problemática y Lean UX. También apoyé en la organización de las entrevistas, separando la información de cada entrevistado, colocando timestamps y ordenando las evidencias para facilitar su documentación y presentación.
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="4" align="center">
-      <img src="assets/team/integrante_02.png" alt="Foto del integrante" width="500"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre:</b> Nicho Huillcánahui, Edwin Noe</td>
-  </tr>
-  <tr>
-    <td><b>Código:</b> U20241G306 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
-  </tr>
-  <tr>
-    <td>
-      <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="4" align="center">
-      <img src="assets/team/integrante_03.png" alt="Foto del integrante" width="500"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre:</b> Ramirez Gutierrez, Gabriel</td>
-  </tr>
-  <tr>
-    <td><b>Código:</b> U202416053 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
-  </tr>
-  <tr>
-    <td>
-      <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="4" align="center">
-      <img src="assets/team/integrante_04.png" alt="Foto del integrante" width="500"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre:</b> Jara Espinoza, Miguel Angel</td>
-  </tr>
-  <tr>
-    <td><b>Código:</b> U202512856 &nbsp;|&nbsp; <b>Carrera:</b> Ingenieria de Software</td>
-  </tr>
-  <tr>
-    <td>
-      <b>Descripción:</b><br/>
-      Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto.
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      Aporto con mis conocimientos en lean ux y en gitlow
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="4" align="center">
-      <img src="assets/team/integrante_05.png" alt="Foto del integrante" width="500"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre:</b> Vasquez Roncal, Alexander Felipe</td>
-  </tr>
-  <tr>
-    <td><b>Código:</b> U202222473 &nbsp;|&nbsp; <b>Carrera:</b> [CARRERA]</td>
-  </tr>
-  <tr>
-    <td>
-      <b>Descripción:</b><br/>
-      [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.]
-      <br/><br/>
-      <b>Aporte y función dentro del equipo:</b><br/>
-      [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]
-    </td>
-  </tr>
-</table>
-
-<br>
 
 ---
 
@@ -3362,7 +3264,12 @@ Durante el Sprint 1 el equipo logró desplegar la primera versión del Landing P
 # Anexos
 
 ## Anexo A: Evidencias adicionales
-
+Enlace de miro: https://miro.com/app/board/uXjVHnbT8O4=/?share_link_id=439115746776 
+Link LandingPague: https://agridon.github.io/Agridron-LandingPage/ 
+Link WebApp: https://agridronapp.web.app/inicio
+Link GitHub landingPage: https://github.com/AgriDon/Agridron-LandingPage 
+Link GitHub WebApp: https://github.com/AgriDon/Agridron-Fronted 
+Link GitHub Report: https://github.com/AgriDon/AgriDron-report
 
 
 ## Anexo B: Videos de Exposiciones
@@ -3370,5 +3277,7 @@ Durante el Sprint 1 el equipo logró desplegar la primera versión del Landing P
 **Video de exposición:** https://drive.google.com/file/d/1cQQeAIKNTpJOlBAJ1suPt-c8IOfC_ecc/view?usp=sharing
 
 ## Anexo C: Otros
+
+
 
 
