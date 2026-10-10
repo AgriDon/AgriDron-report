@@ -101,7 +101,7 @@ Para la recolección de requerimientos y el análisis de necesidades, se llevaro
 
 ##### Entrevista #1
 
-![Captura Entrevista Camila Ramos](../images/Entrevistas/Entrevista1.jpeg)
+![Captura Entrevista Camila Ramos](/images/Entrevistas/Entrevista1.jpeg)
 
 <div class="center">
 
