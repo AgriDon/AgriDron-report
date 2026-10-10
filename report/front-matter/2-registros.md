@@ -92,5 +92,11 @@
 | 12.7    | 19/09/2026 | Choquehuanca Vasquez, Alejandro Samir | Team Collaboration Insights during Sprint                           |
 | 12.8    | 19/09/2026 | Jara Espinoza, Miguel Angel           | Actualización del Capítulo V                                        |
 | 12.9    | 08/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Update to Chapter V                                                 |
+| 13.0    | 09/10/2026 | Jara Espinoza, Miguel Angel           | Sprint Planning 2: Definición de Sprint Goal, User Stories y desglose de Engineering Tasks en Jira |
+| 13.1    | 09/10/2026 | Nicho Huillcañahui, Edwin Noe         | Implementación de Bounded Context Field Management: Vistas y formularios reactivos de Fincas, Parcelas y Cultivos |
+| 13.2    | 09/10/2026 | Vasquez Roncal, Alexander Felipe      | Implementación de Bounded Context Flight Operations: Catálogo de Drones y Wizard de Planificación de Misiones |
+| 13.3    | 09/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Implementación de Bounded Context Reporting y configuración de Fake API (json-server) para pruebas mock |
+| 13.4    | 09/10/2026 | Damacen Galindo, Italo Gianfranco     | Integración de servicios compartidos, arquitectura DDD en frontend y estandarización responsiva para móvil/desktop |
+| 13.5    | 09/10/2026 | Jara Espinoza, Miguel Angel           | Consolidación del Sprint 2, revisión de artefactos UX/UI y actualización de conclusiones del informe |
  
 

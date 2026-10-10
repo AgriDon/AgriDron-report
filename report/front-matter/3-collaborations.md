@@ -23,3 +23,15 @@ En esta sección se presentan las métricas de colaboración obtenidas mediante 
 ![Project Report Contributors AV1](../images/Insights/Insights2.png)
 
 **Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la AV1.
+
+## Insights TB1
+
+En esta sección se presentan las métricas de colaboración obtenidas mediante GitHub Insights. Estas evidencias permiten visualizar los commits realizados por los integrantes del equipo durante la TB1 y reflejan la participación de Agridron en la elaboración y evolución del Project Report.
+
+![Project Report Collaboration Insights TB1](../images/Insights/Insights3.png)
+
+**Figura:** Métricas generales de contribución de los integrantes de Agridron durante la TB1.
+
+![Project Report Contributors TB1](../images/Insights/Insights4.png)
+
+**Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la TB1.

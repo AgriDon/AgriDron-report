@@ -542,12 +542,16 @@ En la versión desktop, el wireframe organiza la información en un recorrido se
 - Nuestro equipo: Sección de respaldo con los perfiles del equipo multidisciplinario detrás de la solución.
 - Footer: Pie de página con enlaces de navegación interna, datos de contacto, ubicación y canales de redes sociales.
 
-![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Desktop_Wireframe.png)
+<div align="center">
+<img src="../../assets/chapter4/Landing_Page_Desktop_Wireframe.png" alt="Landing Page Desktop Wireframe" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **Mobile**
 - En la versión mobile, la interfaz de la Landing Page adapta su arquitectura a una sola columna vertical con el objetivo de optimizar la lectura y facilitar la interacción táctil en entornos de campo. La hero section compacta la cabecera mediante un menú de navegación desplegable tipo hamburguesa y conserva el mensaje principal sobre la optimización de cultivos, complementado por los tres pilares de valor clave y los botones de acción apilados a ancho completo (Comienza tu prueba gratis y Ver cómo funciona) para asegurar un alcance cómodo con el pulgar.
 
-![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Mobile_Wireframe.png)
+<div align="center">
+<img src="../../assets/chapter4/Landing_Page_Mobile_Wireframe.png" alt="Landing Page Mobile Wireframe" width="260" style="max-width: 100%; height: auto;"/>
+</div>
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -557,11 +561,15 @@ Los mock-ups finales de la Landing Page de AgriDron Solutions representan la con
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del verde bosque corporativo en componentes estructurales y el verde acento en los botones de llamada a la acción (CTAs) y puntos de énfasis. La hero section captura de inmediato la atención del visitante con el mensaje principal de la plataforma, botones destacados de conversión (Empieza tu prueba gratuita, Solicitar Demo) y un contenedor visual que muestra la interfaz telemétrica del dron sobre un mapa satelital. Las secciones posteriores organizan las funcionalidades clave, la segmentación por roles (agricultores, operadores, supervisores), la secuencia operativa de uso y el equipo multidisciplinario sobre fondos neutros claros (#FFFFFF y #F8FAFC), facilitando una lectura escaneable y fluida.
 
-![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Desktop_Mock_up.png)
+<div align="center">
+<img src="../../assets/chapter4/Landing_Page_Desktop_Mock_up.png" alt="Landing Page Desktop Mock-up" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **Mobile**
 
-![Landing Page Wireframe](../../assets/chapter4/Landing_Page_Mobile_Mock_up.png)
+<div align="center">
+<img src="../../assets/chapter4/Landing_Page_Mobile_Mock_up.png" alt="Landing Page Mobile Mock-up" width="260" style="max-width: 100%; height: auto;"/>
+</div>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -574,15 +582,25 @@ Los wireframes de las Web Applications definen la estructura base de las vistas 
 
 En escritorio, los wireframes muestran una estructura con sidebar lateral persistente, header superior con notificaciones/alertas y un área central de trabajo amplia, adecuada para la interacción con mapas cartográficos, monitoreo telemétrico y reportes gráficos de rendimiento. En mobile web, la información se reorganiza en tarjetas apiladas, paneles deslizantes y listas táctiles de fácil lectura bajo luz solar directa, reduciendo la complejidad visual sin perder funcionalidad ni velocidad de respuesta en campo.
 
-![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Desktop.png)
+<div align="center">
+<img src="../../assets/chapter4/Web_Applications%20Wireframes_Desktop.png" alt="Web Applications Wireframes Desktop 1" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
-![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Desktop_.png)
+<div align="center">
+<img src="../../assets/chapter4/Web_Applications%20Wireframes_Desktop_.png" alt="Web Applications Wireframes Desktop 2" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
-![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile.png)
+<div align="center">
+<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile.png" alt="Web Applications Wireframes Mobile 1" width="240" style="max-width: 100%; height: auto;"/>
+</div>
 
-![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile_.png)
+<div align="center">
+<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile_.png" alt="Web Applications Wireframes Mobile 2" width="240" style="max-width: 100%; height: auto;"/>
+</div>
 
-![Landing Page Wireframe](../../assets/chapter4/Web_Applications%20Wireframes_Mobile__.png)
+<div align="center">
+<img src="../../assets/chapter4/Web_Applications%20Wireframes_Mobile__.png" alt="Web Applications Wireframes Mobile 3" width="240" style="max-width: 100%; height: auto;"/>
+</div>
 
 
 
@@ -596,23 +614,31 @@ User Goal Principal: Planificar, ejecutar y monitorear una misión de fumigació
 Este wireflow representa el recorrido del visitante del sitio web desde la landing page principal hasta el formulario de contacto de AgriDron Solutions. El flujo muestra la navegación a través de las secciones de servicios, tarifas y equipo multidisciplinario, permitiendo explorar los beneficios de la pulverización con drones y la normativa fitosanitaria antes de enviar la solicitud de demostración comercial.
 
 
-![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams1.png)
+<div align="center">
+<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams1.png" alt="Web Applications Wireflow Diagrams 1" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **User Goal 2: Completar el registro de usuario y autenticarse en la plataforma.**
 Este wireflow muestra la secuencia de acceso e ingreso al sistema según el rol del usuario (agricultor u operador técnico). Incluye la navegación por las pantallas de registro de datos, el formulario de inicio de sesión seguro y el flujo alternativo para el restablecimiento de contraseña mediante correo electrónico, mostrando los estados de validación de campos obligatorios e inicio de sesión fallido. 
 
-![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams2.jpeg)
+<div align="center">
+<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams2.jpeg" alt="Web Applications Wireflow Diagrams 2" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **User Goal 3: Delimitar parcelas agrícolas y gestionar la información 
 del terreno.**
 Este wireflow representa el recorrido del agricultor dentro del módulo de gestión territorial sobre el mapa interactivo. Muestra la interacción para registrar fincas, trazar vértices poligonales de parcelas, asignar tipos de cultivo y etapas fenológicas, así como la alternancia entre capas cartográficas (satelital/topográfica) y los controles para editar o inhabilitar parcelas.
 
-![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams3.jpeg)
+<div align="center">
+<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams3.jpeg" alt="Web Applications Wireflow Diagrams 3" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **User Goal 4: Administrar el inventario de la flota de drones e insumos agrícolas.**
 Este wireflow detalla la pantalla de catálogo y gestión de flota para operadores y supervisores. Visualiza el recorrido para dar de alta nuevos drones, configurar modelos de boquillas, registrar productos agroquímicos autorizados, monitorear el estado operativo de los equipos y documentar reportes de mantenimiento preventivo o fallas técnicas.
 
-![Web Applications Wireflow Diagrams](../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams4.jpeg)
+<div align="center">
+<img src="../../assets/chapter4/Wireflow_diagrams/Applications_Wireflow_Diagrams4.jpeg" alt="Web Applications Wireflow Diagrams 4" width="600" style="max-width: 100%; height: auto;"/>
+</div>
 
 **Link del Miro:** https://miro.com/welcomeonboard/OU1LdXRSanlNQXZ5bUErM2JqS0xsNTdsZGg4TTdjUHBreWpNSjBBNEU4K3MwT29LcU5NRE80Ym9semMrb2dBckxXMGlEWktwMkt1QTdBWW9UTVJML1o2OExBWDBmUTdoZW1GcmFzci9hZUhsRGRRRUZ1ZC9nRUVDS01ZQkNUbUZQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=698081833794
 
