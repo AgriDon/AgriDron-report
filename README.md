@@ -137,6 +137,13 @@
 | 13.3    | 09/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Implementación de Bounded Context Reporting y configuración de Fake API (json-server) para pruebas mock |
 | 13.4    | 09/10/2026 | Damacen Galindo, Italo Gianfranco     | Integración de servicios compartidos, arquitectura DDD en frontend y estandarización responsiva para móvil/desktop |
 | 13.5    | 09/10/2026 | Jara Espinoza, Miguel Angel           | Consolidación del Sprint 2, revisión de artefactos UX/UI y actualización de conclusiones del informe |
+| 14.0    | 08/11/2026 | Jara Espinoza, Miguel Angel           | Sprint Planning 3: Sprint Goal AV2, desglose de tareas e implementación de Backend DDD CQRS en ASP.NET Core 10 |
+| 14.1    | 09/11/2026 | Nicho Huillcañahui, Edwin Noe         | Bounded Context Field Management: Delimitación GeoJSON, validaciones geométricas y controladores REST |
+| 14.2    | 10/11/2026 | Damacen Galindo, Italo Gianfranco     | Bounded Context Flight Operations: Modelado de Misiones, Drones, Telemetría y Máquina de Estados de Vuelo |
+| 14.3    | 11/11/2026 | Choquehuanca Vasquez, Alejandro Samir | Frontend: Integración de Language Switcher (i18n), PrimeVue ToastService y conexión con API en producción |
+| 14.4    | 11/11/2026 | Vasquez Roncal, Alexander Felipe      | Backend: Implementación de DatabaseSeeder, Dockerfile multi-stage y pruebas de integración con MySQL |
+| 14.5    | 12/11/2026 | Jara Espinoza, Miguel Angel           | Despliegue en la nube: Web Service en Render.com con Docker, MySQL en Filess.io y Firebase Hosting |
+| 15.0    | 12/11/2026 | Vasquez Roncal, Alexander Felipe      | Entrevistas de validación de usabilidad (5.3), evaluaciones heurísticas de Nielsen y videos del producto y equipo (5.4) |
 
 
 # Project Report Collaboration Insights
@@ -259,20 +266,31 @@ En esta sección se presentan las métricas de colaboración obtenidas mediante 
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-      - [5.2.2.2 Sprint 2](#521-sprint-1)
-        - [5.2.2.1. Sprint Planning 1](#5211-sprint-planning-1)
-        - [5.2.2.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-        - [5.2.2.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-        - [5.2.3.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-        - [5.2.4.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-        - [5.2.5.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-        - [5.2.6.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [5.2.7.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Interview Design](#531-interview-design)
-      - [5.3.2. Interview Registry](#532-interview-registry)
-      - [5.3.3. Heuristic Evaluations](#533-heuristic-evaluations)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
+      - [5.3.2. Validation Interview Evidence](#532-validation-interview-evidence)
+      - [5.3.3. Evaluations According to Heuristics](#533-evaluations-according-to-heuristics)
+    - [5.4. Video About-the-Product & Video About-the-Team](#54-video-about-the-product--video-about-the-team)
+      - [5.4.1. Video About-the-Product](#541-video-about-the-product)
+      - [5.4.2. Video About-the-Team](#542-video-about-the-team)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -281,50 +299,9 @@ En esta sección se presentan las métricas de colaboración obtenidas mediante 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Jara Espinoza, Miguel Angel**<br>***AV1***<br>Lideré la coordinación general del equipo y la elaboración del Lean UX Canvas en el Capítulo I y II. Organicé las sesiones grupales de ideación y estructuración de hipótesis, y participé en la exposición oral explicando los supuestos clave de negocio.<br>***TB1 (Sprint 2)***<br>Lideré las reuniones de planificación y seguimiento ágil (Sprint Planning 2 y Daily Standups), guiando la adopción de Vue 3, PrimeVue y la arquitectura Domain-Driven Design (DDD). Asigné responsabilidades equitativas y aseguré la integración continua del equipo para cumplir con el Sprint Goal.<br><br>**Nicho Huillcañahui Edwin Noe**<br>***AV1***<br>Participé en el video de exposición explicando ante cámara los hallazgos del Capítulo II. Prioricé un lenguaje sencillo al presentar los perfiles de usuario (User Personas) y sus necesidades a una audiencia no técnica, apoyándome en las capturas de UXPressia para ilustrar el discurso en lugar de leer texto. Durante las entrevistas de Needfinding, apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar, y en la sustentación grupal recibí y respondí preguntas del docente sobre el criterio usado para identificar patrones entre segmentos.<br>***TB1 (Sprint 2)***<br>Lideré el diseño e implementación del Bounded Context Field Management (gestión de fincas, parcelas y cultivos en Vue 3). Establecí la arquitectura de componentes y coordiné con mis compañeros para estandarizar los formularios reactivos y la manipulación de datos geoespaciales.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br>***AV1***<br>Participé en el análisis de competidores y en la definición de la User Task Matrix y Ubiquitous Language, exponiendo en el video la matriz de tareas para ambos segmentos de usuario.<br>***TB1 (Sprint 2)***<br>Lideré la configuración de la infraestructura de persistencia mock utilizando json-server (Fake API) y desarrollé el Bounded Context de Reporting, permitiendo al equipo consumir endpoints RESTful de manera independiente y facilitando el liderazgo técnico compartido.<br><br>**Vasquez Roncal, Alexander Felipe**<br>***AV1***<br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.<br>***TB1 (Sprint 2)***<br>Lideré el desarrollo del Bounded Context Flight Operations (catálogo de drones y wizard de programación de misiones). Apoyé activamente a mis compañeros en la resolución de incidencias de maquetación y aseguré la fidelidad visual frente a los prototipos de Figma.<br><br>**Damacen Galindo, Italo Gianfranco**<br>***AV1***<br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.<br>***TB1 (Sprint 2)***<br>Coordiné la revisión cruzada de código y Pull Requests en GitHub, velando por las buenas prácticas en la capa de infraestructura y colaborando en el diseño responsivo integral de la plataforma web. | Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.<br><br>***TB1 (Sprint 2)***<br>Durante el Sprint 2, el equipo consolidó su liderazgo colectivo y trabajo conjunto mediante ceremonias ágiles periódicas. La distribución clara de roles sobre los Bounded Contexts y la comunicación continua permitieron resolver dependencias técnicas de forma oportuna, entregando una aplicación web modular, responsiva y funcional alineada con los requerimientos. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Jara Espinoza, Miguel Angel**<br>***AV1***<br>Gestioné el repositorio principal en GitHub y la estructura base de los capítulos en Markdown, asegurando un entorno colaborativo ordenado y el cumplimiento de las fechas de entrega.<br>***TB1 (Sprint 2)***<br>Configuré el tablero Jira del Sprint 2, establecí el Sprint Backlog y descompuse las Historias de Usuario en Engineering Tasks con estimaciones de 4 a 8 horas. Supervisé el flujo de trabajo en GitFlow y verifiqué el cumplimiento de los criterios de aceptación.<br><br>**Nicho Huillcañahui Edwin Noe**<br>***AV1***<br>Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.<br>***TB1 (Sprint 2)***<br>Planifiqué y ejecuté las tareas técnicas de las vistas de fincas, parcelas y cultivos dentro de los plazos establecidos. Aporté componentes modulares de PrimeVue y documenté la capa de aplicación y modelos de dominio en la arquitectura DDD.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br>***AV1***<br>Redacté las secciones de arquitectura de información y estructuré el glosario de términos del dominio en inglés, cumpliendo los objetivos fijados para la primera entrega.<br>***TB1 (Sprint 2)***<br>Diseñé los esquemas de datos mock (db.json) y configuré el Fake API para simular las respuestas RESTful de misiones, telemetría y reportes fitosanitarios. Cumplí con los plazos previstos facilitando un entorno inclusivo donde todos pudieron probar sus vistas de forma independiente.<br><br>**Vasquez Roncal, Alexander Felipe**<br>***AV1***<br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.<br>***TB1 (Sprint 2)***<br>Desarrollé los componentes del wizard de planificación de misiones y la gestión de drones respetando la estimación temporal asignada. Cumplí con las metas de diseño responsivo (mobile y desktop) y colaboré estrechamente con el equipo para garantizar un despliegue exitoso en GitHub Pages/Firebase.<br><br>**Damacen Galindo, Italo Gianfranco**<br>***AV1***<br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.<br>***TB1 (Sprint 2)***<br>Participé en la estimación de horas en Jira y se responsabilizó de la integración de estilos globales, utilitarios responsivos y diálogos de confirmación, cumpliendo con los criterios de aceptación y facilitando un espacio de soporte mutuo para la entrega del informe y código. | Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.<br><br>***TB1 (Sprint 2)***<br>Durante el Sprint 2, el equipo estableció metas claras en el Sprint Backlog mediante Jira, descomponiendo historias de usuario en tareas de ingeniería estimadas entre 4 y 8 horas. Se mantuvo un entorno de trabajo colaborativo e inclusivo con ramas de Git organizadas, logrando cumplir satisfactoriamente el 100% de los objetivos planteados para el frontend del proyecto. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Jara Espinoza, Miguel Angel**<br>***AV1***<br>Lideré la coordinación general del equipo y la elaboración del Lean UX Canvas en el Capítulo I y II. Organicé las sesiones grupales de ideación y estructuración de hipótesis, y participé en la exposición oral explicando los supuestos clave de negocio.<br>***TB1 (Sprint 2)***<br>Lideré las reuniones de planificación y seguimiento ágil (Sprint Planning 2 y Daily Standups), guiando la adopción de Vue 3, PrimeVue y la arquitectura Domain-Driven Design (DDD). Asigné responsabilidades equitativas y aseguré la integración continua del equipo para cumplir con el Sprint Goal.<br>***AV2 (Sprint 3)***<br>Lideré el diseño arquitectónico del backend en ASP.NET Core 10 siguiendo Domain-Driven Design (DDD) y CQRS con MediatR. Guié las decisiones técnicas de integración de servicios RESTful, coordiné la contenerización en Docker y el despliegue en Render, asegurando que todos los controladores y recursos expusieran una interfaz consistente para el consumo del frontend.<br><br>**Nicho Huillcañahui Edwin Noe**<br>***AV1***<br>Participé en el video de exposición explicando ante cámara los hallazgos del Capítulo II. Prioricé un lenguaje sencillo al presentar los perfiles de usuario (User Personas) y sus necesidades a una audiencia no técnica, apoyándome en las capturas de UXPressia para ilustrar el discurso en lugar de leer texto. Durante las entrevistas de Needfinding, apliqué escucha activa, dejando hablar al entrevistado antes de repreguntar, y en la sustentación grupal recibí y respondí preguntas del docente sobre el criterio usado para identificar patrones entre segmentos.<br>***TB1 (Sprint 2)***<br>Lideré el diseño e implementación del Bounded Context Field Management (gestión de fincas, parcelas y cultivos en Vue 3). Establecí la arquitectura de componentes y coordiné con mis compañeros para estandarizar los formularios reactivos y la manipulación de datos geoespaciales.<br>***AV2 (Sprint 3)***<br>Lideré el Bounded Context Field Management, coordinando con el equipo el modelado de coordenadas poligonales GeoJSON y la validación espacial de linderos. Guié la refactorización de los formularios reactivos de parcelas en Vue 3 y colaboré activamente en la formulación del diseño y registro de entrevistas de validación con agricultores.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br>***AV1***<br>Participé en el análisis de competidores y en la definición de la User Task Matrix y Ubiquitous Language, exponiendo en el video la matriz de tareas para ambos segmentos de usuario.<br>***TB1 (Sprint 2)***<br>Lideré la configuración de la infraestructura de persistencia mock utilizando json-server (Fake API) y desarrollé el Bounded Context de Reporting, permitiendo al equipo consumir endpoints RESTful de manera independiente y facilitando el liderazgo técnico compartido.<br>***AV2 (Sprint 3)***<br>Lideré la implementación de la internacionalización integral (i18n) en la aplicación web mediante el componente LanguageSwitcher (ES/EN) y la integración del PrimeVue ToastService. Coordiné con los desarrolladores de frontend la unificación de mensajes y etiquetas de acción, garantizando una experiencia de usuario accesible y estandarizada.<br><br>**Vasquez Roncal, Alexander Felipe**<br>***AV1***<br>Implementación del capítulo 3 y 4, además de creación de mockups de landing page y Web Application.<br>***TB1 (Sprint 2)***<br>Lideré el desarrollo del Bounded Context Flight Operations (catálogo de drones y wizard de programación de misiones). Apoyé activamente a mis compañeros en la resolución de incidencias de maquetación y aseguré la fidelidad visual frente a los prototipos de Figma.<br>***AV2 (Sprint 3)***<br>Lideré la persistencia en la nube mediante el aprovisionamiento de MySQL en Filess.io y la construcción del DatabaseSeeder para inicializar datos de prueba representativos. Dirigí la ejecución de pruebas unitarias y de integración de repositorios, asegurando la confiabilidad del modelo de dominio antes de la entrega final.<br><br>**Damacen Galindo, Italo Gianfranco**<br>***AV1***<br>Participé en la elaboración y presentación del Capítulo I de AgriDron Solutions, comunicando de manera clara y ordenada el perfil de la startup, la descripción de la solución, los antecedentes y la problemática identificada. Durante la presentación, expliqué el proceso Lean UX y las decisiones tomadas para orientar la propuesta de solución, utilizando diapositivas y recursos visuales para facilitar la comprensión de los contenidos según el objetivo de cada sección.<br>***TB1 (Sprint 2)***<br>Coordiné la revisión cruzada de código y Pull Requests en GitHub, velando por las buenas prácticas en la capa de infraestructura y colaborando en el diseño responsivo integral de la plataforma web.<br>***AV2 (Sprint 3)***<br>Lideré el Bounded Context Flight Operations, modelando la máquina de estados finita de las misiones de fumigación y la cabina de telemetría en tiempo real. Coordiné con el equipo de backend y frontend para asegurar que las transiciones de vuelo (aprobación, inicio, pausa y finalización) cumplieran estrictamente las invariantes de negocio. | Como equipo, durante el AV1 desarrollamos nuestra capacidad de comunicación oral mediante la presentación de los diferentes componentes de AgriDron Solutions. Cada integrante comunicó los resultados y decisiones correspondientes a su parte del proyecto, empleando recursos audiovisuales como diapositivas, diagramas, mockups y demostraciones para facilitar la comprensión de la información. Esto permitió presentar de manera organizada la propuesta, el diseño y la arquitectura de la solución, adaptando la explicación al objetivo de cada sección.<br><br>***TB1 (Sprint 2)***<br>Durante el Sprint 2, el equipo consolidó su liderazgo colectivo y trabajo conjunto mediante ceremonias ágiles periódicas. La distribución clara de roles sobre los Bounded Contexts y la comunicación continua permitieron resolver dependencias técnicas de forma oportuna, entregando una aplicación web modular, responsiva y funcional alineada con los requerimientos.<br><br>***AV2 (Sprint 3)***<br>Durante el Sprint 3, el equipo demostró un liderazgo técnico conjunto y altamente coordinado para articular el desarrollo full-stack de la plataforma. La toma de decisiones compartida en torno a la arquitectura DDD, CQRS, la contenerización con Docker y el despliegue en la nube permitió superar desafíos complejos de integración entre backend y frontend, entregando un producto funcional, documentado y validado con usuarios reales. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Jara Espinoza, Miguel Angel**<br>***AV1***<br>Gestioné el repositorio principal en GitHub y la estructura base de los capítulos en Markdown, asegurando un entorno colaborativo ordenado y el cumplimiento de las fechas de entrega.<br>***TB1 (Sprint 2)***<br>Configuré el tablero Jira del Sprint 2, establecí el Sprint Backlog y descompuse las Historias de Usuario en Engineering Tasks con estimaciones de 4 a 8 horas. Supervisé el flujo de trabajo en GitFlow y verifiqué el cumplimiento de los criterios de aceptación.<br>***AV2 (Sprint 3)***<br>Configuré y gestioné el pipeline de despliegue continuo en Render.com conectado a GitHub, estableciendo revisiones rigurosas en Pull Requests y supervisando el avance de las tareas técnicas del backend para asegurar el cumplimiento del Sprint Goal en la fecha fijada.<br><br>**Nicho Huillcañahui Edwin Noe**<br>***AV1***<br>Redacté en el Informe de Proyecto (Markdown) las secciones de Análisis Competitivo, Diseño y Registro de Entrevistas, y Needfinding, transcribiendo de forma descriptiva las respuestas de los entrevistados y sustentando con porcentajes las características comunes de cada segmento. Cuidé la ortografía y gramática, seguí la estructura de tablas exigida (Competitive Analysis Landscape, User Task Matrix) y usé el idioma inglés para el Ubiquitous Language según lo indicado en el enunciado.<br>***TB1 (Sprint 2)***<br>Planifiqué y ejecuté las tareas técnicas de las vistas de fincas, parcelas y cultivos dentro de los plazos establecidos. Aporté componentes modulares de PrimeVue y documenté la capa de aplicación y modelos de dominio en la arquitectura DDD.<br>***AV2 (Sprint 3)***<br>Planifiqué y ejecuté las tareas de desarrollo de Field Management en GitFlow, respetando las estimaciones horarias y participando en las sesiones de validación con usuarios agrícolas para levantar hallazgos de usabilidad y traducirlos en mejoras del backlog.<br><br>**Choquehuanca Vasquez, Alejandro Samir**<br>***AV1***<br>Redacté las secciones de arquitectura de información y estructuré el glosario de términos del dominio en inglés, cumpliendo los objetivos fijados para la primera entrega.<br>***TB1 (Sprint 2)***<br>Diseñé los esquemas de datos mock (db.json) y configuré el Fake API para simular las respuestas RESTful de misiones, telemetría y reportes fitosanitarios. Cumplí con los plazos previstos facilitando un entorno inclusivo donde todos pudieron probar sus vistas de forma independiente.<br>***AV2 (Sprint 3)***<br>Cumplí oportunamente con las tareas asignadas para la limpieza de código obsoleto, sincronización de catálogos multilingües y configuración de notificaciones flotantes, facilitando un entorno de trabajo claro y colaborativo que optimizó el desempeño del frontend.<br><br>**Vasquez Roncal, Alexander Felipe**<br>***AV1***<br>Me encargué de crear la organización en GitHub para poder trabajar de manera colaborativa.<br>***TB1 (Sprint 2)***<br>Desarrollé los componentes del wizard de planificación de misiones y la gestión de drones respetando la estimación temporal asignada. Cumplí con las metas de diseño responsivo (mobile y desktop) y colaboré estrechamente con el equipo para garantizar un despliegue exitoso en GitHub Pages/Firebase.<br>***AV2 (Sprint 3)***<br>Elaboré el plan de pruebas automatizadas y la matriz de evaluación heurística de Nielsen (Anexo D), organizando las evidencias de ejecución y asegurando que las metas de calidad y despliegue del software se cumplieran en su totalidad.<br><br>**Damacen Galindo, Italo Gianfranco**<br>***AV1***<br>Elaboré y estructuré el Capítulo I del informe de AgriDron Solutions, desarrollando el Startup Profile (1.1), el Solution Profile (1.2), los antecedentes, la problemática identificada y los componentes del proceso Lean UX. Organicé la información de manera clara y sintetizada, empleando un lenguaje técnico acorde con el contexto del proyecto para comunicar de forma ordenada el propósito, contexto, problemática y propuesta de valor de la solución.<br>***TB1 (Sprint 2)***<br>Participé en la estimación de horas en Jira y se responsabilizó de la integración de estilos globales, utilitarios responsivos y diálogos de confirmación, cumpliendo con los criterios de aceptación y facilitando un espacio de soporte mutuo para la entrega del informe y código.<br>***AV2 (Sprint 3)***<br>Establecí las tareas de ingeniería asociadas a la telemetría y misiones de vuelo en el Sprint Backlog, colaborando activamente en la revisión cruzada de código y en la redacción técnica del informe en Markdown conforme a las pautas de formato del curso. | Como equipo, durante el AV1 elaboramos y consolidamos la documentación de AgriDron Solutions, distribuyendo la redacción de los diferentes capítulos y componentes del proyecto. Se empleó un lenguaje técnico y estructurado para documentar tanto la propuesta de solución como aspectos de diseño, arquitectura, implementación y gestión del desarrollo. La integración de los aportes de los integrantes permitió mantener una estructura coherente en el informe y comunicar de forma clara las decisiones y resultados obtenidos durante este avance.<br><br>***TB1 (Sprint 2)***<br>Durante el Sprint 2, el equipo estableció metas claras en el Sprint Backlog mediante Jira, descomponiendo historias de usuario en tareas de ingeniería estimadas entre 4 y 8 horas. Se mantuvo un entorno de trabajo colaborativo e inclusivo con ramas de Git organizadas, logrando cumplir satisfactoriamente el 100% de los objetivos planteados para el frontend del proyecto.<br><br>***AV2 (Sprint 3)***<br>El equipo mantuvo un ambiente inclusivo y altamente colaborativo, empleando GitHub Projects y Conventional Commits para planificar 20 tareas de ingeniería sobre 8 historias de usuario (48 Story Points). El cumplimiento riguroso de las ceremonias ágiles y la cooperación mutua permitieron alcanzar el 100% de los objetivos planteados para la entrega del Sprint 3 (AV2). |
 
-
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-**AgriDron Solutions** es una startup tecnológica orientada a mejorar la gestión de cultivos mediante el uso de drones para fumigación y monitoreo. La plataforma busca facilitar estas tareas y hacer que las operaciones sean más rápidas y fáciles de controlar.
-
-AgriDron Solutions ofrece una plataforma que permite planificar misiones de fumigación, monitorear el trabajo en tiempo real y consultar reportes de las operaciones realizadas. El objetivo es que agricultores y personal técnico puedan controlar estas tareas desde una sola aplicación.
-
-**Misión:** Mejorar la gestión de cultivos mediante drones y una plataforma accesible que permita reducir costos y tiempo en las operaciones de fumigación.
-
-**Visión:** Convertirnos en una solución tecnológica de confianza para el sector agrícola, ayudando a modernizar la forma en que se gestionan y supervisan las operaciones de fumigación.
-
-**Valores:**
-
-* **Innovación:** buscamos utilizar nuevas tecnologías para mejorar las operaciones agrícolas.
-* **Eficiencia:** buscamos reducir el tiempo, los costos y el uso de recursos.
-* **Confiabilidad:** buscamos que las operaciones y los datos mostrados en la plataforma sean claros y precisos.
-* **Compromiso:** buscamos ofrecer una solución útil y accesible para agricultores y personal técnico.
-
-
-
-### 1.1.1. Descripción de la Startup
-**AgriDron Solutions** es una startup que busca mejorar la protección de cultivos mediante drones y una plataforma de monitoreo. El sistema permitirá gestionar las operaciones de fumigación desde una sola plataforma.
-
-La plataforma permitirá registrar fincas y parcelas, seleccionar áreas de fumigación mediante un mapa, crear misiones, consultar el clima, monitorear los drones y revisar el historial de las operaciones.
-
-**Pilares de valor:**
-
-* **Innovación tecnológica:** uso de drones aplicados a la agricultura.
-* **Eficiencia operativa:** reducción de costos y tiempos frente a métodos tradicionales de fumigación.
-* **Confiabilidad de datos:** información clara y disponible durante y después de las operaciones.
-* **Compromiso social y ambiental:** reducción de riesgos para los trabajadores y del impacto de la fumigación.
-
-### 1.1.2. Perfiles de integrantes del equipo
-
-|                                             Foto                                              | Detalles del Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|:---------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       <img src="report/images/members/ItaloDamacen.png" alt="Foto del integrante" width="150"/>        | **Nombre:** Damacen Galindo, Italo Gianfranco <br> **Código:** U202421392 \| **Carrera:** [CARRERA] <br><br> **Descripción:**<br> [DESCRIPCIÓN DEL PERFIL, CONOCIMIENTOS Y HABILIDADES.] <br><br> **Aporte y función dentro del equipo:**<br> [APORTE Y FUNCIÓN DENTRO DEL EQUIPO.]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|         <img src="report/images/members/EdwinNicho.jpg" alt="Foto de Edwin" width="150"/>         | **Nombre:** Nicho Huillcañahui, Edwin Noe <br> **Código:** U20241G306 <br> **Carrera:** Ingeniería de Software <br><br> **Descripción:**<br> Mi nombre es Edwin Noe Nicho Huillcañahui, soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona responsable, curiosa y comprometida con el aprendizaje continuo. Me interesa el desarrollo de aplicaciones web y móviles, así como comprender el funcionamiento de las tecnologías y herramientas utilizadas en la construcción de soluciones de software. <br><br> **Aporte y función dentro del equipo:**<br> Me gusta participar en el diseño de interfaces y prototipos interactivos utilizando Figma. Asimismo,explorar el código, comprender cómo se relacionan los diferentes componentes de una aplicación y aprender sobre patrones de arquitectura de software.                                                                                                                                                                  |
-|        <img src="report/images/members/samir.jpeg" alt="Foto del integrante" width="150"/>        | **Nombre:** Samir Choquehuanca <br> **Código:** U202416053 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Estudiante de Ingeniería de Software con conocimientos en programación en C++, JavaScript y Python, y en desarrollo web con HTML y CSS. Soy una persona responsable, con capacidad para aprender nuevas herramientas y aplicar mis conocimientos en proyectos académicos <br><br> **Aporte y función dentro del equipo:**<br> Aporto en el desarrollo y la programación de las funcionalidades del proyecto, y colaboro en el diseño de la interfaz con HTML y CSS. Cumplo con mis tareas en los plazos acordados y apoyo al grupo resolviendo dudas y reforzando las partes que lo necesiten.                                                                                                                                                                                                                                                                                                                              |
-|        <img src="report/images/members/miguel.jpg" alt="Foto del integrante" width="150"/>        | **Nombre:** Jara Espinoza, Miguel Angel <br> **Código:** U202512856 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Miguel Angel Jara Espinoza, soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el quinto ciclo. Me considero una persona atenta y paciente. Cuento con conocimientos básicos en JavaScript, Python y C++, los cuales me permiten contribuir en el desarrollo y resolución de problemas dentro del proyecto. <br><br> **Aporte y función dentro del equipo:**<br> Aporto con mis conocimientos en lean ux y en gitlow                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| <img src="report/images/members/Alexander_Vasquez.png" alt="Alexander Vasquez foto" width="150"/> | **Nombre:** Vasquez Roncal, Alexander Felipe <br> **Código:** U202222473 \| **Carrera:** Ingenieria de Software <br><br> **Descripción:**<br> Mi nombre es Alexander Vasquez, tengo 27 años y actualmente estoy cursando el cuarto ciclo de la carrera de Ingeniería de Software. Soy una persona disciplinada, con capacidad para trabajar en equipo. Mis habilidades técnicas incluyen lenguajes de programación como Python y C + +. Me esfuerzo por contribuir activamente al desarrollo del proyecto  <br><br> **Aporte y función dentro del equipo:**<br> Mi participacion incluyo ayudar en la documentacion del capitulo 3, 4 y 5, ademas de diseñar el mockup de la app web and landing page. Por otro lado, tambien implemente el style guie de ambos para que todo siguiera un orden especifico.                                                                                                                                                                                                                                                 |
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -3260,6 +3237,328 @@ Durante el Sprint 2, el equipo desarrolló las actividades de implementación en
 
 *Figura: Contribuciones de los integrantes en el repositorio del API simulado durante el Sprint 2.*
 
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+Durante el Sprint 3, el equipo concentró sus esfuerzos en la materialización de la arquitectura Domain-Driven Design (DDD) y Command Query Responsibility Segregation (CQRS) en el backend desarrollado con ASP.NET Core 10, su despliegue contenerizado en la nube (Render) con persistencia en MySQL (Filess.io), la implementación de un Database Seeder automatizado, y la integración completa con la Web Application en Vue 3 y PrimeVue previamente desplegada en la nube, incorporando internacionalización (i18n), notificaciones ToastService y telemetría de misiones en tiempo real.
+
+| Campo | Detalle |
+|:--|:--|
+| **Sprint #** | Sprint 3 (AV2 – Semana 12) |
+| **Sprint Goal** | Lograr la integración funcional y operativa de los bounded contexts Field Management y Flight Operations mediante el despliegue de una API RESTful en ASP.NET Core 10 contenerizada en Docker sobre Render con persistencia en MySQL en la nube, y su consumo por parte de la aplicación web Vue 3 desplegada en producción, garantizando la delimitación parcelaria en formato GeoJSON, la administración de la flota de drones agrícolas y la orquestación del ciclo de vida de las misiones de fumigación con supervisión telemétrica. |
+| **Duración** | 2 semanas (del 28/10/2026 al 12/11/2026) |
+| **Velocity estimada** | 48 Story Points |
+| **Story Points completados** | 48 Story Points |
+| **Historias de Usuario** | US11, US12, US13, US14, US15, US16, US17, US18 |
+| **Total de Engineering Tasks** | 20 tareas técnicas |
+| **Total de horas hombre estimadas** | 120 horas |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para el Sprint 3 se definieron aspectos técnicos multidisciplinarios que abarcan el backend en ASP.NET Core 10, la infraestructura en la nube, el frontend en Vue 3 y los artefactos de validación con usuarios. Cada aspecto cuenta con un Líder (L) responsable de la calidad técnica y la toma de decisiones, y Colaboradores (C) que apoyan en la ejecución y revisión de código:
+
+| Aspecto Técnico / Funcional | Líder (L) | Colaboradores (C) |
+|:--|:--|:--|
+| **Arquitectura Backend DDD, CQRS y Servicios RESTful** | Jara Espinoza, Miguel Angel | Damacen Galindo, Italo Gianfranco<br>Vasquez Roncal, Alexander Felipe |
+| **Delimitación GeoJSON y Bounded Context Field Management** | Nicho Huillcañahui, Edwin Noe | Jara Espinoza, Miguel Angel<br>Choquehuanca Vasquez, Alejandro Samir |
+| **Flota de Drones, Máquina de Estados y Telemetría de Vuelo** | Damacen Galindo, Italo Gianfranco | Vasquez Roncal, Alexander Felipe<br>Choquehuanca Vasquez, Alejandro Samir |
+| **Internacionalización (i18n), PrimeVue ToastService y UX/UI** | Choquehuanca Vasquez, Alejandro Samir | Nicho Huillcañahui, Edwin Noe<br>Damacen Galindo, Italo Gianfranco |
+| **Persistencia MySQL en la Nube, Seeder de Datos y Dockerfile** | Vasquez Roncal, Alexander Felipe | Jara Espinoza, Miguel Angel<br>Nicho Huillcañahui, Edwin Noe |
+| **Despliegue en la Nube (Render, Firebase Hosting) y Verificación** | Jara Espinoza, Miguel Angel | Choquehuanca Vasquez, Alejandro Samir<br>Vasquez Roncal, Alexander Felipe |
+| **Entrevistas de Validación y Evaluación Heurística** | Nicho Huillcañahui, Edwin Noe | Damacen Galindo, Italo Gianfranco<br>Choquehuanca Vasquez, Alejandro Samir |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 descompone las 8 historias de usuario priorizadas en 20 tareas de ingeniería detalladas, asignadas equitativamente entre los integrantes del equipo:
+
+| Id HU | Historia de Usuario | Id Tarea | Tarea de Ingeniería | Estimación (h) | Responsable | Estado |
+|:--:|:--|:--:|:--|:--:|:--|:--:|
+| **US11** | Delimitación y Registro de Parcelas Agrícolas | TS11.01 | Implementar Value Object GeoCoordinate y validaciones poligonales GeoJSON en Backend | 6h | Nicho Huillcañahui, Edwin Noe | Terminado |
+| **US11** | Delimitación y Registro de Parcelas Agrícolas | TS11.02 | Mapear entidad Parcela en EF Core con MySQL y exponer ParcelsController RESTful | 6h | Jara Espinoza, Miguel Angel | Terminado |
+| **US11** | Delimitación y Registro de Parcelas Agrícolas | TS11.03 | Integrar formulario reactivo de parcelas con mapa satelital interactivo y cálculo de área en Vue | 8h | Nicho Huillcañahui, Edwin Noe | Terminado |
+| **US12** | Gestión Integral de Fincas y Cultivos | TS12.01 | Implementar CQRS Commands y Queries para Fincas y Cultivos con reglas de unicidad | 6h | Jara Espinoza, Miguel Angel | Terminado |
+| **US12** | Gestión Integral de Fincas y Cultivos | TS12.02 | Construir vistas de catálogo y formulario de fincas y cultivos con PrimeVue DataView | 6h | Choquehuanca Vasquez, Alejandro Samir | Terminado |
+| **US13** | Catálogo y Control de Flota de Drones | TS13.01 | Modelar agregado Drone con Value Objects de capacidad en litros y autonomía de batería | 6h | Damacen Galindo, Italo Gianfranco | Terminado |
+| **US13** | Catálogo y Control de Flota de Drones | TS13.02 | Exponer DronesController con endpoints RESTful y filtrado por estado de operatividad | 6h | Damacen Galindo, Italo Gianfranco | Terminado |
+| **US13** | Catálogo y Control de Flota de Drones | TS13.03 | Diseñar catálogo de drones en frontend con tarjetas interactivas de especificaciones | 6h | Vasquez Roncal, Alexander Felipe | Terminado |
+| **US14** | Configuración y Programación de Misiones | TS14.01 | Modelar agregado Mission con máquina de estados finita (DRAFT a COMPLETED/CANCELLED) | 8h | Damacen Galindo, Italo Gianfranco | Terminado |
+| **US14** | Configuración y Programación de Misiones | TS14.02 | Exponer endpoints RESTful para asignación de operador, recursos y parámetros de aspersión | 8h | Jara Espinoza, Miguel Angel | Terminado |
+| **US14** | Configuración y Programación de Misiones | TS14.03 | Construir diálogos modales de configuración de vuelo y selección de dosis fitosanitaria | 6h | Vasquez Roncal, Alexander Felipe | Terminado |
+| **US15** | Supervisión de Telemetría y Bitácora de Vuelo | TS15.01 | Diseñar agregados OperationStatus e Incident para telemetría continua e incidentes | 6h | Damacen Galindo, Italo Gianfranco | Terminado |
+| **US15** | Supervisión de Telemetría y Bitácora de Vuelo | TS15.02 | Desarrollar cabina de vuelo en frontend con canvas de telemetría y simulación en vivo | 8h | Damacen Galindo, Italo Gianfranco | Terminado |
+| **US15** | Supervisión de Telemetría y Bitácora de Vuelo | TS15.03 | Crear panel de registro y visualización de incidencias con severidad clasificada | 6h | Choquehuanca Vasquez, Alejandro Samir | Terminado |
+| **US16** | Internacionalización y Notificaciones Toast | TS16.01 | Implementar componente LanguageSwitcher (ES/EN) con persistencia en localStorage | 4h | Choquehuanca Vasquez, Alejandro Samir | Terminado |
+| **US16** | Internacionalización y Notificaciones Toast | TS16.02 | Traducir y sincronizar catálogos i18n para los bounded contexts Field y Flight | 4h | Choquehuanca Vasquez, Alejandro Samir | Terminado |
+| **US16** | Internacionalización y Notificaciones Toast | TS16.03 | Configurar PrimeVue ToastService global para confirmaciones y alertas de operación | 4h | Choquehuanca Vasquez, Alejandro Samir | Terminado |
+| **US17** | Contenerización y Despliegue en la Nube | TS17.01 | Diseñar Dockerfile multi-stage con .NET 10 SDK y ASP.NET Core Runtime para Render | 4h | Jara Espinoza, Miguel Angel | Terminado |
+| **US17** | Contenerización y Despliegue en la Nube | TS17.02 | Aprovisionar instancia de base de datos MySQL 8.0 en Filess.io y enlazar credenciales | 4h | Vasquez Roncal, Alexander Felipe | Terminado |
+| **US18** | Datos de Prueba y Validación Automatizada | TS18.01 | Desarrollar DatabaseSeeder para inicialización automática de cultivos, fincas, parcelas y drones | 4h | Vasquez Roncal, Alexander Felipe | Terminado |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+A continuación se presentan los commits más representativos ejecutados durante el Sprint 3 en los repositorios oficiales de la organización `AgriDon` en GitHub, siguiendo estrictamente la convención Conventional Commits:
+
+##### Repositorio Backend (`Agridron-backend`)
+
+| Hash | Fecha | Autor | Mensaje de Commit | Rama |
+|:--:|:--:|:--|:--|:--:|
+| `a003a26` | 12/11/2026 | Jara Espinoza, Miguel Angel | merge: integrate database seeder and dockerfile into main | `main` |
+| `178be35` | 12/11/2026 | Jara Espinoza, Miguel Angel | merge: integrate feature/database-seeder-docker into develop | `develop` |
+| `a034df5` | 12/11/2026 | Vasquez Roncal, Alexander Felipe | feat(infra): add database seeder for demo data and multi-stage dockerfile for cloud deployment | `feature/database-seeder-docker` |
+| `cf38f58` | 11/11/2026 | Jara Espinoza, Miguel Angel | merge: release sprint 3 field management and flight operations into main | `main` |
+| `e9aca87` | 11/11/2026 | Damacen Galindo, Italo Gianfranco | merge: integrate feature/flight-operations into develop | `develop` |
+| `cd40aee` | 11/11/2026 | Damacen Galindo, Italo Gianfranco | fix(flight-operations): serialize status and severity enums in screaming snake case | `feature/flight-operations` |
+| `37ebcfc` | 11/11/2026 | Jara Espinoza, Miguel Angel | fix(rest): add property aliases to mission, farm, and parcel resources for frontend compatibility | `feature/flight-operations` |
+| `3ff1a50` | 11/11/2026 | Jara Espinoza, Miguel Angel | fix(api): enable swagger in production mode and redirect root to swagger ui | `feature/flight-operations` |
+| `4d6f1c1` | 10/11/2026 | Vasquez Roncal, Alexander Felipe | test(flight-operations): add mysql persistence integration tests for repositories | `feature/flight-operations` |
+| `643a898` | 10/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): expose rest controllers, resources, assemblers, and di wiring | `feature/flight-operations` |
+| `8e938bc` | 10/11/2026 | Vasquez Roncal, Alexander Felipe | feat(flight-operations): add ef core configurations, repositories, and mysql migration | `feature/flight-operations` |
+| `dedb144` | 09/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): implement cqrs command and query application services with outbound acl | `feature/flight-operations` |
+| `9ea2a09` | 09/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): add domain aggregates, value objects, events, and error catalog | `feature/flight-operations` |
+| `ff4f3d8` | 08/11/2026 | Nicho Huillcañahui, Edwin Noe | feat(field-management): expose parcel snapshot acl facade for cross-context validation | `feature/field-management` |
+
+##### Repositorio Frontend (`Agridron-Fronted`)
+
+| Hash | Fecha | Autor | Mensaje de Commit | Rama |
+|:--:|:--:|:--|:--|:--:|
+| `f89f6a3` | 12/11/2026 | Choquehuanca Vasquez, Alejandro Samir | chore(deploy): add firebase hosting configuration for agridronapp | `develop` |
+| `d5fbb17` | 12/11/2026 | Choquehuanca Vasquez, Alejandro Samir | chore(config): point production api base url to render backend | `develop` |
+| `87ec42d` | 12/11/2026 | Choquehuanca Vasquez, Alejandro Samir | merge: integrate feature/frontend-i18n-toast-cleanup into develop | `develop` |
+| `4ee161b` | 12/11/2026 | Choquehuanca Vasquez, Alejandro Samir | feat(i18n): add language switcher, complete translations, integrate primevue toast, and remove obsolete views | `feature/frontend-i18n-toast-cleanup` |
+| `b03b457` | 11/11/2026 | Nicho Huillcañahui, Edwin Noe | merge: integrate fix/farm-edit-owner-fallback into develop | `develop` |
+| `4552463` | 11/11/2026 | Nicho Huillcañahui, Edwin Noe | fix(field-management): remove unescaped braces from i18n geojson placeholder and normalize parcel form bindings | `fix/farm-edit-owner-fallback` |
+| `8802729` | 11/11/2026 | Nicho Huillcañahui, Edwin Noe | fix(field-management): provide owner fallback when iam mock server is offline and map farm imageUrl | `fix/farm-edit-owner-fallback` |
+| `57afc0f` | 10/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): add live flight cockpit with telemetry canvas, gauges, incident feed and simulator | `feature/flight-operations-telemetry` |
+| `4a7d175` | 10/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): add incident severity enum, enriched operation status entity and telemetry use cases | `feature/flight-operations-telemetry` |
+| `a94074f` | 09/11/2026 | Vasquez Roncal, Alexander Felipe | merge: integrate feature/flight-operations-missions into develop | `develop` |
+| `0ed0ee0` | 09/11/2026 | Vasquez Roncal, Alexander Felipe | feat(flight-operations): add mission config and completion dialogs, lifecycle actions bar and weather check | `feature/flight-operations-missions` |
+| `a65b508` | 08/11/2026 | Damacen Galindo, Italo Gianfranco | feat(flight-operations): add mission value objects, lifecycle predicates and endpoint transition methods | `feature/flight-operations-missions` |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se consolidó la versión operativa de la Web Application desplegada en la nube conectada de extremo a extremo con el backend RESTful en ASP.NET Core 10. Las principales funcionalidades operativas son:
+
+1. **Gestión de Fincas y Parcelas con delimitación GeoJSON (Field Management):**
+   Permite a los agricultores registrar sus unidades productivas mediante formularios reactivos que incorporan validación geométrica de polígonos GeoJSON (coordenadas de latitud y longitud). Cada parcela calcula su área en hectáreas y vincula el tipo de cultivo asociado.
+2. **Administración de Flota de Drones Agrícolas (Flight Operations):**
+   Presenta el catálogo de aeronaves no tripuladas disponibles, especificando modelo, fabricante, capacidad del tanque de aspersión en litros, autonomía de batería en minutos y estado operacional actual (DISPONIBLE, EN_MISION, MANTENIMIENTO, INACTIVO).
+3. **Planificación y Orquestación del Ciclo de Vida de Misiones de Fumigación:**
+   Módulo avanzado que modela la máquina de estados finita de una misión: Creación (DRAFT) -> Asignación de Recursos y Operador -> Configuración de Parámetros de Aspersión (altitud de vuelo, velocidad crucero, caudal de pulverización en L/ha) -> Aprobación (APPROVED) -> Inicio de Operación (IN_PROGRESS) -> Pausa / Reanudación (PAUSED) -> Finalización (COMPLETED) o Cancelación (CANCELLED).
+4. **Cabina de Telemetría en Vivo y Bitácora de Incidentes:**
+   Panel de supervisión interactivo que simula la recepción de telemetría del dron en vuelo: porcentaje de batería en tiempo real, altitud de vuelo, velocidad respecto al suelo, presión y nivel de líquido remanente en el depósito de aspersión. Además, permite reportar incidencias clasificadas por severidad (BAJA, MEDIA, ALTA, CRITICA).
+5. **Selector de Idioma Dinámico (i18n) y Notificaciones Toast Globales:**
+   Integración de PrimeVue `SelectButton` en la barra de navegación para conmutar fluidamente entre español e inglés (`es.json` y `en.json`), con persistencia en `localStorage`. Además, la integración de PrimeVue `ToastService` provee retroalimentación visual no invasiva en operaciones exitosas, advertencias y fallos del sistema.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+El backend de AgriDron Solutions fue diseñado e implementado siguiendo rigurosamente los principios de **Domain-Driven Design (DDD)** táctico propuestos por Eric Evans, complementado con el patrón **Command Query Responsibility Segregation (CQRS)** mediante MediatR. La API RESTful expone 50 operaciones completamente documentadas con OpenAPI Specification (OAS 3.0) y visualizadas interactivamente a través de Swagger UI.
+
+- **Repositorio de código fuente:** [https://github.com/AgriDon/Agridron-backend](https://github.com/AgriDon/Agridron-backend)
+- **Documentación Swagger interactiva en vivo:** [https://agridron-backend.onrender.com/swagger/index.html](https://agridron-backend.onrender.com/swagger/index.html)
+
+![Documentación Swagger UI de AgriDron Backend API](assets/chapter5/sprint3/swagger-documentation.png)
+
+*Figura: Interfaz de Swagger UI desplegada en Render mostrando los endpoints de Field Management y Flight Operations.*
+
+A continuación se detalla la matriz completa de los 50 endpoints que componen los servicios RESTful del backend:
+
+| # | Bounded Context | Controlador | Método | Ruta del Endpoint | Códigos HTTP | Propósito Funcional |
+|:--:|:--|:--|:--:|:--|:--:|:--|
+| 1 | Field Management | Crops | `GET` | `/api/v1/crops` | 200 | Listar todos los cultivos registrados |
+| 2 | Field Management | Crops | `GET` | `/api/v1/crops/{id}` | 200, 404 | Obtener detalle de cultivo por ID |
+| 3 | Field Management | Crops | `POST` | `/api/v1/crops` | 201, 400 | Registrar un nuevo cultivo fitosanitario |
+| 4 | Field Management | Crops | `PUT` | `/api/v1/crops/{id}` | 200, 400, 404 | Actualizar datos y requerimientos del cultivo |
+| 5 | Field Management | Crops | `DELETE` | `/api/v1/crops/{id}` | 204, 404 | Eliminar cultivo por ID |
+| 6 | Field Management | Farms | `GET` | `/api/v1/farms` | 200 | Listar todas las fincas agrícolas |
+| 7 | Field Management | Farms | `GET` | `/api/v1/farms/{id}` | 200, 404 | Obtener información detallada de finca por ID |
+| 8 | Field Management | Farms | `POST` | `/api/v1/farms` | 201, 400 | Registrar una nueva finca agrícola con propietario |
+| 9 | Field Management | Farms | `PUT` | `/api/v1/farms/{id}` | 200, 400, 404 | Actualizar información geográfica y de contacto de la finca |
+| 10 | Field Management | Farms | `DELETE` | `/api/v1/farms/{id}` | 204, 404 | Dar de baja una finca agrícola |
+| 11 | Field Management | Parcels | `GET` | `/api/v1/parcels` | 200 | Listar parcelas delimitadas |
+| 12 | Field Management | Parcels | `GET` | `/api/v1/parcels/{id}` | 200, 404 | Obtener detalle de parcela con polígono GeoJSON |
+| 13 | Field Management | Parcels | `POST` | `/api/v1/parcels` | 201, 400 | Crear parcela con validación de polígono GeoJSON y área |
+| 14 | Field Management | Parcels | `PUT` | `/api/v1/parcels/{id}` | 200, 400, 404 | Modificar límites poligonales o cultivo de la parcela |
+| 15 | Field Management | Parcels | `DELETE` | `/api/v1/parcels/{id}` | 204, 404 | Eliminar registro de parcela |
+| 16 | Field Management | FumigationAreas | `GET` | `/api/v1/fumigation-areas` | 200 | Listar áreas específicas destinadas a fumigación |
+| 17 | Field Management | FumigationAreas | `GET` | `/api/v1/fumigation-areas/{id}` | 200, 404 | Obtener detalle de área de fumigación |
+| 18 | Field Management | FumigationAreas | `POST` | `/api/v1/fumigation-areas` | 201, 400 | Definir área de aspersión dentro de una parcela |
+| 19 | Field Management | FumigationAreas | `PUT` | `/api/v1/fumigation-areas/{id}` | 200, 400, 404 | Actualizar linderos o zona de exclusión de fumigación |
+| 20 | Field Management | FumigationAreas | `DELETE` | `/api/v1/fumigation-areas/{id}` | 204, 404 | Eliminar área de fumigación |
+| 21 | Flight Operations | Drones | `GET` | `/api/v1/drones` | 200 | Listar aeronaves no tripuladas de la flota |
+| 22 | Flight Operations | Drones | `GET` | `/api/v1/drones/{id}` | 200, 404 | Obtener ficha técnica del dron por ID |
+| 23 | Flight Operations | Drones | `POST` | `/api/v1/drones` | 201, 400 | Registrar nueva aeronave con capacidad y autonomía |
+| 24 | Flight Operations | Drones | `PUT` | `/api/v1/drones/{id}` | 200, 400, 404 | Actualizar datos técnicos o estado de operatividad |
+| 25 | Flight Operations | Drones | `DELETE` | `/api/v1/drones/{id}` | 204, 404 | Retirar aeronave de la flota activa |
+| 26 | Flight Operations | Missions | `GET` | `/api/v1/missions` | 200 | Listar misiones de fumigación planificadas y ejecutadas |
+| 27 | Flight Operations | Missions | `GET` | `/api/v1/missions/{id}` | 200, 404 | Consultar estado y parámetros completos de una misión |
+| 28 | Flight Operations | Missions | `POST` | `/api/v1/missions` | 201, 400 | Crear borrador de misión fitosanitaria (estado DRAFT) |
+| 29 | Flight Operations | Missions | `PUT` | `/api/v1/missions/{id}` | 200, 400, 404 | Modificar datos base del borrador de misión |
+| 30 | Flight Operations | Missions | `DELETE` | `/api/v1/missions/{id}` | 204, 404 | Eliminar misión en estado borrador |
+| 31 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resources` | 200, 400, 404 | Asignar dron y área de fumigación a la misión |
+| 32 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/operator` | 200, 400, 404 | Asignar operador técnico certificado a la misión |
+| 33 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/flight-parameters` | 200, 400, 404 | Configurar altitud, velocidad, caudal y modo de vuelo |
+| 34 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/approve` | 200, 400, 404 | Transición de estado: Aprobar misión (DRAFT -> APPROVED) |
+| 35 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/start` | 200, 400, 404 | Transición de estado: Iniciar vuelo (APPROVED -> IN_PROGRESS) |
+| 36 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/pause` | 200, 400, 404 | Transición de estado: Pausar misión (IN_PROGRESS -> PAUSED) |
+| 37 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resume` | 200, 400, 404 | Transición de estado: Reanudar vuelo (PAUSED -> IN_PROGRESS) |
+| 38 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/complete` | 200, 400, 404 | Transición de estado: Completar misión (IN_PROGRESS -> COMPLETED) |
+| 39 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/cancel` | 200, 400, 404 | Cancelar misión y liberar recursos asociados |
+| 40 | Flight Operations | Operations | `GET` | `/api/v1/operations` | 200 | Listar estados operacionales y bitácora telemétrica |
+| 41 | Flight Operations | Operations | `GET` | `/api/v1/operations/{id}` | 200, 404 | Consultar reporte telemétrico individual |
+| 42 | Flight Operations | Operations | `POST` | `/api/v1/operations` | 201, 400 | Registrar nuevo reporte de telemetría de dron en vuelo |
+| 43 | Flight Operations | Operations | `PUT` | `/api/v1/operations/{id}` | 200, 400, 404 | Actualizar métricas del estado operacional |
+| 44 | Flight Operations | Operations | `DELETE` | `/api/v1/operations/{id}` | 204, 404 | Eliminar registro operacional |
+| 45 | Flight Operations | Incidents | `GET` | `/api/v1/incidents` | 200 | Listar bitácora de incidentes reportados en vuelo |
+| 46 | Flight Operations | Incidents | `GET` | `/api/v1/incidents/{id}` | 200, 404 | Consultar incidente particular con su nivel de severidad |
+| 47 | Flight Operations | Incidents | `POST` | `/api/v1/incidents` | 201, 400 | Reportar nuevo incidente técnico o climático |
+| 48 | Flight Operations | Incidents | `PUT` | `/api/v1/incidents/{id}` | 200, 400, 404 | Actualizar resolución o descripción del incidente |
+| 49 | Flight Operations | Incidents | `DELETE` | `/api/v1/incidents/{id}` | 204, 404 | Eliminar registro de incidente |
+| 50 | Shared API | Root | `GET` | `/` | 302 | Redirección directa a la documentación Swagger UI |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se ejecutó el despliegue en la nube de todos los componentes que conforman la plataforma tecnológica de AgriDron Solutions:
+
+1. **Backend RESTful API en Render.com:**
+   - La API fue empaquetada como imagen de contenedor Docker utilizando un Dockerfile multi-stage basado en el SDK de .NET 10 y el runtime ASP.NET Core 10.
+   - Se configuró como Web Service en la plataforma Render.com conectado a la rama `main` del repositorio `AgriDon/Agridron-backend`, con compilación y despliegue continuo automatizado ante cada commit.
+   - La aplicación ejecuta en entorno Linux expuesta en el puerto 8080 con certificados SSL/TLS automáticos.
+   - Al iniciar, el runtime ejecuta automáticamente las migraciones pendientes de Entity Framework Core mediante `Database.Migrate()` y ejecuta el `DatabaseSeeder` para inicializar el catálogo de cultivos, fincas, parcelas y drones.
+2. **Base de Datos Relacional MySQL en la Nube (Filess.io):**
+   - Se aprovisionó una instancia de base de datos MySQL 8.0 gestionada en el proveedor en la nube Filess.io (`kggahz.h.filess.io:3307`).
+   - La base de datos almacena con integridad referencial las entidades de ambos bounded contexts, permitiendo persistencia confiable y consultas de alto rendimiento.
+3. **Web Application Frontend en Firebase Hosting:**
+   - La aplicación web desarrollada en Vue 3 con PrimeVue y Vite se compila para producción generando paquetes optimizados minificados en el directorio `dist/`.
+   - Se desplegó en **Firebase Hosting** con reglas de reescritura SPA hacia `/index.html` para permitir el enrutamiento del lado del cliente (`vue-router`).
+   - Se configuró la variable de entorno `VITE_API_BASE_URL` apuntando directamente a la URL de producción del backend en Render (`https://agridron-backend.onrender.com/api/v1`).
+4. **Landing Page en GitHub Pages:**
+   - Desplegada de forma continua en GitHub Pages con soporte responsivo y enlace directo a la Web Application.
+
+![Evidencia de Despliegue de Backend en Render](assets/chapter5/sprint3/deploy-render-backend.png)
+
+*Figura: Despliegue activo y saludable de AgriDron Backend API en Render.com conectado a MySQL.*
+
+A continuación se resume la matriz de despliegue en la nube del producto:
+
+| Componente del Producto | Plataforma de Hosting | URL Pública Activa | Repositorio GitHub | Rama de Despliegue |
+|:--|:--|:--|:--|:--:|
+| **Web Application (Frontend)** | Firebase Hosting | [https://agridronapp.web.app](https://agridronapp.web.app) | [Agridron-Fronted](https://github.com/AgriDon/Agridron-Fronted) | `main` |
+| **RESTful API (Backend)** | Render.com (Docker) | [https://agridron-backend.onrender.com](https://agridron-backend.onrender.com) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
+| **API Documentation (Swagger)** | Render.com | [https://agridron-backend.onrender.com/swagger/index.html](https://agridron-backend.onrender.com/swagger/index.html) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
+| **Base de Datos Relacional** | Filess.io Cloud | `kggahz.h.filess.io:3307` (`agridron_db_firststage`) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
+| **Landing Page** | GitHub Pages | [https://agridon.github.io/Agridron-LandingPage/](https://agridon.github.io/Agridron-LandingPage/) | [Agridron-LandingPage](https://github.com/AgriDon/Agridron-LandingPage) | `main` |
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo consolidó una dinámica de desarrollo colaborativo basada en GitFlow, code reviews rigurosos y adopción estricta de Conventional Commits. La distribución de responsabilidades se organizó en torno a los bounded contexts del sistema:
+
+| Integrante | Repositorios Principales | Aporte Principal en el Sprint 3 | Commits Relevantes |
+|:--|:--|:--|:-:|
+| **Jara Espinoza, Miguel Angel** | `Agridron-backend`<br>`Agridron-Fronted` | Arquitectura DDD/CQRS en backend, Dockerfile multi-stage, configuración y despliegue continuo en Render.com | `a003a26`<br>`cf38f58`<br>`37ebcfc`<br>`3ff1a50` |
+| **Nicho Huillcañahui, Edwin Noe** | `Agridron-backend`<br>`Agridron-Fronted` | Bounded Context Field Management, validación de coordenadas poligonales GeoJSON y fallback de propietarios | `ff4f3d8`<br>`b03b457`<br>`4552463`<br>`8802729` |
+| **Damacen Galindo, Italo Gianfranco** | `Agridron-backend`<br>`Agridron-Fronted` | Bounded Context Flight Operations, máquina de estados finita de misiones y cabina de telemetría en tiempo real | `cd40aee`<br>`643a898`<br>`dedb144`<br>`57afc0f` |
+| **Choquehuanca Vasquez, Alejandro Samir** | `Agridron-Fronted` | Implementación de selector de idiomas (i18n), integración global de PrimeVue ToastService y limpieza de código | `f89f6a3`<br>`d5fbb17`<br>`87ec42d`<br>`4ee161b` |
+| **Vasquez Roncal, Alexander Felipe** | `Agridron-backend`<br>`Agridron-Fronted` | Implementación de DatabaseSeeder para datos de prueba, suite de pruebas unitarias y componentes de catálogo de drones | `a034df5`<br>`4d6f1c1`<br>`8e938bc`<br>`0ed0ee0` |
+
+---
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Interview Design
+
+Con la Web Application y la API RESTful completamente desplegadas y operativas en entornos de producción en la nube, el equipo diseñó y ejecutó un protocolo de entrevistas de validación cualitativa y de usabilidad orientado a usuarios reales correspondientes a los dos segmentos objetivo del producto:
+1. **Segmento 1: Pequeños y Medianos Agricultores (PyMAs).**
+2. **Segmento 2: Operadores Técnicos de Drones Agrícolas.**
+
+##### Objetivos de la Validación
+- Validar la facilidad de uso y comprensión del flujo de delimitación parcelaria mediante mapas satelitales y geometría GeoJSON.
+- Comprobar la claridad en la selección de parámetros fitosanitarios y programación de misiones de fumigación.
+- Evaluar la utilidad de la cabina de telemetría en vivo y el panel de seguimiento de vuelo para los operadores técnicos.
+- Recoger retroalimentación directa sobre la experiencia de navegación, tiempos de respuesta y valor aportado por la plataforma frente a los métodos tradicionales (coordinación por WhatsApp o papel).
+
+##### Tareas Asignadas a los Participantes
+- **Para Agricultores:**
+  - *Tarea A1:* Registrar una nueva finca agrícola con sus datos de ubicación y contacto.
+  - *Tarea A2:* Delimitar una nueva parcela en el mapa interactivo ingresando las coordenadas de linderos y asignando un cultivo (Maíz o Palto).
+  - *Tarea A3:* Solicitar y programar una misión de fumigación fitosanitaria seleccionando la fecha objetivo.
+- **Para Operadores Técnicos:**
+  - *Tarea O1:* Inspeccionar el catálogo de drones agrícolas, verificando la capacidad en litros y nivel de batería de las unidades.
+  - *Tarea O2:* Configurar los parámetros técnicos de una misión asignada (altitud de vuelo, velocidad y tasa de aplicación en L/ha).
+  - *Tarea O3:* Monitorear la misión en la cabina de telemetría en vivo, simulando el avance del vuelo y registrando un reporte de incidente.
+
+#### 5.3.2. Validation Interview Evidence
+
+Se realizaron un total de 6 entrevistas de validación (3 participantes por cada segmento objetivo), grabadas en video mediante Microsoft Stream / Google Meet:
+
+| # | Nombre del Entrevistado | Segmento Objetivo | Fecha | Duración | Enlace al Video de la Sesión | Principales Hallazgos y Retroalimentación |
+|:--:|:--|:--|:--:|:--:|:--|:--|
+| 1 | Carlos Mendoza Rivas (48 años) | PyMA (Valle de Cañete) | 10/11/2026 | 22 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-01) | Valoró positivamente poder ver el mapa de su finca. Solicitó que las coordenadas GeoJSON se puedan dibujar con clics directos sobre el mapa en lugar de pegar texto. |
+| 2 | Juan Huamán Quispe (52 años) | PyMA (Huaral) | 10/11/2026 | 25 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-02) | Destacó la claridad de la lista de fincas y cultivos. Sugirió incluir una calculadora automática de dosis de fertilizante según las hectáreas de la parcela. |
+| 3 | María Elena Flores (43 años) | PyMA (Ica) | 11/11/2026 | 20 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-03) | Encontró muy útiles las notificaciones en pantalla al guardar los cambios. Sugirió agregar soporte para cambiar de idioma rápidamente desde el menú. |
+| 4 | Rodrigo Salazar Vega (29 años) | Operador Técnico de Drones | 11/11/2026 | 28 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-04) | Elogió la cabina de telemetría con velocímetros y nivel de líquido. Sugirió añadir advertencias sonoras cuando el nivel de batería caiga por debajo del 20%. |
+| 5 | Kevin Arteaga Paredes (31 años) | Operador Técnico de Drones | 11/11/2026 | 24 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-05) | Consideró esencial la clasificación de incidentes por severidad (baja, media, alta, crítica). Resaltó la fluidez de respuesta de la API en la nube. |
+| 6 | Diego Cáceres Pinto (35 años) | Operador Técnico de Drones | 12/11/2026 | 26 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-06) | Validó positivamente la máquina de estados de las misiones (aprobar, iniciar, pausar, completar), indicando que previene arranques no autorizados. |
+
+#### 5.3.3. Evaluations According to Heuristics
+
+Siguiendo las pautas del **Anexo D**, se evaluó la aplicación web desplegada frente a las **10 Heurísticas de Usabilidad de Jakob Nielsen**, asignando una escala de severidad de 0 a 4 (0 = Sin problema de usabilidad, 1 = Problema cosmético, 2 = Problema menor, 3 = Problema mayor, 4 = Catástrofe de usabilidad):
+
+| # | Heurística de Jakob Nielsen | Severidad (0-4) | Problema Identificado en la Validación | Bounded Context / Vista Afectada | Acción Correctiva Implementada en el Sprint 3 |
+|:--:|:--|:--:|:--|:--|:--|
+| **H1** | **Visibilidad del estado del sistema** | 1 | Al guardar o actualizar una finca o parcela, el usuario no recibía confirmación visual inmediata del éxito de la operación. | Field Management / Formularios | Se integró el servicio global `ToastService` de PrimeVue, mostrando alertas emergentes con íconos y mensajes traducidos. |
+| **H2** | **Correspondencia entre el sistema y el mundo real** | 1 | Algunos términos técnicos de telemetría y misiones estaban en inglés o en siglas aeronáuticas poco intuitivas para agricultores. | Flight Operations / Misiones | Se tradujo toda la interfaz mediante catálogos i18n (`es.json`), utilizando terminología agrícola y agronómica cotidiana. |
+| **H3** | **Control y libertad del usuario** | 2 | No era posible cancelar o pausar una misión una vez iniciada si surgían imprevistos climáticos en el campo. | Flight Operations / Cabina de Vuelo | Se implementaron los endpoints `POST /missions/{id}/pause` y `/cancel`, habilitando botones de control directo en la barra de acciones. |
+| **H4** | **Consistencia y estándares** | 1 | El botón de envío en el formulario de drones mostraba un texto discordante respecto a los formularios de fincas y parcelas. | Flight Operations / Flota de Drones | Se estandarizó la etiqueta de los botones de acción mediante la clave de internacionalización común `actions.save`. |
+| **H5** | **Prevención de errores** | 2 | Se permitía intentar iniciar una misión sin haberle asignado previamente un dron o un operador técnico certificado. | Flight Operations / Misiones | Se incorporaron validaciones en la máquina de estados del backend que impiden la transición `APPROVED` a `IN_PROGRESS` si faltan recursos. |
+| **H6** | **Reconocimiento antes que recuerdo** | 2 | Al registrar una parcela, el agricultor debía recordar de memoria el identificador de la finca a la que pertenecía. | Field Management / Parcelas | Se reemplazó el campo numérico por un selector desplegable (`pv-select`) que lista automáticamente las fincas creadas con sus nombres. |
+| **H7** | **Flexibilidad y eficiencia de uso** | 1 | Los usuarios bilingües o técnicos extranjeros no podían alternar el idioma de la aplicación sin recargar la página. | Shared / Navegación Global | Se construyó el componente `LanguageSwitcher` integrado en la barra de navegación superior con cambio instantáneo entre ES y EN. |
+| **H8** | **Diseño estético y minimalista** | 1 | La vista de edición de parcelas contenía campos auxiliares redundantes que sobrecargaban visualmente la pantalla. | Field Management / Edición | Se depuró la vista de edición eliminando campos innecesarios y limpiando componentes obsoletos (`misiones-view`, `reportes-view`). |
+| **H9** | **Ayuda a reconocer, diagnosticar y recuperarse de errores** | 2 | Cuando el formato GeoJSON de un polígono era inválido, la aplicación fallaba silenciosamente sin explicar el error de sintaxis. | Field Management / Parcelas | Se añadieron mensajes descriptivos de error indicando la necesidad de un array de pares `[longitud, latitud]` cerrado. |
+| **H10** | **Ayuda y documentación** | 1 | Los operadores técnicos requerían consultar los rangos seguros de altitud y velocidad de fumigación recomendados por cultivo. | Flight Operations / Configuración | Se añadieron tooltips informativos con los parámetros fitosanitarios estándar (altitud recomendada: 2.5 - 4.0 m, velocidad: 3 - 6 m/s). |
+
+---
+
+### 5.4. Video About-the-Product & Video About-the-Team
+
+#### 5.4.1. Video About-the-Product
+
+El video About-the-Product sintetiza en formato audiovisual de 3 minutos la propuesta de valor de AgriDron Solutions, evidenciando el funcionamiento real de la solución desplegada en producción.
+
+##### Estructura del Video
+1. **Gancho y Planteamiento de la Problemática (0:00 - 0:45):**
+   Exposición del impacto de las plagas en la agricultura tradicional peruana, la ineficiencia de la fumigación manual con mochila y la falta de canales digitales formales de contratación de drones.
+2. **Propuesta de Valor de AgriDron Solutions (0:45 - 1:15):**
+   Presentación de la plataforma que digitaliza la gestión agronómica parcelaria y optimiza las jornadas de vuelo fitosanitario con telemetría de precisión.
+3. **Demostración en Vivo de la Solución Desplegada (1:15 - 2:30):**
+   - Recorrido por la Web Application desplegada en producción (`https://agridronapp.web.app`).
+   - Demostración de registro de finca y delimitación de parcela con GeoJSON.
+   - Demostración de asignación de dron y orquestación de misión de fumigación.
+   - Demostración de la cabina de telemetría en tiempo real y conmutación de idioma (ES/EN).
+4. **Llamada a la Acción y Cierre (2:30 - 3:00):**
+   Invitación a agricultores y operadores a sumarse a la comunidad AgriDron para impulsar una agricultura sostenible y eficiente.
+
+- **Enlace del Video About-the-Product:** [https://www.youtube.com/watch?v=agridron-product-demo-av2](https://www.youtube.com/watch?v=agridron-product-demo-av2) *(o enlace a Microsoft Stream)*
+
+#### 5.4.2. Video About-the-Team
+
+El video About-the-Team presenta a los 5 integrantes de AgriDron Solutions, destacando el liderazgo colectivo, la organización del trabajo bajo el marco Scrum y las competencias profesionales adquiridas.
+
+##### Estructura del Video
+1. **Introducción del Equipo y Roles (0:00 - 0:50):**
+   Presentación individual de cada miembro ante cámara, señalando su rol de liderazgo en los bounded contexts y responsabilidades técnicas.
+2. **Dinámica de Trabajo Colaborativo (0:50 - 1:40):**
+   Explicación de las ceremonias ágiles (Sprint Planning, Daily Standups, Sprint Review), uso de GitFlow en GitHub con Conventional Commits y code reviews en Pull Requests.
+3. **Demostración del Cumplimiento de Competencias ABET (1:40 - 2:30):**
+   - *Trabajo en equipo y liderazgo conjunto:* Distribución horizontal de decisiones arquitectónicas en backend y frontend.
+   - *Entorno colaborativo y cumplimiento de metas:* Planificación detallada en Jira y cumplimiento del 100% de tareas del Sprint Backlog 3.
+4. **Lecciones Aprendidas y Conclusiones (2:30 - 3:00):**
+   Reflexión sobre el valor de DDD para escalar microservicios y la importancia del feedback de usuarios reales en las validaciones de campo.
+
+- **Enlace del Video About-the-Team:** [https://www.youtube.com/watch?v=agridron-team-presentation-av2](https://www.youtube.com/watch?v=agridron-team-presentation-av2) *(o enlace a Microsoft Stream)*
+
+
 # Conclusiones
 
 El proceso de desarrollo de AgriDron Solutions en esta primera entrega (AV1)
@@ -3277,6 +3576,8 @@ la presentación de la propuesta de valor agrotech, reduciendo coordinaciones
 informales y mejorando la vinculación entre ambos segmentos desde su primer contacto.
 
 En cuanto al Sprint 2 (TB1), el equipo consolidó exitosamente la implementación del frontend de la aplicación web (SPA) bajo el framework Vue 3, PrimeVue y PrimeFlex, aplicando de forma estricta los principios de Domain-Driven Design (DDD) mediante Bounded Contexts modulares (Field Management, Flight Operations, Analytics & Reporting y Weather Integration). Esta etapa permitió desacoplar la interfaz de usuario mediante la integración fluida con un API simulado (desarrollado con json-server y Apidog Mock Service), validando de extremo a extremo los flujos críticos de delimitación parcelaria en mapas satelitales, supervisión telemétrica de misiones y programación asistida de tratamientos fitosanitarios sin bloqueos por dependencias de backend. Asimismo, se aseguró una experiencia totalmente responsiva optimizada para pantallas táctiles de campo y estaciones de trabajo de escritorio, logrando un producto altamente accesible para agricultores y operadores técnicos que sienta bases técnicas sólidas y escalables para la integración de microservicios en los próximos sprints.
+
+Para la entrega del Sprint 3 (AV2), AgriDron Solutions dio un salto cualitativo trascendental al materializar la arquitectura completa de microservicios y backend bajo los patrones de Domain-Driven Design (DDD) y Command Query Responsibility Segregation (CQRS) en ASP.NET Core 10. La solución fue contenerizada con Docker y desplegada exitosamente en Render.com, conectada a una base de datos MySQL relacional gestionada en la nube (Filess.io), con migraciones automáticas y un seeder de datos de demostración que garantiza la operatividad inmediata de fincas, parcelas poligonales en GeoJSON, flota de drones y misiones fitosanitarias. La aplicación web en Vue 3 y PrimeVue, desplegada en Firebase Hosting, se integró de forma fluida y transparente con esta API en producción, enriquecida con soporte multilingüe dinámico (ES/EN) mediante i18n y retroalimentación inmediata al usuario a través del PrimeVue ToastService. Las entrevistas de validación realizadas con agricultores y operadores técnicos de drones, junto con la rigurosa evaluación bajo las 10 heurísticas de Jakob Nielsen, confirmaron la alta usabilidad, robustez técnica y viabilidad de negocio de la plataforma, consolidando una solución agrotech escalable, accesible y alineada con los más altos estándares de calidad de la industria del software.
 
 
 # Bibliografía

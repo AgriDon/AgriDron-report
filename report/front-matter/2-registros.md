@@ -98,5 +98,10 @@
 | 13.3    | 09/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Implementación de Bounded Context Reporting y configuración de Fake API (json-server) para pruebas mock |
 | 13.4    | 09/10/2026 | Damacen Galindo, Italo Gianfranco     | Integración de servicios compartidos, arquitectura DDD en frontend y estandarización responsiva para móvil/desktop |
 | 13.5    | 09/10/2026 | Jara Espinoza, Miguel Angel           | Consolidación del Sprint 2, revisión de artefactos UX/UI y actualización de conclusiones del informe |
- 
-
+| 14.0    | 08/11/2026 | Jara Espinoza, Miguel Angel           | Sprint Planning 3: Sprint Goal AV2, desglose de tareas e implementación de Backend DDD CQRS en ASP.NET Core 10 |
+| 14.1    | 09/11/2026 | Nicho Huillcañahui, Edwin Noe         | Bounded Context Field Management: Delimitación GeoJSON, validaciones geométricas y controladores REST |
+| 14.2    | 10/11/2026 | Damacen Galindo, Italo Gianfranco     | Bounded Context Flight Operations: Modelado de Misiones, Drones, Telemetría y Máquina de Estados de Vuelo |
+| 14.3    | 11/11/2026 | Choquehuanca Vasquez, Alejandro Samir | Frontend: Integración de Language Switcher (i18n), PrimeVue ToastService y conexión con API en producción |
+| 14.4    | 11/11/2026 | Vasquez Roncal, Alexander Felipe      | Backend: Implementación de DatabaseSeeder, Dockerfile multi-stage y pruebas de integración con MySQL |
+| 14.5    | 12/11/2026 | Jara Espinoza, Miguel Angel           | Despliegue en la nube: Web Service en Render.com con Docker, MySQL en Filess.io y Firebase Hosting |
+| 15.0    | 12/11/2026 | Vasquez Roncal, Alexander Felipe      | Entrevistas de validación de usabilidad (5.3), evaluaciones heurísticas de Nielsen y videos del producto y equipo (5.4) |
