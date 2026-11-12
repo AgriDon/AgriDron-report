@@ -4,7 +4,7 @@ Todas las actividades asignadas para la AV1 se encuentran documentadas en los re
 
 Organización Agridron: https://github.com/AgriDon
 
-En cuanto al informe del proyecto, cada integrante del equipo participó en la elaboración de los diferentes capítulos y apartados asignados, desarrollando contenido en formato Markdown, tablas, diagramas, evidencias y demás artefactos correspondientes al proyecto Agridron.
+En cuanto al informe del proyecto, cada integrante del equipo participó en la elaboración de los diferentes capítulos y secciones asignadas, desarrollando contenido en formato Markdown, tablas, diagramas, evidencias y demás artefactos correspondientes al proyecto Agridron.
 
 El progreso de cada integrante fue registrado mediante commits realizados en las diferentes ramas de trabajo del repositorio, permitiendo mantener un historial de los cambios y evidenciar la participación colaborativa del equipo durante el desarrollo de la AV1.
 
