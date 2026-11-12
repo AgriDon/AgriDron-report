@@ -48,7 +48,7 @@
 | 7.1     | 10/09/2026 | Jara Espinoza, Miguel Angel           | Impact Mapping                                                      |
 | 7.2     | 11/09/2026 | Vasquez Roncal, Alexander Felipe      | Design-Level Event Storming y Bounded Contexts                      |
 | 7.3     | 11/09/2026 | Nicho Huillcañahui, Edwin Noe         | Diagramas de arquitectura Context, Container y Components           |
-| 7.4     | 12/09/2026 | Jara Espinoza, Miguel Angel           | Actualización de apartados 4.3 a 4.4.1                              |
+| 7.4     | 12/09/2026 | Jara Espinoza, Miguel Angel           | Actualización de secciones 4.3 a 4.4.1                              |
 | 7.5     | 12/09/2026 | Vasquez Roncal, Alexander Felipe      | Reestructuración del Lean UX Canvas                                 |
 | 7.6     | 12/09/2026 | Vasquez Roncal, Alexander Felipe      | Corrección de Lean UX Problem Statements                            |
 | 7.7     | 12/09/2026 | Nicho Huillcañahui, Edwin Noe         | Actualización de Lean UX Hypothesis Statements                      |
@@ -74,7 +74,7 @@
 | 10.9    | 18/09/2026 | Nicho Huillcañahui, Edwin Noe         | Referencias del Product Backlog                                     |
 | 11.0    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Eliminación de contenido desactualizado del Capítulo I              |
 | 11.1    | 18/09/2026 | Vasquez Roncal, Alexander Felipe      | Reorganización del Capítulo I                                       |
-| 11.2    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Ubiquitous Language de VoltLab                                      |
+| 11.2    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Ubiquitous Language de AgriDron                                     |
 | 11.3    | 18/09/2026 | Vasquez Roncal, Alexander Felipe      | Reestructuración del análisis competitivo                           |
 | 11.4    | 18/09/2026 | Choquehuanca Vasquez, Alejandro Samir | Reorganización de contenido de los capítulos I y II                 |
 | 11.5    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Eliminación de contenido desactualizado de Requirements Elicitation |
@@ -98,5 +98,10 @@
 | 13.3    | 09/10/2026 | Choquehuanca Vasquez, Alejandro Samir | Implementación de Bounded Context Reporting y configuración de Fake API (json-server) para pruebas mock |
 | 13.4    | 09/10/2026 | Damacen Galindo, Italo Gianfranco     | Integración de servicios compartidos, arquitectura DDD en frontend y estandarización responsiva para móvil/desktop |
 | 13.5    | 09/10/2026 | Jara Espinoza, Miguel Angel           | Consolidación del Sprint 2, revisión de artefactos UX/UI y actualización de conclusiones del informe |
- 
-
+| 14.0    | 08/11/2026 | Jara Espinoza, Miguel Angel           | Sprint Planning 3: Sprint Goal AV2, desglose de tareas e implementación de Backend DDD CQRS en ASP.NET Core 10 |
+| 14.1    | 09/11/2026 | Nicho Huillcañahui, Edwin Noe         | Bounded Context Field Management: Delimitación GeoJSON, validaciones geométricas y controladores REST |
+| 14.2    | 10/11/2026 | Damacen Galindo, Italo Gianfranco     | Bounded Context Flight Operations: Modelado de Misiones, Drones, Telemetría y Máquina de Estados de Vuelo |
+| 14.3    | 11/11/2026 | Choquehuanca Vasquez, Alejandro Samir | Frontend: Integración de Language Switcher (i18n), PrimeVue ToastService y conexión con API en producción |
+| 14.4    | 11/11/2026 | Vasquez Roncal, Alexander Felipe      | Backend: Implementación de DatabaseSeeder, Dockerfile multi-stage y pruebas de integración con MySQL |
+| 14.5    | 12/11/2026 | Jara Espinoza, Miguel Angel           | Despliegue en la nube: Web Service en Render.com con Docker, MySQL en Filess.io y Firebase Hosting |
+| 15.0    | 12/11/2026 | Vasquez Roncal, Alexander Felipe      | Entrevistas de validación de usabilidad (5.3), evaluaciones heurísticas de Nielsen y videos del producto y equipo (5.4) |

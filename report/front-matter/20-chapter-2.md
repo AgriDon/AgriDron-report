@@ -362,7 +362,7 @@ Además, el 100% ha experimentado dificultades para demostrar al cliente la supe
 
 El 100% de los operadores utiliza actualmente registros físicos o herramientas no integradas para documentar sus servicios.
 
-Las bitácoras se realizan en libretas, hojas sueltas o archivos de Excel que posteriormente deben ser transcritos. Esta metodología puede provocar omisiones, pérdida de información y registros incompletos de las incidencias ocurridas durante la fumigación.
+Las bitácoras se realizan en libretas, hojas sueltas o archivos de Excel que posteriormente deben ser transcritos. Este método manual de registro puede provocar omisiones, pérdida de información y registros incompletos de las incidencias ocurridas durante la fumigación.
 
 ### Gestión de suspensiones
 
