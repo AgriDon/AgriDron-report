@@ -5,9 +5,9 @@
 ### Carrera de Ingeniería de Software
 <br>
 
-**1ASI0729**
+**1ASI0730**
 
-**Curso: Desarrollo de Aplicaciones Web**
+**Curso: Aplicaciones Web**
 
 **NRC: 8137**
 
@@ -26,14 +26,14 @@
 | **Código** |       **Apellidos y Nombres**        |
 |:-----------:|:------------------------------------:|
 | U202512856 |      Jara Espinoza Miguel Angel      |
-| U202512856 |     Nicho Huillcañahui Edwin Noe     |
+| U20241G306 |     Nicho Huillcañahui Edwin Noe     |
 | U202420249 | Choquehuanca Vasquez Alejandro Samir |
 | U202421392 |  Damacen Galindo, Italo Gianfranco   |
 | U202222473 |   Vasquez Roncal, Alexander Felipe   |
 
 
 <div align="center">
-<b><i>Septiembre, 2026</i></b>
+<b><i>Noviembre, 2026</i></b>
 </div>
 </div>
 
@@ -87,7 +87,7 @@
 | 7.1     | 10/09/2026 | Jara Espinoza, Miguel Angel           | Impact Mapping                                                      |
 | 7.2     | 11/09/2026 | Vasquez Roncal, Alexander Felipe      | Design-Level Event Storming y Bounded Contexts                      |
 | 7.3     | 11/09/2026 | Nicho Huillcañahui, Edwin Noe         | Diagramas de arquitectura Context, Container y Components           |
-| 7.4     | 12/09/2026 | Jara Espinoza, Miguel Angel           | Actualización de apartados 4.3 a 4.4.1                              |
+| 7.4     | 12/09/2026 | Jara Espinoza, Miguel Angel           | Actualización de secciones 4.3 a 4.4.1                              |
 | 7.5     | 12/09/2026 | Vasquez Roncal, Alexander Felipe      | Reestructuración del Lean UX Canvas                                 |
 | 7.6     | 12/09/2026 | Vasquez Roncal, Alexander Felipe      | Corrección de Lean UX Problem Statements                            |
 | 7.7     | 12/09/2026 | Nicho Huillcañahui, Edwin Noe         | Actualización de Lean UX Hypothesis Statements                      |
@@ -113,7 +113,7 @@
 | 10.9    | 18/09/2026 | Nicho Huillcañahui, Edwin Noe         | Referencias del Product Backlog                                     |
 | 11.0    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Eliminación de contenido desactualizado del Capítulo I              |
 | 11.1    | 18/09/2026 | Vasquez Roncal, Alexander Felipe      | Reorganización del Capítulo I                                       |
-| 11.2    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Ubiquitous Language de VoltLab                                      |
+| 11.2    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Ubiquitous Language de AgriDron                                     |
 | 11.3    | 18/09/2026 | Vasquez Roncal, Alexander Felipe      | Reestructuración del análisis competitivo                           |
 | 11.4    | 18/09/2026 | Choquehuanca Vasquez, Alejandro Samir | Reorganización de contenido de los capítulos I y II                 |
 | 11.5    | 18/09/2026 | Jara Espinoza, Miguel Angel           | Eliminación de contenido desactualizado de Requirements Elicitation |
@@ -145,7 +145,7 @@ Todas las actividades asignadas para la AV1 se encuentran documentadas en los re
 
 Organización Agridron: https://github.com/AgriDon
 
-En cuanto al informe del proyecto, cada integrante del equipo participó en la elaboración de los diferentes capítulos y apartados asignados, desarrollando contenido en formato Markdown, tablas, diagramas, evidencias y demás artefactos correspondientes al proyecto Agridron.
+En cuanto al informe del proyecto, cada integrante del equipo participó en la elaboración de los diferentes capítulos y secciones asignadas, desarrollando contenido en formato Markdown, tablas, diagramas, evidencias y demás artefactos correspondientes al proyecto Agridron.
 
 El progreso de cada integrante fue registrado mediante commits realizados en las diferentes ramas de trabajo del repositorio, permitiendo mantener un historial de los cambios y evidenciar la participación colaborativa del equipo durante el desarrollo de la AV1.
 
@@ -940,7 +940,7 @@ Además, el 100% ha experimentado dificultades para demostrar al cliente la supe
 
 El 100% de los operadores utiliza actualmente registros físicos o herramientas no integradas para documentar sus servicios.
 
-Las bitácoras se realizan en libretas, hojas sueltas o archivos de Excel que posteriormente deben ser transcritos. Esta metodología puede provocar omisiones, pérdida de información y registros incompletos de las incidencias ocurridas durante la fumigación.
+Las bitácoras se realizan en libretas, hojas sueltas o archivos de Excel que posteriormente deben ser transcritos. Este método manual de registro puede provocar omisiones, pérdida de información y registros incompletos de las incidencias ocurridas durante la fumigación.
 
 ### Gestión de suspensiones
 
@@ -2933,7 +2933,7 @@ La evidencia del despliegue de la Landing Page durante el Sprint se mostrará a 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Se anexa evidencia de la participación activa del equipo en el desarrollo de la Landing Page.
-Durante el Sprint 1, el equipo utilizó una metodología colaborativa mediante Pull Requests y
+Durante el Sprint 1, el equipo utilizó un flujo de trabajo colaborativo mediante Pull Requests y
 revisiones de código, asegurando que cada sección cumpliera con los estándares de calidad definidos.
 El gráfico de contribuciones muestra una distribución equitativa de tareas entre maquetación, estilos, lógica de i18n y despliegue.
 

@@ -5,9 +5,9 @@
 ### Carrera de Ingeniería de Software
 <br>
 
-**1ASI0729**
+**1ASI0730**
 
-**Curso: Desarrollo de Aplicaciones Web**
+**Curso: Aplicaciones Web**
 
 **NRC: 8137**
 
@@ -26,13 +26,13 @@
 | **Código** |       **Apellidos y Nombres**        |
 |:-----------:|:------------------------------------:|
 | U202512856 |      Jara Espinoza Miguel Angel      |
-| U202512856 |     Nicho Huillcañahui Edwin Noe     |
+| U20241G306 |     Nicho Huillcañahui Edwin Noe     |
 | U202420249 | Choquehuanca Vasquez Alejandro Samir |
 | U202421392 |  Damacen Galindo, Italo Gianfranco   |
 | U202222473 |   Vasquez Roncal, Alexander Felipe   |
 
 
 <div align="center">
-<b><i>Septiembre, 2026</i></b>
+<b><i>Noviembre, 2026</i></b>
 </div>
 </div>

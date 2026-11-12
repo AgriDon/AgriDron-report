@@ -205,7 +205,7 @@ La evidencia del despliegue de la Landing Page durante el Sprint se mostrará a 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Se anexa evidencia de la participación activa del equipo en el desarrollo de la Landing Page.
-Durante el Sprint 1, el equipo utilizó una metodología colaborativa mediante Pull Requests y
+Durante el Sprint 1, el equipo utilizó un flujo de trabajo colaborativo mediante Pull Requests y
 revisiones de código, asegurando que cada sección cumpliera con los estándares de calidad definidos.
 El gráfico de contribuciones muestra una distribución equitativa de tareas entre maquetación, estilos, lógica de i18n y despliegue.
 
