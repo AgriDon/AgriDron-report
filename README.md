@@ -3600,7 +3600,9 @@ Para la entrega del Sprint 3 (AV2), AgriDron Solutions dio un salto cualitativo 
 
 **Link LandingPague:** [https://agridon.github.io/Agridron-LandingPage/](https://agridon.github.io/Agridron-LandingPage/)
 
-**Link WebApp:** [https://agridronapp.web.app/inicio](https://agridronapp.web.app/inicio)
+**Link WebApp (Render):** [https://agridron-frontend.onrender.com](https://agridron-frontend.onrender.com)
+
+**Link WebApp (Firebase):** [https://agridronapp.web.app/inicio](https://agridronapp.web.app/inicio)
 
 **Link GitHub landingPage:** https://github.com/AgriDon/Agridron-LandingPage
 
