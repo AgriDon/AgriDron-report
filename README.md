@@ -2741,6 +2741,7 @@ El control de versiones del proyecto se realiza en GitHub, dentro de la organiza
 | Frontend Web Application | https://github.com/AgriDon/Agridron-Fronted |
 | API simulado (mock) | https://github.com/AgriDon/agridron-mock-api |
 | Web Services (Backend API) | https://github.com/AgriDon/Agridron-backend |
+| Backend Application | https://github.com/AgriDon/Agridron-backend  |
 
 </div>
 
@@ -3464,44 +3465,218 @@ Durante el Sprint 3, el equipo consolidó una dinámica de desarrollo colaborati
 
 ---
 
+
+
 ### 5.3. Validation Interviews
 
-#### 5.3.1. Interview Design
+Para comprobar que la solución realmente funciona en un escenario cercano al campo, llevamos a cabo una ronda de validación con representantes de nuestros dos segmentos objetivo. El propósito fue observar cómo interactúan con la Landing Page y la Web Application ya desplegadas, recoger sus impresiones sobre la propuesta de valor y detectar qué puntos de la interfaz necesitan pulirse antes de una puesta en marcha masiva.
 
-Con la Web Application y la API RESTful completamente desplegadas y operativas en entornos de producción en la nube, el equipo diseñó y ejecutó un protocolo de entrevistas de validación cualitativa y de usabilidad orientado a usuarios reales correspondientes a los dos segmentos objetivo del producto:
-1. **Segmento 1: Pequeños y Medianos Agricultores (PyMAs).**
-2. **Segmento 2: Operadores Técnicos de Drones Agrícolas.**
+#### 5.3.1. Diseño de Entrevistas
 
-##### Objetivos de la Validación
-- Validar la facilidad de uso y comprensión del flujo de delimitación parcelaria mediante mapas satelitales y geometría GeoJSON.
-- Comprobar la claridad en la selección de parámetros fitosanitarios y programación de misiones de fumigación.
-- Evaluar la utilidad de la cabina de telemetría en vivo y el panel de seguimiento de vuelo para los operadores técnicos.
-- Recoger retroalimentación directa sobre la experiencia de navegación, tiempos de respuesta y valor aportado por la plataforma frente a los métodos tradicionales (coordinación por WhatsApp o papel).
+A diferencia de las entrevistas iniciales de descubrimiento (*needfinding*), estas sesiones se centraron en evaluar el comportamiento real de los usuarios frente al producto funcionando. Queríamos comprobar si entendían de inmediato qué hace AgriDron, si lograban navegar por los módulos principales sin que tuviéramos que guiarlos paso a paso y si completaban los flujos clave del negocio sin trabas. También buscamos recoger sus comentarios espontáneos sobre la claridad de las pantallas, la utilidad práctica y la confianza que les transmite el sistema.
 
-##### Tareas Asignadas a los Participantes
-- **Para Agricultores:**
-  - *Tarea A1:* Registrar una nueva finca agrícola con sus datos de ubicación y contacto.
-  - *Tarea A2:* Delimitar una nueva parcela en el mapa interactivo ingresando las coordenadas de linderos y asignando un cultivo (Maíz o Palto).
-  - *Tarea A3:* Solicitar y programar una misión de fumigación fitosanitaria seleccionando la fecha objetivo.
-- **Para Operadores Técnicos:**
-  - *Tarea O1:* Inspeccionar el catálogo de drones agrícolas, verificando la capacidad en litros y nivel de batería de las unidades.
-  - *Tarea O2:* Configurar los parámetros técnicos de una misión asignada (altitud de vuelo, velocidad y tasa de aplicación en L/ha).
-  - *Tarea O3:* Monitorear la misión en la cabina de telemetría en vivo, simulando el avance del vuelo y registrando un reporte de incidente.
+Trabajamos nuevamente con los perfiles definidos para el proyecto: pequeños y medianos agricultores/administradores de fincas y operadores técnicos de drones de fumigación. Cada sesión fue moderada por un integrante del equipo y grabada en video como evidencia.
 
-#### 5.3.2. Validation Interview Evidence
+**Objetivos de la validación**
 
-Se realizaron un total de 6 entrevistas de validación (3 participantes por cada segmento objetivo), grabadas en video mediante Microsoft Stream / Google Meet:
+- Comprobar si los usuarios captan rápidamente la propuesta de valor de AgriDron al revisar la Landing Page.
+- Evaluar si logran navegar por la Web Application y completar las tareas principales sin fricciones ni confusiones.
+- Detectar problemas de usabilidad, organización de la información o accesibilidad (incluyendo el cambio de idioma ES/EN).
+- Recoger sugerencias concretas de mejora para futuras iteraciones del producto.
 
-| # | Nombre del Entrevistado | Segmento Objetivo | Fecha | Duración | Enlace al Video de la Sesión | Principales Hallazgos y Retroalimentación |
-|:--:|:--|:--|:--:|:--:|:--|:--|
-| 1 | Carlos Mendoza Rivas (48 años) | PyMA (Valle de Cañete) | 10/11/2026 | 22 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-01) | Valoró positivamente poder ver el mapa de su finca. Solicitó que las coordenadas GeoJSON se puedan dibujar con clics directos sobre el mapa en lugar de pegar texto. |
-| 2 | Juan Huamán Quispe (52 años) | PyMA (Huaral) | 10/11/2026 | 25 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-02) | Destacó la claridad de la lista de fincas y cultivos. Sugirió incluir una calculadora automática de dosis de fertilizante según las hectáreas de la parcela. |
-| 3 | María Elena Flores (43 años) | PyMA (Ica) | 11/11/2026 | 20 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-03) | Encontró muy útiles las notificaciones en pantalla al guardar los cambios. Sugirió agregar soporte para cambiar de idioma rápidamente desde el menú. |
-| 4 | Rodrigo Salazar Vega (29 años) | Operador Técnico de Drones | 11/11/2026 | 28 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-04) | Elogió la cabina de telemetría con velocímetros y nivel de líquido. Sugirió añadir advertencias sonoras cuando el nivel de batería caiga por debajo del 20%. |
-| 5 | Kevin Arteaga Paredes (31 años) | Operador Técnico de Drones | 11/11/2026 | 24 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-05) | Consideró esencial la clasificación de incidentes por severidad (baja, media, alta, crítica). Resaltó la fluidez de respuesta de la API en la nube. |
-| 6 | Diego Cáceres Pinto (35 años) | Operador Técnico de Drones | 12/11/2026 | 26 min | [Ver Grabación en MS Stream](https://web.microsoftstream.com/video/agridron-val-06) | Validó positivamente la máquina de estados de las misiones (aprobar, iniciar, pausar, completar), indicando que previene arranques no autorizados. |
+**Segmentos validados**
 
-#### 5.3.3. Evaluations According to Heuristics
+- **Segmento 1:** Pequeños y Medianos Agricultores / Administradores de Fincas.
+- **Segmento 2:** Operadores Técnicos y Proveedores de Servicios de Fumigación con Drones.
+
+**Escenarios y tareas de validación**
+
+Estructuramos las pruebas alrededor de tareas prácticas alineadas con el uso diario de la plataforma:
+
+*Para el segmento de agricultores y administradores de fincas:*
+
+- Revisar la Landing Page, identificar el propósito principal de AgriDron y probar el cambio de idioma.
+- Ingresar a la Web Application utilizando los botones de llamada a la acción (CTA).
+- Interpretar los indicadores clave (KPI) mostrados en el *Dashboard* inicial.
+- Registrar una finca y delimitar una parcela sobre el mapa satelital (*Field Management*).
+- Solicitar una misión de fumigación verificando la alerta meteorológica preventiva y revisar el historial de estados.
+
+*Para el segmento de operadores técnicos y proveedores de drones:*
+
+- Identificar desde la Landing Page cómo AgriDron agiliza la coordinación de servicios aeroagrícolas.
+- Navegar desde la Landing Page hacia la Web Application.
+- Revisar el catálogo de flota de drones, niveles de batería y fechas de mantenimiento (*Flight Operations*).
+- Visualizar en el mapa satelital el polígono de la parcela registrado por el agricultor y ejecutar la transición de estados de vuelo (aprobar, iniciar, pausar y finalizar) en la cabina de telemetría.
+- Analizar los resultados consolidados en la vista de reportes (*Analytics & Reporting*).
+
+**Preguntas posteriores a la demostración**
+
+Una vez que cada participante completó el recorrido por la Landing Page y la Web Application, el moderador realizó cinco preguntas abiertas para recoger su valoración general:
+
+- Después de ver y probar la aplicación, ¿te parece útil para tu trabajo o gestión en campo?
+- ¿Qué parte o funcionalidad de la plataforma te gustó más (delimitación en mapa, alertas climáticas, telemetría o reportes)?
+- ¿Hubo algún botón, etiqueta, flujo o vista que no entendiste o que te confundió?
+- ¿Usarías una aplicación como AgriDron en la vida real para tus campañas agrícolas? ¿Por qué?
+- ¿Qué cambiarías o mejorarías para facilitar su uso diario en campo?
+
+
+#### 5.3.2. Registro de Entrevistas
+
+Realizamos un total de 6 entrevistas de validación (3 por cada segmento objetivo). Todas las sesiones fueron grabadas y consolidadas en un único video de evidencia siguiendo las indicaciones del curso.
+
+**Video consolidado de validación**
+
+- **Enlace en Microsoft Stream:** [Vídeo de Validación - AgriDron Solutions](https://web.microsoftstream.com/) *(COMPLETAR CON EL ENLACE REAL)*
+- **Captura de evidencia:**
+
+![Evidencia Consolidada de Validación](../images/chapter5/validation/video_validacion_consolidado.png)
+
+*Figura: Captura del video consolidado con las sesiones de validación de AgriDron Solutions.*
+
+---
+
+##### Segmento Objetivo: Agricultores y Administradores de Fincas
+
+###### Entrevista de validación #1 – Camila Ramos Paucar
+
+![Captura Validación Camila Ramos](../images/chapter5/validation/validacion1_camila.png)
+
+*Figura: Evidencia de Entrevista de Validación #1 – Camila Ramos Paucar.*
+
+**Resumen de la sesión:**
+
+Camila (administradora de un fundo de 18 hectáreas en Ica) entendió de inmediato el enfoque de AgriDron desde la Landing Page y pasó a la Web Application sin contratiempos desde su laptop. Completó el registro de su finca, trazó el polígono de la parcela en el mapa satelital y verificó el cálculo automático de hectáreas. Lo que más valoró fueron las alertas meteorológicas previas a confirmar una misión, ya que en Ica el viento de la tarde suele arruinar las aplicaciones. Como mejora, sugirió añadir un botón para descargar el reporte final en PDF y anexarlo directamente a su contabilidad.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alexander Vasquez |
+| **Entrevistado** | Camila Ramos Paucar |
+| **Segmento objetivo** | Agricultor / Administrador de Finca |
+| **Edad** | 25 |
+| **Ubicación** | Subtanjalla, Ica |
+| **Duración / Empieza en** | 11:20 minutos / 0:00 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+---
+
+###### Entrevista de validación #2 – Diana (en representación de Rómulo Huamán Ccora)
+
+![Captura Validación Diana](../images/chapter5/validation/validacion2_diana.png)
+
+*Figura: Evidencia de Entrevista de Validación #2 – Diana (en representación de Rómulo Huamán Ccora).*
+
+**Resumen de la sesión:**
+
+Diana probó la plataforma directamente desde su celular Android en Chrome, tal como gestiona las labores del predio de 12 hectáreas de su padre en Barranca. Confirmó que el diseño responsivo se adapta bien a pantallas pequeñas y destacó que el selector de idioma a español hizo que cada opción resultara muy clara. Le gustó especialmente poder ver el estado exacto de la misión (*Programada*, *En curso*, *Pausada*, *Completada*) y saber qué porcentaje avanzó si el clima obliga a detener el vuelo. Sugirió agregar controles de zoom más grandes para marcar vértices en pantalla táctil y una opción rápida para compartir el resumen por WhatsApp.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alejandro Choquehuanca |
+| **Entrevistado** | Diana (en representación de Rómulo Huamán Ccora) |
+| **Segmento objetivo** | Agricultor / Administrador de Finca |
+| **Edad** | 25 (Rómulo Huamán Ccora: 52) |
+| **Ubicación** | Supe, Barranca, Lima |
+| **Duración / Empieza en** | 12:45 minutos / 11:21 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+---
+
+##### Segmento Objetivo: Operadores Técnicos y Proveedores de Fumigación con Drones
+
+###### Entrevista de validación #3 – Jesus Arroyo
+
+![Captura Validación Jesus Arroyo](../images/chapter5/validation/validacion3_jesus.png)
+
+*Figura: Evidencia de Entrevista de Validación #3 – Jesus Arroyo.*
+
+**Resumen de la sesión:**
+
+Jesus, piloto certificado de drones en Huaral y Barranca, probó el sistema desde su tablet y laptop. Resaltó que recibir las órdenes con la parcela ya dibujada en el mapa satelital le ahorraría cerca de media hora de caminata previa en cada fundo. Probó el flujo de estados de la misión y valoró que el sistema impida iniciar un vuelo sin aprobación previa, además de integrar batería, ubicación y avance en la cabina de telemetría. Comentó que sí la usaría en su trabajo diario para evitar reclamos por el área fumigada y sugirió añadir un campo para anotar la velocidad exacta del viento medida con anemómetro al pausar una misión.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alejandro Choquehuanca |
+| **Entrevistado** | Jesus Arroyo |
+| **Segmento objetivo** | Operador Técnico de Drones |
+| **Edad** | 34 |
+| **Ubicación** | Valle de Huaral y Barranca, Lima |
+| **Duración / Empieza en** | 13:10 minutos / 24:06 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+---
+
+###### Entrevista de validación #4 – Valeria Sofía Mendoza Ríos
+
+![Captura Validación Valeria Mendoza](../images/chapter5/validation/validacion4_valeria.png)
+
+*Figura: Evidencia de Entrevista de Validación #4 – Valeria Sofía Mendoza Ríos.*
+
+**Resumen de la sesión:**
+
+Valeria, operadora de drones agrícolas en Cañete, evaluó la consistencia entre la gestión de flota, misiones y reportes. Destacó que el catálogo de drones permite revisar rápidamente la capacidad del tanque, el nivel de batería y las fechas de próximo mantenimiento. Además, señaló que la vista de analítica consolida las hectáreas tratadas automáticamente y le ahorra transcribir datos a Excel al final del día. Como mejora práctica para el campo, recomendó incluir un modo de alto contraste para leer la pantalla con claridad bajo sol intenso.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Edwin Nicho |
+| **Entrevistado** | Valeria Sofía Mendoza Ríos |
+| **Segmento objetivo** | Operador Técnico de Drones |
+| **Edad** | 25 |
+| **Ubicación** | Valle de Cañete, Lima Provincias |
+| **Duración / Empieza en** | 14:05 minutos / 37:17 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+---
+
+###### Entrevista de validación #5 – Daniel Arias Dextre
+
+![Captura Validación Daniel Arias](../images/chapter5/validation/validacion5_daniel.png)
+
+*Figura: Evidencia de Entrevista de Validación #5 – Daniel Arias Dextre.*
+
+**Resumen de la sesión:**
+
+Daniel, quien co-gestiona servicios de fumigación con drones en Ica y Arequipa, revisó la plataforma con enfoque en la organización de pedidos. Indicó que centralizar las solicitudes con fecha, parcela georreferenciada y estado elimina el desorden de coordinar cotizaciones por mensajes sueltos de WhatsApp. Consideró que la interfaz es sencilla y fácil de adoptar, y que las alertas climáticas sirven como respaldo técnico objetivo frente al cliente cuando toca reprogramar. Propuso sumar filtros por rango de fechas y estado de facturación en los reportes para facilitar el cierre semanal.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Italo Damacen |
+| **Entrevistado** | Daniel Arias Dextre (en representación de Roberto Arias) |
+| **Segmento objetivo** | Operador Técnico / Proveedor de Servicios |
+| **Edad** | 24 |
+| **Ubicación** | Valle de Ica y Arequipa |
+| **Duración / Empieza en** | 10:50 minutos / 51:23 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+---
+
+###### Entrevista de validación #6 – Eduardo Osorio
+
+![Captura Validación Eduardo Osorio](../images/chapter5/validation/validacion6_eduardo.png)
+
+*Figura: Evidencia de Entrevista de Validación #6 – Eduardo Osorio.*
+
+**Resumen de la sesión:**
+
+Eduardo, técnico agropecuario y piloto certificado DGAC en Cañete y Chincha, probó todo el ciclo desde la visualización del lote hasta el cierre de la misión. Confirmó que contar con el área exacta calculada sobre el mapa elimina las discusiones de cobro con agricultores que calculan sus terrenos "al ojo". Valoró mucho poder registrar pausas e incidencias dentro de la misión para sustentar el avance parcial. Sugirió agregar un espacio fijo en el perfil de cada parcela para dejar advertencias sobre obstáculos (postes o árboles altos) visibles en futuros vuelos.
+
+| Detalle | Información |
+|:---|:---|
+| **Entrevistador** | Alexander Vasquez |
+| **Entrevistado** | Eduardo Osorio |
+| **Segmento objetivo** | Operador Técnico de Drones (DGAC) |
+| **Edad** | 34 |
+| **Ubicación** | Valle de Cañete y Chincha |
+| **Duración / Empieza en** | 12:15 minutos / 1:02:14 |
+| **Enlace** | [COMPLETAR ENLACE] |
+
+
+
+
+
+
+
+
+#### 5.3.3. Evaluaciones según heurísticas
 
 Siguiendo las pautas del **Anexo D**, se evaluó la aplicación web desplegada frente a las **10 Heurísticas de Usabilidad de Jakob Nielsen**, asignando una escala de severidad de 0 a 4 (0 = Sin problema de usabilidad, 1 = Problema cosmético, 2 = Problema menor, 3 = Problema mayor, 4 = Catástrofe de usabilidad):
 
