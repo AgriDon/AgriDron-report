@@ -3561,7 +3561,7 @@ Camila (administradora de un fundo de 18 hectáreas en Ica) entendió de inmedia
 
 ###### Entrevista de validación #2 – Diana (en representación de Rómulo Huamán Ccora)
 
-![Captura Validación Diana](../images/chapter5/validation/validacion2_diana.png)
+![Captura Validación Diana ](report/images/Entrevistas/entrevistadianaSPT2.jpeg)
 
 *Figura: Evidencia de Entrevista de Validación #2 – Diana (en representación de Rómulo Huamán Ccora).*
 
@@ -3572,12 +3572,12 @@ Diana probó la plataforma directamente desde su celular Android en Chrome, tal 
 | Detalle | Información |
 |:---|:---|
 | **Entrevistador** | Alejandro Choquehuanca |
-| **Entrevistado** | Diana (en representación de Rómulo Huamán Ccora) |
+| **Entrevistado** | Diana |
 | **Segmento objetivo** | Agricultor / Administrador de Finca |
-| **Edad** | 25 (Rómulo Huamán Ccora: 52) |
+| **Edad** | 25 |
 | **Ubicación** | Supe, Barranca, Lima |
-| **Duración / Empieza en** | 12:45 minutos / 11:21 |
-| **Enlace** | [COMPLETAR ENLACE] |
+| **Duración / Empieza en** | 0:00 / 05:17 |
+| **Enlace** | https://drive.google.com/file/d/1t2SNiLzZv1G5Jl8_B7eeAnjcyHJsqSpP/view?usp=sharing |
 
 ---
 
