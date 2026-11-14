@@ -3585,9 +3585,7 @@ Diana probó la plataforma directamente desde su celular Android en Chrome, tal 
 
 ###### Entrevista de validación #3 – Jesus Arroyo
 
-![Captura Validación Jesus Arroyo](../images/chapter5/validation/validacion3_jesus.png)
-
-*Figura: Evidencia de Entrevista de Validación #3 – Jesus Arroyo.*
+![Captura Validación Jesus Arroyo](report/images/Entrevistas/entrevistajesuSPT2.jpeg)
 
 **Resumen de la sesión:**
 
@@ -3600,8 +3598,8 @@ Jesus, piloto certificado de drones en Huaral y Barranca, probó el sistema desd
 | **Segmento objetivo** | Operador Técnico de Drones |
 | **Edad** | 34 |
 | **Ubicación** | Valle de Huaral y Barranca, Lima |
-| **Duración / Empieza en** | 13:10 minutos / 24:06 |
-| **Enlace** | [COMPLETAR ENLACE] |
+| **Duración / Empieza en** | 00:00 minutos / 2:56 |
+| **Enlace** | https://drive.google.com/file/d/1oP9X6GqNwPexBuqcGm0EkEhvyfibvQ5C/view?usp=sharing |
 
 ---
 
@@ -3627,11 +3625,9 @@ Valeria, operadora de drones agrícolas en Cañete, evaluó la consistencia entr
 
 ---
 
-###### Entrevista de validación #5 – Daniel Arias Dextre
+###### Entrevista de validación #5 – Arias Dextre
 
-![Captura Validación Daniel Arias](../images/chapter5/validation/validacion5_daniel.png)
-
-*Figura: Evidencia de Entrevista de Validación #5 – Daniel Arias Dextre.*
+![Captura Validación Fabrizzio Arias Dexter ](report/images/Entrevistas/entrevistafabrizzioSPT2.jpeg)
 
 **Resumen de la sesión:**
 
@@ -3639,21 +3635,19 @@ Daniel, quien co-gestiona servicios de fumigación con drones en Ica y Arequipa,
 
 | Detalle | Información |
 |:---|:---|
-| **Entrevistador** | Italo Damacen |
-| **Entrevistado** | Daniel Arias Dextre (en representación de Roberto Arias) |
+| **Entrevistador** | Alejandro Choquehuanca |
+| **Entrevistado** | Arias Dextre |
 | **Segmento objetivo** | Operador Técnico / Proveedor de Servicios |
 | **Edad** | 24 |
 | **Ubicación** | Valle de Ica y Arequipa |
 | **Duración / Empieza en** | 10:50 minutos / 51:23 |
-| **Enlace** | [COMPLETAR ENLACE] |
+| **Enlace** | https://drive.google.com/file/d/1tClsweGGp4nHPsAdgWE8IADDfAKbTvrC/view?usp=sharing |
 
 ---
 
 ###### Entrevista de validación #6 – Eduardo Osorio
 
-![Captura Validación Eduardo Osorio](../images/chapter5/validation/validacion6_eduardo.png)
-
-*Figura: Evidencia de Entrevista de Validación #6 – Eduardo Osorio.*
+![Captura Validación Eduardo Osorio](report/images/Entrevistas/entrevistaeduardoSPT2.jpeg)
 
 **Resumen de la sesión:**
 
@@ -3661,18 +3655,13 @@ Eduardo, técnico agropecuario y piloto certificado DGAC en Cañete y Chincha, p
 
 | Detalle | Información |
 |:---|:---|
-| **Entrevistador** | Alexander Vasquez |
+| **Entrevistador** | Alejandro Choquehuanca |
 | **Entrevistado** | Eduardo Osorio |
-| **Segmento objetivo** | Operador Técnico de Drones (DGAC) |
+| **Segmento objetivo** | Operador Técnico de Drones |
 | **Edad** | 34 |
 | **Ubicación** | Valle de Cañete y Chincha |
-| **Duración / Empieza en** | 12:15 minutos / 1:02:14 |
-| **Enlace** | [COMPLETAR ENLACE] |
-
-
-
-
-
+| **Duración / Empieza en** | 00:00 minutos / 2:48 |
+| **Enlace** | https://drive.google.com/file/d/1TG0hi7RxTRx2JJEaW9KupX_MhOkkRJs-/view?usp=sharing |
 
 
 
