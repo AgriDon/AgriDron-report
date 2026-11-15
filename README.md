@@ -3621,7 +3621,7 @@ Valeria, operadora de drones agrícolas en Cañete, evaluó la consistencia entr
 | **Edad** | 25 |
 | **Ubicación** | Valle de Cañete, Lima Provincias |
 | **Duración / Empieza en** | 14:05 minutos / 37:17 |
-| **Enlace** | [COMPLETAR ENLACE] |
+| **Enlace** | https://drive.google.com/file/d/1sAjNMsIn79YZuKOxVQZ3a81xgzt8A97F/view?usp=sharing |
 
 ---
 
