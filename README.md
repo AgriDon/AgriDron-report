@@ -3341,36 +3341,82 @@ A continuación se presentan los commits más representativos ejecutados durante
 
 Durante este Sprint se consolidó la versión operativa de la Web Application desplegada en la nube conectada de extremo a extremo con el backend RESTful en ASP.NET Core 10. Las principales funcionalidades operativas son:
 
-1. **Gestión de Fincas y Parcelas con delimitación GeoJSON (Field Management):**
+1. **Dashboard Operativo e Integración Meteorológica en Vivo:**
+   Muestra métricas consolidadas en tiempo real (fincas registradas, parcelas, misiones y hectáreas totales), la tabla de misiones recientes y el widget meteorológico integrado con Open-Meteo y geocodificación inversa para validar condiciones de aspersión (`viento <= 15 km/h` y sin lluvia).
+2. **Gestión de Fincas y Parcelas con delimitación GeoJSON (Field Management):**
    Permite a los agricultores registrar sus unidades productivas mediante formularios reactivos que incorporan validación geométrica de polígonos GeoJSON (coordenadas de latitud y longitud). Cada parcela calcula su área en hectáreas y vincula el tipo de cultivo asociado.
-2. **Administración de Flota de Drones Agrícolas (Flight Operations):**
-   Presenta el catálogo de aeronaves no tripuladas disponibles, especificando modelo, fabricante, capacidad del tanque de aspersión en litros, autonomía de batería en minutos y estado operacional actual (DISPONIBLE, EN_MISION, MANTENIMIENTO, INACTIVO).
-3. **Planificación y Orquestación del Ciclo de Vida de Misiones de Fumigación:**
-   Módulo avanzado que modela la máquina de estados finita de una misión: Creación (DRAFT) -> Asignación de Recursos y Operador -> Configuración de Parámetros de Aspersión (altitud de vuelo, velocidad crucero, caudal de pulverización en L/ha) -> Aprobación (APPROVED) -> Inicio de Operación (IN_PROGRESS) -> Pausa / Reanudación (PAUSED) -> Finalización (COMPLETED) o Cancelación (CANCELLED).
-4. **Cabina de Telemetría en Vivo y Bitácora de Incidentes:**
-   Panel de supervisión interactivo que simula la recepción de telemetría del dron en vuelo: porcentaje de batería en tiempo real, altitud de vuelo, velocidad respecto al suelo, presión y nivel de líquido remanente en el depósito de aspersión. Además, permite reportar incidencias clasificadas por severidad (BAJA, MEDIA, ALTA, CRITICA).
-5. **Selector de Idioma Dinámico (i18n) y Notificaciones Toast Globales:**
-   Integración de PrimeVue `SelectButton` en la barra de navegación para conmutar fluidamente entre español e inglés (`es.json` y `en.json`), con persistencia en `localStorage`. Además, la integración de PrimeVue `ToastService` provee retroalimentación visual no invasiva en operaciones exitosas, advertencias y fallos del sistema.
+3. **Administración de Flota de Drones y Mantenimiento (Flight Operations):**
+   Presenta el catálogo de aeronaves no tripuladas conectadas con el backend (`DJI Agras T30`, `DJI Agras T40`, `XAG P100 Pro`), mostrando modelo, número de serie, capacidad del tanque en litros, horas de vuelo, batería y estado operacional (`AVAILABLE`, `ASSIGNED`, `IN_FLIGHT`, `PAUSED`, `MAINTENANCE`, `OUT_OF_SERVICE`), además del flujo de **Send to maintenance**, **Report failure** e historial **Maintenance History**.
+4. **Planificación y Orquestación del Ciclo de Vida de Misiones de Fumigación:**
+   Módulo avanzado que modela la máquina de estados finita de una misión: Creación (`DRAFT`) -> Asignación de Recursos y Operador -> Configuración de Parámetros de Aspersión (altitud de vuelo, velocidad crucero, caudal de pulverización en L/ha) -> Aprobación (`APPROVED`) -> Inicio de Operación (`IN_PROGRESS`) -> Pausa / Reanudación (`PAUSED`) -> Finalización (`COMPLETED`) o Cancelación (`CANCELLED`).
+5. **Cabina de Telemetría en Vivo y Bitácora de Incidentes:**
+   Panel de supervisión interactivo (`/misiones/:id/monitoreo`) que simula y persiste lecturas telemétricas del dron en vuelo (trayectoria en mapa, batería en tiempo real, altitud AGL, velocidad, nivel de tanque, cobertura y condiciones meteorológicas pre-vuelo), junto con el registro de incidencias.
+6. **Gestión de Inventario, Selector de Idioma Dinámico (`EN` / `ES`) y Diseño Responsivo:**
+   Módulo de inventario de agroquímicos y boquillas (`/inventario`), conmutación dinámica de idioma mediante PrimeVue `SelectButton` persistida en `localStorage`, notificaciones con `ToastService` y adaptación responsiva en dispositivos móviles (`390×844`).
+
+![Dashboard Operativo en Inglés](assets/chapter5/sprint3/exec-dashboard-en.png)
+
+*Figura: Dashboard principal (`/inicio`) en inglés mostrando KPIs reales, misiones recientes y condiciones meteorológicas en vivo.*
+
+![Gestión de Parcelas](assets/chapter5/sprint3/exec-parcels.png)
+
+*Figura: Vista de gestión de parcelas (`/parcelas`) con cultivo asignado, área en hectáreas y acciones CRUD.*
+
+![Flota de Drones Agrícolas](assets/chapter5/sprint3/exec-drones-fleet.png)
+
+*Figura: Catálogo de flota de drones (`/drones`) sincronizado con la API RESTful de producción.*
+
+![Detalle de Dron y Mantenimiento](assets/chapter5/sprint3/exec-drone-maintenance.png)
+
+*Figura: Vista de detalle de dron (`/drones/1`) con acciones de mantenimiento (`Send to maintenance`), reporte de falla (`Report failure`) e historial (`Maintenance History`).*
+
+![Cabina de Telemetría en Vivo](assets/chapter5/sprint3/exec-mission-cockpit.png)
+
+*Figura: Cabina de control y telemetría en vivo (`/misiones/1/monitoreo`) con trayectoria, indicadores de vuelo, clima e incidencias.*
+
+![Gestión de Inventario y Recursos](assets/chapter5/sprint3/exec-inventory.png)
+
+*Figura: Módulo de Inventario y Gestión de Recursos (`/inventario`) para agroquímicos y boquillas.*
+
+![Vista Móvil Responsiva de AgriDron Web App](assets/chapter5/sprint3/exec-mobile-responsive.png)
+
+*Figura: Adaptación responsiva en viewport móvil (`390×844`) con menú colapsable y tarjetas apiladas.*
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-El backend de AgriDron Solutions fue diseñado e implementado siguiendo rigurosamente los principios de **Domain-Driven Design (DDD)** táctico propuestos por Eric Evans, complementado con el patrón **Command Query Responsibility Segregation (CQRS)** mediante MediatR. La API RESTful expone 50 operaciones completamente documentadas con OpenAPI Specification (OAS 3.0) y visualizadas interactivamente a través de Swagger UI.
+El backend de AgriDron Solutions fue diseñado e implementado siguiendo rigurosamente los principios de **Domain-Driven Design (DDD)** táctico, complementado con el patrón **Command Query Responsibility Segregation (CQRS)** mediante **Cortex Mediator**. La API RESTful expone **54 operaciones** completamente documentadas con OpenAPI Specification (OAS 3.0) y visualizadas interactivamente a través de Swagger UI, incluyendo los endpoints de mantenimiento preventivo/correctivo y fallos de flota incorporados en el Sprint 3.
 
 - **Repositorio de código fuente:** [https://github.com/AgriDon/Agridron-backend](https://github.com/AgriDon/Agridron-backend)
 - **Documentación Swagger interactiva en vivo:** [https://agridron-backend.onrender.com/swagger/index.html](https://agridron-backend.onrender.com/swagger/index.html)
 
 ![Documentación Swagger UI de AgriDron Backend API](assets/chapter5/sprint3/swagger-documentation.png)
 
-*Figura: Interfaz de Swagger UI desplegada en Render mostrando los endpoints de Field Management y Flight Operations.*
+*Figura: Interfaz de Swagger UI desplegada en Render mostrando los grupos de endpoints de Crops, Drones, Farms, FumigationAreas, Incidents, Missions, Operations y Parcels.*
 
-A continuación se detalla la matriz completa de los 50 endpoints que componen los servicios RESTful del backend:
+![Endpoints de Drones y Mantenimiento en Swagger UI](assets/chapter5/sprint3/swagger-drones-maintenance.png)
+
+*Figura: Endpoints del controlador `Drones` en Swagger UI incluyendo el registro de mantenimiento, finalización, reporte de fallos e historial de registros.*
+
+![Prueba interactiva Try it out de GET /api/v1/drones](assets/chapter5/sprint3/swagger-try-it-out-drones.png)
+
+*Figura: Ejecución en vivo desde Swagger UI (`GET /api/v1/drones`) retornando HTTP `200 OK` con la flota inicializada (`AGRI-DR-002` DJI Agras T30, `AGRI-DR-001` DJI Agras T40, `AGRI-DR-003` XAG P100 Pro).*
+
+![Esquema de petición POST /api/v1/drones/{id}/maintenance en Swagger UI](assets/chapter5/sprint3/swagger-post-maintenance-schema.png)
+
+*Figura: Contrato OpenAPI y esquema JSON de `POST /api/v1/drones/{id}/maintenance` en Swagger UI.*
+
+![Endpoints de Misiones y Máquina de Estados en Swagger UI](assets/chapter5/sprint3/swagger-missions-endpoints.png)
+
+*Figura: Endpoints del controlador `Missions` cubriendo CRUD y transiciones de ciclo de vida (`approve`, `start`, `pause`, `resume`, `complete`, `cancel`).*
+
+A continuación se detalla la matriz completa de los **54 endpoints** que componen los servicios RESTful del backend:
 
 | # | Bounded Context | Controlador | Método | Ruta del Endpoint | Códigos HTTP | Propósito Funcional |
 |:--:|:--|:--|:--:|:--|:--:|:--|
 | 1 | Field Management | Crops | `GET` | `/api/v1/crops` | 200 | Listar todos los cultivos registrados |
 | 2 | Field Management | Crops | `GET` | `/api/v1/crops/{id}` | 200, 404 | Obtener detalle de cultivo por ID |
 | 3 | Field Management | Crops | `POST` | `/api/v1/crops` | 201, 400 | Registrar un nuevo cultivo fitosanitario |
-| 4 | Field Management | Crops | `PUT` | `/api/v1/crops/{id}` | 200, 400, 404 | Actualizar datos y requerimientos del cultivo |
+| 4 | Field Management | Crops | `PUT` | `/api/v1/crops/{id}` | 200, 400, 404 | Actualizar datos y requisitos del cultivo |
 | 5 | Field Management | Crops | `DELETE` | `/api/v1/crops/{id}` | 204, 404 | Eliminar cultivo por ID |
 | 6 | Field Management | Farms | `GET` | `/api/v1/farms` | 200 | Listar todas las fincas agrícolas |
 | 7 | Field Management | Farms | `GET` | `/api/v1/farms/{id}` | 200, 404 | Obtener información detallada de finca por ID |
@@ -3392,31 +3438,35 @@ A continuación se detalla la matriz completa de los 50 endpoints que componen l
 | 23 | Flight Operations | Drones | `POST` | `/api/v1/drones` | 201, 400 | Registrar nueva aeronave con capacidad y autonomía |
 | 24 | Flight Operations | Drones | `PUT` | `/api/v1/drones/{id}` | 200, 400, 404 | Actualizar datos técnicos o estado de operatividad |
 | 25 | Flight Operations | Drones | `DELETE` | `/api/v1/drones/{id}` | 204, 404 | Retirar aeronave de la flota activa |
-| 26 | Flight Operations | Missions | `GET` | `/api/v1/missions` | 200 | Listar misiones de fumigación planificadas y ejecutadas |
-| 27 | Flight Operations | Missions | `GET` | `/api/v1/missions/{id}` | 200, 404 | Consultar estado y parámetros completos de una misión |
-| 28 | Flight Operations | Missions | `POST` | `/api/v1/missions` | 201, 400 | Crear borrador de misión fitosanitaria (estado DRAFT) |
-| 29 | Flight Operations | Missions | `PUT` | `/api/v1/missions/{id}` | 200, 400, 404 | Modificar datos base del borrador de misión |
-| 30 | Flight Operations | Missions | `DELETE` | `/api/v1/missions/{id}` | 204, 404 | Eliminar misión en estado borrador |
-| 31 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resources` | 200, 400, 404 | Asignar dron y área de fumigación a la misión |
-| 32 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/operator` | 200, 400, 404 | Asignar operador técnico certificado a la misión |
-| 33 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/flight-parameters` | 200, 400, 404 | Configurar altitud, velocidad, caudal y modo de vuelo |
-| 34 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/approve` | 200, 400, 404 | Transición de estado: Aprobar misión (DRAFT -> APPROVED) |
-| 35 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/start` | 200, 400, 404 | Transición de estado: Iniciar vuelo (APPROVED -> IN_PROGRESS) |
-| 36 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/pause` | 200, 400, 404 | Transición de estado: Pausar misión (IN_PROGRESS -> PAUSED) |
-| 37 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resume` | 200, 400, 404 | Transición de estado: Reanudar vuelo (PAUSED -> IN_PROGRESS) |
-| 38 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/complete` | 200, 400, 404 | Transición de estado: Completar misión (IN_PROGRESS -> COMPLETED) |
-| 39 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/cancel` | 200, 400, 404 | Cancelar misión y liberar recursos asociados |
-| 40 | Flight Operations | Operations | `GET` | `/api/v1/operations` | 200 | Listar estados operacionales y bitácora telemétrica |
-| 41 | Flight Operations | Operations | `GET` | `/api/v1/operations/{id}` | 200, 404 | Consultar reporte telemétrico individual |
-| 42 | Flight Operations | Operations | `POST` | `/api/v1/operations` | 201, 400 | Registrar nuevo reporte de telemetría de dron en vuelo |
-| 43 | Flight Operations | Operations | `PUT` | `/api/v1/operations/{id}` | 200, 400, 404 | Actualizar métricas del estado operacional |
-| 44 | Flight Operations | Operations | `DELETE` | `/api/v1/operations/{id}` | 204, 404 | Eliminar registro operacional |
-| 45 | Flight Operations | Incidents | `GET` | `/api/v1/incidents` | 200 | Listar bitácora de incidentes reportados en vuelo |
-| 46 | Flight Operations | Incidents | `GET` | `/api/v1/incidents/{id}` | 200, 404 | Consultar incidente particular con su nivel de severidad |
-| 47 | Flight Operations | Incidents | `POST` | `/api/v1/incidents` | 201, 400 | Reportar nuevo incidente técnico o climático |
-| 48 | Flight Operations | Incidents | `PUT` | `/api/v1/incidents/{id}` | 200, 400, 404 | Actualizar resolución o descripción del incidente |
-| 49 | Flight Operations | Incidents | `DELETE` | `/api/v1/incidents/{id}` | 204, 404 | Eliminar registro de incidente |
-| 50 | Shared API | Root | `GET` | `/` | 302 | Redirección directa a la documentación Swagger UI |
+| 26 | Flight Operations | Drones | `POST` | `/api/v1/drones/{id}/maintenance` | 200, 400, 404 | Enviar aeronave a mantenimiento preventivo o correctivo |
+| 27 | Flight Operations | Drones | `POST` | `/api/v1/drones/{id}/maintenance/complete` | 200, 400, 404 | Finalizar mantenimiento y restaurar disponibilidad operativa |
+| 28 | Flight Operations | Drones | `POST` | `/api/v1/drones/{id}/failure` | 200, 400, 404 | Reportar fallo técnico y bloquear aeronave para vuelo |
+| 29 | Flight Operations | Drones | `GET` | `/api/v1/drones/{id}/maintenance-records` | 200, 404 | Consultar historial de registros de mantenimiento del dron |
+| 30 | Flight Operations | Missions | `GET` | `/api/v1/missions` | 200 | Listar misiones de fumigación planificadas y ejecutadas |
+| 31 | Flight Operations | Missions | `GET` | `/api/v1/missions/{id}` | 200, 404 | Consultar estado y parámetros completos de una misión |
+| 32 | Flight Operations | Missions | `POST` | `/api/v1/missions` | 201, 400 | Crear borrador de misión fitosanitaria (estado DRAFT) |
+| 33 | Flight Operations | Missions | `PUT` | `/api/v1/missions/{id}` | 200, 400, 404 | Modificar datos base del borrador de misión |
+| 34 | Flight Operations | Missions | `DELETE` | `/api/v1/missions/{id}` | 204, 404 | Eliminar misión en estado borrador |
+| 35 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resources` | 200, 400, 404 | Asignar dron y área de fumigación a la misión |
+| 36 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/operator` | 200, 400, 404 | Asignar operador técnico certificado a la misión |
+| 37 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/flight-parameters` | 200, 400, 404 | Configurar altitud, velocidad, caudal y modo de vuelo |
+| 38 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/approve` | 200, 400, 404 | Transición de estado: Aprobar misión (DRAFT -> APPROVED) |
+| 39 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/start` | 200, 400, 404 | Transición de estado: Iniciar vuelo (APPROVED -> IN_PROGRESS) |
+| 40 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/pause` | 200, 400, 404 | Transición de estado: Pausar misión (IN_PROGRESS -> PAUSED) |
+| 41 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/resume` | 200, 400, 404 | Transición de estado: Reanudar vuelo (PAUSED -> IN_PROGRESS) |
+| 42 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/complete` | 200, 400, 404 | Transición de estado: Completar misión (IN_PROGRESS -> COMPLETED) |
+| 43 | Flight Operations | Missions | `POST` | `/api/v1/missions/{id}/cancel` | 200, 400, 404 | Cancelar misión y liberar recursos asociados |
+| 44 | Flight Operations | Operations | `GET` | `/api/v1/operations` | 200 | Listar estados operacionales y bitácora telemétrica |
+| 45 | Flight Operations | Operations | `GET` | `/api/v1/operations/{id}` | 200, 404 | Consultar reporte telemétrico individual |
+| 46 | Flight Operations | Operations | `POST` | `/api/v1/operations` | 201, 400 | Registrar nuevo reporte de telemetría de dron en vuelo |
+| 47 | Flight Operations | Operations | `PUT` | `/api/v1/operations/{id}` | 200, 400, 404 | Actualizar métricas del estado operacional |
+| 48 | Flight Operations | Operations | `DELETE` | `/api/v1/operations/{id}` | 204, 404 | Eliminar registro operacional |
+| 49 | Flight Operations | Incidents | `GET` | `/api/v1/incidents` | 200 | Listar bitácora de incidentes reportados en vuelo |
+| 50 | Flight Operations | Incidents | `GET` | `/api/v1/incidents/{id}` | 200, 404 | Consultar incidente particular con su nivel de severidad |
+| 51 | Flight Operations | Incidents | `POST` | `/api/v1/incidents` | 201, 400 | Reportar nuevo incidente técnico o climático |
+| 52 | Flight Operations | Incidents | `PUT` | `/api/v1/incidents/{id}` | 200, 400, 404 | Actualizar resolución o descripción del incidente |
+| 53 | Flight Operations | Incidents | `DELETE` | `/api/v1/incidents/{id}` | 204, 404 | Eliminar registro de incidente |
+| 54 | Shared API | Root | `GET` | `/` | 302 | Redirección directa a la documentación Swagger UI |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -3426,26 +3476,35 @@ Durante el Sprint 3 se ejecutó el despliegue en la nube de todos los componente
    - La API fue empaquetada como imagen de contenedor Docker utilizando un Dockerfile multi-stage basado en el SDK de .NET 10 y el runtime ASP.NET Core 10.
    - Se configuró como Web Service en la plataforma Render.com conectado a la rama `main` del repositorio `AgriDon/Agridron-backend`, con compilación y despliegue continuo automatizado ante cada commit.
    - La aplicación ejecuta en entorno Linux expuesta en el puerto 8080 con certificados SSL/TLS automáticos.
-   - Al iniciar, el runtime ejecuta automáticamente las migraciones pendientes de Entity Framework Core mediante `Database.Migrate()` y ejecuta el `DatabaseSeeder` para inicializar el catálogo de cultivos, fincas, parcelas y drones.
+   - Al iniciar, el runtime ejecuta automáticamente las migraciones pendientes de Entity Framework Core mediante `Database.Migrate()` (incluyendo `AddMaintenanceRecords`) y ejecuta el `DatabaseSeeder` para inicializar el catálogo de cultivos, fincas, parcelas y drones.
 2. **Base de Datos Relacional MySQL en la Nube (Filess.io):**
    - Se aprovisionó una instancia de base de datos MySQL 8.0 gestionada en el proveedor en la nube Filess.io (`kggahz.h.filess.io:3307`).
    - La base de datos almacena con integridad referencial las entidades de ambos bounded contexts, permitiendo persistencia confiable y consultas de alto rendimiento.
-3. **Web Application Frontend en Firebase Hosting:**
+3. **Web Application Frontend en Render Static Site y Firebase Hosting:**
    - La aplicación web desarrollada en Vue 3 con PrimeVue y Vite se compila para producción generando paquetes optimizados minificados en el directorio `dist/`.
-   - Se desplegó en **Firebase Hosting** con reglas de reescritura SPA hacia `/index.html` para permitir el enrutamiento del lado del cliente (`vue-router`).
+   - Se desplegó en **Render Static Site** (`https://agridron-frontend.onrender.com`) con despliegue continuo desde la rama `main` del repositorio `AgriDon/Agridron-Fronted`, y en **Firebase Hosting** (`https://agridronapp.web.app`) con reglas de reescritura SPA hacia `/index.html` para permitir el enrutamiento del lado del cliente (`vue-router`).
    - Se configuró la variable de entorno `VITE_API_BASE_URL` apuntando directamente a la URL de producción del backend en Render (`https://agridron-backend.onrender.com/api/v1`).
 4. **Landing Page en GitHub Pages:**
-   - Desplegada de forma continua en GitHub Pages con soporte responsivo y enlace directo a la Web Application.
+   - Desplegada de forma continua en GitHub Pages (`https://agridon.github.io/Agridron-LandingPage/`) con soporte responsivo y enlace directo a la Web Application.
 
 ![Evidencia de Despliegue de Backend en Render](assets/chapter5/sprint3/deploy-render-backend.png)
 
 *Figura: Despliegue activo y saludable de AgriDron Backend API en Render.com conectado a MySQL.*
 
+![Evidencia de Despliegue de Frontend en Render Static Site](assets/chapter5/sprint3/deploy-render-frontend.png)
+
+*Figura: Web Application de AgriDron desplegada en Render Static Site (`https://agridron-frontend.onrender.com`) consumiendo la API de producción.*
+
+![Evidencia de Despliegue de Landing Page en GitHub Pages](assets/chapter5/sprint3/deploy-landing-github-pages.png)
+
+*Figura: Landing Page oficial de AgriDron Solutions desplegada y operativa en GitHub Pages (`https://agridon.github.io/Agridron-LandingPage/`).*
+
 A continuación se resume la matriz de despliegue en la nube del producto:
 
 | Componente del Producto | Plataforma de Hosting | URL Pública Activa | Repositorio GitHub | Rama de Despliegue |
 |:--|:--|:--|:--|:--:|
-| **Web Application (Frontend)** | Firebase Hosting | [https://agridronapp.web.app](https://agridronapp.web.app) | [Agridron-Fronted](https://github.com/AgriDon/Agridron-Fronted) | `main` |
+| **Web Application (Frontend)** | Render Static Site | [https://agridron-frontend.onrender.com](https://agridron-frontend.onrender.com) | [Agridron-Fronted](https://github.com/AgriDon/Agridron-Fronted) | `main` |
+| **Web Application (Mirror SPA)** | Firebase Hosting | [https://agridronapp.web.app](https://agridronapp.web.app) | [Agridron-Fronted](https://github.com/AgriDon/Agridron-Fronted) | `main` |
 | **RESTful API (Backend)** | Render.com (Docker) | [https://agridron-backend.onrender.com](https://agridron-backend.onrender.com) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
 | **API Documentation (Swagger)** | Render.com | [https://agridron-backend.onrender.com/swagger/index.html](https://agridron-backend.onrender.com/swagger/index.html) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
 | **Base de Datos Relacional** | Filess.io Cloud | `kggahz.h.filess.io:3307` (`agridron_db_firststage`) | [Agridron-backend](https://github.com/AgriDon/Agridron-backend) | `main` |
