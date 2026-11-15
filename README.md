@@ -3489,11 +3489,15 @@ Durante el Sprint 3 se ejecutó el despliegue en la nube de todos los componente
 
 ![Evidencia de Despliegue de Backend en Render](assets/chapter5/sprint3/deploy-render-backend.png)
 
-*Figura: Despliegue activo y saludable de AgriDron Backend API en Render.com conectado a MySQL.*
+*Figura: Panel de Render.com (`Agridron-backend`) mostrando deploy `Live` exitoso (`dep-dbt2p4c9v7es73chidbg`, commit `9c42c1a`, puerto `8080`) y URL activa `https://agridron-backend.onrender.com`.*
 
 ![Evidencia de Despliegue de Frontend en Render Static Site](assets/chapter5/sprint3/deploy-render-frontend.png)
 
-*Figura: Web Application de AgriDron desplegada en Render Static Site (`https://agridron-frontend.onrender.com`) consumiendo la API de producción.*
+*Figura: Panel de Render.com (`agridron-frontend`, Static Site) mostrando compilación Vite exitosa (`dist/`), estado `Deploy succeeded | Live` (`dep-dbrvtu67bikc73egkhv0`, commit `69492a4`) y publicación en CDN.*
+
+![Evidencia de Base de Datos MySQL en Filess.io](assets/chapter5/sprint3/deploy-filess-mysql.png)
+
+*Figura: Panel de Filess.io mostrando la instancia MySQL v8.0.29 `agridron_db_firststage` en estado `ACTIVE` (región `Spain sp-2`, host `kggahz.h.filess.io`, puerto `3307`).*
 
 ![Evidencia de Despliegue de Landing Page en GitHub Pages](assets/chapter5/sprint3/deploy-landing-github-pages.png)
 
