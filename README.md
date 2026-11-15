@@ -3526,7 +3526,7 @@ Realizamos un total de 6 entrevistas de validación (3 por cada segmento objetiv
 
 **Video consolidado de validación**
 
-- **Enlace en Youtube:** [Vídeo de Validación - AgriDron Solutions](https://youtu.be/-Qz7tNvGQ3w) 
+- **Enlace en Youtube:** https://youtu.be/-Qz7tNvGQ3w
 - **Captura de evidencia:**
 
 ![Evidencia Consolidada de Validación](report/images/chapter5/validation/video_validacion_consolidado.png)
@@ -3554,7 +3554,7 @@ Camila (administradora de un fundo de 18 hectáreas en Ica) entendió de inmedia
 | **Segmento objetivo** | Agricultor / Administrador de Finca |
 | **Edad** | 25 |
 | **Ubicación** | Subtanjalla, Ica |
-| **Duración / Empieza en** | 00:00/ 07:02 minutos |
+| **Duración / Empieza en** | 05:51/ 05:51 minutos |
 | **Enlace** | https://drive.google.com/file/d/1sBPqIhw3Enj_x6DboV8j0zIhtzjxA761/view?usp=sharing |
 
 ---
@@ -3576,7 +3576,7 @@ Diana probó la plataforma directamente desde su celular Android en Chrome, tal 
 | **Segmento objetivo** | Agricultor / Administrador de Finca |
 | **Edad** | 25 |
 | **Ubicación** | Supe, Barranca, Lima |
-| **Duración / Empieza en** | 00:00 / 05:17 |
+| **Duración / Empieza en** | 04:23 / 05:52 |
 | **Enlace** | https://drive.google.com/file/d/1t2SNiLzZv1G5Jl8_B7eeAnjcyHJsqSpP/view?usp=sharing |
 
 ---
@@ -3598,7 +3598,7 @@ Jesus, piloto certificado de drones en Huaral y Barranca, probó el sistema desd
 | **Segmento objetivo** | Operador Técnico de Drones |
 | **Edad** | 34 |
 | **Ubicación** | Valle de Huaral y Barranca, Lima |
-| **Duración / Empieza en** | 00:00 minutos / 2:56 |
+| **Duración / Empieza en** | 02:24 minutos / 10:16 |
 | **Enlace** | https://drive.google.com/file/d/1oP9X6GqNwPexBuqcGm0EkEhvyfibvQ5C/view?usp=sharing |
 
 ---
@@ -3620,7 +3620,7 @@ Valeria, operadora de drones agrícolas en Cañete, evaluó la consistencia entr
 | **Segmento objetivo** | Operador Técnico de Drones |
 | **Edad** | 25 |
 | **Ubicación** | Valle de Cañete, Lima Provincias |
-| **Duración / Empieza en** | 14:05 minutos / 37:17 |
+| **Duración / Empieza en** | 04:10 minutos / 12:41 |
 | **Enlace** | https://drive.google.com/file/d/1sAjNMsIn79YZuKOxVQZ3a81xgzt8A97F/view?usp=sharing |
 
 ---
@@ -3642,7 +3642,7 @@ Daniel, co-gestor del negocio familiar de fumigación con drones en representaci
 | **Segmento objetivo** | Operador Técnico / Proveedor de Servicios |
 | **Edad** | 24 |
 | **Ubicación** | Reside en Lima (operaciones en Valle de Ica y Arequipa) |
-| **Duración / Empieza en** | 09:14 minutos / 0:00 |
+| **Duración / Empieza en** | 7:40 minutos / 16:52 |
 | **Enlace** | https://drive.google.com/file/d/1dJ22R7_ZiqCd2JoM7U349kCNBcsYtP73/view?usp=sharing |
 
 ---
@@ -3662,7 +3662,7 @@ Eduardo, técnico agropecuario y piloto certificado DGAC en Cañete y Chincha, p
 | **Segmento objetivo** | Operador Técnico de Drones |
 | **Edad** | 34 |
 | **Ubicación** | Valle de Cañete y Chincha |
-| **Duración / Empieza en** | 00:00 minutos / 2:48 |
+| **Duración / Empieza en** | 02:44 minutos / 24:38 |
 | **Enlace** | https://drive.google.com/file/d/1TG0hi7RxTRx2JJEaW9KupX_MhOkkRJs-/view?usp=sharing |
 
 
