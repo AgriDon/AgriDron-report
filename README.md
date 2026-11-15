@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="150"/>
+<img src="report/images/logos/upc_logo.png" alt="UPC Logo" width="150"/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
 ### Carrera de Ingeniería de Software
@@ -3526,10 +3526,10 @@ Realizamos un total de 6 entrevistas de validación (3 por cada segmento objetiv
 
 **Video consolidado de validación**
 
-- **Enlace en Microsoft Stream:** [Vídeo de Validación - AgriDron Solutions](https://web.microsoftstream.com/) *(COMPLETAR CON EL ENLACE REAL)*
+- **Enlace en Microsoft Stream:** [Vídeo de Validación - AgriDron Solutions](https://youtu.be/-Qz7tNvGQ3w) 
 - **Captura de evidencia:**
 
-![Evidencia Consolidada de Validación](../images/chapter5/validation/video_validacion_consolidado.png)
+![Evidencia Consolidada de Validación](report/images/chapter5/validation/video_validacion_consolidado.png)
 
 *Figura: Captura del video consolidado con las sesiones de validación de AgriDron Solutions.*
 
