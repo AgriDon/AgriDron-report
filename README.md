@@ -3526,7 +3526,7 @@ Realizamos un total de 6 entrevistas de validación (3 por cada segmento objetiv
 
 **Video consolidado de validación**
 
-- **Enlace en Microsoft Stream:** [Vídeo de Validación - AgriDron Solutions](https://youtu.be/-Qz7tNvGQ3w) 
+- **Enlace en Youtube:** [Vídeo de Validación - AgriDron Solutions](https://youtu.be/-Qz7tNvGQ3w) 
 - **Captura de evidencia:**
 
 ![Evidencia Consolidada de Validación](report/images/chapter5/validation/video_validacion_consolidado.png)
