@@ -3539,7 +3539,7 @@ Realizamos un total de 6 entrevistas de validación (3 por cada segmento objetiv
 
 ###### Entrevista de validación #1 – Camila Ramos Paucar
 
-![Captura Validación Camila Ramos](../images/chapter5/validation/validacion1_camila.png)
+![Captura Validación Camila Ramos](report/images/Entrevistas/validacion1_camila.png)
 
 *Figura: Evidencia de Entrevista de Validación #1 – Camila Ramos Paucar.*
 
@@ -3554,8 +3554,8 @@ Camila (administradora de un fundo de 18 hectáreas en Ica) entendió de inmedia
 | **Segmento objetivo** | Agricultor / Administrador de Finca |
 | **Edad** | 25 |
 | **Ubicación** | Subtanjalla, Ica |
-| **Duración / Empieza en** | 11:20 minutos / 0:00 |
-| **Enlace** | [COMPLETAR ENLACE] |
+| **Duración / Empieza en** | 00:00/ 07:02 minutos |
+| **Enlace** | https://drive.google.com/file/d/1sBPqIhw3Enj_x6DboV8j0zIhtzjxA761/view?usp=sharing |
 
 ---
 
@@ -3576,7 +3576,7 @@ Diana probó la plataforma directamente desde su celular Android en Chrome, tal 
 | **Segmento objetivo** | Agricultor / Administrador de Finca |
 | **Edad** | 25 |
 | **Ubicación** | Supe, Barranca, Lima |
-| **Duración / Empieza en** | 0:00 / 05:17 |
+| **Duración / Empieza en** | 00:00 / 05:17 |
 | **Enlace** | https://drive.google.com/file/d/1t2SNiLzZv1G5Jl8_B7eeAnjcyHJsqSpP/view?usp=sharing |
 
 ---
