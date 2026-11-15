@@ -3625,23 +3625,25 @@ Valeria, operadora de drones agrícolas en Cañete, evaluó la consistencia entr
 
 ---
 
-###### Entrevista de validación #5 – Arias Dextre
+###### Entrevista de validación #5 – Daniel Arias Dextre (en representación de Roberto Arias)
 
-![Captura Validación Fabrizzio Arias Dexter ](report/images/Entrevistas/entrevistafabrizzioSPT2.jpeg)
+![Captura Validación Daniel Arias Dextre](report/images/Entrevistas/entrevistadanielSPT2.png)
+
+*Figura: Evidencia de Entrevista de Validación #5 – Daniel Arias Dextre (en representación de Roberto Arias).*
 
 **Resumen de la sesión:**
 
-Daniel, quien co-gestiona servicios de fumigación con drones en Ica y Arequipa, revisó la plataforma con enfoque en la organización de pedidos. Indicó que centralizar las solicitudes con fecha, parcela georreferenciada y estado elimina el desorden de coordinar cotizaciones por mensajes sueltos de WhatsApp. Consideró que la interfaz es sencilla y fácil de adoptar, y que las alertas climáticas sirven como respaldo técnico objetivo frente al cliente cuando toca reprogramar. Propuso sumar filtros por rango de fechas y estado de facturación en los reportes para facilitar el cierre semanal.
+Daniel, co-gestor del negocio familiar de fumigación con drones en representación de su padre Roberto Arias, recorrió la Web Application desde el registro de fincas y parcelas hasta la creación de misiones, la flota de drones y la configuración. Indicó que la plataforma le ayudaría a ordenar su agenda y a dejar de perder información entre chats de WhatsApp. Lo que más valoró fue la bandeja de misiones con el mapa georreferenciado del lote y las alertas climáticas, que sirven como respaldo neutral frente al cliente. Le pareció un flujo directo y fácil de seguir, y propuso sumar filtros por fechas y por estado de pago en los reportes para agilizar el cierre semanal de cuentas.
 
 | Detalle | Información |
 |:---|:---|
-| **Entrevistador** | Alejandro Choquehuanca |
-| **Entrevistado** | Arias Dextre |
+| **Entrevistador** | Italo Damacen |
+| **Entrevistado** | Daniel Arias Dextre (en representación de Roberto Arias) |
 | **Segmento objetivo** | Operador Técnico / Proveedor de Servicios |
 | **Edad** | 24 |
-| **Ubicación** | Valle de Ica y Arequipa |
-| **Duración / Empieza en** | 10:50 minutos / 51:23 |
-| **Enlace** | https://drive.google.com/file/d/1tClsweGGp4nHPsAdgWE8IADDfAKbTvrC/view?usp=sharing |
+| **Ubicación** | Reside en Lima (operaciones en Valle de Ica y Arequipa) |
+| **Duración / Empieza en** | 09:14 minutos / 0:00 |
+| **Enlace** | https://drive.google.com/file/d/1dJ22R7_ZiqCd2JoM7U349kCNBcsYtP73/view?usp=sharing |
 
 ---
 
