@@ -3605,7 +3605,7 @@ Jesus, piloto certificado de drones en Huaral y Barranca, probó el sistema desd
 
 ###### Entrevista de validación #4 – Valeria Sofía Mendoza Ríos
 
-![Captura Validación Valeria Mendoza](../images/chapter5/validation/validacion4_valeria.png)
+![Captura Validación Valeria Mendoza](report/images/Entrevistas/entrevistaValeriaMendozaSegmentoOperador.png)
 
 *Figura: Evidencia de Entrevista de Validación #4 – Valeria Sofía Mendoza Ríos.*
 
