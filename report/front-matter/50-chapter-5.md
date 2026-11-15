@@ -827,7 +827,7 @@ El video About-the-Product sintetiza en formato audiovisual de 3 minutos la prop
 2. **Propuesta de Valor de AgriDron Solutions (0:45 - 1:15):**
    Presentación de la plataforma que digitaliza la gestión agronómica parcelaria y optimiza las jornadas de vuelo fitosanitario con telemetría de precisión.
 3. **Demostración en Vivo de la Solución Desplegada (1:15 - 2:30):**
-   - Recorrido por la Web Application desplegada en producción (`https://agridronapp.web.app`).
+   - Recorrido por la Web Application desplegada en producción (`https://agridron-frontend.onrender.com/inicio`).
    - Demostración de registro de finca y delimitación de parcela con GeoJSON.
    - Demostración de asignación de dron y orquestación de misión de fumigación.
    - Demostración de la cabina de telemetría en tiempo real y conmutación de idioma (ES/EN).
