@@ -3301,7 +3301,9 @@ Para el Sprint 3 se definieron aspectos técnicos multidisciplinarios que abarca
 
 #### 5.2.3.3. Sprint Backlog 3
 
-El Sprint Backlog 3 descompone las 8 historias de usuario priorizadas en 20 tareas de ingeniería detalladas, asignadas equitativamente entre los integrantes del equipo:
+El Sprint Backlog 3 descompone las 8 historias de usuario priorizadas en 20 tareas de ingeniería detalladas, asignadas equitativamente entre los integrantes del equipo. El seguimiento de las tareas se realizó en Trello:
+
+**URL público del board:** https://trello.com/b/H2jyk8EF/aw-agridron-solutions
 
 | Id HU | Historia de Usuario | Id Tarea | Tarea de Ingeniería | Estimación (h) | Responsable | Estado |
 |:--:|:--|:--:|:--|:--:|:--|:--:|
