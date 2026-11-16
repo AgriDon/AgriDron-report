@@ -184,6 +184,35 @@ En esta sección se presentan las métricas de colaboración obtenidas mediante 
 
 **Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la TB1.
 
+
+
+
+## Insights AV2
+
+En esta sección se presentan las métricas de colaboración obtenidas mediante GitHub Insights. Estas evidencias permiten visualizar los commits realizados por los integrantes del equipo durante la AV2 y reflejan la participación de Agridron en la elaboración y evolución del Project Report.
+
+![Project Report Collaboration Insights AV2](report/images/InsightsV2/insightv2.1.jpeg)
+
+**Figura:** Métricas generales de contribución de los integrantes de Agridron durante la AV2.
+
+![Project Report Contributors AV2](report/images/InsightsV2/insightV2.jpeg)
+
+**Figura:** Detalle de los commits y participación de los colaboradores del repositorio Agridron durante la AV2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Contenido
 
 ## Tabla de Contenido
@@ -2715,15 +2744,15 @@ Con el fin de facilitar la colaboración del equipo en las distintas etapas del 
 
 | Categoría | Herramienta | Propósito | Tipo de acceso / Enlace |
 |:--|:--|:--|:--|
-| **Project Management** | Jira / Trello | Gestión del backlog, trazabilidad de historias de usuario, y tablero de tareas de cada Sprint bajo Scrum. | [Jira](https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog) / [Trello](https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron) |
-| **Requirements Management** | UXPressia | Elaboración de User Personas, Journey Maps, Empathy Maps e Impact Mapping. | [UXPressia](https://uxpressia.com) |
-| **Product UX/UI Design** | Figma | Wireframes, wireflows, mock-ups de alta fidelidad y prototipos interactivos. | [Figma](https://www.figma.com) |
-| **Modelado de Software** | Structurizr / Miro | Diagramas de arquitectura (C4 Model) y sesiones de EventStorming. | [Structurizr](https://structurizr.com) / [Miro](https://miro.com) |
-| **Frontend Development** | WebStorm | Desarrollo de la Web Application en Vue 3 (HTML5, CSS3 y JavaScript). | [WebStorm](https://www.jetbrains.com/webstorm/) |
-| **Backend Development** | JetBrains Rider | Desarrollo del RESTful API en C# (.NET) siguiendo Domain-Driven Design. | [JetBrains Rider](https://www.jetbrains.com/rider/) |
-| **API Mocking & Documentation** | Apidog | Simulación de endpoints (mock API) y documentación con OpenAPI. | [Apidog](https://apidog.com) |
-| **Deployment** | GitHub Pages / Firebase Hosting | Publicación de la Landing Page y de la Web Application. | [GitHub Pages](https://pages.github.com) / [Firebase](https://firebase.google.com/products/hosting) |
-| **Version Control** | GitHub | Alojamiento de repositorios y control de versiones mediante GitFlow y Conventional Commits. | [GitHub](https://github.com) |
+| **Project Management** | Jira / Trello | Gestión del backlog, trazabilidad de historias de usuario, y tablero de tareas de cada Sprint bajo Scrum. | https://agridron.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog y https://trello.com/invite/b/6aac1a270d8f45bc33ecd592/ATTIbc784176eb8dc497a26da32a3c554ea69211FF0D/agridron |
+| **Requirements Management** | UXPressia | Elaboración de User Personas, Journey Maps, Empathy Maps e Impact Mapping. |https://uxpressia.com |
+| **Product UX/UI Design** | Figma | Wireframes, wireflows, mock-ups de alta fidelidad y prototipos interactivos. | https://www.figma.com |
+| **Modelado de Software** | Structurizr / Miro | Diagramas de arquitectura (C4 Model) y sesiones de EventStorming. | https://structurizr.com / [Miro](https://miro.com) |
+| **Frontend Development** | WebStorm | Desarrollo de la Web Application en Vue 3 (HTML5, CSS3 y JavaScript). |https://www.jetbrains.com/webstorm/ |
+| **Backend Development** | JetBrains Rider | Desarrollo del RESTful API en C# (.NET) siguiendo Domain-Driven Design. | https://www.jetbrains.com/rider/ |
+| **API Mocking & Documentation** | Apidog | Simulación de endpoints (mock API) y documentación con OpenAPI. | https://apidog.com |
+| **Deployment** | GitHub Pages / Firebase Hosting | Publicación de la Landing Page y de la Web Application. | https://pages.github.com y https://firebase.google.com/products/hosting |
+| **Version Control** | GitHub | Alojamiento de repositorios y control de versiones mediante GitFlow y Conventional Commits. | https://github.com |
 | **Software Documentation** | Markdown | Redacción del informe del proyecto en formato Docs-as-Code. | Compatible con GitHub |
 
 ### 5.1.2. Source Code Management
@@ -3785,7 +3814,7 @@ El video About-the-Team presenta a los 5 integrantes de AgriDron Solutions, dest
 4. **Lecciones Aprendidas y Conclusiones (2:30 - 3:00):**
    Reflexión sobre el valor de DDD para escalar microservicios y la importancia del feedback de usuarios reales en las validaciones de campo.
 
-- **Enlace del Video About-the-Team:** [https://www.youtube.com/watch?v=agridron-team-presentation-av2](https://www.youtube.com/watch?v=agridron-team-presentation-av2) *(o enlace a Microsoft Stream)*
+- **Enlace del Video About-the-Team:** [https://www.youtube.com/watch?v=agridron-team-presentation-av2](https://www.youtube.com/watch?v=agridron-team-presentation-av2)
 
 
 # Conclusiones
